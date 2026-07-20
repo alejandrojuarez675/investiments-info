@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784577048.6664715,
-    "ast_hash": "a06c1da0328b899483200fda143d90e4",
+    "mtime": 1784577523.108981,
+    "ast_hash": "c3325d7d846db9fc7c04c211c22fe79c",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "docs/merval/brokers-argentina.md": {
-    "mtime": 1784575535.869377,
-    "ast_hash": "c2e755309999d7c5f3b3aed3c0517770",
+    "mtime": 1784577290.884297,
+    "ast_hash": "5d6b67d0000ef4efbaf433cd6817b847",
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
@@ -107,6 +107,11 @@
   "docs/merval/obligaciones-negociables.md": {
     "mtime": 1784577012.0035295,
     "ast_hash": "dfe6766651fb43efc8b2123f3446b9c4",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/fuentes-de-datos.md": {
+    "mtime": 1784577518.8577921,
+    "ast_hash": "db16afb412950fa96dc9377a9eea5e4d",
     "semantic_hash": ""
   }
 }
