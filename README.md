@@ -54,6 +54,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Obligaciones Negociables (ONs) argentinas](docs/merval/obligaciones-negociables.md)
   - [Brokers en Argentina: comparación y FCI money market](docs/merval/brokers-argentina.md)
   - [Plazo fijo y dólar: las inversiones más populares en Argentina](docs/merval/plazo-fijo-y-dolar.md)
+  - [Mercado Pago en Argentina: catálogo de productos](docs/merval/mercado-pago.md)
 - **Crypto** ([`docs/crypto/`](docs/crypto/))
   - [Bitcoin y Ethereum: conceptos básicos](docs/crypto/bitcoin-ethereum.md)
   - [Exchanges y custodia de criptoactivos](docs/crypto/exchanges-custodia.md)
