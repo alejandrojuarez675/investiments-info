@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-20)
 
 ## Corpus Check
-- 16 files · ~5,480 words
+- 16 files · ~5,814 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 83 nodes · 97 edges · 14 communities (13 shown, 1 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.7)
+- 109 nodes · 113 edges · 28 communities (13 shown, 15 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4b0d6d1d`
+- Built from commit: `fd2f8866`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,42 +29,45 @@
 - CEDEARs (Certificados de Depósito Argentinos)
 - investiments-info
 - Bonos argentinos
+- Bonos argentinos
+- Bitcoin y Ethereum: conceptos básicos
+- Qué es el S&P 500
+- Exchanges y custodia de criptoactivos
+- CLAUDE.md
+- Cold wallet (hardware wallet)
+- Finanzas descentralizadas (DeFi)
+- Hot wallet
+- Proof of Stake
+- Proof of Work
+- Riesgo país (EMBI+)
+- Self-custody (wallet propia)
+- Contratos inteligentes (smart contracts)
+- Índice S&P 500
 
 ## God Nodes (most connected - your core abstractions)
 1. `Tipos de activos financieros` - 9 edges
-2. `Bitcoin y Ethereum: conceptos básicos` - 8 edges
+2. `Bitcoin y Ethereum: conceptos básicos` - 7 edges
 3. `Dollar-Cost Averaging (DCA)` - 6 edges
 4. `Interés compuesto` - 6 edges
-5. `Qué es el Merval` - 6 edges
-6. `ETFs que replican el S&P 500` - 6 edges
-7. `Diversificación` - 5 edges
-8. `Relación riesgo-retorno` - 5 edges
-9. `CEDEARs (Certificados de Depósito Argentinos)` - 5 edges
-10. `Exchanges y custodia de criptoactivos` - 5 edges
+5. `Bonos argentinos` - 6 edges
+6. `Qué es el Merval` - 6 edges
+7. `ETFs que replican el S&P 500` - 6 edges
+8. `Qué es el S&P 500` - 6 edges
+9. `Diversificación` - 5 edges
+10. `Relación riesgo-retorno` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `CLAUDE.md — Project Instructions` --references--> `Qué es el S&P 500`  [INFERRED]
-  CLAUDE.md → docs/sp500/que-es-sp500.md
-- `Bitcoin y Ethereum: conceptos básicos` --references--> `Exchanges y custodia de criptoactivos`  [EXTRACTED]
-  docs/crypto/bitcoin-ethereum.md → docs/crypto/exchanges-custodia.md
+- None detected - all connections are within the same source files.
 
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 - **Flujo de custodia y seguridad cripto** — docs_crypto_bitcoin_ethereum, docs_crypto_exchanges_custodia, concept_cold_wallet, concept_hot_wallet, concept_cex [EXTRACTED 0.95]
 
-## Communities (14 total, 1 thin omitted)
-
-### Community 0 - "Bitcoin y Ethereum"
-Cohesion: 0.39
-Nodes (8): Bitcoin (BTC), Blockchain, Finanzas descentralizadas (DeFi), Ethereum (ETH), Proof of Stake, Proof of Work, Contratos inteligentes (smart contracts), Bitcoin y Ethereum: conceptos básicos
+## Communities (28 total, 15 thin omitted)
 
 ### Community 1 - "CEDEARs y Merval"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Características principales, Cómo invertir, Fuentes, Merval en pesos vs. Merval en dólares ("Merval en CCL"), Qué es el Merval, Riesgos particulares del mercado argentino
-
-### Community 3 - "Exchanges y Custodia Cripto"
-Cohesion: 0.60
-Nodes (5): Exchange centralizado (CEX), Cold wallet (hardware wallet), Hot wallet, Self-custody (wallet propia), Exchanges y custodia de criptoactivos
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.22
@@ -77,10 +80,6 @@ Nodes (6): Aplicación práctica, Cómo funciona, Dollar-Cost Averaging (DCA), F
 ### Community 6 - "DCA e Interés Compuesto"
 Cohesion: 0.33
 Nodes (6): Fuentes, Fórmula básica, Interés compuesto, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos
-
-### Community 7 - "S&P 500 y Proyecto"
-Cohesion: 0.67
-Nodes (3): CLAUDE.md — Project Instructions, Índice S&P 500, Qué es el S&P 500
 
 ### Community 8 - "ETFs que replican el S&P 500"
 Cohesion: 0.33
@@ -102,23 +101,35 @@ Nodes (5): CEDEARs (Certificados de Depósito Argentinos), Cómo funcionan, Fuen
 Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
-### Community 13 - "Bonos argentinos"
-Cohesion: 0.67
-Nodes (3): CER (Coeficiente de Estabilización de Referencia), Riesgo país (EMBI+), Bonos argentinos
+### Community 14 - "Bonos argentinos"
+Cohesion: 0.25
+Nodes (8): Bonos argentinos, Bonos soberanos en dólares, Consideraciones clave para un inversor, Especies vigentes (referencia julio 2026), Fuentes, Instrumentos en pesos, Principales categorías, Riesgo país
+
+### Community 15 - "Bitcoin y Ethereum: conceptos básicos"
+Cohesion: 0.29
+Nodes (7): Bitcoin (BTC), Bitcoin y Ethereum: conceptos básicos, Blockchain, en breve, Diferencias clave para un inversor, Ethereum (ETH), Fuentes, Riesgos generales de crypto (aplican a ambos)
+
+### Community 16 - "Qué es el S&P 500"
+Cohesion: 0.33
+Nodes (6): Características principales, Cómo invertir en el índice, Fuentes, Por qué se usa como referencia, Qué es el S&P 500, Riesgos y consideraciones
+
+### Community 17 - "Exchanges y custodia de criptoactivos"
+Cohesion: 0.40
+Nodes (5): Buenas prácticas generales (educativas, no exhaustivas), Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Wallets propias (self-custody)
 
 ## Knowledge Gaps
-- **50 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Idea central`, `Formas comunes de diversificar` (+45 more)
+- **79 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Idea central` (+74 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Tipos de activos financieros` connect `Diversificación de Portafolio` to `Activos y Glosario`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
-- **Why does `Dollar-Cost Averaging (DCA)` connect `ETFs del S&P 500` to `Activos y Glosario`?**
-  _High betweenness centrality (0.095) - this node is a cross-community bridge._
-- **Why does `Interés compuesto` connect `DCA e Interés Compuesto` to `Activos y Glosario`?**
-  _High betweenness centrality (0.095) - this node is a cross-community bridge._
-- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _50 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.123) - this node is a cross-community bridge._
+- **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
+  _High betweenness centrality (0.107) - this node is a cross-community bridge._
+- **Why does `Bitcoin y Ethereum: conceptos básicos` connect `Bitcoin y Ethereum: conceptos básicos` to `Activos y Glosario`?**
+  _High betweenness centrality (0.093) - this node is a cross-community bridge._
+- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
