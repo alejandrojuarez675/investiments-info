@@ -43,6 +43,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Dollar-Cost Averaging (DCA)](docs/conceptos-generales/dollar-cost-averaging.md)
   - [Estrategias de trading de corto plazo](docs/conceptos-generales/estrategias-trading.md)
   - [Estrategias de inversión de largo plazo](docs/conceptos-generales/estrategias-inversion-largo-plazo.md)
+  - [Fuentes de datos de precios y tasas en vivo](docs/conceptos-generales/fuentes-de-datos.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
