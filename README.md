@@ -48,6 +48,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Qué es el Merval](docs/merval/que-es-merval.md)
   - [CEDEARs](docs/merval/cedears.md)
   - [Bonos argentinos](docs/merval/bonos-argentinos.md)
+  - [Brokers en Argentina: comparación y FCI money market](docs/merval/brokers-argentina.md)
 - **Crypto** ([`docs/crypto/`](docs/crypto/))
   - [Bitcoin y Ethereum: conceptos básicos](docs/crypto/bitcoin-ethereum.md)
   - [Exchanges y custodia de criptoactivos](docs/crypto/exchanges-custodia.md)

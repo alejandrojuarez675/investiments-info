@@ -36,6 +36,666 @@
   },
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "investiments-info",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_investiments_info",
+      "community": 12,
+      "community_name": "investiments-info",
+      "norm_label": "investiments-info"
+    },
+    {
+      "label": "Convenci\u00f3n de archivos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "readme_convenci\u00f3n_de_archivos",
+      "community": 12,
+      "community_name": "investiments-info",
+      "norm_label": "convencion de archivos"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "readme_estructura",
+      "community": 12,
+      "community_name": "investiments-info",
+      "norm_label": "estructura"
+    },
+    {
+      "label": "Para asistentes de IA",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "readme_para_asistentes_de_ia",
+      "community": 12,
+      "community_name": "investiments-info",
+      "norm_label": "para asistentes de ia"
+    },
+    {
+      "label": "diversificacion.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "diversificacion.md"
+    },
+    {
+      "label": "Diversificaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "community": 9,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "diversificacion"
+    },
+    {
+      "label": "Idea central",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion_idea_central",
+      "community": 9,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "idea central"
+    },
+    {
+      "label": "Formas comunes de diversificar",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar",
+      "community": 9,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "formas comunes de diversificar"
+    },
+    {
+      "label": "L\u00edmites de la diversificaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n",
+      "community": 9,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "limites de la diversificacion"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_diversificacion_fuentes",
+      "community": 9,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "dollar-cost-averaging.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "dollar-cost-averaging.md"
+    },
+    {
+      "label": "Dollar-Cost Averaging (DCA)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "dollar-cost averaging (dca)"
+    },
+    {
+      "label": "C\u00f3mo funciona",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_c\u00f3mo_funciona",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "como funciona"
+    },
+    {
+      "label": "Ventajas",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_ventajas",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "ventajas"
+    },
+    {
+      "label": "Limitaciones",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_limitaciones",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "limitaciones"
+    },
+    {
+      "label": "Aplicaci\u00f3n pr\u00e1ctica",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_aplicaci\u00f3n_pr\u00e1ctica",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "aplicacion practica"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_dollar_cost_averaging_fuentes",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "interes-compuesto.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "interes-compuesto.md"
+    },
+    {
+      "label": "Inter\u00e9s compuesto",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "interes compuesto"
+    },
+    {
+      "label": "F\u00f3rmula b\u00e1sica",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_f\u00f3rmula_b\u00e1sica",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "formula basica"
+    },
+    {
+      "label": "Por qu\u00e9 importa el tiempo m\u00e1s que el monto",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_por_qu\u00e9_importa_el_tiempo_m\u00e1s_que_el_monto",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "por que importa el tiempo mas que el monto"
+    },
+    {
+      "label": "Regla del 72",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_regla_del_72",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "regla del 72"
+    },
+    {
+      "label": "Relaci\u00f3n con otros conceptos",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_relaci\u00f3n_con_otros_conceptos",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "relacion con otros conceptos"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_interes_compuesto_fuentes",
+      "community": 6,
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "riesgo-retorno.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "riesgo-retorno.md"
+    },
+    {
+      "label": "Relaci\u00f3n riesgo-retorno",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "relacion riesgo-retorno"
+    },
+    {
+      "label": "Riesgo no es solo \"volatilidad\"",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno_riesgo_no_es_solo_volatilidad",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "riesgo no es solo \"volatilidad\""
+    },
+    {
+      "label": "Espectro t\u00edpico de riesgo-retorno (orientativo, no determin\u00edstico)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno_espectro_t\u00edpico_de_riesgo_retorno_orientativo_no_determin\u00edstico",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "espectro tipico de riesgo-retorno (orientativo, no deterministico)"
+    },
+    {
+      "label": "Horizonte temporal y tolerancia al riesgo",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno_horizonte_temporal_y_tolerancia_al_riesgo",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "horizonte temporal y tolerancia al riesgo"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_riesgo_retorno_fuentes",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "tipos-de-activos.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "tipos-de-activos.md"
+    },
+    {
+      "label": "Tipos de activos financieros",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "tipos de activos financieros"
+    },
+    {
+      "label": "Renta variable (acciones)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_renta_variable_acciones",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "renta variable (acciones)"
+    },
+    {
+      "label": "Renta fija (bonos)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_renta_fija_bonos",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "renta fija (bonos)"
+    },
+    {
+      "label": "Fondos indexados y ETFs",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_fondos_indexados_y_etfs",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "fondos indexados y etfs"
+    },
+    {
+      "label": "CEDEARs (particularidad argentina)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_cedears_particularidad_argentina",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "cedears (particularidad argentina)"
+    },
+    {
+      "label": "Criptoactivos",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_criptoactivos",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "criptoactivos"
+    },
+    {
+      "label": "Efectivo y equivalentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_efectivo_y_equivalentes",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "efectivo y equivalentes"
+    },
+    {
+      "label": "Real estate",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_real_estate",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "real estate"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_tipos_de_activos_fuentes",
+      "community": 4,
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "bitcoin-ethereum.md",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "bitcoin-ethereum.md"
+    },
+    {
+      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "bitcoin y ethereum: conceptos basicos"
+    },
+    {
+      "label": "Blockchain, en breve",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_blockchain_en_breve",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "blockchain, en breve"
+    },
+    {
+      "label": "Bitcoin (BTC)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_bitcoin_btc",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "bitcoin (btc)"
+    },
+    {
+      "label": "Ethereum (ETH)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_ethereum_eth",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "ethereum (eth)"
+    },
+    {
+      "label": "Diferencias clave para un inversor",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "diferencias clave para un inversor"
+    },
+    {
+      "label": "Riesgos generales de crypto (aplican a ambos)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "riesgos generales de crypto (aplican a ambos)"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_fuentes",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "exchanges-custodia.md",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "exchanges-custodia.md"
+    },
+    {
+      "label": "Exchanges y custodia de criptoactivos",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "exchanges y custodia de criptoactivos"
+    },
+    {
+      "label": "Exchanges centralizados (CEX)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "exchanges centralizados (cex)"
+    },
+    {
+      "label": "Wallets propias (self-custody)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_wallets_propias_self_custody",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "wallets propias (self-custody)"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas generales (educativas, no exhaustivas)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "buenas practicas generales (educativas, no exhaustivas)"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_fuentes",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "glosario.md",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_glosario_glosario",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario.md"
+    },
+    {
+      "label": "Glosario de t\u00e9rminos",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario de terminos"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_glosario_glosario_fuentes",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "bonos-argentinos.md",
       "file_type": "document",
       "source_file": "docs/merval/bonos-argentinos.md",
@@ -135,664 +795,92 @@
       "norm_label": "fuentes"
     },
     {
-      "label": "CLAUDE.md",
+      "label": "brokers-argentina.md",
       "file_type": "document",
-      "source_file": "CLAUDE.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "CLAUDE.md",
-      "norm_label": "claude.md",
-      "id": "claude"
+      "id": "docs_merval_brokers_argentina",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "brokers-argentina.md"
     },
     {
-      "label": "graphify",
+      "label": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
       "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "CLAUDE.md",
-      "norm_label": "graphify",
-      "id": "claude_graphify"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "readme.md",
-      "id": "readme"
-    },
-    {
-      "label": "investiments-info",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "investiments-info",
-      "norm_label": "investiments-info",
-      "id": "readme_investiments_info"
-    },
-    {
-      "label": "Convenci\u00f3n de archivos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "investiments-info",
-      "norm_label": "convencion de archivos",
-      "id": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "investiments-info",
-      "norm_label": "estructura",
-      "id": "readme_estructura"
-    },
-    {
-      "label": "Para asistentes de IA",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L57",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "investiments-info",
-      "norm_label": "para asistentes de ia",
-      "id": "readme_para_asistentes_de_ia"
-    },
-    {
-      "label": "diversificacion.md",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "diversificacion.md",
-      "id": "docs_conceptos_generales_diversificacion"
-    },
-    {
-      "label": "Diversificaci\u00f3n",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
-      "norm_label": "diversificacion",
-      "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
+      "id": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "brokers en argentina: comparacion y fci money market"
     },
     {
-      "label": "Idea central",
+      "label": "Los brokers m\u00e1s usados",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L15",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L16",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
-      "norm_label": "idea central",
-      "id": "docs_conceptos_generales_diversificacion_idea_central"
+      "id": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "los brokers mas usados"
     },
     {
-      "label": "Formas comunes de diversificar",
+      "label": "Comparaci\u00f3n de costos y productos (aproximado, verificar vigencia)",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
-      "norm_label": "formas comunes de diversificar",
-      "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
-    },
-    {
-      "label": "L\u00edmites de la diversificaci\u00f3n",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
-      "norm_label": "limites de la diversificacion",
-      "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L47",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
-      "norm_label": "fuentes",
-      "id": "docs_conceptos_generales_diversificacion_fuentes"
-    },
-    {
-      "label": "dollar-cost-averaging.md",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "dollar-cost-averaging.md",
-      "id": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "label": "Dollar-Cost Averaging (DCA)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "dollar-cost averaging (dca)",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca"
-    },
-    {
-      "label": "C\u00f3mo funciona",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "como funciona",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_c\u00f3mo_funciona"
-    },
-    {
-      "label": "Ventajas",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "ventajas",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_ventajas"
-    },
-    {
-      "label": "Limitaciones",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L36",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "limitaciones",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_limitaciones"
-    },
-    {
-      "label": "Aplicaci\u00f3n pr\u00e1ctica",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L46",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "aplicacion practica",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_aplicaci\u00f3n_pr\u00e1ctica"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "ETFs del S&P 500",
-      "norm_label": "fuentes",
-      "id": "docs_conceptos_generales_dollar_cost_averaging_fuentes"
-    },
-    {
-      "label": "interes-compuesto.md",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "interes-compuesto.md",
-      "id": "docs_conceptos_generales_interes_compuesto"
-    },
-    {
-      "label": "Inter\u00e9s compuesto",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "interes compuesto",
-      "id": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto"
-    },
-    {
-      "label": "F\u00f3rmula b\u00e1sica",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "formula basica",
-      "id": "docs_conceptos_generales_interes_compuesto_f\u00f3rmula_b\u00e1sica"
-    },
-    {
-      "label": "Por qu\u00e9 importa el tiempo m\u00e1s que el monto",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "por que importa el tiempo mas que el monto",
-      "id": "docs_conceptos_generales_interes_compuesto_por_qu\u00e9_importa_el_tiempo_m\u00e1s_que_el_monto"
+      "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "comparacion de costos y productos (aproximado, verificar vigencia)"
     },
     {
-      "label": "Regla del 72",
+      "label": "Criterio para elegir o migrar de br\u00f3ker",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L45",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "regla del 72",
-      "id": "docs_conceptos_generales_interes_compuesto_regla_del_72"
-    },
-    {
-      "label": "Relaci\u00f3n con otros conceptos",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L56",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "relacion con otros conceptos",
-      "id": "docs_conceptos_generales_interes_compuesto_relaci\u00f3n_con_otros_conceptos"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L67",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
-      "norm_label": "fuentes",
-      "id": "docs_conceptos_generales_interes_compuesto_fuentes"
-    },
-    {
-      "label": "riesgo-retorno.md",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "riesgo-retorno.md",
-      "id": "docs_conceptos_generales_riesgo_retorno"
-    },
-    {
-      "label": "Relaci\u00f3n riesgo-retorno",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "relacion riesgo-retorno",
-      "id": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno"
-    },
-    {
-      "label": "Riesgo no es solo \"volatilidad\"",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "riesgo no es solo \"volatilidad\"",
-      "id": "docs_conceptos_generales_riesgo_retorno_riesgo_no_es_solo_volatilidad"
-    },
-    {
-      "label": "Espectro t\u00edpico de riesgo-retorno (orientativo, no determin\u00edstico)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "espectro tipico de riesgo-retorno (orientativo, no deterministico)",
-      "id": "docs_conceptos_generales_riesgo_retorno_espectro_t\u00edpico_de_riesgo_retorno_orientativo_no_determin\u00edstico"
-    },
-    {
-      "label": "Horizonte temporal y tolerancia al riesgo",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "horizonte temporal y tolerancia al riesgo",
-      "id": "docs_conceptos_generales_riesgo_retorno_horizonte_temporal_y_tolerancia_al_riesgo"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "fuentes",
-      "id": "docs_conceptos_generales_riesgo_retorno_fuentes"
-    },
-    {
-      "label": "tipos-de-activos.md",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "tipos-de-activos.md",
-      "id": "docs_conceptos_generales_tipos_de_activos"
-    },
-    {
-      "label": "Tipos de activos financieros",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "tipos de activos financieros",
-      "id": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros"
-    },
-    {
-      "label": "Renta variable (acciones)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "renta variable (acciones)",
-      "id": "docs_conceptos_generales_tipos_de_activos_renta_variable_acciones"
-    },
-    {
-      "label": "Renta fija (bonos)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "renta fija (bonos)",
-      "id": "docs_conceptos_generales_tipos_de_activos_renta_fija_bonos"
-    },
-    {
-      "label": "Fondos indexados y ETFs",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L32",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "fondos indexados y etfs",
-      "id": "docs_conceptos_generales_tipos_de_activos_fondos_indexados_y_etfs"
-    },
-    {
-      "label": "CEDEARs (particularidad argentina)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "cedears (particularidad argentina)",
-      "id": "docs_conceptos_generales_tipos_de_activos_cedears_particularidad_argentina"
-    },
-    {
-      "label": "Criptoactivos",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L50",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "criptoactivos",
-      "id": "docs_conceptos_generales_tipos_de_activos_criptoactivos"
-    },
-    {
-      "label": "Efectivo y equivalentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L57",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "efectivo y equivalentes",
-      "id": "docs_conceptos_generales_tipos_de_activos_efectivo_y_equivalentes"
-    },
-    {
-      "label": "Real estate",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L63",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "real estate",
-      "id": "docs_conceptos_generales_tipos_de_activos_real_estate"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Diversificaci\u00f3n de Portafolio",
-      "norm_label": "fuentes",
-      "id": "docs_conceptos_generales_tipos_de_activos_fuentes"
-    },
-    {
-      "label": "bitcoin-ethereum.md",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "bitcoin-ethereum.md",
-      "id": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "bitcoin y ethereum: conceptos basicos",
-      "id": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos"
-    },
-    {
-      "label": "Blockchain, en breve",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "blockchain, en breve",
-      "id": "docs_crypto_bitcoin_ethereum_blockchain_en_breve"
-    },
-    {
-      "label": "Bitcoin (BTC)",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "bitcoin (btc)",
-      "id": "docs_crypto_bitcoin_ethereum_bitcoin_btc"
-    },
-    {
-      "label": "Ethereum (ETH)",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "ethereum (eth)",
-      "id": "docs_crypto_bitcoin_ethereum_ethereum_eth"
-    },
-    {
-      "label": "Diferencias clave para un inversor",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L52",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "diferencias clave para un inversor",
-      "id": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor"
-    },
-    {
-      "label": "Riesgos generales de crypto (aplican a ambos)",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L61",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "riesgos generales de crypto (aplican a ambos)",
-      "id": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L72",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "norm_label": "fuentes",
-      "id": "docs_crypto_bitcoin_ethereum_fuentes"
-    },
-    {
-      "label": "exchanges-custodia.md",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "exchanges-custodia.md",
-      "id": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "label": "Exchanges y custodia de criptoactivos",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
-      "norm_label": "exchanges y custodia de criptoactivos",
-      "id": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos"
-    },
-    {
-      "label": "Exchanges centralizados (CEX)",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
-      "norm_label": "exchanges centralizados (cex)",
-      "id": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex"
-    },
-    {
-      "label": "Wallets propias (self-custody)",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
-      "norm_label": "wallets propias (self-custody)",
-      "id": "docs_crypto_exchanges_custodia_wallets_propias_self_custody"
-    },
-    {
-      "label": "Buenas pr\u00e1cticas generales (educativas, no exhaustivas)",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L48",
       "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
-      "norm_label": "buenas practicas generales (educativas, no exhaustivas)",
-      "id": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas"
+      "id": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "criterio para elegir o migrar de broker"
+    },
+    {
+      "label": "FCI money market",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_merval_brokers_argentina_fci_money_market",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "fci money market"
+    },
+    {
+      "label": "Por br\u00f3ker",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "docs_merval_brokers_argentina_por_br\u00f3ker",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "por broker"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L61",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L90",
       "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
-      "norm_label": "fuentes",
-      "id": "docs_crypto_exchanges_custodia_fuentes"
-    },
-    {
-      "label": "glosario.md",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "glosario.md",
-      "id": "docs_glosario_glosario"
-    },
-    {
-      "label": "Glosario de t\u00e9rminos",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "glosario de terminos",
-      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L52",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "fuentes",
-      "id": "docs_glosario_glosario_fuentes"
+      "id": "docs_merval_brokers_argentina_fuentes",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "fuentes"
     },
     {
       "label": "cedears.md",
@@ -800,10 +888,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_merval_cedears",
       "community": 2,
       "community_name": "Activos y Glosario",
-      "norm_label": "cedears.md",
-      "id": "docs_merval_cedears"
+      "norm_label": "cedears.md"
     },
     {
       "label": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
@@ -811,10 +899,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L9",
       "_origin": "ast",
+      "id": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
       "community": 11,
       "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
-      "norm_label": "cedears (certificados de deposito argentinos)",
-      "id": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos"
+      "norm_label": "cedears (certificados de deposito argentinos)"
     },
     {
       "label": "C\u00f3mo funcionan",
@@ -822,10 +910,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L17",
       "_origin": "ast",
+      "id": "docs_merval_cedears_c\u00f3mo_funcionan",
       "community": 11,
       "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
-      "norm_label": "como funcionan",
-      "id": "docs_merval_cedears_c\u00f3mo_funcionan"
+      "norm_label": "como funcionan"
     },
     {
       "label": "Por qu\u00e9 se usan",
@@ -833,10 +921,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L27",
       "_origin": "ast",
+      "id": "docs_merval_cedears_por_qu\u00e9_se_usan",
       "community": 11,
       "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
-      "norm_label": "por que se usan",
-      "id": "docs_merval_cedears_por_qu\u00e9_se_usan"
+      "norm_label": "por que se usan"
     },
     {
       "label": "Riesgos y particularidades",
@@ -844,10 +932,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L38",
       "_origin": "ast",
+      "id": "docs_merval_cedears_riesgos_y_particularidades",
       "community": 11,
       "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
-      "norm_label": "riesgos y particularidades",
-      "id": "docs_merval_cedears_riesgos_y_particularidades"
+      "norm_label": "riesgos y particularidades"
     },
     {
       "label": "Fuentes",
@@ -855,10 +943,10 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L53",
       "_origin": "ast",
+      "id": "docs_merval_cedears_fuentes",
       "community": 11,
       "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
-      "norm_label": "fuentes",
-      "id": "docs_merval_cedears_fuentes"
+      "norm_label": "fuentes"
     },
     {
       "label": "que-es-merval.md",
@@ -866,10 +954,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval",
       "community": 2,
       "community_name": "Activos y Glosario",
-      "norm_label": "que-es-merval.md",
-      "id": "docs_merval_que_es_merval"
+      "norm_label": "que-es-merval.md"
     },
     {
       "label": "Qu\u00e9 es el Merval",
@@ -877,10 +965,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L9",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "que es el merval",
-      "id": "docs_merval_que_es_merval_qu\u00e9_es_el_merval"
+      "norm_label": "que es el merval"
     },
     {
       "label": "Caracter\u00edsticas principales",
@@ -888,10 +976,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L16",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_caracter\u00edsticas_principales",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "caracteristicas principales",
-      "id": "docs_merval_que_es_merval_caracter\u00edsticas_principales"
+      "norm_label": "caracteristicas principales"
     },
     {
       "label": "Merval en pesos vs. Merval en d\u00f3lares (\"Merval en CCL\")",
@@ -899,10 +987,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L30",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_merval_en_pesos_vs_merval_en_d\u00f3lares_merval_en_ccl",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "merval en pesos vs. merval en dolares (\"merval en ccl\")",
-      "id": "docs_merval_que_es_merval_merval_en_pesos_vs_merval_en_d\u00f3lares_merval_en_ccl"
+      "norm_label": "merval en pesos vs. merval en dolares (\"merval en ccl\")"
     },
     {
       "label": "Riesgos particulares del mercado argentino",
@@ -910,10 +998,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L47",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_riesgos_particulares_del_mercado_argentino",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "riesgos particulares del mercado argentino",
-      "id": "docs_merval_que_es_merval_riesgos_particulares_del_mercado_argentino"
+      "norm_label": "riesgos particulares del mercado argentino"
     },
     {
       "label": "C\u00f3mo invertir",
@@ -921,10 +1009,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L58",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_c\u00f3mo_invertir",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "como invertir",
-      "id": "docs_merval_que_es_merval_c\u00f3mo_invertir"
+      "norm_label": "como invertir"
     },
     {
       "label": "Fuentes",
@@ -932,10 +1020,10 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L67",
       "_origin": "ast",
+      "id": "docs_merval_que_es_merval_fuentes",
       "community": 1,
       "community_name": "CEDEARs y Merval",
-      "norm_label": "fuentes",
-      "id": "docs_merval_que_es_merval_fuentes"
+      "norm_label": "fuentes"
     },
     {
       "label": "etfs-sp500.md",
@@ -943,10 +1031,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500",
       "community": 2,
       "community_name": "Activos y Glosario",
-      "norm_label": "etfs-sp500.md",
-      "id": "docs_sp500_etfs_sp500"
+      "norm_label": "etfs-sp500.md"
     },
     {
       "label": "ETFs que replican el S&P 500",
@@ -954,10 +1042,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L9",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "etfs que replican el s&p 500",
-      "id": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500"
+      "norm_label": "etfs que replican el s&p 500"
     },
     {
       "label": "Principales ETFs",
@@ -965,10 +1053,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L15",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_principales_etfs",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "principales etfs",
-      "id": "docs_sp500_etfs_sp500_principales_etfs"
+      "norm_label": "principales etfs"
     },
     {
       "label": "Diferencias pr\u00e1cticas entre ellos",
@@ -976,10 +1064,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L28",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "diferencias practicas entre ellos",
-      "id": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos"
+      "norm_label": "diferencias practicas entre ellos"
     },
     {
       "label": "C\u00f3mo acceder desde Argentina",
@@ -987,10 +1075,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L38",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "como acceder desde argentina",
-      "id": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina"
+      "norm_label": "como acceder desde argentina"
     },
     {
       "label": "Riesgos espec\u00edficos de los ETFs",
@@ -998,10 +1086,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L50",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "riesgos especificos de los etfs",
-      "id": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs"
+      "norm_label": "riesgos especificos de los etfs"
     },
     {
       "label": "Fuentes",
@@ -1009,10 +1097,10 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L59",
       "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_fuentes",
       "community": 8,
       "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "fuentes",
-      "id": "docs_sp500_etfs_sp500_fuentes"
+      "norm_label": "fuentes"
     },
     {
       "label": "que-es-sp500.md",
@@ -1020,10 +1108,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500",
       "community": 2,
       "community_name": "Activos y Glosario",
-      "norm_label": "que-es-sp500.md",
-      "id": "docs_sp500_que_es_sp500"
+      "norm_label": "que-es-sp500.md"
     },
     {
       "label": "Qu\u00e9 es el S&P 500",
@@ -1031,10 +1119,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L9",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "que es el s&p 500",
-      "id": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500"
+      "norm_label": "que es el s&p 500"
     },
     {
       "label": "Caracter\u00edsticas principales",
@@ -1042,10 +1130,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L16",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "caracteristicas principales",
-      "id": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales"
+      "norm_label": "caracteristicas principales"
     },
     {
       "label": "Por qu\u00e9 se usa como referencia",
@@ -1053,10 +1141,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L34",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "por que se usa como referencia",
-      "id": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia"
+      "norm_label": "por que se usa como referencia"
     },
     {
       "label": "C\u00f3mo invertir en el \u00edndice",
@@ -1064,10 +1152,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L42",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "como invertir en el indice",
-      "id": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice"
+      "norm_label": "como invertir en el indice"
     },
     {
       "label": "Riesgos y consideraciones",
@@ -1075,10 +1163,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L47",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_riesgos_y_consideraciones",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "riesgos y consideraciones",
-      "id": "docs_sp500_que_es_sp500_riesgos_y_consideraciones"
+      "norm_label": "riesgos y consideraciones"
     },
     {
       "label": "Fuentes",
@@ -1086,10 +1174,10 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L56",
       "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_fuentes",
       "community": 16,
       "community_name": "Qu\u00e9 es el S&P 500",
-      "norm_label": "fuentes",
-      "id": "docs_sp500_que_es_sp500_fuentes"
+      "norm_label": "fuentes"
     },
     {
       "label": "CLAUDE.md \u2014 Project Instructions",
@@ -1248,14 +1336,774 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_conceptos_generales_diversificacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_conceptos_generales_dollar_cost_averaging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_conceptos_generales_interes_compuesto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_conceptos_generales_riesgo_retorno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_conceptos_generales_tipos_de_activos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_crypto_exchanges_custodia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_glosario_glosario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_bonos_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_brokers_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_cedears",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_que_es_merval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_investiments_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_convenci\u00f3n_de_archivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_estructura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_para_asistentes_de_ia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion",
+      "target": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion",
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_diversificacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "target": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "target": "docs_conceptos_generales_diversificacion_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "target": "docs_conceptos_generales_diversificacion_idea_central",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "target": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging",
+      "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto",
+      "target": "docs_conceptos_generales_dollar_cost_averaging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_dollar_cost_averaging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_aplicaci\u00f3n_pr\u00e1ctica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_c\u00f3mo_funciona",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_limitaciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
+      "target": "docs_conceptos_generales_dollar_cost_averaging_ventajas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto",
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_f\u00f3rmula_b\u00e1sica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_por_qu\u00e9_importa_el_tiempo_m\u00e1s_que_el_monto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_regla_del_72",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
+      "target": "docs_conceptos_generales_interes_compuesto_relaci\u00f3n_con_otros_conceptos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_riesgo_retorno",
+      "target": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_riesgo_retorno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "target": "docs_conceptos_generales_riesgo_retorno_espectro_t\u00edpico_de_riesgo_retorno_orientativo_no_determin\u00edstico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "target": "docs_conceptos_generales_riesgo_retorno_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "target": "docs_conceptos_generales_riesgo_retorno_horizonte_temporal_y_tolerancia_al_riesgo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
+      "target": "docs_conceptos_generales_riesgo_retorno_riesgo_no_es_solo_volatilidad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/tipos-de-activos.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_merval_bonos_argentinos"
+      "target": "docs_merval_bonos_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_merval_cedears",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_tipos_de_activos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_cedears_particularidad_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_criptoactivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_efectivo_y_equivalentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_fondos_indexados_y_etfs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_real_estate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_renta_fija_bonos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
+      "target": "docs_conceptos_generales_tipos_de_activos_renta_variable_acciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum",
+      "target": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_bitcoin_btc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_blockchain_en_breve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_ethereum_eth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia",
+      "target": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_exchanges_custodia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1263,9 +2111,39 @@
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_glosario_glosario",
-      "target": "docs_merval_bonos_argentinos"
+      "target": "docs_merval_bonos_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_cedears",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "target": "docs_glosario_glosario_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1276,16 +2154,6 @@
       "source": "docs_merval_bonos_argentinos",
       "target": "docs_merval_bonos_argentinos_bonos_argentinos",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_bonos_argentinos"
     },
     {
       "relation": "contains",
@@ -1360,772 +2228,72 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_graphify"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_diversificacion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_interes_compuesto"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_riesgo_retorno"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_tipos_de_activos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_glosario_glosario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_que_es_merval"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_investiments_info"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_estructura"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion",
-      "target": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion",
-      "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_diversificacion"
+      "source": "docs_merval_brokers_argentina",
+      "target": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
-      "target": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
-      "target": "docs_conceptos_generales_diversificacion_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
-      "target": "docs_conceptos_generales_diversificacion_idea_central"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/diversificacion.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
-      "target": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto",
-      "target": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_aplicaci\u00f3n_pr\u00e1ctica"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_c\u00f3mo_funciona"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_limitaciones"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging_dollar_cost_averaging_dca",
-      "target": "docs_conceptos_generales_dollar_cost_averaging_ventajas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto",
-      "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L67",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_f\u00f3rmula_b\u00e1sica"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_por_qu\u00e9_importa_el_tiempo_m\u00e1s_que_el_monto"
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_regla_del_72"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/interes-compuesto.md",
-      "source_location": "L56",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
-      "target": "docs_conceptos_generales_interes_compuesto_relaci\u00f3n_con_otros_conceptos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_riesgo_retorno",
-      "target": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_riesgo_retorno"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
-      "target": "docs_conceptos_generales_riesgo_retorno_espectro_t\u00edpico_de_riesgo_retorno_orientativo_no_determin\u00edstico"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
-      "target": "docs_conceptos_generales_riesgo_retorno_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
-      "target": "docs_conceptos_generales_riesgo_retorno_horizonte_temporal_y_tolerancia_al_riesgo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/riesgo-retorno.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
-      "target": "docs_conceptos_generales_riesgo_retorno_riesgo_no_es_solo_volatilidad"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_tipos_de_activos"
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_cedears_particularidad_argentina"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_criptoactivos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_efectivo_y_equivalentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_fondos_indexados_y_etfs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_real_estate"
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_fci_money_market",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L21",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L90",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_renta_fija_bonos"
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos_tipos_de_activos_financieros",
-      "target": "docs_conceptos_generales_tipos_de_activos_renta_variable_acciones"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_bitcoin_btc"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_blockchain_en_breve"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_ethereum_eth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
-      "target": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_exchanges_custodia",
-      "target": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
-      "target": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
-      "target": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
-      "target": "docs_crypto_exchanges_custodia_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
-      "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
+      "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_sp500_etfs_sp500"
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L52",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "target": "docs_glosario_glosario_fuentes"
+      "source": "docs_merval_brokers_argentina_fci_money_market",
+      "target": "docs_merval_brokers_argentina_por_br\u00f3ker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2133,9 +2301,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears",
-      "target": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos"
+      "target": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2143,9 +2311,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears",
-      "target": "docs_sp500_etfs_sp500"
+      "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2153,9 +2321,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
-      "target": "docs_merval_cedears_c\u00f3mo_funcionan"
+      "target": "docs_merval_cedears_c\u00f3mo_funcionan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2163,9 +2331,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
-      "target": "docs_merval_cedears_fuentes"
+      "target": "docs_merval_cedears_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2173,9 +2341,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
-      "target": "docs_merval_cedears_por_qu\u00e9_se_usan"
+      "target": "docs_merval_cedears_por_qu\u00e9_se_usan",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2183,9 +2351,9 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
-      "target": "docs_merval_cedears_riesgos_y_particularidades"
+      "target": "docs_merval_cedears_riesgos_y_particularidades",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2193,9 +2361,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval",
-      "target": "docs_merval_que_es_merval_qu\u00e9_es_el_merval"
+      "target": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2203,9 +2371,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval",
-      "target": "docs_sp500_que_es_sp500"
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2213,9 +2381,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
-      "target": "docs_merval_que_es_merval_caracter\u00edsticas_principales"
+      "target": "docs_merval_que_es_merval_caracter\u00edsticas_principales",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2223,9 +2391,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
-      "target": "docs_merval_que_es_merval_c\u00f3mo_invertir"
+      "target": "docs_merval_que_es_merval_c\u00f3mo_invertir",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2233,9 +2401,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
-      "target": "docs_merval_que_es_merval_fuentes"
+      "target": "docs_merval_que_es_merval_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2243,9 +2411,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
-      "target": "docs_merval_que_es_merval_merval_en_pesos_vs_merval_en_d\u00f3lares_merval_en_ccl"
+      "target": "docs_merval_que_es_merval_merval_en_pesos_vs_merval_en_d\u00f3lares_merval_en_ccl",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2253,9 +2421,9 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
-      "target": "docs_merval_que_es_merval_riesgos_particulares_del_mercado_argentino"
+      "target": "docs_merval_que_es_merval_riesgos_particulares_del_mercado_argentino",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2263,9 +2431,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500",
-      "target": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500"
+      "target": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2273,9 +2441,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L38",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina"
+      "target": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2283,9 +2451,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos"
+      "target": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2293,9 +2461,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_fuentes"
+      "target": "docs_sp500_etfs_sp500_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2303,9 +2471,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_principales_etfs"
+      "target": "docs_sp500_etfs_sp500_principales_etfs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2313,9 +2481,9 @@
       "source_file": "docs/sp500/etfs-sp500.md",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs"
+      "target": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2323,9 +2491,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500",
-      "target": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500"
+      "target": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2333,9 +2501,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
-      "target": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales"
+      "target": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2343,9 +2511,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
-      "target": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice"
+      "target": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2353,9 +2521,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
-      "target": "docs_sp500_que_es_sp500_fuentes"
+      "target": "docs_sp500_que_es_sp500_fuentes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2363,9 +2531,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
-      "target": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia"
+      "target": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2373,9 +2541,9 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
-      "target": "docs_sp500_que_es_sp500_riesgos_y_consideraciones"
+      "target": "docs_sp500_que_es_sp500_riesgos_y_consideraciones",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [
@@ -2409,5 +2577,5 @@
       "source_file": "docs/crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "0e1881d6b4eacd7d13aa6a62ded462652d2574a0"
+  "built_at_commit": "f71d5b39e5919fe23db8c4a71673e854f70f69db"
 }
