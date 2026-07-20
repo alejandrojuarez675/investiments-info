@@ -1,0 +1,170 @@
+{
+  "communities": {
+    "0": [
+      "concept_dca",
+      "concept_diversificacion",
+      "concept_interes_compuesto",
+      "concept_regla_72",
+      "concept_riesgo_retorno",
+      "concept_riesgo_sistematico",
+      "conceptos_generales_diversificacion",
+      "conceptos_generales_dollar_cost_averaging",
+      "conceptos_generales_interes_compuesto",
+      "sp500_que_es_sp500"
+    ],
+    "1": [
+      "concept_ccl",
+      "concept_cedear",
+      "concept_etf",
+      "concept_renta_fija",
+      "concept_renta_variable",
+      "concept_sp500",
+      "conceptos_generales_tipos_de_activos",
+      "merval_cedears",
+      "sp500_etfs_sp500"
+    ],
+    "2": [
+      "concept_cer",
+      "concept_merval",
+      "concept_riesgo_pais",
+      "conceptos_generales_riesgo_retorno",
+      "glosario_glosario_glosario",
+      "merval_bonos_argentinos",
+      "merval_que_es_merval",
+      "readme"
+    ],
+    "3": [
+      "concept_bitcoin",
+      "concept_blockchain",
+      "concept_ethereum",
+      "concept_proof_of_work",
+      "crypto_bitcoin_ethereum"
+    ],
+    "4": [
+      "concept_cex",
+      "concept_cold_wallet",
+      "concept_hot_wallet",
+      "crypto_exchanges_custodia"
+    ]
+  },
+  "cohesion": {
+    "0": 0.26666666666666666,
+    "1": 0.3611111111111111,
+    "2": 0.5,
+    "3": 0.8,
+    "4": 0.8333333333333334
+  },
+  "gods": [
+    {
+      "id": "readme",
+      "label": "README \u2013 investiments-info",
+      "degree": 13
+    },
+    {
+      "id": "glosario_glosario_glosario",
+      "label": "Glosario de t\u00e9rminos",
+      "degree": 12
+    },
+    {
+      "id": "conceptos_generales_tipos_de_activos",
+      "label": "Tipos de activos financieros",
+      "degree": 10
+    },
+    {
+      "id": "crypto_bitcoin_ethereum",
+      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "degree": 8
+    },
+    {
+      "id": "sp500_etfs_sp500",
+      "label": "ETFs que replican el S&P 500 (VOO, SPY, IVV)",
+      "degree": 8
+    },
+    {
+      "id": "merval_cedears",
+      "label": "CEDEARs",
+      "degree": 7
+    },
+    {
+      "id": "merval_que_es_merval",
+      "label": "Qu\u00e9 es el Merval",
+      "degree": 7
+    },
+    {
+      "id": "conceptos_generales_diversificacion",
+      "label": "Diversificaci\u00f3n",
+      "degree": 6
+    },
+    {
+      "id": "conceptos_generales_dollar_cost_averaging",
+      "label": "Dollar-Cost Averaging (DCA)",
+      "degree": 6
+    },
+    {
+      "id": "crypto_exchanges_custodia",
+      "label": "Exchanges y custodia de criptoactivos",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "README \u2013 investiments-info",
+      "target": "Diversificaci\u00f3n",
+      "source_files": [
+        "README.md",
+        "conceptos-generales/diversificacion.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README \u2013 investiments-info",
+      "target": "Dollar-Cost Averaging (DCA)",
+      "source_files": [
+        "README.md",
+        "conceptos-generales/dollar-cost-averaging.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README \u2013 investiments-info",
+      "target": "Inter\u00e9s compuesto",
+      "source_files": [
+        "README.md",
+        "conceptos-generales/interes-compuesto.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README \u2013 investiments-info",
+      "target": "Tipos de activos financieros",
+      "source_files": [
+        "README.md",
+        "conceptos-generales/tipos-de-activos.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README \u2013 investiments-info",
+      "target": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "source_files": [
+        "README.md",
+        "crypto/bitcoin-ethereum.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 35135,
+    "output": 8630
+  }
+}

@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 *.tmp
+
+# graphify: cachear la extracción semántica no aporta valor versionado
+graphify-out/cache/
