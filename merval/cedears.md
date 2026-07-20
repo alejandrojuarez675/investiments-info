@@ -56,3 +56,4 @@ Descripción general de la operatoria pública en Byma (byma.com.ar) y
 regulación de la CNV (argentina.gob.ar/cnv). Verificar la normativa
 vigente antes de operar, dado que las reglas de acceso al CCL han
 cambiado varias veces en el tiempo.
+
