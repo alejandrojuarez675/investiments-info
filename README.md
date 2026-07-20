@@ -44,6 +44,8 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Estrategias de trading de corto plazo](docs/conceptos-generales/estrategias-trading.md)
   - [Estrategias de inversión de largo plazo](docs/conceptos-generales/estrategias-inversion-largo-plazo.md)
   - [Fuentes de datos de precios y tasas en vivo](docs/conceptos-generales/fuentes-de-datos.md)
+  - [Tipos de inversores: perfiles, pros y contras](docs/conceptos-generales/tipos-de-inversores.md)
+  - [Trading con gráficos: análisis técnico](docs/conceptos-generales/trading-graficos.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
