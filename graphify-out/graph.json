@@ -36,6 +36,28 @@
   },
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "graphify"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -487,6 +509,160 @@
       "norm_label": "fuentes"
     },
     {
+      "label": "bitcoin-ethereum.md",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "bitcoin-ethereum.md"
+    },
+    {
+      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "bitcoin y ethereum: conceptos basicos"
+    },
+    {
+      "label": "Blockchain, en breve",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_blockchain_en_breve",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "blockchain, en breve"
+    },
+    {
+      "label": "Bitcoin (BTC)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_bitcoin_btc",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "bitcoin (btc)"
+    },
+    {
+      "label": "Ethereum (ETH)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_ethereum_eth",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "ethereum (eth)"
+    },
+    {
+      "label": "Diferencias clave para un inversor",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "diferencias clave para un inversor"
+    },
+    {
+      "label": "Riesgos generales de crypto (aplican a ambos)",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "riesgos generales de crypto (aplican a ambos)"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "docs_crypto_bitcoin_ethereum_fuentes",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "exchanges-custodia.md",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "exchanges-custodia.md"
+    },
+    {
+      "label": "Exchanges y custodia de criptoactivos",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "exchanges y custodia de criptoactivos"
+    },
+    {
+      "label": "Exchanges centralizados (CEX)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "exchanges centralizados (cex)"
+    },
+    {
+      "label": "Wallets propias (self-custody)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_wallets_propias_self_custody",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "wallets propias (self-custody)"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas generales (educativas, no exhaustivas)",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "buenas practicas generales (educativas, no exhaustivas)"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_crypto_exchanges_custodia_fuentes",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "glosario.md",
       "file_type": "document",
       "source_file": "docs/glosario/glosario.md",
@@ -517,6 +693,105 @@
       "id": "docs_glosario_glosario_fuentes",
       "community": 2,
       "community_name": "Activos y Glosario",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "bonos-argentinos.md",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "bonos-argentinos.md"
+    },
+    {
+      "label": "Bonos argentinos",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "bonos argentinos"
+    },
+    {
+      "label": "Principales categor\u00edas",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_principales_categor\u00edas",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "principales categorias"
+    },
+    {
+      "label": "Especies vigentes (referencia julio 2026)",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_especies_vigentes_referencia_julio_2026",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "especies vigentes (referencia julio 2026)"
+    },
+    {
+      "label": "Bonos soberanos en d\u00f3lares",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_bonos_soberanos_en_d\u00f3lares",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "bonos soberanos en dolares"
+    },
+    {
+      "label": "Instrumentos en pesos",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_instrumentos_en_pesos",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "instrumentos en pesos"
+    },
+    {
+      "label": "Riesgo pa\u00eds",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_riesgo_pa\u00eds",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "riesgo pais"
+    },
+    {
+      "label": "Consideraciones clave para un inversor",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_consideraciones_clave_para_un_inversor",
+      "community": 14,
+      "community_name": "Bonos argentinos",
+      "norm_label": "consideraciones clave para un inversor"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "docs_merval_bonos_argentinos_fuentes",
+      "community": 14,
+      "community_name": "Bonos argentinos",
       "norm_label": "fuentes"
     },
     {
@@ -592,8 +867,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_merval_que_es_merval",
-      "community": 1,
-      "community_name": "CEDEARs y Merval",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "que-es-merval.md"
     },
     {
@@ -740,6 +1015,83 @@
       "norm_label": "fuentes"
     },
     {
+      "label": "que-es-sp500.md",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "que-es-sp500.md"
+    },
+    {
+      "label": "Qu\u00e9 es el S&P 500",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "que es el s&p 500"
+    },
+    {
+      "label": "Caracter\u00edsticas principales",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "caracteristicas principales"
+    },
+    {
+      "label": "Por qu\u00e9 se usa como referencia",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "por que se usa como referencia"
+    },
+    {
+      "label": "C\u00f3mo invertir en el \u00edndice",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "como invertir en el indice"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_riesgos_y_consideraciones",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "riesgos y consideraciones"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_sp500_que_es_sp500_fuentes",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "CLAUDE.md \u2014 Project Instructions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -752,62 +1104,6 @@
       "norm_label": "claude.md \u2014 project instructions",
       "community_name": "S&P 500 y Proyecto",
       "id": "claude_md"
-    },
-    {
-      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
-      "file_type": "document",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 0,
-      "norm_label": "bitcoin y ethereum: conceptos basicos",
-      "community_name": "Bitcoin y Ethereum",
-      "id": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "label": "Exchanges y custodia de criptoactivos",
-      "file_type": "document",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "exchanges y custodia de criptoactivos",
-      "community_name": "Exchanges y Custodia Cripto",
-      "id": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "label": "Bonos argentinos",
-      "file_type": "document",
-      "source_file": "docs/merval/bonos-argentinos.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 13,
-      "norm_label": "bonos argentinos",
-      "community_name": "Bonos argentinos",
-      "id": "docs_merval_bonos_argentinos"
-    },
-    {
-      "label": "Qu\u00e9 es el S&P 500",
-      "file_type": "document",
-      "source_file": "docs/sp500/que-es-sp500.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 7,
-      "norm_label": "que es el s&p 500",
-      "community_name": "S&P 500 y Proyecto",
-      "id": "docs_sp500_que_es_sp500"
     },
     {
       "label": "Blockchain",
@@ -832,9 +1128,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 23,
       "norm_label": "proof of work",
-      "community_name": "Bitcoin y Ethereum",
+      "community_name": "Proof of Work",
       "id": "concept_proof_of_work"
     },
     {
@@ -846,38 +1142,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 22,
       "norm_label": "proof of stake",
-      "community_name": "Bitcoin y Ethereum",
+      "community_name": "Proof of Stake",
       "id": "concept_proof_of_stake"
-    },
-    {
-      "label": "Bitcoin (BTC)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 0,
-      "norm_label": "bitcoin (btc)",
-      "community_name": "Bitcoin y Ethereum",
-      "id": "concept_bitcoin"
-    },
-    {
-      "label": "Ethereum (ETH)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 0,
-      "norm_label": "ethereum (eth)",
-      "community_name": "Bitcoin y Ethereum",
-      "id": "concept_ethereum"
     },
     {
       "label": "Exchange centralizado (CEX)",
@@ -902,9 +1170,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 25,
       "norm_label": "self-custody (wallet propia)",
-      "community_name": "Exchanges y Custodia Cripto",
+      "community_name": "Self-custody (wallet propia)",
       "id": "concept_self_custody"
     },
     {
@@ -916,9 +1184,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 19,
       "norm_label": "cold wallet (hardware wallet)",
-      "community_name": "Exchanges y Custodia Cripto",
+      "community_name": "Cold wallet (hardware wallet)",
       "id": "concept_cold_wallet"
     },
     {
@@ -930,9 +1198,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 21,
       "norm_label": "hot wallet",
-      "community_name": "Exchanges y Custodia Cripto",
+      "community_name": "Hot wallet",
       "id": "concept_hot_wallet"
     },
     {
@@ -944,9 +1212,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 24,
       "norm_label": "riesgo pais (embi+)",
-      "community_name": "Bonos argentinos",
+      "community_name": "Riesgo pa\u00eds (EMBI+)",
       "id": "concept_riesgo_pais"
     },
     {
@@ -972,9 +1240,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 27,
       "norm_label": "indice s&p 500",
-      "community_name": "S&P 500 y Proyecto",
+      "community_name": "\u00cdndice S&P 500",
       "id": "concept_sp500"
     },
     {
@@ -986,9 +1254,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 26,
       "norm_label": "contratos inteligentes (smart contracts)",
-      "community_name": "Bitcoin y Ethereum",
+      "community_name": "Contratos inteligentes (smart contracts)",
       "id": "concept_smart_contracts"
     },
     {
@@ -1000,13 +1268,23 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 20,
       "norm_label": "finanzas descentralizadas (defi)",
-      "community_name": "Bitcoin y Ethereum",
+      "community_name": "Finanzas descentralizadas (DeFi)",
       "id": "concept_defi"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -1061,10 +1339,40 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_crypto_exchanges_custodia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_glosario_glosario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_bonos_argentinos",
       "confidence_score": 1.0
     },
     {
@@ -1095,6 +1403,16 @@
       "weight": 1.0,
       "source": "readme",
       "target": "docs_sp500_etfs_sp500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_sp500_que_es_sp500",
       "confidence_score": 1.0
     },
     {
@@ -1145,6 +1463,16 @@
       "weight": 1.0,
       "source": "docs_conceptos_generales_diversificacion",
       "target": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/diversificacion.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_diversificacion",
+      "target": "docs_sp500_que_es_sp500",
       "confidence_score": 1.0
     },
     {
@@ -1298,6 +1626,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/interes-compuesto.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_interes_compuesto",
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
@@ -1421,6 +1759,26 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_merval_bonos_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
       "source_location": "L48",
       "weight": 1.0,
       "source": "docs_conceptos_generales_tipos_de_activos",
@@ -1530,11 +1888,161 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum",
+      "target": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_bitcoin_btc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_blockchain_en_breve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_diferencias_clave_para_un_inversor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_ethereum_eth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/bitcoin-ethereum.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_bitcoin_ethereum_riesgos_generales_de_crypto_aplican_a_ambos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia",
+      "target": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_exchanges_custodia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_buenas_pr\u00e1cticas_generales_educativas_no_exhaustivas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_exchanges_centralizados_cex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/exchanges-custodia.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
+      "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L9",
       "weight": 1.0,
       "source": "docs_glosario_glosario",
       "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_bonos_argentinos",
       "confidence_score": 1.0
     },
     {
@@ -1565,6 +2073,86 @@
       "weight": 1.0,
       "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
       "target": "docs_glosario_glosario_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_consideraciones_clave_para_un_inversor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_especies_vigentes_referencia_julio_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_principales_categor\u00edas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_bonos_argentinos",
+      "target": "docs_merval_bonos_argentinos_riesgo_pa\u00eds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_especies_vigentes_referencia_julio_2026",
+      "target": "docs_merval_bonos_argentinos_bonos_soberanos_en_d\u00f3lares",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/bonos-argentinos.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "docs_merval_bonos_argentinos_especies_vigentes_referencia_julio_2026",
+      "target": "docs_merval_bonos_argentinos_instrumentos_en_pesos",
       "confidence_score": 1.0
     },
     {
@@ -1638,6 +2226,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/que-es-merval.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_merval_que_es_merval",
+      "target": "docs_sp500_que_es_sp500",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/merval/que-es-merval.md",
@@ -1698,16 +2296,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/sp500/que-es-sp500.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_sp500_que_es_sp500",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/sp500/etfs-sp500.md",
@@ -1758,224 +2346,64 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 0.7,
-      "source": "claude_md",
-      "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_bitcoin"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_blockchain"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_defi"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_ethereum"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_proof_of_stake"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_proof_of_work"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "concept_smart_contracts"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_bitcoin_ethereum",
-      "target": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_exchanges_custodia",
-      "target": "concept_cex"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_exchanges_custodia",
-      "target": "concept_cold_wallet"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_exchanges_custodia",
-      "target": "concept_hot_wallet"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_crypto_exchanges_custodia",
-      "target": "concept_self_custody"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/merval/bonos-argentinos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_merval_bonos_argentinos",
-      "target": "concept_cer"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/merval/bonos-argentinos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_merval_bonos_argentinos",
-      "target": "concept_riesgo_pais"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "docs/sp500/que-es-sp500.md",
-      "source_location": null,
+      "source_location": "L9",
       "weight": 1.0,
       "source": "docs_sp500_que_es_sp500",
-      "target": "concept_sp500"
+      "target": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L16",
       "weight": 1.0,
-      "source": "concept_bitcoin",
-      "target": "concept_proof_of_work"
+      "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "target": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L42",
       "weight": 1.0,
-      "source": "concept_ethereum",
-      "target": "concept_proof_of_stake"
+      "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "target": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L56",
       "weight": 1.0,
-      "source": "concept_ethereum",
-      "target": "concept_defi"
+      "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "target": "docs_sp500_que_es_sp500_fuentes",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L34",
       "weight": 1.0,
-      "source": "concept_ethereum",
-      "target": "concept_smart_contracts"
+      "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "target": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
+      "source_file": "docs/sp500/que-es-sp500.md",
+      "source_location": "L47",
       "weight": 1.0,
-      "source": "concept_self_custody",
-      "target": "concept_cold_wallet"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "concept_self_custody",
-      "target": "concept_hot_wallet"
+      "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
+      "target": "docs_sp500_que_es_sp500_riesgos_y_consideraciones",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [
@@ -2009,5 +2437,5 @@
       "source_file": "docs/crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "4b0d6d1de80993ea06db99c03014b3c0c0a86240"
+  "built_at_commit": "fd2f8866fd0aa4c972f9bd887181e1a09a07b3bf"
 }
