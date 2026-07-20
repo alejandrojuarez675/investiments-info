@@ -2,7 +2,7 @@
 title: "Fuentes de datos de precios y tasas en vivo"
 tema: conceptos-generales
 tags: [apis, datos, precios, tna, cotizaciones, herramientas]
-nivel: intermedio
+nivel: avanzado
 ultima_revision: 2026-07-20
 ---
 
@@ -86,7 +86,7 @@ Ver [Qué es el Merval](../merval/que-es-merval.md).
 
 ## Dólar (oficial, MEP, CCL, blue, ahorro)
 
-Ver [Plazo fijo y dólar](../merval/plazo-fijo-y-dolar.md).
+Ver [Dólar en Argentina](../merval/dolar-argentina.md).
 
 - **[DolarAPI](https://dolarapi.com/)** — API pública y gratuita, sin
   necesidad de API key, con endpoints separados para oficial, blue, MEP,
@@ -106,8 +106,8 @@ Ver [Plazo fijo y dólar](../merval/plazo-fijo-y-dolar.md).
 
 ## Plazo fijo (TNA por banco) y FCI money market
 
-Ver [Plazo fijo y dólar](../merval/plazo-fijo-y-dolar.md) y
-[Brokers en Argentina y FCI money market](../merval/brokers-argentina.md).
+Ver [Plazo fijo](../merval/plazo-fijo.md) y
+[FCI money market y billeteras virtuales](../merval/fci-money-market.md).
 
 - **[BCRA - Tasas de interés de depósitos](https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp)**
   — TNA de plazo fijo por banco, publicado oficialmente; también
@@ -181,6 +181,64 @@ confiabilidad antes de usarlos en producción):
   conviene envolver las APIs REST listadas arriba (DolarAPI,
   ArgentinaDatos, BCRA) en un servidor MCP propio si se necesita ese modo
   de acceso.
+
+## Ejemplos concretos de requests a APIs clave
+
+Ejemplos ilustrativos de cómo consumir tres de las APIs más usadas de esta
+lista. Las respuestas son ejemplos simplificados del formato esperado, no
+datos reales vigentes.
+
+### DolarAPI (dólar en Argentina)
+
+```
+curl https://dolarapi.com/v1/dolares/oficial
+```
+
+Respuesta de ejemplo:
+
+```json
+{
+  "moneda": "USD",
+  "casa": "oficial",
+  "nombre": "Oficial",
+  "compra": 1350,
+  "venta": 1370,
+  "fechaActualizacion": "2026-07-20T14:30:00.000Z"
+}
+```
+
+Endpoints análogos existen para `/v1/dolares/blue`, `/v1/dolares/bolsa`
+(MEP) y `/v1/dolares/contadoconliqui` (CCL). Ver
+[Dólar en Argentina](../merval/dolar-argentina.md) para el detalle
+conceptual de cada cotización.
+
+### ArgentinaDatos API (cotizaciones y tasas locales)
+
+```
+curl https://api.argentinadatos.com/v1/finanzas/tasas/plazoFijo
+```
+
+Devuelve un array JSON con la TNA de plazo fijo por entidad bancaria (ver
+[Plazo fijo](../merval/plazo-fijo.md)), sin necesidad de API key.
+
+### CoinGecko API (precios de criptoactivos)
+
+```
+curl "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd"
+```
+
+Respuesta de ejemplo:
+
+```json
+{
+  "bitcoin": { "usd": 65000 },
+  "ethereum": { "usd": 3200 }
+}
+```
+
+Útil para obtener de forma rápida el precio spot de
+[Bitcoin y Ethereum](../crypto/bitcoin-ethereum.md) sin necesidad de
+registro para el tier gratuito básico.
 
 ## Notas de uso
 

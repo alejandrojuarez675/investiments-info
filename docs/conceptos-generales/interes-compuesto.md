@@ -1,8 +1,8 @@
 ---
 title: "Interés compuesto"
 tema: conceptos-generales
-tags: [largo-plazo, retorno, matematica-financiera]
-nivel: basico
+tags: [largo-plazo, retorno, matematica-financiera, tna, tea]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -52,6 +52,72 @@ años para duplicar ≈ 72 / r
 ```
 
 Es una aproximación, más precisa para tasas entre 6% y 10% anual.
+
+## Ejemplo numérico completo a 10, 20 y 30 años
+
+Aporte inicial de $1.000.000 sin aportes adicionales, a una tasa constante
+del 8% anual (ilustrativa):
+
+| Años | Fórmula | Valor futuro |
+|---|---|---|
+| 10 | 1.000.000 × 1,08^10 | ≈ $2.158.925 |
+| 20 | 1.000.000 × 1,08^20 | ≈ $4.660.957 |
+| 30 | 1.000.000 × 1,08^30 | ≈ $10.062.657 |
+
+El capital se multiplica por ~2,16 en 10 años, pero por ~10,06 en 30
+años: el crecimiento entre el año 20 y el 30 (+$5.401.700) es más del
+doble del crecimiento entre el año 0 y el 10 (+$1.158.925), pese a ser el
+mismo lapso de tiempo, porque cada período compone sobre una base ya
+mayor. Esto es lo que se conoce como el efecto "bola de nieve" del interés
+compuesto.
+
+Con un aporte mensual adicional de $50.000 sobre el mismo capital inicial
+(usando la fórmula de anualidad de la sección anterior con `r` mensual
+≈0,643% y `n` en meses), el valor a 30 años supera varias veces el
+resultado sin aportes, ilustrando por qué el DCA sostenido en el tiempo
+(ver [Dollar-Cost Averaging](dollar-cost-averaging.md)) potencia el efecto
+del interés compuesto más que un capital inicial único, para la mayoría de
+los ahorristas que no parten con un capital grande.
+
+## TNA vs. TEA: por qué importa la frecuencia de capitalización
+
+La **TNA (Tasa Nominal Anual)** es la tasa "de lista", sin considerar
+cuántas veces al año se capitaliza el interés. La **TEA (Tasa Efectiva
+Anual)** es el rendimiento real considerando la capitalización:
+
+```
+TEA = (1 + TNA/m)^m − 1
+```
+
+donde `m` es la cantidad de períodos de capitalización por año. Ejemplo
+con TNA del 30%:
+
+| Capitalización | m | TEA |
+|---|---|---|
+| Anual | 1 | 30,0% |
+| Mensual | 12 | ≈ 34,5% |
+| Diaria | 365 | ≈ 35,0% |
+
+A mayor frecuencia de capitalización, mayor la TEA resultante para la
+misma TNA nominal, porque los intereses generados empiezan a generar
+interés antes. Esta diferencia es la razón por la cual, al comparar dos
+instrumentos (ej. un [plazo fijo](../merval/plazo-fijo.md) tradicional
+frente a un [FCI money market](../merval/fci-money-market.md) que
+capitaliza diariamente), conviene comparar TEA y no TNA, ya que la TNA por
+sí sola puede subestimar o igualar erróneamente el rendimiento real de
+instrumentos con distinta frecuencia de capitalización.
+
+## Interés compuesto vs. inflación compuesta en Argentina
+
+La inflación también compone: una inflación mensual del 3% sostenida
+durante 12 meses no equivale a 36% anual, sino a
+`(1,03)^12 − 1 ≈ 42,6%` anual, por el mismo mecanismo matemático del
+interés compuesto pero aplicado a la pérdida de poder adquisitivo. Esto
+explica por qué, en contextos de alta inflación como el argentino, una
+tasa nominal aparentemente alta en un
+[plazo fijo](../merval/plazo-fijo.md) puede seguir representando una
+pérdida en términos reales si la inflación compuesta del período fue
+mayor, un punto desarrollado en detalle en ese documento.
 
 ## Relación con otros conceptos
 

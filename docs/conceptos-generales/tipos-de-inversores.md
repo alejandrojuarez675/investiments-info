@@ -1,8 +1,8 @@
 ---
 title: "Tipos de inversores: perfiles, pros y contras"
 tema: conceptos-generales
-tags: [perfil-inversor, riesgo, estrategia, portafolio]
-nivel: basico
+tags: [perfil-inversor, riesgo, estrategia, portafolio, asignacion-de-activos]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -25,8 +25,8 @@ calidad crediticia.
   tranquilidad psicológica ante caídas de mercado.
 - **Contras**: retorno esperado bajo, alta exposición a pérdida de poder
   adquisitivo por inflación (especialmente relevante en Argentina, ver
-  [Plazo fijo y dólar](../merval/plazo-fijo-y-dolar.md)); en horizontes
-  largos puede no alcanzar objetivos financieros.
+  [Plazo fijo](../merval/plazo-fijo.md)); en horizontes largos puede no
+  alcanzar objetivos financieros.
 
 ### Moderado
 
@@ -114,6 +114,49 @@ momento. Ver [Dollar-Cost Averaging](dollar-cost-averaging.md).
 - **Contras**: en mercados con tendencia alcista sostenida, suele rendir
   menos que invertir el capital total de una sola vez (lump sum); no
   elimina el riesgo de mercado, solo lo distribuye en el tiempo.
+
+## Heurística simple de autoevaluación de perfil
+
+Aunque los brokers usan cuestionarios más extensos por requerimiento
+regulatorio (ver
+[apertura de cuenta comitente](../merval/brokers-argentina.md#cómo-abrir-una-cuenta-comitente)),
+una autoevaluación simplificada puede basarse en tres preguntas:
+
+1. **¿Cuál es tu horizonte temporal?** (¿En cuántos años vas a necesitar
+   este dinero?) — Menos de 2 años: horizonte corto; 2-10 años: mediano;
+   más de 10 años: largo.
+2. **¿Cómo reaccionarías ante una caída del 30% en tu cartera?** — Vender
+   todo de inmediato: perfil conservador; mantener la posición sin
+   vender: perfil moderado; aprovechar para comprar más: perfil agresivo.
+3. **¿Qué porción de tus ingresos/patrimonio total representa este
+   capital?** — Una porción grande o los ahorros de emergencia: sesga
+   hacia conservador, independientemente de la tolerancia psicológica al
+   riesgo; una porción chica del patrimonio total: permite mayor
+   tolerancia al riesgo en esa porción específica.
+
+Esta heurística es orientativa, no un sustituto de un análisis financiero
+personalizado; sirve como punto de partida para entender en qué región
+del espectro de perfiles se ubica alguien antes de definir una asignación
+de cartera concreta.
+
+## Ejemplo ilustrativo de asignación de cartera por perfil
+
+Asignaciones (%) puramente ilustrativas, no recomendaciones, para mostrar
+cómo se traduce un perfil en una combinación de
+[tipos de activos](tipos-de-activos.md):
+
+| Clase de activo | Conservador | Moderado | Agresivo |
+|---|---|---|---|
+| Efectivo / plazo fijo / FCI money market | 40% | 15% | 5% |
+| Bonos (soberanos/corporativos) | 40% | 25% | 10% |
+| Acciones / ETFs indexados | 20% | 50% | 65% |
+| Crypto / activos alternativos | 0% | 10% | 20% |
+
+Estas proporciones son un punto de partida conceptual: la asignación real
+depende también del horizonte temporal específico, la necesidad de
+liquidez, la situación fiscal y, en el caso argentino, de la exposición
+adicional a moneda extranjera que ya se comentó arriba (ver
+[nota sobre el contexto argentino](#nota-sobre-el-contexto-argentino)).
 
 ## Nota sobre el contexto argentino
 

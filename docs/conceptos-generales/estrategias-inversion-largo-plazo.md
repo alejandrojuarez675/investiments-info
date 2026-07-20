@@ -1,8 +1,8 @@
 ---
 title: "Estrategias de inversión de largo plazo"
 tema: conceptos-generales
-tags: [estrategia, largo-plazo, buy-and-hold, value-investing]
-nivel: basico
+tags: [estrategia, largo-plazo, buy-and-hold, value-investing, ratios-financieros]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -47,6 +47,25 @@ suele implicar horizontes largos, porque la corrección de precio puede
 tardar años. Popularizada por inversores como Benjamin Graham y Warren
 Buffett.
 
+### Ratios usados en value investing
+
+- **P/E (Price-to-Earnings)**: precio de la acción dividido la ganancia
+  por acción (EPS). Un P/E de 10 significa que se paga 10 veces la
+  ganancia anual de la empresa; un P/E bajo respecto al promedio del
+  sector puede indicar que el activo está "barato" (o que el mercado
+  anticipa problemas futuros que aún no se reflejan en la ganancia
+  actual, lo cual no siempre es evidente de antemano).
+- **P/B (Price-to-Book)**: precio de la acción dividido el valor contable
+  (patrimonio neto) por acción. Un P/B menor a 1 significa que la acción
+  cotiza por debajo del valor contable de la empresa, una señal
+  tradicionalmente asociada a "oportunidades de valor", aunque también
+  puede reflejar activos contables sobrevaluados o un negocio en
+  deterioro estructural.
+- **Margen de seguridad**: concepto central de Graham — comprar solo
+  cuando el precio de mercado está sustancialmente por debajo de la
+  estimación de valor intrínseco (ej. 30-50% por debajo), para tener un
+  colchón ante errores en la propia estimación.
+
 ## Growth investing (inversión en crecimiento)
 
 Se enfoca en empresas con expectativa de crecimiento de ingresos y
@@ -55,6 +74,18 @@ valuación altos respecto a sus fundamentos actuales. El retorno esperado
 depende de que ese crecimiento futuro se materialice, lo que la hace más
 sensible a decepciones de resultados que el value investing.
 
+### Ratio usado en growth investing
+
+- **PEG ratio (Price/Earnings to Growth)**: relación entre el P/E y la
+  tasa de crecimiento esperada de las ganancias (en %). Se calcula como
+  `PEG = P/E ÷ tasa de crecimiento esperada (%)`. Un PEG de 1 se
+  considera tradicionalmente un punto de referencia "razonable" (el
+  múltiplo de valuación está en línea con el crecimiento esperado); un
+  PEG muy por encima de 1 sugiere que se está pagando un premio alto
+  respecto al crecimiento proyectado. Ejemplo: una empresa con P/E de 30
+  y crecimiento esperado de ganancias del 20% anual tiene un PEG de
+  `30 / 20 = 1,5`.
+
 ## Inversión en dividendos
 
 Prioriza activos que distribuyen una porción de sus ganancias de forma
@@ -62,6 +93,21 @@ periódica (dividendos), buscando generar un flujo de ingresos recurrente
 además de la potencial revalorización del capital. Suele asociarse a
 empresas maduras y estables, y es una estrategia habitual para perfiles
 más conservadores o para quienes buscan ingresos pasivos en el tiempo.
+
+### Dividend yield: cómo se calcula
+
+```
+Dividend yield = (Dividendo anual por acción / Precio de la acción) × 100
+```
+
+Ejemplo: una empresa que paga $4 de dividendo anual por acción y cotiza a
+$100 tiene un dividend yield del 4%. Un yield inusualmente alto respecto
+al promedio del sector puede ser una señal de alerta (el mercado
+descuenta un recorte futuro del dividendo por deterioro del negocio) más
+que una oportunidad, por lo que conviene evaluarlo junto con el
+*payout ratio* (proporción de la ganancia que se destina a dividendos):
+un payout ratio sostenidamente por encima del 80-100% sugiere que el
+dividendo actual puede no ser sostenible si la ganancia no crece.
 
 ## Inversión contraria (contrarian investing)
 

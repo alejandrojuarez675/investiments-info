@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 216 nodes · 248 edges · 35 communities (22 shown, 13 thin omitted)
+- 216 nodes · 245 edges · 35 communities (22 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `696dc06c`
+- Built from commit: `1130548c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -53,9 +53,9 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `Fuentes de datos de precios y tasas en vivo` - 11 edges
-2. `Estrategias de inversión de largo plazo` - 10 edges
-3. `Estrategias de trading de corto plazo` - 10 edges
-4. `Trading con gráficos: análisis técnico` - 10 edges
+2. `Trading con gráficos: análisis técnico` - 10 edges
+3. `Estrategias de inversión de largo plazo` - 10 edges
+4. `Estrategias de trading de corto plazo` - 10 edges
 5. `Tipos de activos financieros` - 9 edges
 6. `Mercado Pago en Argentina: catálogo de productos` - 8 edges
 7. `Bitcoin y Ethereum: conceptos básicos` - 7 edges
@@ -137,7 +137,7 @@ Cohesion: 0.29
 Nodes (7): Dólar: los distintos "dólares" en Argentina, Fuentes, MEP vs. CCL: diferencia clave, Plazo fijo tradicional, Plazo fijo UVA, Plazo fijo vs. dólar: cómo se comparan, Plazo fijo y dólar: las inversiones más populares en Argentina
 
 ### Community 29 - "Trading con gráficos: análisis técnico"
-Cohesion: 0.09
+Cohesion: 0.08
 Nodes (23): Fuentes, Gráfico de barras (OHLC), Gráfico de líneas, Gráfico de velas japonesas (candlestick), Indicadores de momentum, Indicadores de tendencia, Indicadores de volatilidad, Indicadores de volumen (+15 more)
 
 ### Community 30 - "Diversificación"
@@ -161,22 +161,20 @@ Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **159 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Idea central` (+154 more)
+- **159 isolated node(s):** `Gráfico de líneas`, `Gráfico de barras (OHLC)`, `Gráfico de velas japonesas (candlestick)`, `Marco temporal (timeframe)`, `Patrones de una sola vela` (+154 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Trading con gráficos: análisis técnico` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.181) - this node is a cross-community bridge._
 - **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
   _High betweenness centrality (0.110) - this node is a cross-community bridge._
 - **Why does `Fuentes de datos de precios y tasas en vivo` connect `Fuentes de datos de precios y tasas en vivo` to `Activos y Glosario`?**
   _High betweenness centrality (0.085) - this node is a cross-community bridge._
-- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+- **What connects `Gráfico de líneas`, `Gráfico de barras (OHLC)`, `Gráfico de velas japonesas (candlestick)` to the rest of the system?**
   _159 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Trading con gráficos: análisis técnico` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._

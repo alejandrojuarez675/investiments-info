@@ -1,8 +1,8 @@
 ---
 title: "ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)"
 tema: sp500
-tags: [etf, voo, spy, ivv, qqq, nasdaq-100, mercado-usa]
-nivel: basico
+tags: [etf, voo, spy, ivv, qqq, nasdaq-100, mercado-usa, expense-ratio, fiscalidad]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -66,6 +66,52 @@ principales:
    local (ver [CEDEARs](../merval/cedears.md)). El CEDEAR replica el precio del
    ETF subyacente ajustado por tipo de cambio, pero no es un instrumento
    idéntico legalmente (implica riesgo y tratamiento distintos).
+
+## Impacto del expense ratio a largo plazo: ejemplo numérico
+
+El *expense ratio* es el costo anual que cobra el ETF, expresado como
+porcentaje de los activos administrados, y se descuenta automáticamente
+del valor del fondo (no se paga aparte). Aunque la diferencia entre
+0,03% y 0,09% anual parece insignificante, compuesta a lo largo de
+décadas tiene un impacto medible:
+
+**Ejemplo numérico**: inversión inicial de $10.000.000 sin aportes
+adicionales, retorno bruto del 8% anual antes de costos, a 20 años:
+
+```
+Con expense ratio de 0,03% (retorno neto 7,97%):
+10.000.000 × (1,0797)^20 ≈ $44.180.000
+
+Con expense ratio de 0,09% (retorno neto 7,91%):
+10.000.000 × (1,0791)^20 ≈ $43.640.000
+
+Diferencia acumulada ≈ $540.000 (≈1,2% del capital final)
+```
+
+La diferencia crece con el tiempo y con el capital invertido: sobre
+montos mayores o horizontes más largos (30-40 años), la brecha entre un
+expense ratio bajo y uno "moderadamente más alto" puede representar una
+porción significativa del capital final, pese a que la diferencia anual
+nominal parezca pequeña. Este es el argumento central a favor de priorizar
+el expense ratio como criterio de selección entre ETFs que replican el
+mismo índice subyacente.
+
+## Tratamiento fiscal para un inversor argentino: ETF directo vs. CEDEAR
+
+- **ETF comprado directamente** (vía bróker internacional, en dólares):
+  sujeto a normativa fiscal de EE.UU. para no residentes (ej. retención
+  sobre dividendos) además de la normativa argentina sobre bienes en el
+  exterior (Bienes Personales) y ganancias de capital.
+- **CEDEAR del mismo ETF** (comprado en pesos en Byma): sujeto a
+  normativa argentina; a los fines de Bienes Personales se computa según
+  el valor en dólares del activo subyacente, no el valor nominal en
+  pesos del CEDEAR. El tratamiento de ganancias de capital y dividendos
+  también sigue la normativa argentina vigente para CEDEARs, distinta a
+  la de un ETF operado directamente en el exterior.
+- En ambos casos, la normativa fiscal argentina sobre inversiones en el
+  exterior y en instrumentos dolarizados cambió con frecuencia en los
+  últimos años; verificar la situación vigente (AFIP/ARCA) antes de
+  operar, ya que no constituye asesoramiento impositivo.
 
 ## Riesgos específicos de los ETFs
 

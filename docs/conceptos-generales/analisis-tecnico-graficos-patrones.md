@@ -1,35 +1,20 @@
 ---
-title: "Trading con gráficos: análisis técnico"
+title: "Análisis técnico: gráficos, velas y patrones de precio"
 tema: conceptos-generales
-tags: [analisis-tecnico, graficos, velas, indicadores, patrones]
+tags: [analisis-tecnico, graficos, velas, patrones, soportes-resistencias]
 nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
-# Trading con gráficos: análisis técnico
+# Análisis técnico: gráficos, velas y patrones de precio
 
-El análisis técnico es el estudio del precio y volumen histórico de un
-activo, representado en gráficos, para intentar anticipar movimientos
-futuros. Parte de tres premisas clásicas (Murphy, 1999):
-
-1. **El precio lo descuenta todo**: toda la información disponible
-   (fundamentales, expectativas, sentimiento del mercado) ya está reflejada
-   en el precio actual, por lo que basta con estudiar el precio.
-2. **El precio se mueve en tendencias**: una vez establecida, una
-   tendencia tiene más probabilidad de continuar que de revertirse, hasta
-   que aparece una señal clara de agotamiento.
-3. **La historia tiende a repetirse**: los patrones de precio se repiten a
-   lo largo del tiempo porque reflejan comportamientos psicológicos
-   recurrentes de los participantes del mercado (miedo, codicia, FOMO).
-
-Es la base sobre la que se apoyan la mayoría de las
-[estrategias de trading de corto plazo](estrategias-trading.md) (scalping,
-day trading, swing trading). Se contrapone al análisis fundamental, que
-evalúa el valor de un activo a partir de datos económicos o financieros
-subyacentes (resultados de una empresa, tasas de interés, balances,
-flujos de caja). En la práctica, muchos participantes del mercado combinan
-ambos enfoques: el análisis fundamental para decidir *qué* activo
-comprar, y el análisis técnico para decidir *cuándo* entrar o salir.
+Este documento cubre las herramientas visuales del análisis técnico: tipos
+de gráficos, patrones de velas japonesas, patrones gráficos de mayor
+escala, soportes/resistencias y estructura de tendencia. Para el marco
+teórico y la crítica académica ver
+[Análisis técnico: fundamentos](analisis-tecnico-fundamentos.md); para los
+indicadores calculados matemáticamente ver
+[Indicadores técnicos](analisis-tecnico-indicadores.md).
 
 ## Tipos de gráficos
 
@@ -53,9 +38,11 @@ rápido, por lo que hoy es menos usado que el candlestick.
 
 ### Gráfico de velas japonesas (candlestick)
 
-El más usado en trading moderno. Cada vela representa un período (1
-minuto, 5 minutos, 1 hora, 1 día, 1 semana, según el marco temporal
-elegido) y se compone de:
+El más usado en trading moderno. Origen histórico en el mercado de arroz
+japonés del siglo XVIII (atribuido a Munehisa Homma), popularizado en
+Occidente por Nison (1991). Cada vela representa un período (1 minuto, 5
+minutos, 1 hora, 1 día, 1 semana, según el marco temporal elegido) y se
+compone de:
 
 - **Cuerpo**: rectángulo entre el precio de apertura y el de cierre. Si el
   cierre es mayor que la apertura, la vela es alcista (tradicionalmente
@@ -70,18 +57,29 @@ cuerpo comunican de forma inmediata quién dominó el período (compradores
 o vendedores) y con qué fuerza, lo que facilita reconocer patrones de un
 vistazo.
 
+### Gráfico de Heikin-Ashi
+
+Variante del candlestick que suaviza el ruido de corto plazo mediante un
+cálculo modificado: la apertura de cada vela es el promedio entre apertura
+y cierre de la vela anterior, y el cierre es el promedio de apertura,
+cierre, máximo y mínimo del período actual. El resultado son velas más
+"limpias" que facilitan ver la tendencia de fondo, a costa de distorsionar
+el precio real de apertura/cierre (no debe usarse para calcular niveles
+exactos de entrada/salida, solo para lectura visual de tendencia).
+
 ### Marco temporal (timeframe)
 
-El mismo activo puede analizarse en distintos marcos temporales: 1
-minuto y 5 minutos (usados en scalping), 15 minutos a 1 hora (day
-trading), 4 horas y diario (swing trading), semanal y mensual (inversión
-de largo plazo o análisis de tendencia macro). Una práctica habitual es el
-**análisis multi-timeframe**: revisar un marco temporal mayor para
-identificar la tendencia de fondo, y uno menor para afinar el punto de
-entrada. Es común que un mismo activo muestre señales alcistas en un
-timeframe y bajistas en otro simultáneamente, lo cual no es una
-contradicción sino un reflejo de que la tendencia depende del horizonte
-que se esté observando.
+El mismo activo puede analizarse en distintos marcos temporales: 1 minuto
+y 5 minutos (usados en scalping), 15 minutos a 1 hora (day trading), 4
+horas y diario (swing trading), semanal y mensual (inversión de largo
+plazo o análisis de tendencia macro) — ver
+[estrategias de trading](estrategias-trading.md) para el detalle de cada
+modalidad. Una práctica habitual es el **análisis multi-timeframe**:
+revisar un marco temporal mayor para identificar la tendencia de fondo, y
+uno menor para afinar el punto de entrada. Es común que un mismo activo
+muestre señales alcistas en un timeframe y bajistas en otro
+simultáneamente, lo cual no es una contradicción sino un reflejo de que la
+tendencia depende del horizonte que se esté observando.
 
 ## Patrones de velas
 
@@ -162,7 +160,10 @@ depende del contexto (tendencia previa, volumen, nivel donde aparecen) y
 no garantizan el resultado de una operación. La mayoría de los analistas
 recomienda esperar una "vela de confirmación" adicional antes de actuar
 sobre un patrón de reversión, en lugar de operar apenas se completa el
-patrón.
+patrón. Bulkowski (2005) documentó estadísticamente que la tasa de éxito
+real de muchos patrones de velas es sustancialmente menor a la que sugiere
+la literatura tradicional cuando se mide de forma rigurosa sobre datos
+históricos amplios.
 
 ## Soportes y resistencias
 
@@ -187,11 +188,18 @@ Algunas ideas adicionales sobre cómo se usan en la práctica:
 - **Fuerza del nivel**: un soporte o resistencia se considera más fuerte
   cuantas más veces fue testeado sin romperse y cuanto mayor haya sido el
   volumen operado en esos testeos.
+- **Confluencia**: un nivel gana fiabilidad cuando coincide con otras
+  herramientas técnicas al mismo tiempo (ej. un soporte horizontal que
+  además coincide con una media móvil de 200 períodos y un retroceso de
+  Fibonacci del 61,8%); a mayor cantidad de señales independientes que
+  apuntan al mismo nivel, mayor la probabilidad subjetiva que le asignan
+  los analistas técnicos.
 
 Estos niveles se usan tanto para anticipar rebotes como para el
-[breakout trading](estrategias-trading.md), donde la ruptura confirmada de
-un soporte o resistencia (idealmente con volumen elevado) se interpreta
-como señal de continuación en esa dirección.
+[breakout trading](estrategias-trading.md#breakout-trading-ruptura-de-rangos),
+donde la ruptura confirmada de un soporte o resistencia (idealmente con
+volumen elevado) se interpreta como señal de continuación en esa
+dirección.
 
 ## Líneas, canales y estructura de tendencia
 
@@ -221,105 +229,20 @@ como señal de continuación en esa dirección.
   (habitualmente 23,6%, 38,2%, 50%, 61,8% y 78,6%) entre un máximo y un
   mínimo relevantes, bajo la premisa de que los movimientos de corrección
   dentro de una tendencia tienden a detenerse cerca de esas proporciones
-  antes de retomar la dirección original. Es una de las herramientas más
-  discutidas del análisis técnico en cuanto a su validez predictiva.
-
-## Indicadores técnicos
-
-Los indicadores son cálculos matemáticos aplicados sobre el precio y/o el
-volumen, que se grafican junto al precio (superpuestos) o debajo
-(en un panel aparte, "oscilador"). Se agrupan habitualmente en cuatro
-categorías: tendencia, momentum, volatilidad y volumen.
-
-### Indicadores de tendencia
-
-- **Medias móviles simples (SMA)**: promedio aritmético del precio de
-  cierre en una ventana de N períodos (ej. SMA de 20, 50 o 200 sesiones).
-  Suaviza el ruido de corto plazo para mostrar la dirección de fondo.
-  Cuanto mayor el período, más suave y más rezagada (lagging) es la señal.
-- **Medias móviles exponenciales (EMA)**: similar a la SMA pero da más
-  peso a los precios recientes, por lo que reacciona más rápido a cambios
-  de precio. Preferida en marcos temporales cortos por su menor retraso.
-- **Cruces de medias móviles**: cuando una media corta cruza por encima
-  de una media larga se conoce como "cruce dorado" (golden cross),
-  señal alcista; cuando cruza por debajo, "cruce de la muerte" (death
-  cross), señal bajista. El ejemplo más citado es el cruce entre la media
-  de 50 y la de 200 sesiones diarias, seguido habitualmente en marcos de
-  mediano-largo plazo.
-- **ADX (Average Directional Index)**: mide la *fuerza* de una tendencia
-  (no su dirección) en una escala de 0 a 100. Valores por encima de 25
-  suelen interpretarse como tendencia fuerte (favorable para estrategias
-  de seguimiento de tendencia); valores por debajo de 20, como mercado sin
-  tendencia clara (favorable para estrategias de rango).
-- **Parabolic SAR**: serie de puntos por encima o por debajo del precio
-  que indican la dirección de la tendencia y se usan habitualmente como
-  referencia dinámica para trailing stops (ajustar el stop-loss a medida
-  que la posición gana a favor).
-- **Ichimoku Kinko Hyo**: sistema japonés que combina varias medias y una
-  "nube" (kumo) proyectada hacia adelante para mostrar de un vistazo
-  tendencia, momentum y niveles de soporte/resistencia dinámicos. Más
-  complejo de interpretar que una media móvil simple, pero condensa
-  varias señales en un solo indicador.
-
-### Indicadores de momentum
-
-- **RSI (Relative Strength Index)**: mide la velocidad y magnitud de los
-  cambios de precio recientes en una escala de 0 a 100, calculado a
-  partir de la relación entre subas y bajas promedio en un período
-  (habitualmente 14 sesiones). Valores por encima de 70 suelen
-  interpretarse como sobrecompra (posible corrección a la baja); por
-  debajo de 30, como sobreventa (posible rebote alcista). También se usa
-  para detectar **divergencias**: si el precio marca un máximo más alto
-  pero el RSI marca un máximo más bajo (divergencia bajista), se
-  interpreta como debilitamiento del momentum pese a que el precio sigue
-  subiendo, advertencia de posible reversión.
-- **MACD (Moving Average Convergence Divergence)**: se calcula restando
-  una EMA larga (habitualmente 26 períodos) de una EMA corta
-  (habitualmente 12 períodos), dando la "línea MACD"; sobre esa línea se
-  calcula otra EMA (habitualmente 9 períodos) llamada "línea de señal". Se
-  opera el cruce entre ambas líneas (cruce alcista cuando MACD supera a la
-  señal, bajista cuando cae por debajo) y el histograma (la diferencia
-  entre ambas líneas) para medir la aceleración del momentum.
-- **Estocástico (stochastic oscillator)**: compara el precio de cierre
-  actual con el rango de precios (máximo-mínimo) de un período reciente,
-  también en escala 0-100. Igual que el RSI, se usa para identificar
-  sobrecompra (>80) y sobreventa (<20), y es especialmente sensible en
-  mercados laterales.
-- **Momentum / Rate of Change (ROC)**: mide el porcentaje de cambio del
-  precio actual respecto al precio de N períodos atrás, indicando si la
-  velocidad del movimiento se está acelerando o desacelerando.
-
-### Indicadores de volatilidad
-
-- **Bandas de Bollinger**: una media móvil central (habitualmente SMA de
-  20 períodos) con dos bandas trazadas a una distancia de N desviaciones
-  estándar (habitualmente 2) por encima y por debajo. Las bandas se
-  expanden cuando la volatilidad sube y se contraen cuando baja. Una
-  contracción marcada ("squeeze") suele preceder a un movimiento fuerte
-  de precio (sin indicar de antemano la dirección); el precio tocando la
-  banda superior o inferior no es automáticamente señal de venta o
-  compra, sino que debe leerse junto con la tendencia de fondo.
-- **ATR (Average True Range)**: mide la volatilidad promedio del activo en
-  términos absolutos (no direccionales), útil sobre todo para calibrar el
-  tamaño de los stop-loss de forma proporcional a cuánto se mueve el
-  activo habitualmente, en lugar de usar un porcentaje fijo arbitrario.
-
-### Indicadores de volumen
-
-- **Volumen**: cantidad de unidades (acciones, contratos, criptomonedas)
-  negociadas en un período. Se usa para confirmar la fuerza de un
-  movimiento: una ruptura de resistencia con volumen alto se considera
-  más confiable que una con volumen bajo, porque refleja participación
-  real del mercado y no un movimiento aislado de pocos operadores.
-- **OBV (On-Balance Volume)**: acumula el volumen sumándolo en días
-  alcistas y restándolo en días bajistas, generando una línea que se usa
-  para detectar divergencias entre volumen y precio (ej. precio subiendo
-  con OBV plano o bajando, señal de que la suba no está acompañada por
-  volumen real).
-- **VWAP (Volume Weighted Average Price)**: precio promedio ponderado por
-  volumen a lo largo de la sesión, muy usado en day trading como
-  referencia de "precio justo" intradía: operar por encima del VWAP se
-  interpreta como sesgo comprador, por debajo como sesgo vendedor.
+  antes de retomar la dirección original. Los porcentajes provienen de
+  relaciones matemáticas de la secuencia de Fibonacci (cada número es la
+  suma de los dos anteriores: 0, 1, 1, 2, 3, 5, 8, 13, 21...), donde 61,8%
+  es la razón inversa de la "razón áurea" (≈1,618). Ejemplo de uso: si un
+  activo sube de $100 a $200 y luego empieza a corregir, el retroceso al
+  61,8% ubicaría un posible soporte en $100 + (1 − 0,618) × $100 = $138,2.
+  Es una de las herramientas más discutidas del análisis técnico en
+  cuanto a su validez predictiva, dado que no hay un mecanismo causal
+  claro por el cual el mercado "debería" respetar proporciones
+  matemáticas específicas.
+- **Extensiones de Fibonacci**: variante que proyecta niveles más allá del
+  100% del movimiento original (habitualmente 127,2%, 161,8%), usada para
+  estimar objetivos de precio en la continuación de una tendencia, no solo
+  en su corrección.
 
 ## Patrones gráficos (chart patterns)
 
@@ -332,11 +255,14 @@ Se dividen habitualmente en patrones de reversión y de continuación.
 - **Cabeza y hombros (head and shoulders)**: en tendencia alcista, tres
   máximos consecutivos donde el central (cabeza) es más alto que los
   laterales (hombros), que son de altura similar entre sí. La línea que
-  conecta los dos mínimos entre picos se llama "línea clavicular" (neckline);
-  la ruptura confirmada de esa línea hacia abajo se interpreta como
-  confirmación del patrón y señal de reversión bajista. La proyección de
-  precio objetivo habitual es la distancia entre la cabeza y la línea
-  clavicular, proyectada hacia abajo desde el punto de ruptura.
+  conecta los dos mínimos entre picos se llama "línea clavicular"
+  (neckline); la ruptura confirmada de esa línea hacia abajo se interpreta
+  como confirmación del patrón y señal de reversión bajista. La proyección
+  de precio objetivo habitual es la distancia entre la cabeza y la línea
+  clavicular, proyectada hacia abajo desde el punto de ruptura. Ejemplo:
+  si la cabeza está en $150 y la línea clavicular en $120 (distancia de
+  $30), y el precio rompe la clavicular en $118, el objetivo proyectado
+  sería $118 − $30 = $88.
 - **Cabeza y hombros invertido**: versión especular en tendencia bajista,
   señal de reversión alcista.
 - **Doble techo (double top)**: dos máximos similares consecutivos con un
@@ -375,54 +301,17 @@ Se dividen habitualmente en patrones de reversión y de continuación.
 - **Cuña (wedge)**: similar al triángulo pero con ambas líneas (soporte y
   resistencia) inclinadas en la misma dirección. Una cuña ascendente
   dentro de una tendencia alcista se interpreta habitualmente como señal
-  de agotamiento (sesgo bajista pese a la pendiente alcista de las líneas);
-  una cuña descendente en tendencia bajista se interpreta de forma
-  análoga como posible señal alcista.
+  de agotamiento (sesgo bajista pese a la pendiente alcista de las
+  líneas); una cuña descendente en tendencia bajista se interpreta de
+  forma análoga como posible señal alcista.
 
 Para todos estos patrones, la literatura de análisis técnico (Bulkowski,
 2005) advierte que su tasa de éxito histórica varía significativamente
 según el activo, el marco temporal y la confirmación con volumen, y que
-ninguno funciona de forma consistente el 100% de las veces.
-
-## Pros y contras del análisis técnico
-
-- **Pros**: aplicable a cualquier activo líquido con historial de precios
-  (acciones, [crypto](../crypto/bitcoin-ethereum.md), forex, índices);
-  no requiere acceso a información financiera detallada del emisor;
-  permite definir puntos de entrada, salida y stop-loss de forma
-  objetiva y sistemática; es fácilmente automatizable (ver
-  [trading algorítmico](estrategias-trading.md#trading-algorítmico));
-  funciona igual de bien en cualquier mercado y marco temporal, lo que
-  permite aplicar el mismo marco de análisis a activos muy distintos.
-- **Contras**: es interpretativo, distintos analistas pueden leer el
-  mismo gráfico de forma distinta y llegar a conclusiones opuestas;
-  muchos patrones son efecto de sesgo de confirmación (se "ven" patrones
-  donde en realidad hay ruido aleatorio, un fenómeno conocido como
-  pareidolia aplicada a gráficos de precios); la evidencia académica
-  sobre la efectividad predictiva del análisis técnico puro es mixta y no
-  concluyente, y contrasta con la hipótesis del mercado eficiente, que
-  sostiene que los precios ya reflejan toda la información pública
-  disponible y por lo tanto los patrones pasados no deberían predecir
-  movimientos futuros; ignora información fundamental que puede mover el
-  precio de forma abrupta e imprevisible (resultados corporativos,
-  noticias regulatorias, eventos macroeconómicos); un mismo indicador
-  puede dar señales contradictorias según el período elegido (fenómeno
-  conocido como "curve fitting" cuando se optimiza en exceso sobre datos
-  históricos).
-
-## Relación con la gestión de riesgo
-
-El análisis técnico define puntos de entrada y salida, pero no reemplaza
-una gestión de riesgo adecuada: tamaño de posición, stop-loss y relación
-riesgo-retorno definida de antemano siguen siendo necesarios (ver
-[relación riesgo-retorno](riesgo-retorno.md) y los "elementos comunes a
-toda estrategia" en
-[estrategias de trading](estrategias-trading.md#elementos-comunes-a-toda-estrategia-de-trading)).
-En la práctica, muchos traders ubican el stop-loss en un nivel técnico
-relevante (por debajo de un soporte, por encima de una resistencia, o a
-una distancia calculada con el ATR) en lugar de un porcentaje fijo
-arbitrario, de modo que la salida esté justificada por la propia
-estructura del gráfico.
+ninguno funciona de forma consistente el 100% de las veces. Ver
+[fundamentos del análisis técnico](analisis-tecnico-fundamentos.md#curve-fitting-sobreoptimización)
+para las limitaciones de fiabilidad de estos patrones cuando no se validan
+con backtesting riguroso.
 
 ## Fuentes
 
@@ -434,9 +323,4 @@ Conceptos estándar de análisis técnico. No requiere cita de datos vigentes.
   Referencia estándar de patrones de velas japonesas.
 - Bulkowski, Thomas N. *Encyclopedia of Chart Patterns* (2005). Estudio
   estadístico de fiabilidad de patrones gráficos.
-- Wilder, J. Welles. *New Concepts in Technical Trading Systems* (1978).
-  Origen del RSI, ADX, Parabolic SAR y ATR.
-- Malkiel, Burton G. *A Random Walk Down Wall Street* (1973 y ediciones
-  posteriores). Exposición clásica de la hipótesis del mercado eficiente
-  y su crítica al análisis técnico.
 - [Investopedia — Technical Analysis](https://www.investopedia.com/terms/t/technicalanalysis.asp)

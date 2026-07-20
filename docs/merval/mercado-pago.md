@@ -1,8 +1,8 @@
 ---
 title: "Mercado Pago en Argentina: catálogo de productos"
 tema: merval
-tags: [mercado-pago, billeteras-virtuales, fintech, mercado-argentino]
-nivel: basico
+tags: [mercado-pago, billeteras-virtuales, fintech, mercado-argentino, comparativa]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -55,6 +55,20 @@ X, etc.) ver `brokers-argentina.md`.
 - **Mercado Pago Seguros**: seguros contratables desde la app (celular,
   hogar, accidentes personales, entre otros), generalmente con aseguradoras
   asociadas.
+
+## Comparación de costos con competidores directos
+
+| Producto | Mercado Pago | Competidor directo | Comparación |
+|---|---|---|---|
+| Rendimiento del saldo (money market) | Mercado Fondo, ~27-28% TNA (jul-2026) | Ualá Fondos, ~26-27% TNA | Prácticamente equivalentes; ver comparación detallada en [FCI money market](fci-money-market.md#comparación-de-billeteras-virtuales-mercado-pago-vs-ualá-vs-otras) |
+| Cobro con QR/link de pago | Comisión estándar de la industria, variable según rubro | Otras billeteras (Ualá, Naranja X) suelen cobrar comisiones similares | Mercado Pago tiene mayor red de aceptación, lo que puede compensar una comisión igual o algo mayor |
+| Transferencias entre cuentas propias | Sin costo (CVU/CBU/alias, incluido DEBIN) | Estándar de la industria desde la regulación de transferencias inmediatas del BCRA | Sin diferencial relevante entre billeteras principales |
+| Tarjeta de crédito propia | Mercado Pago (condiciones según scoring interno) | Ualá (fuerte histórico en tarjeta prepaga/crédito para inclusión financiera) | Ualá suele tener aprobación más accesible para usuarios sin historial crediticio extenso |
+
+La comparación de costos específicos (comisiones de cobro por rubro,
+tasas de financiación en cuotas) cambia con frecuencia y depende del tipo
+de cuenta (persona física vs. comercio); verificar la sección de
+aranceles vigente de cada plataforma antes de decidir.
 
 ## Otros
 

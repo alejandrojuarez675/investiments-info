@@ -1,8 +1,8 @@
 ---
 title: "Bonos argentinos"
 tema: merval
-tags: [bonos, renta-fija, mercado-argentino, riesgo-pais]
-nivel: intermedio
+tags: [bonos, renta-fija, mercado-argentino, riesgo-pais, tir, paridad]
+nivel: avanzado
 ultima_revision: 2026-07-20
 ---
 
@@ -71,6 +71,62 @@ renovar vencimientos (ver argentina.gob.ar/noticias, búsqueda "licitación").
 - Cobertura devaluación → Dólar Linked
 - Tasa fija en pesos → LECAP/BONCAP
 - Exposición a riesgo soberano en dólares → AL30/GD30 y resto de la curva
+
+## TIR y paridad: cómo se calculan
+
+### Paridad
+
+La **paridad** de un bono es la relación entre su precio de mercado y su
+valor técnico (valor residual más intereses corridos):
+
+```
+Paridad = (Precio de mercado / Valor técnico) × 100
+```
+
+Un bono con paridad del 60% cotiza a 60% de su valor técnico: si el valor
+técnico es $100, el bono cotiza a $60 en el mercado. Una paridad baja
+suele reflejar alta percepción de riesgo de default o de reestructuración
+futura; los bonos argentinos en dólares surgidos de la reestructuración de
+2020 cotizaron con paridades históricamente bajas (bien por debajo del
+100%) en varios períodos, reflejando la desconfianza del mercado sobre el
+repago en tiempo y forma.
+
+### TIR (Tasa Interna de Retorno) simplificada
+
+La TIR es la tasa que iguala el valor presente de todos los flujos futuros
+del bono (cupones + amortización de capital) con su precio de mercado
+actual. De forma simplificada, para un bono simple con un solo pago final:
+
+```
+Precio = Valor futuro / (1 + TIR)^n
+```
+
+despejando: `TIR = (Valor futuro / Precio)^(1/n) − 1`
+
+**Ejemplo numérico**: un bono que paga $100 al vencimiento en 4 años,
+cotizando hoy a $70:
+
+```
+TIR = (100 / 70)^(1/4) − 1 ≈ 0,0928 → TIR ≈ 9,3% anual
+```
+
+Cuanto menor el precio de mercado respecto al valor futuro a cobrar, mayor
+la TIR implícita — lo cual explica por qué los bonos argentinos, al
+cotizar con paridades bajas, suelen mostrar TIRs de dos dígitos: el
+mercado exige un retorno alto como compensación por el riesgo de
+default percibido. En la práctica, los bonos reales pagan cupones
+periódicos además de la amortización final, por lo que el cálculo real de
+TIR es iterativo (se resuelve numéricamente, no con una fórmula cerrada
+simple como en este ejemplo simplificado de un solo pago).
+
+## Cómo comprar dólar MEP con AL30: mecánica operativa
+
+Ver el paso a paso completo en
+[Dólar en Argentina: cómo comprar dólar MEP](dolar-argentina.md#cómo-comprar-dólar-mep-paso-a-paso).
+En resumen: se compra AL30 en su especie en pesos, se espera el plazo de
+liquidación (parking), y se vende la misma tenencia en su especie en
+dólares (AL30D), quedando los dólares acreditados en la cuenta comitente
+sin haber girado el capital fuera del sistema financiero local.
 
 ## Riesgo país
 

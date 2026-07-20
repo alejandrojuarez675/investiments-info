@@ -2,7 +2,7 @@
 title: "Glosario de términos"
 tema: glosario
 tags: [terminologia, lookup]
-nivel: basico
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -51,6 +51,46 @@ correspondiente donde se desarrolla en profundidad, si existe.
 - **Renta fija / renta variable**: categorías generales de activos
   (bonos vs. acciones). Ver
   [Tipos de activos financieros](../conceptos-generales/tipos-de-activos.md).
+- **TIR (Tasa Interna de Retorno)**: tasa que iguala el valor presente de
+  los flujos futuros de un bono con su precio de mercado actual. Ver
+  [Bonos argentinos](../merval/bonos-argentinos.md#tir-y-paridad-cómo-se-calculan).
+- **Paridad**: relación entre el precio de mercado de un bono y su valor
+  técnico, expresada en porcentaje. Ver
+  [Bonos argentinos](../merval/bonos-argentinos.md#tir-y-paridad-cómo-se-calculan).
+- **TNA (Tasa Nominal Anual) / TEA (Tasa Efectiva Anual)**: la TNA es la
+  tasa "de lista" sin considerar frecuencia de capitalización; la TEA es
+  el rendimiento real considerando esa capitalización. Ver
+  [Interés compuesto](../conceptos-generales/interes-compuesto.md#tna-vs-tea-por-qué-importa-la-frecuencia-de-capitalización).
+- **Sharpe ratio**: mide el retorno obtenido por unidad de riesgo asumido.
+  Ver [Relación riesgo-retorno](../conceptos-generales/riesgo-retorno.md#sharpe-ratio-cómo-se-calcula).
+- **Beta**: mide cuánto se mueve un activo en relación al mercado. Ver
+  [Relación riesgo-retorno](../conceptos-generales/riesgo-retorno.md#beta-sensibilidad-respecto-al-mercado).
+- **CAPM (Capital Asset Pricing Model)**: modelo que estima el retorno
+  esperado de un activo a partir de su beta. Ver
+  [Relación riesgo-retorno](../conceptos-generales/riesgo-retorno.md#capm-retorno-esperado-a-partir-del-riesgo-sistemático).
+- **P/E, P/B, PEG, dividend yield**: ratios usados para evaluar la
+  valuación de una acción. Ver
+  [Estrategias de inversión de largo plazo](../conceptos-generales/estrategias-inversion-largo-plazo.md).
+- **Halving**: reducción a la mitad de la recompensa de minería de Bitcoin
+  cada ~4 años. Ver
+  [Bitcoin y Ethereum](../crypto/bitcoin-ethereum.md#halving-de-bitcoin-mecánica-y-ejemplo-numérico).
+- **Gas fee**: costo de una transacción en Ethereum, medido en gwei. Ver
+  [Bitcoin y Ethereum](../crypto/bitcoin-ethereum.md#gas-fees-en-ethereum-cómo-funcionan).
+- **Análisis técnico**: estudio del precio y volumen histórico para
+  anticipar movimientos futuros. Ver
+  [Análisis técnico: fundamentos](../conceptos-generales/analisis-tecnico-fundamentos.md).
+- **RSI, MACD, Bandas de Bollinger, ATR**: indicadores técnicos de
+  momentum y volatilidad. Ver
+  [Indicadores técnicos](../conceptos-generales/analisis-tecnico-indicadores.md).
+- **Soporte / resistencia**: niveles de precio donde históricamente la
+  demanda u oferta frenaron un movimiento. Ver
+  [Gráficos y patrones](../conceptos-generales/analisis-tecnico-graficos-patrones.md#soportes-y-resistencias).
+- **Dólar MEP / CCL**: mecanismos bursátiles para convertir pesos a
+  dólares operando activos que cotizan en ambos mercados simultáneamente.
+  Ver [Dólar en Argentina](../merval/dolar-argentina.md).
+- **Position sizing**: cálculo del tamaño de una posición en base al
+  capital arriesgado, no al capital total disponible. Ver
+  [Estrategias de trading](../conceptos-generales/estrategias-trading.md#gestión-de-riesgo-y-position-sizing).
 
 ## Fuentes
 

@@ -1,8 +1,8 @@
 ---
 title: "Tipos de activos financieros"
 tema: conceptos-generales
-tags: [acciones, bonos, etf, activos]
-nivel: basico
+tags: [acciones, bonos, etf, activos, liquidez, fiscalidad]
+nivel: intermedio
 ultima_revision: 2026-07-20
 ---
 
@@ -66,7 +66,36 @@ Inversión directa en inmuebles o indirecta a través de fondos (REITs).
 Baja liquidez comparado con acciones/bonos, pero puede actuar como
 cobertura parcial contra inflación.
 
+## Tabla comparativa: riesgo, liquidez y fiscalidad general
+
+Comparación orientativa (no exhaustiva ni válida para todas las
+jurisdicciones); en Argentina, el tratamiento fiscal específico de cada
+instrumento cambia con frecuencia, por lo que conviene verificar la
+normativa vigente antes de operar (ver
+[Bonos argentinos](../merval/bonos-argentinos.md) y
+[CEDEARs](../merval/cedears.md) para notas fiscales puntuales de cada
+instrumento):
+
+| Clase de activo | Riesgo relativo | Liquidez típica | Consideración fiscal general |
+|---|---|---|---|
+| Efectivo / plazo fijo | Bajo (nominal), alto en términos reales si hay inflación | Alta a media (según plazo) | Intereses de plazo fijo en pesos históricamente exentos de Ganancias para personas físicas en Argentina (verificar vigencia) |
+| Bonos soberanos/corporativos | Medio a alto (según emisor) | Media a alta (según especie) | Renta (interés/cupón) y resultado por venta con tratamiento específico según ley de emisión |
+| Acciones / ETFs | Medio a alto | Alta (activos líquidos) | Dividendos y ganancias de capital sujetos a impuesto a las Ganancias según normativa vigente |
+| CEDEARs | Medio a alto (doble exposición) | Media a alta (según especie) | Sujetos además a Bienes Personales por el valor en dólares del subyacente |
+| Criptoactivos | Alto | Alta (en exchanges líquidos) a baja (activos de nicho) | Tratamiento fiscal específico y cambiante; verificar normativa AFIP/ARCA vigente |
+| Real estate | Bajo a medio | Baja | Impuestos patrimoniales (Bienes Personales, ingresos brutos) e impuesto a la renta por alquileres |
+
+La liquidez y el riesgo dentro de cada categoría pueden variar mucho según
+el instrumento específico (ej. un bono soberano líquido de EE.UU. vs. uno
+de un país en default; una acción de alta capitalización vs. una de baja
+capitalización y poco volumen), por lo que esta tabla es solo un punto de
+partida comparativo entre categorías, no una regla absoluta dentro de cada
+una.
+
 ## Fuentes
 
 Clasificación estándar de clases de activo usada en finanzas personales y
-gestión de portafolios. No requiere cita de datos vigentes.
+gestión de portafolios. No requiere cita de datos vigentes para las
+categorías; el tratamiento fiscal mencionado es orientativo y debe
+verificarse contra normativa vigente (AFIP/ARCA en Argentina) antes de
+tomar decisiones, ya que cambia con frecuencia.

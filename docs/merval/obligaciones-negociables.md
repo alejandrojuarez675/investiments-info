@@ -1,7 +1,7 @@
 ---
 title: "Obligaciones Negociables (ONs) argentinas"
 tema: merval
-tags: [ons, renta-fija, deuda-corporativa, mercado-argentino]
+tags: [ons, renta-fija, deuda-corporativa, mercado-argentino, spread]
 nivel: intermedio
 ultima_revision: 2026-07-20
 ---
@@ -48,6 +48,46 @@ equivalente local a los "corporate bonds".
 - **Variedad de sectores**: energía (YPF, Pampa Energía, Transportadora
   de Gas del Sur), telecomunicaciones (Telecom), agroindustria, entre
   otros — cada sector responde a factores distintos.
+
+## Spread de rendimiento: ON vs. bono soberano
+
+El **spread** de una ON frente a un bono soberano de similar plazo es la
+diferencia de TIR entre ambos, y refleja el riesgo de crédito adicional
+percibido en la empresa por sobre el riesgo soberano:
+
+```
+Spread = TIR de la ON − TIR del bono soberano de plazo comparable
+```
+
+**Ejemplo numérico ilustrativo**: si un bono soberano en dólares a 5 años
+(ver [TIR de bonos argentinos](bonos-argentinos.md#tir-y-paridad-cómo-se-calculan))
+rinde 10% anual, y una ON de una empresa exportadora sólida a plazo
+similar rinde 8,5%, el spread es de −1,5 puntos porcentuales: la ON rinde
+*menos* que el soberano, lo cual ocurre cuando el mercado percibe a esa
+empresa específica como de menor riesgo de default que el propio Estado
+argentino (un escenario no infrecuente dado el historial de
+reestructuraciones soberanas descripto en
+[bonos argentinos](bonos-argentinos.md)). En otros casos, una ON de una
+empresa más chica o con ingresos solo en pesos puede rendir varios puntos
+por *encima* del soberano, reflejando mayor riesgo de crédito específico
+o menor liquidez.
+
+## Emisores frecuentes por sector (referencia orientativa)
+
+Lista ilustrativa de sectores y emisores frecuentemente presentes en el
+mercado de ONs argentino, sin implicar recomendación de inversión:
+
+| Sector | Emisores frecuentes | Característica típica |
+|---|---|---|
+| Energía (Oil & Gas) | YPF, Pampa Energía, Pan American Energy | Ingresos en dólares por exportación, menor riesgo cambiario relativo |
+| Transporte de gas | Transportadora de Gas del Sur (TGS), Transportadora de Gas del Norte (TGN) | Tarifas reguladas, ingresos parcialmente dolarizados |
+| Telecomunicaciones | Telecom Argentina | Ingresos mayormente en pesos |
+| Agroindustria | Cresud, Arcor | Exposición a precios internacionales de commodities |
+| Financiero | Bancos privados (Galicia, Macro, entre otros) | Sujetos a regulación específica del BCRA |
+
+La disponibilidad y liquidez de emisiones específicas cambia con
+frecuencia (nuevas emisiones, vencimientos, recompras); verificar
+disponibilidad vigente en el bróker utilizado o en Byma.
 
 ## Riesgos y consideraciones
 
