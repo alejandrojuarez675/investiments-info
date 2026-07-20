@@ -16,47 +16,10 @@
         "confidence": "INFERRED",
         "confidence_score": 0.9,
         "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
-      },
-      {
-        "id": "crypto_custodia_seguridad",
-        "label": "Flujo de custodia y seguridad cripto",
-        "nodes": [
-          "docs_crypto_bitcoin_ethereum",
-          "docs_crypto_exchanges_custodia",
-          "concept_cold_wallet",
-          "concept_hot_wallet",
-          "concept_cex"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "docs/crypto/exchanges-custodia.md"
       }
     ]
   },
   "nodes": [
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude",
-      "community": 18,
-      "community_name": "CLAUDE.md",
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_graphify",
-      "community": 18,
-      "community_name": "CLAUDE.md",
-      "norm_label": "graphify"
-    },
     {
       "label": "README.md",
       "file_type": "document",
@@ -3303,6 +3266,28 @@
       "norm_label": "fuentes"
     },
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "claude.md",
+      "id": "claude"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "CLAUDE.md",
+      "norm_label": "graphify",
+      "id": "claude_graphify"
+    },
+    {
       "label": "CLAUDE.md \u2014 Project Instructions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -3315,159 +3300,9 @@
       "norm_label": "claude.md \u2014 project instructions",
       "community_name": "S&P 500 y Proyecto",
       "id": "claude_md"
-    },
-    {
-      "label": "Blockchain",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 0,
-      "norm_label": "blockchain",
-      "community_name": "Bitcoin y Ethereum",
-      "id": "concept_blockchain"
-    },
-    {
-      "label": "Proof of Work",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 23,
-      "norm_label": "proof of work",
-      "community_name": "Proof of Work",
-      "id": "concept_proof_of_work"
-    },
-    {
-      "label": "Proof of Stake",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 22,
-      "norm_label": "proof of stake",
-      "community_name": "Proof of Stake",
-      "id": "concept_proof_of_stake"
-    },
-    {
-      "label": "Exchange centralizado (CEX)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "exchange centralizado (cex)",
-      "community_name": "Exchanges y Custodia Cripto",
-      "id": "concept_cex"
-    },
-    {
-      "label": "Self-custody (wallet propia)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 25,
-      "norm_label": "self-custody (wallet propia)",
-      "community_name": "Self-custody (wallet propia)",
-      "id": "concept_self_custody"
-    },
-    {
-      "label": "Cold wallet (hardware wallet)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 19,
-      "norm_label": "cold wallet (hardware wallet)",
-      "community_name": "Cold wallet (hardware wallet)",
-      "id": "concept_cold_wallet"
-    },
-    {
-      "label": "Hot wallet",
-      "file_type": "concept",
-      "source_file": "docs/crypto/exchanges-custodia.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 21,
-      "norm_label": "hot wallet",
-      "community_name": "Hot wallet",
-      "id": "concept_hot_wallet"
-    },
-    {
-      "label": "\u00cdndice S&P 500",
-      "file_type": "concept",
-      "source_file": "docs/sp500/que-es-sp500.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 27,
-      "norm_label": "indice s&p 500",
-      "community_name": "\u00cdndice S&P 500",
-      "id": "concept_sp500"
-    },
-    {
-      "label": "Contratos inteligentes (smart contracts)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 26,
-      "norm_label": "contratos inteligentes (smart contracts)",
-      "community_name": "Contratos inteligentes (smart contracts)",
-      "id": "concept_smart_contracts"
-    },
-    {
-      "label": "Finanzas descentralizadas (DeFi)",
-      "file_type": "concept",
-      "source_file": "docs/crypto/bitcoin-ethereum.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 20,
-      "norm_label": "finanzas descentralizadas (defi)",
-      "community_name": "Finanzas descentralizadas (DeFi)",
-      "id": "concept_defi"
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "claude",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
-    },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -7187,6 +7022,16 @@
       "source": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500",
       "target": "docs_sp500_que_es_sp500_riesgos_y_consideraciones",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "claude_graphify"
     }
   ],
   "hyperedges": [
@@ -7203,22 +7048,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.9,
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
-    },
-    {
-      "id": "crypto_custodia_seguridad",
-      "label": "Flujo de custodia y seguridad cripto",
-      "nodes": [
-        "docs_crypto_bitcoin_ethereum",
-        "docs_crypto_exchanges_custodia",
-        "concept_cold_wallet",
-        "concept_hot_wallet",
-        "concept_cex"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "docs/crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "c46fc8867587ad1502d8e2e0d70d0922050b6d97"
+  "built_at_commit": "b2f9a48f3ebe491d0c09a10af80ad93bc9bfb426"
 }
