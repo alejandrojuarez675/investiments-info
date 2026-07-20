@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-20)
 
 ## Corpus Check
-- 23 files · ~11,432 words
+- 23 files · ~11,952 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 167 nodes · 158 edges · 30 communities (17 shown, 13 thin omitted)
+- 168 nodes · 159 edges · 30 communities (17 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8b338007`
+- Built from commit: `77e65a8d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -53,10 +53,10 @@
 4. `Tipos de activos financieros` - 9 edges
 5. `Bitcoin y Ethereum: conceptos básicos` - 7 edges
 6. `ETFs que replican el S&P 500 y el Nasdaq-100` - 7 edges
-7. `Dollar-Cost Averaging (DCA)` - 6 edges
-8. `Interés compuesto` - 6 edges
-9. `Bonos argentinos` - 6 edges
-10. `Brokers en Argentina: comparación y FCI money market` - 6 edges
+7. `Brokers en Argentina: comparación y FCI money market` - 6 edges
+8. `Dollar-Cost Averaging (DCA)` - 6 edges
+9. `Interés compuesto` - 6 edges
+10. `Bonos argentinos` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -69,7 +69,7 @@
 
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.33
-Nodes (6): Características principales, Cómo invertir, Fuentes, Merval en pesos vs. Merval en dólares ("Merval en CCL"), Qué es el Merval, Riesgos particulares del mercado argentino
+Nodes (6): Fuentes, Fórmula básica, Interés compuesto, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.22
@@ -81,7 +81,7 @@ Nodes (6): Aplicación práctica, Cómo funciona, Dollar-Cost Averaging (DCA), F
 
 ### Community 6 - "Interés compuesto"
 Cohesion: 0.12
-Nodes (11): Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Fuentes, Fórmula básica, Interés compuesto (+3 more)
+Nodes (11): Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Características principales, Cómo invertir, Fuentes (+3 more)
 
 ### Community 8 - "ETFs que replican el S&P 500"
 Cohesion: 0.29
@@ -100,8 +100,8 @@ Cohesion: 0.18
 Nodes (10): Breakout trading (ruptura de rangos), Day trading (trading intradía), Elementos comunes a toda estrategia de trading, Estrategias de trading de corto plazo, Fuentes, Limitaciones generales del trading de corto plazo, Scalping, Swing trading (+2 more)
 
 ### Community 13 - "Brokers en Argentina: comparación y FCI money market"
-Cohesion: 0.20
-Nodes (9): Brokers en Argentina: comparación y FCI money market, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, FCI money market, Fuentes, Los brokers más usados, Los más usados: gestoras y billeteras virtuales, Money market vs. otras estrategias de FCI (+1 more)
+Cohesion: 0.18
+Nodes (10): Brokers en Argentina: comparación y FCI money market, Comparación de billeteras virtuales: Mercado Pago vs. Ualá vs. otras, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, FCI money market, Fuentes, Los brokers más usados, Los más usados: gestoras y billeteras virtuales (+2 more)
 
 ### Community 14 - "Bonos argentinos"
 Cohesion: 0.25
@@ -136,7 +136,7 @@ Cohesion: 0.12
 Nodes (15): Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, dólar linked), CEDEARs, Crypto (Bitcoin, Ethereum, exchanges), Dólar (oficial, MEP, CCL, blue, ahorro), ETFs de EE.UU. (SPY, VOO, IVV, QQQ) y S&P 500, Fuentes de datos de precios y tasas en vivo, MCPs (Model Context Protocol) relevantes, Merval (índice) (+7 more)
 
 ## Knowledge Gaps
-- **123 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, dólar linked)`, `ONs (Obligaciones Negociables)` (+118 more)
+- **124 isolated node(s):** `Los brokers más usados`, `Comparación de costos y productos (aproximado, verificar vigencia)`, `Criterio para elegir o migrar de bróker`, `Los más usados: gestoras y billeteras virtuales`, `Por bróker` (+119 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -144,13 +144,13 @@ Nodes (15): Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, dólar linked)
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Interés compuesto`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+  _High betweenness centrality (0.066) - this node is a cross-community bridge._
 - **Why does `Tipos de activos financieros` connect `Diversificación de Portafolio` to `Activos y Glosario`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+  _High betweenness centrality (0.059) - this node is a cross-community bridge._
 - **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
   _High betweenness centrality (0.052) - this node is a cross-community bridge._
-- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _123 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Los brokers más usados`, `Comparación de costos y productos (aproximado, verificar vigencia)`, `Criterio para elegir o migrar de bróker` to the rest of the system?**
+  _124 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Fuentes de datos de precios y tasas en vivo` be split into smaller, more focused modules?**
