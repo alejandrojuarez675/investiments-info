@@ -33,17 +33,18 @@ Reglas de contenido:
 
 ## Estructura
 
-- [`conceptos-generales/`](conceptos-generales/) — diversificación, interés
-  compuesto, riesgo/retorno, tipos de activos, horizonte de inversión.
-- [`sp500/`](sp500/) — índice S&P 500, ETFs (VOO, SPY, IVV), historia,
-  composición.
-- [`merval/`](merval/) — índice Merval, CEDEARs, bonos argentinos,
+Todo el contenido vive bajo [`docs/`](docs/):
+
+- [`docs/conceptos-generales/`](docs/conceptos-generales/) — diversificación,
+  interés compuesto, riesgo/retorno, tipos de activos, horizonte de inversión.
+- [`docs/sp500/`](docs/sp500/) — índice S&P 500, ETFs (VOO, SPY, IVV),
+  historia, composición.
+- [`docs/merval/`](docs/merval/) — índice Merval, CEDEARs, bonos argentinos,
   particularidades del mercado local.
-- [`crypto/`](crypto/) — Bitcoin, Ethereum, blockchain, exchanges, custodia.
-- [`glosario/`](glosario/) — términos cortos, uno por archivo o agrupados
-  por inicial, pensados para lookup rápido.
-- [`docs/`](docs/) — notas internas sobre el propio repo (no contenido de
-  inversión).
+- [`docs/crypto/`](docs/crypto/) — Bitcoin, Ethereum, blockchain, exchanges,
+  custodia.
+- [`docs/glosario/`](docs/glosario/) — términos cortos, uno por archivo o
+  agrupados por inicial, pensados para lookup rápido.
 
 ## Para asistentes de IA
 
