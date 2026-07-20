@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-20)
 
 ## Corpus Check
-- 26 files · ~14,167 words
+- 26 files · ~16,813 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 203 nodes · 201 edges · 32 communities (19 shown, 13 thin omitted)
+- 216 nodes · 248 edges · 35 communities (22 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8c72a19b`
+- Built from commit: `696dc06c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -47,18 +47,21 @@
 - Trading con gráficos: análisis técnico
 - Diversificación
 - Fuentes de datos de precios y tasas en vivo
+- Qué es el Merval
+- Diversificación
+- investiments-info
 
 ## God Nodes (most connected - your core abstractions)
 1. `Fuentes de datos de precios y tasas en vivo` - 11 edges
-2. `Trading con gráficos: análisis técnico` - 10 edges
-3. `Estrategias de inversión de largo plazo` - 10 edges
-4. `Estrategias de trading de corto plazo` - 10 edges
+2. `Estrategias de inversión de largo plazo` - 10 edges
+3. `Estrategias de trading de corto plazo` - 10 edges
+4. `Trading con gráficos: análisis técnico` - 10 edges
 5. `Tipos de activos financieros` - 9 edges
 6. `Mercado Pago en Argentina: catálogo de productos` - 8 edges
 7. `Bitcoin y Ethereum: conceptos básicos` - 7 edges
 8. `ETFs que replican el S&P 500 y el Nasdaq-100` - 7 edges
-9. `Tipos de inversores: perfiles, pros y contras` - 6 edges
-10. `Dollar-Cost Averaging (DCA)` - 6 edges
+9. `Dollar-Cost Averaging (DCA)` - 6 edges
+10. `Interés compuesto` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -67,11 +70,11 @@
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 - **Flujo de custodia y seguridad cripto** — docs_crypto_bitcoin_ethereum, docs_crypto_exchanges_custodia, concept_cold_wallet, concept_hot_wallet, concept_cex [EXTRACTED 0.95]
 
-## Communities (32 total, 13 thin omitted)
+## Communities (35 total, 13 thin omitted)
 
 ### Community 1 - "CEDEARs y Merval"
-Cohesion: 0.09
-Nodes (17): Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Fuentes, Fórmula básica, Interés compuesto (+9 more)
+Cohesion: 0.33
+Nodes (6): Fuentes, Fórmula básica, Interés compuesto, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.22
@@ -94,7 +97,7 @@ Cohesion: 0.22
 Nodes (8): Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión, Seguros
 
 ### Community 10 - "Relación riesgo-retorno"
-Cohesion: 0.33
+Cohesion: 0.40
 Nodes (5): Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad"
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
@@ -102,11 +105,11 @@ Cohesion: 0.40
 Nodes (5): CEDEARs (Certificados de Depósito Argentinos), Cómo funcionan, Fuentes, Por qué se usan, Riesgos y particularidades
 
 ### Community 12 - "Estrategias de trading de corto plazo"
-Cohesion: 0.18
+Cohesion: 0.20
 Nodes (10): Breakout trading (ruptura de rangos), Day trading (trading intradía), Elementos comunes a toda estrategia de trading, Estrategias de trading de corto plazo, Fuentes, Limitaciones generales del trading de corto plazo, Scalping, Swing trading (+2 more)
 
 ### Community 13 - "Brokers en Argentina: comparación y FCI money market"
-Cohesion: 0.18
+Cohesion: 0.20
 Nodes (10): Brokers en Argentina: comparación y FCI money market, Comparación de billeteras virtuales: Mercado Pago vs. Ualá vs. otras, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, FCI money market, Fuentes, Los brokers más usados, Los más usados: gestoras y billeteras virtuales (+2 more)
 
 ### Community 14 - "Bonos argentinos"
@@ -130,12 +133,12 @@ Cohesion: 0.33
 Nodes (6): Cómo funcionan, Fuentes, Obligaciones Negociables (ONs) argentinas, Riesgo crediticio: distinto al riesgo soberano, Riesgos y consideraciones, Ventajas frente a otros instrumentos de renta fija
 
 ### Community 28 - "Plazo fijo y dólar: las inversiones más populares en Argentina"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Dólar: los distintos "dólares" en Argentina, Fuentes, MEP vs. CCL: diferencia clave, Plazo fijo tradicional, Plazo fijo UVA, Plazo fijo vs. dólar: cómo se comparan, Plazo fijo y dólar: las inversiones más populares en Argentina
 
 ### Community 29 - "Trading con gráficos: análisis técnico"
-Cohesion: 0.12
-Nodes (14): Fuentes, Indicadores técnicos habituales, Líneas y canales de tendencia, Patrones de velas, Patrones gráficos (chart patterns), Pros y contras del análisis técnico, Relación con la gestión de riesgo, Soportes y resistencias (+6 more)
+Cohesion: 0.09
+Nodes (23): Fuentes, Gráfico de barras (OHLC), Gráfico de líneas, Gráfico de velas japonesas (candlestick), Indicadores de momentum, Indicadores de tendencia, Indicadores de volatilidad, Indicadores de volumen (+15 more)
 
 ### Community 30 - "Diversificación"
 Cohesion: 0.33
@@ -145,23 +148,35 @@ Nodes (6): Características principales, Cómo invertir en el índice, Fuentes, 
 Cohesion: 0.18
 Nodes (11): Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, dólar linked), CEDEARs, Crypto (Bitcoin, Ethereum, exchanges), Dólar (oficial, MEP, CCL, blue, ahorro), ETFs de EE.UU. (SPY, VOO, IVV, QQQ) y S&P 500, Fuentes de datos de precios y tasas en vivo, MCPs (Model Context Protocol) relevantes, Merval (índice) (+3 more)
 
+### Community 32 - "Qué es el Merval"
+Cohesion: 0.33
+Nodes (6): Características principales, Cómo invertir, Fuentes, Merval en pesos vs. Merval en dólares ("Merval en CCL"), Qué es el Merval, Riesgos particulares del mercado argentino
+
+### Community 33 - "Diversificación"
+Cohesion: 0.40
+Nodes (5): Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación
+
+### Community 34 - "investiments-info"
+Cohesion: 0.50
+Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
+
 ## Knowledge Gaps
-- **150 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Conservador`, `Moderado` (+145 more)
+- **159 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Idea central` (+154 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Trading con gráficos: análisis técnico` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
+  _High betweenness centrality (0.181) - this node is a cross-community bridge._
+- **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
+  _High betweenness centrality (0.110) - this node is a cross-community bridge._
 - **Why does `Fuentes de datos de precios y tasas en vivo` connect `Fuentes de datos de precios y tasas en vivo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.065) - this node is a cross-community bridge._
-- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `CEDEARs y Merval`?**
-  _High betweenness centrality (0.059) - this node is a cross-community bridge._
-- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _150 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `CEDEARs y Merval` be split into smaller, more focused modules?**
-  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
+  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+  _159 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Trading con gráficos: análisis técnico` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
