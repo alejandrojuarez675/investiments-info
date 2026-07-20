@@ -1,16 +1,18 @@
 ---
-title: "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+title: "ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)"
 tema: sp500
-tags: [etf, voo, spy, ivv, mercado-usa]
+tags: [etf, voo, spy, ivv, qqq, nasdaq-100, mercado-usa]
 nivel: basico
 ultima_revision: 2026-07-20
 ---
 
-# ETFs que replican el S&P 500
+# ETFs que replican el S&P 500 y el Nasdaq-100
 
-Los ETFs (Exchange Traded Funds) indexados al S&P 500 son la forma más
-común de obtener exposición al índice sin comprar cada una de las ~500
-acciones por separado.
+Los ETFs (Exchange Traded Funds) indexados son la forma más común de
+obtener exposición a un índice sin comprar cada acción por separado. Este
+documento cubre los principales ETFs del S&P 500 y también QQQ, el ETF de
+referencia del Nasdaq-100, un índice distinto pero muy usado en conjunto
+con el S&P 500 para exposición al mercado de EE.UU.
 
 ## Principales ETFs
 
@@ -24,6 +26,24 @@ Los expense ratios y volúmenes cambian con el tiempo: antes de decidir,
 verificar los valores vigentes en la web del proveedor o en un
 comparador financiero, no asumir que los datos de esta tabla siguen
 siendo precisos.
+
+## QQQ: el ETF del Nasdaq-100
+
+| Ticker | Proveedor | Lanzamiento | Característica distintiva |
+|--------|-----------|--------------|----------------------------|
+| QQQ | Invesco | 1999 | Replica el Nasdaq-100, no el S&P 500; fuerte concentración en tecnología. Existe también QQQM, misma exposición con expense ratio más bajo pensado para tenencia de largo plazo. |
+
+- El **Nasdaq-100** es un índice distinto al S&P 500: agrupa las 100
+  mayores empresas no financieras que cotizan en el Nasdaq, con un peso
+  mucho más alto en tecnología (Apple, Microsoft, Nvidia, Amazon, Meta,
+  etc. suelen concentrar una porción grande del índice).
+- Por esa concentración sectorial, QQQ históricamente tuvo mayor
+  volatilidad que los ETFs del S&P 500: puede subir o bajar más en
+  proporción ante noticias del sector tecnológico.
+- Es común combinar SPY/VOO/IVV (más diversificado por sector) con QQQ
+  (más concentrado en tech) en una misma cartera, entendiendo que hay
+  superposición: varias de las empresas más grandes del Nasdaq-100
+  también son las de mayor peso en el S&P 500.
 
 ## Diferencias prácticas entre ellos
 
@@ -60,5 +80,5 @@ principales:
 
 Información general de estructura de producto, pública en los sitios de
 los proveedores (ssga.com para SPY, ishares.com para IVV, vanguard.com
-para VOO). Verificar expense ratios y AUM vigentes en esas fuentes antes
-de tomar decisiones.
+para VOO, invesco.com para QQQ). Verificar expense ratios y AUM vigentes
+en esas fuentes antes de tomar decisiones.

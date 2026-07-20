@@ -25,6 +25,9 @@ correspondiente donde se desarrolla en profundidad, si existe.
 - **Riesgo país**: medida de la percepción de riesgo de default de la
   deuda soberana de un país, comúnmente medida por el índice EMBI+. Ver
   [Bonos argentinos](../merval/bonos-argentinos.md).
+- **ON (Obligación Negociable)**: instrumento de deuda emitido por una
+  empresa privada (no el Estado), equivalente local a un "corporate
+  bond". Ver [Obligaciones Negociables argentinas](../merval/obligaciones-negociables.md).
 - **CER (Coeficiente de Estabilización de Referencia)**: índice usado en
   Argentina para ajustar instrumentos financieros según la inflación.
 - **DCA (Dollar-Cost Averaging)**: estrategia de invertir montos fijos de
