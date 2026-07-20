@@ -13,39 +13,41 @@ correspondiente donde se desarrolla en profundidad, si existe.
 
 - **ETF (Exchange Traded Fund)**: fondo que cotiza en bolsa como una
   acción y replica un índice o canasta de activos. Ver
-  `../sp500/etfs-sp500.md`.
+  [ETFs que replican el S&P 500](../sp500/etfs-sp500.md).
 - **Índice bursátil**: canasta de activos usada como referencia del
   desempeño de un mercado o sector (ej. S&P 500, Merval).
 - **CEDEAR**: certificado que representa un activo extranjero, cotiza en
-  pesos en Byma. Ver `../merval/cedears.md`.
+  pesos en Byma. Ver [CEDEARs](../merval/cedears.md).
 - **CCL (Contado con Liquidación)**: mecanismo bursátil para convertir
   pesos a dólares (o viceversa) operando activos que cotizan en ambos
   mercados simultáneamente. Usado como tipo de cambio de referencia
   alternativo al oficial en Argentina.
 - **Riesgo país**: medida de la percepción de riesgo de default de la
   deuda soberana de un país, comúnmente medida por el índice EMBI+. Ver
-  `../merval/bonos-argentinos.md`.
+  [Bonos argentinos](../merval/bonos-argentinos.md).
 - **CER (Coeficiente de Estabilización de Referencia)**: índice usado en
   Argentina para ajustar instrumentos financieros según la inflación.
 - **DCA (Dollar-Cost Averaging)**: estrategia de invertir montos fijos de
-  forma periódica. Ver `../conceptos-generales/dollar-cost-averaging.md`.
+  forma periódica. Ver [Dollar-Cost Averaging (DCA)](../conceptos-generales/dollar-cost-averaging.md).
 - **Expense ratio**: costo anual que cobra un fondo o ETF, expresado como
   porcentaje de los activos administrados.
 - **Blockchain**: registro distribuido e inmutable de transacciones. Ver
-  `../crypto/bitcoin-ethereum.md`.
+  [Bitcoin y Ethereum: conceptos básicos](../crypto/bitcoin-ethereum.md).
 - **Proof of Work / Proof of Stake**: mecanismos de consenso para validar
-  transacciones en una blockchain. Ver `../crypto/bitcoin-ethereum.md`.
+  transacciones en una blockchain. Ver
+  [Bitcoin y Ethereum: conceptos básicos](../crypto/bitcoin-ethereum.md).
 - **Wallet (billetera cripto)**: software o dispositivo que almacena las
   claves privadas para operar criptoactivos. Ver
-  `../crypto/exchanges-custodia.md`.
+  [Exchanges y custodia de criptoactivos](../crypto/exchanges-custodia.md).
 - **Volatilidad**: medida estadística (generalmente desviación estándar)
   de cuánto varía el precio de un activo en un período. Ver
-  `../conceptos-generales/riesgo-retorno.md`.
+  [Relación riesgo-retorno](../conceptos-generales/riesgo-retorno.md).
 - **Diversificación**: distribuir el capital entre activos poco
   correlacionados para reducir riesgo específico. Ver
-  `../conceptos-generales/diversificacion.md`.
+  [Diversificación](../conceptos-generales/diversificacion.md).
 - **Renta fija / renta variable**: categorías generales de activos
-  (bonos vs. acciones). Ver `../conceptos-generales/tipos-de-activos.md`.
+  (bonos vs. acciones). Ver
+  [Tipos de activos financieros](../conceptos-generales/tipos-de-activos.md).
 
 ## Fuentes
 

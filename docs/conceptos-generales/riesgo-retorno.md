@@ -26,7 +26,7 @@ riesgo relevantes:
 - **Riesgo de crédito/contraparte**: quien te debe (un emisor de bonos, un
   exchange) no cumple.
 - **Riesgo cambiario**: pérdida de valor por movimientos de tipo de cambio
-  (muy relevante en Argentina, ver `../merval/`).
+  (muy relevante en Argentina, ver [Merval](../merval/)).
 - **Riesgo de concentración**: tener gran parte del capital en un solo
   activo, sector o país.
 - **Riesgo regulatorio**: cambios normativos que afectan al activo (ej.

@@ -56,10 +56,11 @@ Es una aproximación, más precisa para tasas entre 6% y 10% anual.
 ## Relación con otros conceptos
 
 - El interés compuesto es la base matemática detrás de por qué el
-  `dollar-cost-averaging.md` funciona mejor cuanto antes se empieza.
+  [Dollar-Cost Averaging (DCA)](dollar-cost-averaging.md) funciona mejor
+  cuanto antes se empieza.
 - Se aplica tanto a instrumentos de renta fija (bonos que pagan cupones
   reinvertidos) como a acciones (dividendos reinvertidos) o índices
-  (ver `../sp500/que-es-sp500.md`).
+  (ver [Qué es el S&P 500](../sp500/que-es-sp500.md)).
 - El mismo mecanismo funciona en contra en el endeudamiento (deuda que
   capitaliza intereses).
 

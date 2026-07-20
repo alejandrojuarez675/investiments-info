@@ -2,7 +2,7 @@
   ".claude/settings.json": {
     "mtime": 1784573480.3040173,
     "ast_hash": "8064cd4cf3a073b1f486ded0c6e52bde",
-    "semantic_hash": ""
+    "semantic_hash": "8064cd4cf3a073b1f486ded0c6e52bde"
   },
   "CLAUDE.md": {
     "mtime": 1784573480.2850196,
@@ -10,71 +10,71 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784572547.7667377,
-    "ast_hash": "9d729592120dd95ed36d82d6cc0520d0",
+    "mtime": 1784573896.9304514,
+    "ast_hash": "03d006f906d09d6c864e8e02153cb8f5",
     "semantic_hash": ""
   },
-  "conceptos-generales/diversificacion.md": {
+  "docs/conceptos-generales/diversificacion.md": {
     "mtime": 1784572559.6427763,
     "ast_hash": "aeaf0df32a4fd790609ad6ca8caf7c60",
     "semantic_hash": ""
   },
-  "conceptos-generales/dollar-cost-averaging.md": {
+  "docs/conceptos-generales/dollar-cost-averaging.md": {
     "mtime": 1784572628.0736325,
     "ast_hash": "0b3403c76cb859201490bcfe565b9ea1",
     "semantic_hash": ""
   },
-  "conceptos-generales/interes-compuesto.md": {
+  "docs/conceptos-generales/interes-compuesto.md": {
     "mtime": 1784572587.2937384,
     "ast_hash": "289cd8c647b2838228c074bb9d517c68",
     "semantic_hash": ""
   },
-  "conceptos-generales/riesgo-retorno.md": {
+  "docs/conceptos-generales/riesgo-retorno.md": {
     "mtime": 1784572601.5463479,
     "ast_hash": "87e4a52835a4572b1ae6a4dd8514f4a6",
     "semantic_hash": ""
   },
-  "conceptos-generales/tipos-de-activos.md": {
+  "docs/conceptos-generales/tipos-de-activos.md": {
     "mtime": 1784572616.2277129,
     "ast_hash": "29faaf5c4a47c2fd4f11aa7ab418f8f8",
     "semantic_hash": ""
   },
-  "crypto/bitcoin-ethereum.md": {
+  "docs/crypto/bitcoin-ethereum.md": {
     "mtime": 1784572746.2171862,
     "ast_hash": "66da08ed66e365d57e006343159f503d",
     "semantic_hash": ""
   },
-  "crypto/exchanges-custodia.md": {
+  "docs/crypto/exchanges-custodia.md": {
     "mtime": 1784572762.1111615,
     "ast_hash": "616f83ffbdd7d8da333006aca77552cc",
     "semantic_hash": ""
   },
-  "glosario/glosario.md": {
+  "docs/glosario/glosario.md": {
     "mtime": 1784572782.1620145,
     "ast_hash": "a728011bc7aa77cd96f33041e3584a94",
     "semantic_hash": ""
   },
-  "merval/bonos-argentinos.md": {
+  "docs/merval/bonos-argentinos.md": {
     "mtime": 1784572720.118091,
     "ast_hash": "fce7d3dd0903fae951658fdee0cb2451",
     "semantic_hash": ""
   },
-  "merval/cedears.md": {
+  "docs/merval/cedears.md": {
     "mtime": 1784573795.9346979,
     "ast_hash": "928b0985aedceb02d084958e8f3d8c6d",
     "semantic_hash": ""
   },
-  "merval/que-es-merval.md": {
+  "docs/merval/que-es-merval.md": {
     "mtime": 1784572690.243228,
     "ast_hash": "79fef29a25b75969ab1707a4fc686aaa",
     "semantic_hash": ""
   },
-  "sp500/etfs-sp500.md": {
+  "docs/sp500/etfs-sp500.md": {
     "mtime": 1784572665.4654796,
     "ast_hash": "686fd10fedace521d08b9729f05bce63",
     "semantic_hash": ""
   },
-  "sp500/que-es-sp500.md": {
+  "docs/sp500/que-es-sp500.md": {
     "mtime": 1784572648.7745986,
     "ast_hash": "ba89f171cdd04947fd2bdd86a0142032",
     "semantic_hash": ""

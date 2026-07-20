@@ -47,8 +47,8 @@ volatilidad en el camino.
 
 DCA se aplica típicamente sobre instrumentos diversificados y de largo
 plazo, como ETFs que replican índices amplios (ver
-`../sp500/etfs-sp500.md`), para evitar además el riesgo específico de
-una sola empresa.
+[ETFs que replican el S&P 500](../sp500/etfs-sp500.md)), para evitar además
+el riesgo específico de una sola empresa.
 
 ## Fuentes
 

@@ -27,7 +27,7 @@ exterior.
 ## Por qué se usan
 
 - Permiten exposición a empresas como Apple, Microsoft, Amazon, o a ETFs
-  como los que replican el S&P 500 (ver `../sp500/etfs-sp500.md`), sin
+  como los que replican el S&P 500 (ver [ETFs que replican el S&P 500](../sp500/etfs-sp500.md)), sin
   necesidad de abrir una cuenta en un bróker internacional.
 - Se operan con pesos, a través de cualquier bróker local (ALyC) que
   ofrezca CEDEARs.

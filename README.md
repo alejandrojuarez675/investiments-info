@@ -35,16 +35,24 @@ Reglas de contenido:
 
 Todo el contenido vive bajo [`docs/`](docs/):
 
-- [`docs/conceptos-generales/`](docs/conceptos-generales/) — diversificación,
-  interés compuesto, riesgo/retorno, tipos de activos, horizonte de inversión.
-- [`docs/sp500/`](docs/sp500/) — índice S&P 500, ETFs (VOO, SPY, IVV),
-  historia, composición.
-- [`docs/merval/`](docs/merval/) — índice Merval, CEDEARs, bonos argentinos,
-  particularidades del mercado local.
-- [`docs/crypto/`](docs/crypto/) — Bitcoin, Ethereum, blockchain, exchanges,
-  custodia.
-- [`docs/glosario/`](docs/glosario/) — términos cortos, uno por archivo o
-  agrupados por inicial, pensados para lookup rápido.
+- **Conceptos generales** ([`docs/conceptos-generales/`](docs/conceptos-generales/))
+  - [Diversificación](docs/conceptos-generales/diversificacion.md)
+  - [Interés compuesto](docs/conceptos-generales/interes-compuesto.md)
+  - [Relación riesgo-retorno](docs/conceptos-generales/riesgo-retorno.md)
+  - [Tipos de activos financieros](docs/conceptos-generales/tipos-de-activos.md)
+  - [Dollar-Cost Averaging (DCA)](docs/conceptos-generales/dollar-cost-averaging.md)
+- **S&P 500** ([`docs/sp500/`](docs/sp500/))
+  - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
+  - [ETFs que replican el S&P 500 (VOO, SPY, IVV)](docs/sp500/etfs-sp500.md)
+- **Merval** ([`docs/merval/`](docs/merval/))
+  - [Qué es el Merval](docs/merval/que-es-merval.md)
+  - [CEDEARs](docs/merval/cedears.md)
+  - [Bonos argentinos](docs/merval/bonos-argentinos.md)
+- **Crypto** ([`docs/crypto/`](docs/crypto/))
+  - [Bitcoin y Ethereum: conceptos básicos](docs/crypto/bitcoin-ethereum.md)
+  - [Exchanges y custodia de criptoactivos](docs/crypto/exchanges-custodia.md)
+- **Glosario** ([`docs/glosario/`](docs/glosario/))
+  - [Glosario de términos](docs/glosario/glosario.md)
 
 ## Para asistentes de IA
 

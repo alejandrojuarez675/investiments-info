@@ -41,7 +41,7 @@ parcialmente con el comportamiento de otros.
   protege menos de lo esperado.
 - Sobrediversificar (cientos de posiciones pequeñas) puede diluir retornos
   sin reducir riesgo de forma proporcional, y aumenta costos de seguimiento.
-- Un índice amplio (ej. S&P 500, ver `../sp500/que-es-sp500.md`) ya provee
+- Un índice amplio (ej. S&P 500, ver [Qué es el S&P 500](../sp500/que-es-sp500.md)) ya provee
   diversificación interna entre ~500 empresas y sectores.
 
 ## Fuentes

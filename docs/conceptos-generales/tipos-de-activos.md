@@ -10,7 +10,7 @@ ultima_revision: 2026-07-20
 
 Panorama general de las principales clases de activos en las que se puede
 invertir, como base para entender los documentos específicos de cada
-mercado (`../sp500/`, `../merval/`, `../crypto/`).
+mercado ([S&P 500](../sp500/), [Merval](../merval/), [Crypto](../crypto/)).
 
 ## Renta variable (acciones)
 
@@ -27,7 +27,7 @@ calidad crediticia del emisor.
 
 - **Bonos soberanos**: emitidos por un estado.
 - **Bonos corporativos**: emitidos por empresas.
-- Ver `../merval/bonos-argentinos.md` para el caso local.
+- Ver [Bonos argentinos](../merval/bonos-argentinos.md) para el caso local.
 
 ## Fondos indexados y ETFs
 
@@ -39,20 +39,20 @@ Vehículos que agrupan muchos activos (acciones, bonos) replicando un
 - **Fondo común de inversión (FCI)**: se suscribe/rescata a un valor de
   cuotaparte calculado al cierre del día, no cotiza intradía.
 
-Ver `../sp500/etfs-sp500.md` para ejemplos concretos.
+Ver [ETFs que replican el S&P 500](../sp500/etfs-sp500.md) para ejemplos concretos.
 
 ## CEDEARs (particularidad argentina)
 
 Certificados que representan acciones o ETFs extranjeros, pero cotizan en
 pesos en la bolsa local. Permiten exposición a activos internacionales sin
-sacar el capital del circuito local. Ver `../merval/cedears.md`.
+sacar el capital del circuito local. Ver [CEDEARs](../merval/cedears.md).
 
 ## Criptoactivos
 
 Activos digitales basados en blockchain (Bitcoin, Ethereum, entre miles de
 otros). No están respaldados por flujos de caja de una empresa ni por un
 estado; su valor depende de oferta/demanda, utilidad de red y
-especulación. Ver `../crypto/`.
+especulación. Ver [Bitcoin y Ethereum: conceptos básicos](../crypto/bitcoin-ethereum.md).
 
 ## Efectivo y equivalentes
 

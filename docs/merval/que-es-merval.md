@@ -21,7 +21,7 @@ argentinos.
   exacta varía según revisiones periódicas de la canasta).
 - **Concentración sectorial**: fuerte peso histórico de sectores como
   energía, bancos y utilities, a diferencia de un índice como el S&P 500
-  mucho más diversificado sectorialmente (ver `../sp500/que-es-sp500.md`).
+  mucho más diversificado sectorialmente (ver [Qué es el S&P 500](../sp500/que-es-sp500.md)).
 - **Volatilidad**: es un índice de mercado emergente, con volatilidad
   típicamente más alta que índices de mercados desarrollados, influenciada
   fuertemente por variables macroeconómicas locales (inflación, cepo

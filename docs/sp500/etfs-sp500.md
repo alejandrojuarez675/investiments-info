@@ -43,7 +43,7 @@ principales:
 1. **Cuenta en un bróker internacional** que permita comprar ETFs
    listados en bolsas de EE.UU. directamente en dólares.
 2. **CEDEARs** de estos mismos ETFs, que cotizan en pesos en el mercado
-   local (ver `../merval/cedears.md`). El CEDEAR replica el precio del
+   local (ver [CEDEARs](../merval/cedears.md)). El CEDEAR replica el precio del
    ETF subyacente ajustado por tipo de cambio, pero no es un instrumento
    idéntico legalmente (implica riesgo y tratamiento distintos).
 
