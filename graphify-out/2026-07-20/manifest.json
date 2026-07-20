@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784576034.0259712,
-    "ast_hash": "9f171b2c78c8c4103077c4812115a0d4",
+    "mtime": 1784576480.0370324,
+    "ast_hash": "7c9115539f76df298e502d854dbfefb8",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1784576055.206103,
-    "ast_hash": "4c67af0caa1ae705f9601d005b1380be",
+    "mtime": 1784576209.4027076,
+    "ast_hash": "e3d18cc67da9dee784d1422d61793f00",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
@@ -97,6 +97,11 @@
   "docs/conceptos-generales/estrategias-trading.md": {
     "mtime": 1784576117.7362368,
     "ast_hash": "9f58d16cfa7bd4fa5b2c0a68a46c40d6",
+    "semantic_hash": ""
+  },
+  "docs/merval/plazo-fijo-y-dolar.md": {
+    "mtime": 1784576475.446927,
+    "ast_hash": "7ebaaf6953c65f7341df9899f66df18a",
     "semantic_hash": ""
   }
 }
