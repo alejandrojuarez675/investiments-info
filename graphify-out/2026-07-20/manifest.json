@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784574118.2467418,
-    "ast_hash": "9d1cc1fe1801af8f6056a7f6e7c7b924",
+    "mtime": 1784575546.2133214,
+    "ast_hash": "38b371bcca6ac28a34a84bbc6ea500d6",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -77,6 +77,11 @@
   "docs/sp500/que-es-sp500.md": {
     "mtime": 1784572648.7745986,
     "ast_hash": "ba89f171cdd04947fd2bdd86a0142032",
+    "semantic_hash": ""
+  },
+  "docs/merval/brokers-argentina.md": {
+    "mtime": 1784575535.869377,
+    "ast_hash": "c2e755309999d7c5f3b3aed3c0517770",
     "semantic_hash": ""
   }
 }
