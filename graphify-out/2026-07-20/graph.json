@@ -61,8 +61,8 @@
       "contributor": null,
       "community": 7,
       "norm_label": "claude.md \u2014 project instructions",
-      "id": "claude_md",
-      "community_name": "Qu\u00e9 es el S&P 500"
+      "community_name": "S&P 500 y Proyecto",
+      "id": "claude_md"
     },
     {
       "label": "README \u2014 investiments-info",
@@ -75,8 +75,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "readme \u2014 investiments-info",
-      "id": "readme",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "readme"
     },
     {
       "label": "Diversificaci\u00f3n",
@@ -89,8 +89,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "diversificacion",
-      "id": "docs_conceptos_generales_diversificacion",
-      "community_name": "Diversificaci\u00f3n"
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "id": "docs_conceptos_generales_diversificacion"
     },
     {
       "label": "Dollar-Cost Averaging (DCA)",
@@ -103,8 +103,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "dollar-cost averaging (dca)",
-      "id": "docs_conceptos_generales_dollar_cost_averaging",
-      "community_name": "Inter\u00e9s compuesto"
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "id": "docs_conceptos_generales_dollar_cost_averaging"
     },
     {
       "label": "Tipos de activos financieros",
@@ -117,8 +117,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "tipos de activos financieros",
-      "id": "docs_conceptos_generales_tipos_de_activos",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "docs_conceptos_generales_tipos_de_activos"
     },
     {
       "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
@@ -131,8 +131,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "bitcoin y ethereum: conceptos basicos",
-      "id": "docs_crypto_bitcoin_ethereum",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "docs_crypto_bitcoin_ethereum"
     },
     {
       "label": "Exchanges y custodia de criptoactivos",
@@ -145,8 +145,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "exchanges y custodia de criptoactivos",
-      "id": "docs_crypto_exchanges_custodia",
-      "community_name": "Exchanges y custodia de criptoactivos"
+      "community_name": "Exchanges y Custodia Cripto",
+      "id": "docs_crypto_exchanges_custodia"
     },
     {
       "label": "Glosario de t\u00e9rminos",
@@ -159,8 +159,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "glosario de terminos",
-      "id": "docs_glosario_glosario",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "docs_glosario_glosario"
     },
     {
       "label": "Bonos argentinos",
@@ -173,8 +173,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "bonos argentinos",
-      "id": "docs_merval_bonos_argentinos",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "docs_merval_bonos_argentinos"
     },
     {
       "label": "CEDEARs",
@@ -187,8 +187,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "cedears",
-      "id": "docs_merval_cedears",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "docs_merval_cedears"
     },
     {
       "label": "Qu\u00e9 es el Merval",
@@ -201,8 +201,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "que es el merval",
-      "id": "docs_merval_que_es_merval",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "docs_merval_que_es_merval"
     },
     {
       "label": "ETFs que replican el S&P 500 (VOO, SPY, IVV)",
@@ -215,8 +215,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "etfs que replican el s&p 500 (voo, spy, ivv)",
-      "id": "docs_sp500_etfs_sp500",
-      "community_name": "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+      "community_name": "ETFs del S&P 500",
+      "id": "docs_sp500_etfs_sp500"
     },
     {
       "label": "Qu\u00e9 es el S&P 500",
@@ -229,8 +229,8 @@
       "contributor": null,
       "community": 7,
       "norm_label": "que es el s&p 500",
-      "id": "docs_sp500_que_es_sp500",
-      "community_name": "Qu\u00e9 es el S&P 500"
+      "community_name": "S&P 500 y Proyecto",
+      "id": "docs_sp500_que_es_sp500"
     },
     {
       "label": "Diversificaci\u00f3n (concepto)",
@@ -243,8 +243,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "diversificacion (concepto)",
-      "id": "concept_diversificacion",
-      "community_name": "Diversificaci\u00f3n"
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "id": "concept_diversificacion"
     },
     {
       "label": "Riesgo sistem\u00e1tico",
@@ -257,8 +257,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "riesgo sistematico",
-      "id": "concept_riesgo_sistematico",
-      "community_name": "Diversificaci\u00f3n"
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "id": "concept_riesgo_sistematico"
     },
     {
       "label": "Riesgo no sistem\u00e1tico",
@@ -271,8 +271,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "riesgo no sistematico",
-      "id": "concept_riesgo_no_sistematico",
-      "community_name": "Diversificaci\u00f3n"
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "id": "concept_riesgo_no_sistematico"
     },
     {
       "label": "Dollar-Cost Averaging",
@@ -285,8 +285,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "dollar-cost averaging",
-      "id": "concept_dca",
-      "community_name": "Inter\u00e9s compuesto"
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "id": "concept_dca"
     },
     {
       "label": "Inter\u00e9s compuesto",
@@ -299,8 +299,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "interes compuesto",
-      "id": "concept_interes_compuesto",
-      "community_name": "Inter\u00e9s compuesto"
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "id": "concept_interes_compuesto"
     },
     {
       "label": "Regla del 72",
@@ -313,8 +313,8 @@
       "contributor": null,
       "community": 6,
       "norm_label": "regla del 72",
-      "id": "concept_regla_72",
-      "community_name": "Inter\u00e9s compuesto"
+      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "id": "concept_regla_72"
     },
     {
       "label": "Relaci\u00f3n riesgo-retorno",
@@ -327,8 +327,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "relacion riesgo-retorno",
-      "id": "concept_riesgo_retorno",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "concept_riesgo_retorno"
     },
     {
       "label": "Volatilidad",
@@ -341,8 +341,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "volatilidad",
-      "id": "concept_volatilidad",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "concept_volatilidad"
     },
     {
       "label": "Blockchain",
@@ -355,8 +355,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "blockchain",
-      "id": "concept_blockchain",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_blockchain"
     },
     {
       "label": "Proof of Work",
@@ -369,8 +369,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "proof of work",
-      "id": "concept_proof_of_work",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_proof_of_work"
     },
     {
       "label": "Proof of Stake",
@@ -383,8 +383,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "proof of stake",
-      "id": "concept_proof_of_stake",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_proof_of_stake"
     },
     {
       "label": "Bitcoin (BTC)",
@@ -397,8 +397,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "bitcoin (btc)",
-      "id": "concept_bitcoin",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_bitcoin"
     },
     {
       "label": "Ethereum (ETH)",
@@ -411,8 +411,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "ethereum (eth)",
-      "id": "concept_ethereum",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_ethereum"
     },
     {
       "label": "Exchange centralizado (CEX)",
@@ -425,8 +425,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "exchange centralizado (cex)",
-      "id": "concept_cex",
-      "community_name": "Exchanges y custodia de criptoactivos"
+      "community_name": "Exchanges y Custodia Cripto",
+      "id": "concept_cex"
     },
     {
       "label": "Self-custody (wallet propia)",
@@ -439,8 +439,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "self-custody (wallet propia)",
-      "id": "concept_self_custody",
-      "community_name": "Exchanges y custodia de criptoactivos"
+      "community_name": "Exchanges y Custodia Cripto",
+      "id": "concept_self_custody"
     },
     {
       "label": "Cold wallet (hardware wallet)",
@@ -453,8 +453,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "cold wallet (hardware wallet)",
-      "id": "concept_cold_wallet",
-      "community_name": "Exchanges y custodia de criptoactivos"
+      "community_name": "Exchanges y Custodia Cripto",
+      "id": "concept_cold_wallet"
     },
     {
       "label": "Hot wallet",
@@ -467,8 +467,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "hot wallet",
-      "id": "concept_hot_wallet",
-      "community_name": "Exchanges y custodia de criptoactivos"
+      "community_name": "Exchanges y Custodia Cripto",
+      "id": "concept_hot_wallet"
     },
     {
       "label": "CEDEAR",
@@ -481,8 +481,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "cedear",
-      "id": "concept_cedear",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "concept_cedear"
     },
     {
       "label": "Contado con Liquidaci\u00f3n (CCL)",
@@ -495,8 +495,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "contado con liquidacion (ccl)",
-      "id": "concept_ccl",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "concept_ccl"
     },
     {
       "label": "Riesgo pa\u00eds (EMBI+)",
@@ -509,8 +509,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "riesgo pais (embi+)",
-      "id": "concept_riesgo_pais",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "concept_riesgo_pais"
     },
     {
       "label": "CER (Coeficiente de Estabilizaci\u00f3n de Referencia)",
@@ -523,8 +523,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "cer (coeficiente de estabilizacion de referencia)",
-      "id": "concept_cer",
-      "community_name": "README \u2014 investiments-info"
+      "community_name": "Activos y Glosario",
+      "id": "concept_cer"
     },
     {
       "label": "\u00cdndice Merval (S&P Merval)",
@@ -537,8 +537,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "indice merval (s&p merval)",
-      "id": "concept_merval",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "concept_merval"
     },
     {
       "label": "\u00cdndice S&P 500",
@@ -551,8 +551,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "indice s&p 500",
-      "id": "concept_sp500",
-      "community_name": "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+      "community_name": "ETFs del S&P 500",
+      "id": "concept_sp500"
     },
     {
       "label": "ETF (Exchange Traded Fund)",
@@ -565,8 +565,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "etf (exchange traded fund)",
-      "id": "concept_etf",
-      "community_name": "CEDEARs"
+      "community_name": "CEDEARs y Merval",
+      "id": "concept_etf"
     },
     {
       "label": "SPY ETF (State Street)",
@@ -579,8 +579,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "spy etf (state street)",
-      "id": "concept_spy",
-      "community_name": "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+      "community_name": "ETFs del S&P 500",
+      "id": "concept_spy"
     },
     {
       "label": "IVV ETF (BlackRock iShares)",
@@ -593,8 +593,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "ivv etf (blackrock ishares)",
-      "id": "concept_ivv",
-      "community_name": "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+      "community_name": "ETFs del S&P 500",
+      "id": "concept_ivv"
     },
     {
       "label": "VOO ETF (Vanguard)",
@@ -607,8 +607,8 @@
       "contributor": null,
       "community": 5,
       "norm_label": "voo etf (vanguard)",
-      "id": "concept_voo",
-      "community_name": "ETFs que replican el S&P 500 (VOO, SPY, IVV)"
+      "community_name": "ETFs del S&P 500",
+      "id": "concept_voo"
     },
     {
       "label": "Teor\u00eda de portafolios (Markowitz 1952)",
@@ -621,8 +621,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "teoria de portafolios (markowitz 1952)",
-      "id": "concept_markowitz",
-      "community_name": "Diversificaci\u00f3n"
+      "community_name": "Diversificaci\u00f3n de Portafolio",
+      "id": "concept_markowitz"
     },
     {
       "label": "Contratos inteligentes (smart contracts)",
@@ -635,8 +635,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "contratos inteligentes (smart contracts)",
-      "id": "concept_smart_contracts",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_smart_contracts"
     },
     {
       "label": "Finanzas descentralizadas (DeFi)",
@@ -649,8 +649,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "finanzas descentralizadas (defi)",
-      "id": "concept_defi",
-      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos"
+      "community_name": "Bitcoin y Ethereum",
+      "id": "concept_defi"
     }
   ],
   "links": [

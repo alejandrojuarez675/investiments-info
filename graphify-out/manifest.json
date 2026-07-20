@@ -10,33 +10,33 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784573896.9304514,
-    "ast_hash": "03d006f906d09d6c864e8e02153cb8f5",
+    "mtime": 1784574118.2467418,
+    "ast_hash": "9d1cc1fe1801af8f6056a7f6e7c7b924",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
-    "mtime": 1784572559.6427763,
-    "ast_hash": "aeaf0df32a4fd790609ad6ca8caf7c60",
+    "mtime": 1784574155.0897162,
+    "ast_hash": "6d4d34f69dc0fdf483821aa2feb70f98",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/dollar-cost-averaging.md": {
-    "mtime": 1784572628.0736325,
-    "ast_hash": "0b3403c76cb859201490bcfe565b9ea1",
+    "mtime": 1784574182.8148885,
+    "ast_hash": "575222510c4cf456a8fed6ca7d27635c",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/interes-compuesto.md": {
-    "mtime": 1784572587.2937384,
-    "ast_hash": "289cd8c647b2838228c074bb9d517c68",
+    "mtime": 1784574224.8804612,
+    "ast_hash": "43415da3b88f5a2c3a011f0305e61195",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/riesgo-retorno.md": {
-    "mtime": 1784572601.5463479,
-    "ast_hash": "87e4a52835a4572b1ae6a4dd8514f4a6",
+    "mtime": 1784574216.8642955,
+    "ast_hash": "6ff507355b1f12f28d2d40fab03e1f57",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/tipos-de-activos.md": {
-    "mtime": 1784572616.2277129,
-    "ast_hash": "29faaf5c4a47c2fd4f11aa7ab418f8f8",
+    "mtime": 1784574210.853663,
+    "ast_hash": "5f4d842b152e7fb3161c978429fe6065",
     "semantic_hash": ""
   },
   "docs/crypto/bitcoin-ethereum.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/glosario/glosario.md": {
-    "mtime": 1784572782.1620145,
-    "ast_hash": "a728011bc7aa77cd96f33041e3584a94",
+    "mtime": 1784574137.0918686,
+    "ast_hash": "ef99dbe503d395cf85fa5311135f706c",
     "semantic_hash": ""
   },
   "docs/merval/bonos-argentinos.md": {
@@ -60,18 +60,18 @@
     "semantic_hash": ""
   },
   "docs/merval/cedears.md": {
-    "mtime": 1784573795.9346979,
-    "ast_hash": "928b0985aedceb02d084958e8f3d8c6d",
+    "mtime": 1784574144.6335328,
+    "ast_hash": "c17cd8a70f112cf42157b233d28e9a45",
     "semantic_hash": ""
   },
   "docs/merval/que-es-merval.md": {
-    "mtime": 1784572690.243228,
-    "ast_hash": "79fef29a25b75969ab1707a4fc686aaa",
+    "mtime": 1784574169.4168034,
+    "ast_hash": "b04baa16664b378ec750520b7fb1cdb4",
     "semantic_hash": ""
   },
   "docs/sp500/etfs-sp500.md": {
-    "mtime": 1784572665.4654796,
-    "ast_hash": "686fd10fedace521d08b9729f05bce63",
+    "mtime": 1784574176.0100017,
+    "ast_hash": "1cd4f6be92e1c534e28172f61182f6a2",
     "semantic_hash": ""
   },
   "docs/sp500/que-es-sp500.md": {
