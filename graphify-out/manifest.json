@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784577523.108981,
-    "ast_hash": "c3325d7d846db9fc7c04c211c22fe79c",
+    "mtime": 1784579543.0163972,
+    "ast_hash": "6bb94aa9d6d55066c391a04a0b5a5a16",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1784578872.7609913,
-    "ast_hash": "66f2b889423494775260ba241a5b56b8",
+    "mtime": 1784578956.4607086,
+    "ast_hash": "de3af5b4a6195ff60fd45d81d4fac044",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
@@ -112,6 +112,11 @@
   "docs/conceptos-generales/fuentes-de-datos.md": {
     "mtime": 1784577518.8577921,
     "ast_hash": "db16afb412950fa96dc9377a9eea5e4d",
+    "semantic_hash": ""
+  },
+  "docs/merval/mercado-pago.md": {
+    "mtime": 1784579538.1965399,
+    "ast_hash": "1937aae0e1843efde9bd4c384d361a84",
     "semantic_hash": ""
   }
 }

@@ -36,136 +36,15 @@
   },
   "nodes": [
     {
-      "label": "brokers-argentina.md",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "brokers-argentina.md"
-    },
-    {
-      "label": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "brokers en argentina: comparacion y fci money market"
-    },
-    {
-      "label": "Los brokers m\u00e1s usados",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "los brokers mas usados"
-    },
-    {
-      "label": "Comparaci\u00f3n de costos y productos (aproximado, verificar vigencia)",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "comparacion de costos y productos (aproximado, verificar vigencia)"
-    },
-    {
-      "label": "Criterio para elegir o migrar de br\u00f3ker",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "criterio para elegir o migrar de broker"
-    },
-    {
-      "label": "FCI money market",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L63",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_fci_money_market",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "fci money market"
-    },
-    {
-      "label": "Los m\u00e1s usados: gestoras y billeteras virtuales",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "los mas usados: gestoras y billeteras virtuales"
-    },
-    {
-      "label": "Por br\u00f3ker",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_por_br\u00f3ker",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "por broker"
-    },
-    {
-      "label": "Comparaci\u00f3n de billeteras virtuales: Mercado Pago vs. Ual\u00e1 vs. otras",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L124",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_billeteras_virtuales_mercado_pago_vs_ual\u00e1_vs_otras",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "comparacion de billeteras virtuales: mercado pago vs. uala vs. otras"
-    },
-    {
-      "label": "Money market vs. otras estrategias de FCI",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L167",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_money_market_vs_otras_estrategias_de_fci",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "money market vs. otras estrategias de fci"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L184",
-      "_origin": "ast",
-      "id": "docs_merval_brokers_argentina_fuentes",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
-      "norm_label": "fuentes"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "readme.md",
-      "id": "readme"
+      "id": "readme",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "readme.md"
     },
     {
       "label": "investiments-info",
@@ -173,10 +52,10 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "investiments-info",
-      "id": "readme_investiments_info"
+      "id": "readme_investiments_info",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "investiments-info"
     },
     {
       "label": "Convenci\u00f3n de archivos",
@@ -184,10 +63,10 @@
       "source_file": "README.md",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "convencion de archivos",
-      "id": "readme_convenci\u00f3n_de_archivos"
+      "id": "readme_convenci\u00f3n_de_archivos",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "convencion de archivos"
     },
     {
       "label": "Estructura",
@@ -195,153 +74,120 @@
       "source_file": "README.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "estructura",
-      "id": "readme_estructura"
+      "id": "readme_estructura",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "para asistentes de ia",
-      "id": "readme_para_asistentes_de_ia"
+      "id": "readme_para_asistentes_de_ia",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "para asistentes de ia"
     },
     {
-      "label": "fuentes-de-datos.md",
+      "label": "mercado-pago.md",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "fuentes-de-datos.md",
-      "id": "docs_conceptos_generales_fuentes_de_datos"
+      "id": "docs_merval_mercado_pago",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "mercado-pago.md"
     },
     {
-      "label": "Fuentes de datos de precios y tasas en vivo",
+      "label": "Mercado Pago en Argentina: cat\u00e1logo de productos",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "fuentes de datos de precios y tasas en vivo",
-      "id": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo"
+      "id": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "mercado pago en argentina: catalogo de productos"
     },
     {
-      "label": "Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, d\u00f3lar linked)",
+      "label": "Pagos y cobros",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L23",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L18",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "bonos y letras argentinas (al30, gd30, lecap, boncer, dolar linked)",
-      "id": "docs_conceptos_generales_fuentes_de_datos_bonos_y_letras_argentinas_al30_gd30_lecap_boncer_d\u00f3lar_linked"
+      "id": "docs_merval_mercado_pago_pagos_y_cobros",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "pagos y cobros"
     },
     {
-      "label": "ONs (Obligaciones Negociables)",
+      "label": "Rendimiento e inversi\u00f3n",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L48",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L30",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "ons (obligaciones negociables)",
-      "id": "docs_conceptos_generales_fuentes_de_datos_ons_obligaciones_negociables"
+      "id": "docs_merval_mercado_pago_rendimiento_e_inversi\u00f3n",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "rendimiento e inversion"
     },
     {
-      "label": "CEDEARs",
+      "label": "Cr\u00e9dito y financiamiento",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "docs_merval_mercado_pago_cr\u00e9dito_y_financiamiento",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "credito y financiamiento"
+    },
+    {
+      "label": "Seguros",
+      "file_type": "document",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_merval_mercado_pago_seguros",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "seguros"
+    },
+    {
+      "label": "Otros",
+      "file_type": "document",
+      "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L59",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "cedears",
-      "id": "docs_conceptos_generales_fuentes_de_datos_cedears"
+      "id": "docs_merval_mercado_pago_otros",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "otros"
     },
     {
-      "label": "Merval (\u00edndice)",
+      "label": "Notas",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L71",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L66",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "merval (indice)",
-      "id": "docs_conceptos_generales_fuentes_de_datos_merval_\u00edndice"
+      "id": "docs_merval_mercado_pago_notas",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "notas"
     },
     {
-      "label": "D\u00f3lar (oficial, MEP, CCL, blue, ahorro)",
+      "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L87",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L74",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "dolar (oficial, mep, ccl, blue, ahorro)",
-      "id": "docs_conceptos_generales_fuentes_de_datos_d\u00f3lar_oficial_mep_ccl_blue_ahorro"
-    },
-    {
-      "label": "Plazo fijo (TNA por banco) y FCI money market",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L107",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "plazo fijo (tna por banco) y fci money market",
-      "id": "docs_conceptos_generales_fuentes_de_datos_plazo_fijo_tna_por_banco_y_fci_money_market"
-    },
-    {
-      "label": "ETFs de EE.UU. (SPY, VOO, IVV, QQQ) y S&P 500",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L126",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "etfs de ee.uu. (spy, voo, ivv, qqq) y s&p 500",
-      "id": "docs_conceptos_generales_fuentes_de_datos_etfs_de_ee_uu_spy_voo_ivv_qqq_y_s_p_500"
-    },
-    {
-      "label": "Crypto (Bitcoin, Ethereum, exchanges)",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L149",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "crypto (bitcoin, ethereum, exchanges)",
-      "id": "docs_conceptos_generales_fuentes_de_datos_crypto_bitcoin_ethereum_exchanges"
-    },
-    {
-      "label": "MCPs (Model Context Protocol) relevantes",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L167",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "mcps (model context protocol) relevantes",
-      "id": "docs_conceptos_generales_fuentes_de_datos_mcps_model_context_protocol_relevantes"
-    },
-    {
-      "label": "Notas de uso",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L185",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "Fuentes de datos de precios y tasas en vivo",
-      "norm_label": "notas de uso",
-      "id": "docs_conceptos_generales_fuentes_de_datos_notas_de_uso"
+      "id": "docs_merval_mercado_pago_fuentes",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "norm_label": "fuentes"
     },
     {
       "label": "CLAUDE.md",
@@ -371,8 +217,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "diversificacion.md",
       "id": "docs_conceptos_generales_diversificacion"
     },
@@ -382,8 +228,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "diversificacion",
       "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
     },
@@ -393,8 +239,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "idea central",
       "id": "docs_conceptos_generales_diversificacion_idea_central"
     },
@@ -404,8 +250,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "formas comunes de diversificar",
       "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
     },
@@ -415,8 +261,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "limites de la diversificacion",
       "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
     },
@@ -426,8 +272,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 30,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_diversificacion_fuentes"
     },
@@ -514,8 +360,8 @@
       "source_file": "docs/conceptos-generales/estrategias-inversion-largo-plazo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "estrategias-inversion-largo-plazo.md",
       "id": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
     },
@@ -751,13 +597,145 @@
       "id": "docs_conceptos_generales_estrategias_trading_fuentes"
     },
     {
+      "label": "fuentes-de-datos.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fuentes-de-datos.md",
+      "id": "docs_conceptos_generales_fuentes_de_datos"
+    },
+    {
+      "label": "Fuentes de datos de precios y tasas en vivo",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "fuentes de datos de precios y tasas en vivo",
+      "id": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo"
+    },
+    {
+      "label": "Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, d\u00f3lar linked)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "bonos y letras argentinas (al30, gd30, lecap, boncer, dolar linked)",
+      "id": "docs_conceptos_generales_fuentes_de_datos_bonos_y_letras_argentinas_al30_gd30_lecap_boncer_d\u00f3lar_linked"
+    },
+    {
+      "label": "ONs (Obligaciones Negociables)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "ons (obligaciones negociables)",
+      "id": "docs_conceptos_generales_fuentes_de_datos_ons_obligaciones_negociables"
+    },
+    {
+      "label": "CEDEARs",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "cedears",
+      "id": "docs_conceptos_generales_fuentes_de_datos_cedears"
+    },
+    {
+      "label": "Merval (\u00edndice)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "merval (indice)",
+      "id": "docs_conceptos_generales_fuentes_de_datos_merval_\u00edndice"
+    },
+    {
+      "label": "D\u00f3lar (oficial, MEP, CCL, blue, ahorro)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "dolar (oficial, mep, ccl, blue, ahorro)",
+      "id": "docs_conceptos_generales_fuentes_de_datos_d\u00f3lar_oficial_mep_ccl_blue_ahorro"
+    },
+    {
+      "label": "Plazo fijo (TNA por banco) y FCI money market",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "plazo fijo (tna por banco) y fci money market",
+      "id": "docs_conceptos_generales_fuentes_de_datos_plazo_fijo_tna_por_banco_y_fci_money_market"
+    },
+    {
+      "label": "ETFs de EE.UU. (SPY, VOO, IVV, QQQ) y S&P 500",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L126",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "etfs de ee.uu. (spy, voo, ivv, qqq) y s&p 500",
+      "id": "docs_conceptos_generales_fuentes_de_datos_etfs_de_ee_uu_spy_voo_ivv_qqq_y_s_p_500"
+    },
+    {
+      "label": "Crypto (Bitcoin, Ethereum, exchanges)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L149",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "crypto (bitcoin, ethereum, exchanges)",
+      "id": "docs_conceptos_generales_fuentes_de_datos_crypto_bitcoin_ethereum_exchanges"
+    },
+    {
+      "label": "MCPs (Model Context Protocol) relevantes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L167",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "mcps (model context protocol) relevantes",
+      "id": "docs_conceptos_generales_fuentes_de_datos_mcps_model_context_protocol_relevantes"
+    },
+    {
+      "label": "Notas de uso",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L185",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "Fuentes de datos de precios y tasas en vivo",
+      "norm_label": "notas de uso",
+      "id": "docs_conceptos_generales_fuentes_de_datos_notas_de_uso"
+    },
+    {
       "label": "interes-compuesto.md",
       "file_type": "document",
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "interes-compuesto.md",
       "id": "docs_conceptos_generales_interes_compuesto"
     },
@@ -1097,8 +1075,8 @@
       "source_file": "docs/crypto/exchanges-custodia.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "exchanges-custodia.md",
       "id": "docs_crypto_exchanges_custodia"
     },
@@ -1288,6 +1266,127 @@
       "community_name": "Bonos argentinos",
       "norm_label": "fuentes",
       "id": "docs_merval_bonos_argentinos_fuentes"
+    },
+    {
+      "label": "brokers-argentina.md",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "brokers-argentina.md",
+      "id": "docs_merval_brokers_argentina"
+    },
+    {
+      "label": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "brokers en argentina: comparacion y fci money market",
+      "id": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market"
+    },
+    {
+      "label": "Los brokers m\u00e1s usados",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "los brokers mas usados",
+      "id": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados"
+    },
+    {
+      "label": "Comparaci\u00f3n de costos y productos (aproximado, verificar vigencia)",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "comparacion de costos y productos (aproximado, verificar vigencia)",
+      "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia"
+    },
+    {
+      "label": "Criterio para elegir o migrar de br\u00f3ker",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "criterio para elegir o migrar de broker",
+      "id": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker"
+    },
+    {
+      "label": "FCI money market",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "fci money market",
+      "id": "docs_merval_brokers_argentina_fci_money_market"
+    },
+    {
+      "label": "Los m\u00e1s usados: gestoras y billeteras virtuales",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "los mas usados: gestoras y billeteras virtuales",
+      "id": "docs_merval_brokers_argentina_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales"
+    },
+    {
+      "label": "Por br\u00f3ker",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "por broker",
+      "id": "docs_merval_brokers_argentina_por_br\u00f3ker"
+    },
+    {
+      "label": "Comparaci\u00f3n de billeteras virtuales: Mercado Pago vs. Ual\u00e1 vs. otras",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "comparacion de billeteras virtuales: mercado pago vs. uala vs. otras",
+      "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_billeteras_virtuales_mercado_pago_vs_ual\u00e1_vs_otras"
+    },
+    {
+      "label": "Money market vs. otras estrategias de FCI",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L167",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "money market vs. otras estrategias de fci",
+      "id": "docs_merval_brokers_argentina_money_market_vs_otras_estrategias_de_fci"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "norm_label": "fuentes",
+      "id": "docs_merval_brokers_argentina_fuentes"
     },
     {
       "label": "cedears.md",
@@ -1526,8 +1625,8 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "que-es-merval.md",
       "id": "docs_merval_que_es_merval"
     },
@@ -1691,8 +1790,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "Inter\u00e9s compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "que-es-sp500.md",
       "id": "docs_sp500_que_es_sp500"
     },
@@ -1702,8 +1801,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "que es el s&p 500",
       "id": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500"
     },
@@ -1713,8 +1812,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "caracteristicas principales",
       "id": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales"
     },
@@ -1724,8 +1823,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "por que se usa como referencia",
       "id": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia"
     },
@@ -1735,8 +1834,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "como invertir en el indice",
       "id": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice"
     },
@@ -1746,8 +1845,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "riesgos y consideraciones",
       "id": "docs_sp500_que_es_sp500_riesgos_y_consideraciones"
     },
@@ -1757,8 +1856,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "fuentes",
       "id": "docs_sp500_que_es_sp500_fuentes"
     },
@@ -1919,114 +2018,14 @@
   ],
   "links": [
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina",
-      "target": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "target": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "target": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "target": "docs_merval_brokers_argentina_fci_money_market",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L184",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "target": "docs_merval_brokers_argentina_fuentes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
-      "target": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_fci_money_market",
-      "target": "docs_merval_brokers_argentina_comparaci\u00f3n_de_billeteras_virtuales_mercado_pago_vs_ual\u00e1_vs_otras",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_fci_money_market",
-      "target": "docs_merval_brokers_argentina_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L167",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_fci_money_market",
-      "target": "docs_merval_brokers_argentina_money_market_vs_otras_estrategias_de_fci",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/brokers-argentina.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "docs_merval_brokers_argentina_fci_money_market",
-      "target": "docs_merval_brokers_argentina_por_br\u00f3ker",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L46",
+      "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "docs_conceptos_generales_fuentes_de_datos"
+      "target": "docs_merval_mercado_pago",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2034,9 +2033,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_investiments_info"
+      "target": "readme_investiments_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2044,9 +2043,9 @@
       "source_file": "README.md",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos"
+      "target": "readme_convenci\u00f3n_de_archivos",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2054,129 +2053,99 @@
       "source_file": "README.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_estructura"
+      "target": "readme_estructura",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia"
+      "target": "readme_para_asistentes_de_ia",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos",
-      "target": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo"
+      "source": "docs_merval_mercado_pago",
+      "target": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L23",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_bonos_y_letras_argentinas_al30_gd30_lecap_boncer_d\u00f3lar_linked"
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_cr\u00e9dito_y_financiamiento",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_notas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_cedears"
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_otros",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L149",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_crypto_bitcoin_ethereum_exchanges"
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_pagos_y_cobros",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L87",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_d\u00f3lar_oficial_mep_ccl_blue_ahorro"
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_rendimiento_e_inversi\u00f3n",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L126",
+      "source_file": "docs/merval/mercado-pago.md",
+      "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_etfs_de_ee_uu_spy_voo_ivv_qqq_y_s_p_500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L167",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_mcps_model_context_protocol_relevantes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_merval_\u00edndice"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L185",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_notas_de_uso"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_ons_obligaciones_negociables"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
-      "source_location": "L107",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
-      "target": "docs_conceptos_generales_fuentes_de_datos_plazo_fijo_tna_por_banco_y_fci_money_market"
+      "source": "docs_merval_mercado_pago_mercado_pago_en_argentina_cat\u00e1logo_de_productos",
+      "target": "docs_merval_mercado_pago_seguros",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2557,6 +2526,206 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_trading_estrategias_de_trading_de_corto_plazo",
       "target": "docs_conceptos_generales_estrategias_trading_trend_trading_seguimiento_de_tendencia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_crypto_bitcoin_ethereum"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_crypto_exchanges_custodia"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_bonos_argentinos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_brokers_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_obligaciones_negociables"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_plazo_fijo_y_dolar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_merval_que_es_merval"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos",
+      "target": "docs_sp500_etfs_sp500"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_bonos_y_letras_argentinas_al30_gd30_lecap_boncer_d\u00f3lar_linked"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_cedears"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_crypto_bitcoin_ethereum_exchanges"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_d\u00f3lar_oficial_mep_ccl_blue_ahorro"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_etfs_de_ee_uu_spy_voo_ivv_qqq_y_s_p_500"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_mcps_model_context_protocol_relevantes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_merval_\u00edndice"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_notas_de_uso"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_ons_obligaciones_negociables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/fuentes-de-datos.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_fuentes_de_datos_fuentes_de_datos_de_precios_y_tasas_en_vivo",
+      "target": "docs_conceptos_generales_fuentes_de_datos_plazo_fijo_tna_por_banco_y_fci_money_market"
     },
     {
       "relation": "contains",
@@ -3121,6 +3290,106 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina",
+      "target": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_fci_money_market"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_fci_money_market",
+      "target": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_fci_money_market",
+      "target": "docs_merval_brokers_argentina_comparaci\u00f3n_de_billeteras_virtuales_mercado_pago_vs_ual\u00e1_vs_otras"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_fci_money_market",
+      "target": "docs_merval_brokers_argentina_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_fci_money_market",
+      "target": "docs_merval_brokers_argentina_money_market_vs_otras_estrategias_de_fci"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/brokers-argentina.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_brokers_argentina_fci_money_market",
+      "target": "docs_merval_brokers_argentina_por_br\u00f3ker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/cedears.md",
       "source_location": "L9",
       "weight": 1.0,
@@ -3540,5 +3809,5 @@
       "source_file": "docs/crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "77e65a8d53982797a58eb86b806593fd91698d59"
+  "built_at_commit": "744507b3c1eb676e072395a6880b1f9a1597c3cc"
 }
