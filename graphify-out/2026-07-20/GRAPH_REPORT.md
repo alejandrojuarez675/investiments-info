@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-20)
 
 ## Corpus Check
-- 20 files · ~7,891 words
+- 20 files · ~8,062 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 137 nodes · 144 edges · 28 communities (15 shown, 13 thin omitted)
+- 137 nodes · 129 edges · 28 communities (15 shown, 13 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a017fc89`
+- Built from commit: `62962e61`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -66,7 +66,7 @@
 ## Communities (28 total, 13 thin omitted)
 
 ### Community 1 - "CEDEARs y Merval"
-Cohesion: 0.15
+Cohesion: 0.13
 Nodes (12): Características principales, Cómo invertir, Fuentes, Merval en pesos vs. Merval en dólares ("Merval en CCL"), Qué es el Merval, Riesgos particulares del mercado argentino, Características principales, Cómo invertir en el índice (+4 more)
 
 ### Community 4 - "Diversificación de Portafolio"
@@ -86,11 +86,11 @@ Cohesion: 0.33
 Nodes (6): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500, Fuentes, Principales ETFs, Riesgos específicos de los ETFs
 
 ### Community 9 - "Diversificación"
-Cohesion: 0.40
+Cohesion: 0.33
 Nodes (5): Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación
 
 ### Community 10 - "Relación riesgo-retorno"
-Cohesion: 0.40
+Cohesion: 0.33
 Nodes (5): Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad"
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
@@ -98,7 +98,7 @@ Cohesion: 0.40
 Nodes (5): CEDEARs (Certificados de Depósito Argentinos), Cómo funcionan, Fuentes, Por qué se usan, Riesgos y particularidades
 
 ### Community 12 - "Estrategias de trading de corto plazo"
-Cohesion: 0.18
+Cohesion: 0.20
 Nodes (10): Breakout trading (ruptura de rangos), Day trading (trading intradía), Elementos comunes a toda estrategia de trading, Estrategias de trading de corto plazo, Fuentes, Limitaciones generales del trading de corto plazo, Scalping, Swing trading (+2 more)
 
 ### Community 13 - "Brokers en Argentina: comparación y FCI money market"
@@ -118,24 +118,28 @@ Cohesion: 0.20
 Nodes (10): Buy and hold (comprar y mantener), Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing), Inversión en dividendos (+2 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
-Cohesion: 0.40
+Cohesion: 0.33
 Nodes (5): Buenas prácticas generales (educativas, no exhaustivas), Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Wallets propias (self-custody)
 
 ### Community 24 - "investiments-info"
-Cohesion: 0.50
+Cohesion: 0.29
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **100 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Idea central` (+95 more)
+- **100 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Buy and hold (comprar y mantener)`, `Dollar-Cost Averaging (DCA)` (+95 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
-  _High betweenness centrality (0.116) - this node is a cross-community bridge._
 - **Why does `Tipos de activos financieros` connect `Diversificación de Portafolio` to `Activos y Glosario`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
-- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
+- **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
+  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+- **Why does `Bitcoin y Ethereum: conceptos básicos` connect `Bitcoin y Ethereum: conceptos básicos` to `Activos y Glosario`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
   _100 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `CEDEARs y Merval` be split into smaller, more focused modules?**
+  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
