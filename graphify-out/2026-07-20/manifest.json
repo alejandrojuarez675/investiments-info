@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784576480.0370324,
-    "ast_hash": "7c9115539f76df298e502d854dbfefb8",
+    "mtime": 1784577048.6664715,
+    "ast_hash": "a06c1da0328b899483200fda143d90e4",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "docs/glosario/glosario.md": {
-    "mtime": 1784574137.0918686,
-    "ast_hash": "ef99dbe503d395cf85fa5311135f706c",
+    "mtime": 1784577053.9064045,
+    "ast_hash": "0fc16f365331f140cedb9bc209facbb6",
     "semantic_hash": ""
   },
   "docs/merval/bonos-argentinos.md": {
@@ -70,8 +70,8 @@
     "semantic_hash": ""
   },
   "docs/sp500/etfs-sp500.md": {
-    "mtime": 1784574176.0100017,
-    "ast_hash": "1cd4f6be92e1c534e28172f61182f6a2",
+    "mtime": 1784577035.0070584,
+    "ast_hash": "982a3267943f363ae62da96945803098",
     "semantic_hash": ""
   },
   "docs/sp500/que-es-sp500.md": {
@@ -102,6 +102,11 @@
   "docs/merval/plazo-fijo-y-dolar.md": {
     "mtime": 1784576475.446927,
     "ast_hash": "7ebaaf6953c65f7341df9899f66df18a",
+    "semantic_hash": ""
+  },
+  "docs/merval/obligaciones-negociables.md": {
+    "mtime": 1784577012.0035295,
+    "ast_hash": "dfe6766651fb43efc8b2123f3446b9c4",
     "semantic_hash": ""
   }
 }

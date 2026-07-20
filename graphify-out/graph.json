@@ -42,8 +42,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "readme.md"
     },
     {
@@ -53,8 +53,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "investiments-info"
     },
     {
@@ -64,8 +64,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "convencion de archivos"
     },
     {
@@ -75,107 +75,217 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L61",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "para asistentes de ia"
     },
     {
-      "label": "plazo-fijo-y-dolar.md",
+      "label": "glosario.md",
       "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_file": "docs/glosario/glosario.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "plazo-fijo-y-dolar.md"
+      "id": "docs_glosario_glosario",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario.md"
     },
     {
-      "label": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "label": "Glosario de t\u00e9rminos",
       "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_file": "docs/glosario/glosario.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "plazo fijo y dolar: las inversiones mas populares en argentina"
-    },
-    {
-      "label": "Plazo fijo tradicional",
-      "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_tradicional",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "plazo fijo tradicional"
-    },
-    {
-      "label": "Plazo fijo UVA",
-      "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_uva",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "plazo fijo uva"
-    },
-    {
-      "label": "D\u00f3lar: los distintos \"d\u00f3lares\" en Argentina",
-      "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L50",
-      "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "dolar: los distintos \"dolares\" en argentina"
-    },
-    {
-      "label": "MEP vs. CCL: diferencia clave",
-      "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L77",
-      "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_mep_vs_ccl_diferencia_clave",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "mep vs. ccl: diferencia clave"
-    },
-    {
-      "label": "Plazo fijo vs. d\u00f3lar: c\u00f3mo se comparan",
-      "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L84",
-      "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_vs_d\u00f3lar_c\u00f3mo_se_comparan",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
-      "norm_label": "plazo fijo vs. dolar: como se comparan"
+      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario de terminos"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L97",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L55",
       "_origin": "ast",
-      "id": "docs_merval_plazo_fijo_y_dolar_fuentes",
-      "community": 28,
-      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "id": "docs_glosario_glosario_fuentes",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "obligaciones-negociables.md",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "obligaciones-negociables.md"
+    },
+    {
+      "label": "Obligaciones Negociables (ONs) argentinas",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "obligaciones negociables (ons) argentinas"
+    },
+    {
+      "label": "C\u00f3mo funcionan",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_c\u00f3mo_funcionan",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "como funcionan"
+    },
+    {
+      "label": "Riesgo crediticio: distinto al riesgo soberano",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_riesgo_crediticio_distinto_al_riesgo_soberano",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "riesgo crediticio: distinto al riesgo soberano"
+    },
+    {
+      "label": "Ventajas frente a otros instrumentos de renta fija",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_ventajas_frente_a_otros_instrumentos_de_renta_fija",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "ventajas frente a otros instrumentos de renta fija"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_riesgos_y_consideraciones",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "riesgos y consideraciones"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "docs_merval_obligaciones_negociables_fuentes",
+      "community": 24,
+      "community_name": "Obligaciones Negociables (ONs) argentinas",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "etfs-sp500.md",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "etfs-sp500.md"
+    },
+    {
+      "label": "ETFs que replican el S&P 500 y el Nasdaq-100",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "etfs que replican el s&p 500 y el nasdaq-100"
+    },
+    {
+      "label": "Principales ETFs",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_principales_etfs",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "principales etfs"
+    },
+    {
+      "label": "QQQ: el ETF del Nasdaq-100",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_qqq_el_etf_del_nasdaq_100",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "qqq: el etf del nasdaq-100"
+    },
+    {
+      "label": "Diferencias pr\u00e1cticas entre ellos",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "diferencias practicas entre ellos"
+    },
+    {
+      "label": "C\u00f3mo acceder desde Argentina",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "como acceder desde argentina"
+    },
+    {
+      "label": "Riesgos espec\u00edficos de los ETFs",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
+      "norm_label": "riesgos especificos de los etfs"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "docs_sp500_etfs_sp500_fuentes",
+      "community": 8,
+      "community_name": "ETFs que replican el S&P 500",
       "norm_label": "fuentes"
     },
     {
@@ -206,8 +316,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "diversificacion.md",
       "id": "docs_conceptos_generales_diversificacion"
     },
@@ -217,8 +327,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "diversificacion",
       "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
     },
@@ -228,8 +338,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "idea central",
       "id": "docs_conceptos_generales_diversificacion_idea_central"
     },
@@ -239,8 +349,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "formas comunes de diversificar",
       "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
     },
@@ -250,8 +360,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "limites de la diversificacion",
       "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
     },
@@ -261,8 +371,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_diversificacion_fuentes"
     },
@@ -272,8 +382,8 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "dollar-cost-averaging.md",
       "id": "docs_conceptos_generales_dollar_cost_averaging"
     },
@@ -349,8 +459,8 @@
       "source_file": "docs/conceptos-generales/estrategias-inversion-largo-plazo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "estrategias-inversion-largo-plazo.md",
       "id": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
     },
@@ -591,8 +701,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "interes-compuesto.md",
       "id": "docs_conceptos_generales_interes_compuesto"
     },
@@ -602,8 +712,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "interes compuesto",
       "id": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto"
     },
@@ -613,8 +723,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "formula basica",
       "id": "docs_conceptos_generales_interes_compuesto_f\u00f3rmula_b\u00e1sica"
     },
@@ -624,8 +734,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "por que importa el tiempo mas que el monto",
       "id": "docs_conceptos_generales_interes_compuesto_por_qu\u00e9_importa_el_tiempo_m\u00e1s_que_el_monto"
     },
@@ -635,8 +745,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "regla del 72",
       "id": "docs_conceptos_generales_interes_compuesto_regla_del_72"
     },
@@ -646,8 +756,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "relacion con otros conceptos",
       "id": "docs_conceptos_generales_interes_compuesto_relaci\u00f3n_con_otros_conceptos"
     },
@@ -657,8 +767,8 @@
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 5,
+      "community_name": "ETFs del S&P 500",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_interes_compuesto_fuentes"
     },
@@ -844,8 +954,8 @@
       "source_file": "docs/crypto/bitcoin-ethereum.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 15,
+      "community_name": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
       "norm_label": "bitcoin-ethereum.md",
       "id": "docs_crypto_bitcoin_ethereum"
     },
@@ -993,46 +1103,13 @@
       "id": "docs_crypto_exchanges_custodia_fuentes"
     },
     {
-      "label": "glosario.md",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "glosario.md",
-      "id": "docs_glosario_glosario"
-    },
-    {
-      "label": "Glosario de t\u00e9rminos",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "glosario de terminos",
-      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L52",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "fuentes",
-      "id": "docs_glosario_glosario_fuentes"
-    },
-    {
       "label": "bonos-argentinos.md",
       "file_type": "document",
       "source_file": "docs/merval/bonos-argentinos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 14,
+      "community_name": "Bonos argentinos",
       "norm_label": "bonos-argentinos.md",
       "id": "docs_merval_bonos_argentinos"
     },
@@ -1229,8 +1306,8 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "cedears (certificados de deposito argentinos)",
       "id": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos"
     },
@@ -1240,8 +1317,8 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "como funcionan",
       "id": "docs_merval_cedears_c\u00f3mo_funcionan"
     },
@@ -1251,8 +1328,8 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "por que se usan",
       "id": "docs_merval_cedears_por_qu\u00e9_se_usan"
     },
@@ -1262,8 +1339,8 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "riesgos y particularidades",
       "id": "docs_merval_cedears_riesgos_y_particularidades"
     },
@@ -1273,10 +1350,98 @@
       "source_file": "docs/merval/cedears.md",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_merval_cedears_fuentes"
+    },
+    {
+      "label": "plazo-fijo-y-dolar.md",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "plazo-fijo-y-dolar.md",
+      "id": "docs_merval_plazo_fijo_y_dolar"
+    },
+    {
+      "label": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "plazo fijo y dolar: las inversiones mas populares en argentina",
+      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina"
+    },
+    {
+      "label": "Plazo fijo tradicional",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "plazo fijo tradicional",
+      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_tradicional"
+    },
+    {
+      "label": "Plazo fijo UVA",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "plazo fijo uva",
+      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_uva"
+    },
+    {
+      "label": "D\u00f3lar: los distintos \"d\u00f3lares\" en Argentina",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "dolar: los distintos \"dolares\" en argentina",
+      "id": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina"
+    },
+    {
+      "label": "MEP vs. CCL: diferencia clave",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "mep vs. ccl: diferencia clave",
+      "id": "docs_merval_plazo_fijo_y_dolar_mep_vs_ccl_diferencia_clave"
+    },
+    {
+      "label": "Plazo fijo vs. d\u00f3lar: c\u00f3mo se comparan",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "plazo fijo vs. dolar: como se comparan",
+      "id": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_vs_d\u00f3lar_c\u00f3mo_se_comparan"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "Plazo fijo y d\u00f3lar: las inversiones m\u00e1s populares en Argentina",
+      "norm_label": "fuentes",
+      "id": "docs_merval_plazo_fijo_y_dolar_fuentes"
     },
     {
       "label": "que-es-merval.md",
@@ -1284,8 +1449,8 @@
       "source_file": "docs/merval/que-es-merval.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "que-es-merval.md",
       "id": "docs_merval_que_es_merval"
     },
@@ -1356,90 +1521,13 @@
       "id": "docs_merval_que_es_merval_fuentes"
     },
     {
-      "label": "etfs-sp500.md",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "etfs-sp500.md",
-      "id": "docs_sp500_etfs_sp500"
-    },
-    {
-      "label": "ETFs que replican el S&P 500",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "etfs que replican el s&p 500",
-      "id": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500"
-    },
-    {
-      "label": "Principales ETFs",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "principales etfs",
-      "id": "docs_sp500_etfs_sp500_principales_etfs"
-    },
-    {
-      "label": "Diferencias pr\u00e1cticas entre ellos",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "diferencias practicas entre ellos",
-      "id": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos"
-    },
-    {
-      "label": "C\u00f3mo acceder desde Argentina",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "como acceder desde argentina",
-      "id": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina"
-    },
-    {
-      "label": "Riesgos espec\u00edficos de los ETFs",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L50",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "riesgos especificos de los etfs",
-      "id": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs"
-    },
-    {
-      "label": "Fuentes",
-      "file_type": "document",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "ETFs que replican el S&P 500",
-      "norm_label": "fuentes",
-      "id": "docs_sp500_etfs_sp500_fuentes"
-    },
-    {
       "label": "que-es-sp500.md",
       "file_type": "document",
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 1,
+      "community_name": "CEDEARs y Merval",
       "norm_label": "que-es-sp500.md",
       "id": "docs_sp500_que_es_sp500"
     },
@@ -1449,8 +1537,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "que es el s&p 500",
       "id": "docs_sp500_que_es_sp500_qu\u00e9_es_el_s_p_500"
     },
@@ -1460,8 +1548,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "caracteristicas principales",
       "id": "docs_sp500_que_es_sp500_caracter\u00edsticas_principales"
     },
@@ -1471,8 +1559,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "por que se usa como referencia",
       "id": "docs_sp500_que_es_sp500_por_qu\u00e9_se_usa_como_referencia"
     },
@@ -1482,8 +1570,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "como invertir en el indice",
       "id": "docs_sp500_que_es_sp500_c\u00f3mo_invertir_en_el_\u00edndice"
     },
@@ -1493,8 +1581,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "riesgos y consideraciones",
       "id": "docs_sp500_que_es_sp500_riesgos_y_consideraciones"
     },
@@ -1504,8 +1592,8 @@
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L56",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "DCA e Inter\u00e9s Compuesto",
+      "community": 29,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "fuentes",
       "id": "docs_sp500_que_es_sp500_fuentes"
     },
@@ -1669,10 +1757,30 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L54",
+      "source_location": "L60",
       "weight": 1.0,
       "source": "readme",
-      "target": "docs_merval_plazo_fijo_y_dolar",
+      "target": "docs_glosario_glosario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_obligaciones_negociables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_sp500_etfs_sp500",
       "confidence_score": 1.0
     },
     {
@@ -1709,7 +1817,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L61",
+      "source_location": "L62",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -1718,71 +1826,201 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_file": "docs/glosario/glosario.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar",
-      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "source": "docs_glosario_glosario",
+      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_obligaciones_negociables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_sp500_etfs_sp500",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "target": "docs_glosario_glosario_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables",
+      "target": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "target": "docs_merval_obligaciones_negociables_c\u00f3mo_funcionan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "target": "docs_merval_obligaciones_negociables_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "target": "docs_merval_obligaciones_negociables_riesgo_crediticio_distinto_al_riesgo_soberano",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "target": "docs_merval_obligaciones_negociables_riesgos_y_consideraciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/obligaciones-negociables.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_merval_obligaciones_negociables_obligaciones_negociables_ons_argentinas",
+      "target": "docs_merval_obligaciones_negociables_ventajas_frente_a_otros_instrumentos_de_renta_fija",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
       "source_location": "L50",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina",
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_dollar_cost_averaging",
+      "target": "docs_sp500_etfs_sp500"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_tipos_de_activos",
+      "target": "docs_sp500_etfs_sp500"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/cedears.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_cedears",
+      "target": "docs_sp500_etfs_sp500"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_sp500",
+      "target": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L97",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L58",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_fuentes",
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L18",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L48",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_tradicional",
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L35",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L79",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_uva",
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_fuentes",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L84",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_vs_d\u00f3lar_c\u00f3mo_se_comparan",
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_principales_etfs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
-      "source_location": "L77",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L30",
       "weight": 1.0,
-      "source": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina",
-      "target": "docs_merval_plazo_fijo_y_dolar_mep_vs_ccl_diferencia_clave",
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_qqq_el_etf_del_nasdaq_100",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-sp500.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500_y_el_nasdaq_100",
+      "target": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs",
       "confidence_score": 1.0
     },
     {
@@ -1814,16 +2052,6 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_diversificacion",
       "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_diversificacion"
     },
     {
       "relation": "contains",
@@ -1878,31 +2106,11 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/dollar-cost-averaging.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_dollar_cost_averaging",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
       "source_location": "L59",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_interes_compuesto",
-      "target": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_dollar_cost_averaging"
     },
     {
@@ -2246,16 +2454,6 @@
       "target": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_riesgo_retorno"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/riesgo-retorno.md",
@@ -2334,26 +2532,6 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_activos",
       "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/tipos-de-activos.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_conceptos_generales_tipos_de_activos",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_conceptos_generales_tipos_de_activos"
     },
     {
       "relation": "contains",
@@ -2446,16 +2624,6 @@
       "target": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_crypto_bitcoin_ethereum"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/crypto/bitcoin-ethereum.md",
@@ -2526,16 +2694,6 @@
       "target": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_crypto_exchanges_custodia"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/crypto/exchanges-custodia.md",
@@ -2574,56 +2732,6 @@
       "confidence_score": 1.0,
       "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
       "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_merval_bonos_argentinos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "target": "docs_glosario_glosario_fuentes"
     },
     {
       "relation": "contains",
@@ -2786,16 +2894,6 @@
       "target": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/cedears.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_merval_cedears",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/merval/cedears.md",
@@ -2834,6 +2932,76 @@
       "confidence_score": 1.0,
       "source": "docs_merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
       "target": "docs_merval_cedears_riesgos_y_particularidades"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar",
+      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_tradicional"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_uva"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_y_d\u00f3lar_las_inversiones_m\u00e1s_populares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_plazo_fijo_vs_d\u00f3lar_c\u00f3mo_se_comparan"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/plazo-fijo-y-dolar.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_plazo_fijo_y_dolar_d\u00f3lar_los_distintos_d\u00f3lares_en_argentina",
+      "target": "docs_merval_plazo_fijo_y_dolar_mep_vs_ccl_diferencia_clave"
     },
     {
       "relation": "contains",
@@ -2904,66 +3072,6 @@
       "confidence_score": 1.0,
       "source": "docs_merval_que_es_merval_qu\u00e9_es_el_merval",
       "target": "docs_merval_que_es_merval_riesgos_particulares_del_mercado_argentino"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500",
-      "target": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_c\u00f3mo_acceder_desde_argentina"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_diferencias_pr\u00e1cticas_entre_ellos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_principales_etfs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/sp500/etfs-sp500.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_sp500_etfs_sp500_etfs_que_replican_el_s_p_500",
-      "target": "docs_sp500_etfs_sp500_riesgos_espec\u00edficos_de_los_etfs"
     },
     {
       "relation": "contains",
@@ -3057,5 +3165,5 @@
       "source_file": "docs/crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "dd294d9a5cf9ca89401c9509960d683743dc7db7"
+  "built_at_commit": "7d4fec0cd00cf3bc964b24fbc04612158fe452b2"
 }
