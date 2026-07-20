@@ -121,6 +121,49 @@ posibilidad de comparar y elegir el FCI money market específico.
 - **Balanz**: FCI money market con buena tasa históricamente, integrado
   a su ecosistema con Balanz Bank.
 
+### Comparación de billeteras virtuales: Mercado Pago vs. Ualá vs. otras
+
+Las billeteras virtuales compiten fuerte por tasa desde 2025-2026 porque el
+saldo remunerado es una forma barata de retener usuarios. La tasa exacta
+cambia semana a semana (a veces día a día), así que antes de decidir
+conviene mirar la tasa vigente en la app en lugar de un valor fijo. Como
+referencia, en julio de 2026 el orden aproximado de mayor a menor TNA era:
+
+| Billetera | Producto | TNA aprox. (jul-2026) | Notas |
+|---|---|---|---|
+| Mercado Pago | Mercado Fondo (FCI Ahorro Clase A) | ~27-28% | Mayor volumen de usuarios; sin límite de saldo remunerado conocido |
+| Ualá | Ualá Fondos (Ualintec Pesos Plus Clase A) | ~26-27% | Tasa muy competitiva con Mercado Pago, a veces por encima |
+| Personal Pay | FCI money market propio | ~18% | Más bajo que Mercado Pago/Ualá |
+| Naranja X | Cuenta Remunerada | ~18% | Similar a Personal Pay |
+| Cocos Pay | FCI Cocos Pesos Plus / Mixto | hasta ~28% | Billetera del bróker Cocos; suele liderar o pelear el primer puesto, pero requiere más pasos de configuración que un "todo en uno" |
+
+Nota: estos valores son un snapshot de julio de 2026 tomado de coberturas
+periodísticas (ver Fuentes) y **no** están verificados contra la fuente
+primaria (folleto del FCI); tratarlos como orden de magnitud, no como dato
+exacto para decidir.
+
+**Mercado Pago vs. Ualá en concreto**: durante 2026 ambas se turnaron el
+primer puesto por márgenes de 1-2 puntos de TNA, así que en la práctica el
+rendimiento es casi equivalente. La decisión entre las dos suele pasar más
+por otros factores que por la tasa:
+
+- **Alcance/aceptación para pagos**: Mercado Pago tiene mayor red de
+  comercios y es el estándar de facto para cobros (QR, link de pago,
+  Marketplace), lo que importa si además la usás para vender o cobrar.
+- **Producto financiero adicional**: Ualá tiene tarjeta prepaga/crédito
+  con buen reconocimiento y foco histórico en inclusión financiera;
+  Mercado Pago tiene más integraciones con el ecosistema Mercado Libre.
+- **Límites de saldo remunerado**: algunas billeteras remuneran solo hasta
+  cierto monto y el excedente no genera rendimiento (o rinde menos);
+  confirmar el tope vigente en la app antes de dejar montos grandes.
+
+En términos generales: si la tasa es prácticamente la misma, conviene
+elegir la billetera que ya usás para el día a día (pagos, cobros) en vez
+de mover el dinero solo por una diferencia de 1-2 puntos de TNA que puede
+revertirse la semana siguiente. Para montos grandes o de mediano plazo,
+un bróker (Cocos, Balanz, IOL) suele dar más control y, en general,
+mejor tasa que las billeteras "todo en uno".
+
 ### Money market vs. otras estrategias de FCI
 
 Aunque el money market sigue siendo la puerta de entrada más elegida por
@@ -154,3 +197,7 @@ asesoramiento financiero personalizado.
 - [Ranking de Billeteras Virtuales en Argentina: Rendimientos de FCI y Cuentas Remuneradas - El Economista](https://eleconomista.com.ar/especial/rendimientos)
 - [La industria de fondos comunes de inversión alcanzó récord histórico - El Cronista](https://www.cronista.com/finanzas-mercados/la-industria-de-fondos-comunes-de-inversion-alcanzo-record-historico/)
 - [Ranking de fondos comunes de inversión en Argentina 2026 - Rankia](https://www.rankia.com.ar/blog/fondos-comunes-de-inversion/4142161-ranking-fondos-comunes-inversion-argentina)
+- [Las billeteras virtuales suben las tasas y renuevan la competencia por los ahorros - Infobae](https://www.infobae.com/economia/2026/05/27/las-billeteras-virtuales-suben-las-tasas-y-renuevan-la-competencia-por-los-ahorros-cuanto-paga-cada-una/)
+- [Billeteras virtuales: las apps que más pagan en julio 2026 - Cholila Online](https://cholilaonline.ar/2026/07/billeteras-virtuales-frente-al-dolar-el-ranking-de-las-apps-que-mejor-hacen-rendir-los-pesos-en-julio-de-2026.html)
+- [Cocos, Naranja X, Ualá o Mercado Pago: ¿cuál billetera virtual más paga? - El Economista](https://eleconomista.com.ar/economia/cocos-naranja-x-uala-o-mercado-pago-cual-billetera-virtual-mas-esta-pagando-argentina-n96086)
+- [¿Qué billetera virtual rinde más en Argentina? 2026 - CalcuSite](https://www.calcusite.com.ar/articulos/cual-billetera-virtual-rinde-mas-argentina-2026)
