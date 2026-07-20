@@ -28,7 +28,7 @@
       "concept_merval",
       "concept_riesgo_pais",
       "conceptos_generales_riesgo_retorno",
-      "glosario_glosario_glosario",
+      "glosario_glosario_glosario_glosario",
       "merval_bonos_argentinos",
       "merval_que_es_merval",
       "readme"
@@ -57,12 +57,12 @@
   "gods": [
     {
       "id": "readme",
-      "label": "README \u2013 investiments-info",
+      "label": "README – investiments-info",
       "degree": 13
     },
     {
-      "id": "glosario_glosario_glosario",
-      "label": "Glosario de t\u00e9rminos",
+      "id": "glosario_glosario_glosario_glosario",
+      "label": "Glosario de términos",
       "degree": 12
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "id": "crypto_bitcoin_ethereum",
-      "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "label": "Bitcoin y Ethereum: conceptos básicos",
       "degree": 8
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "id": "merval_que_es_merval",
-      "label": "Qu\u00e9 es el Merval",
+      "label": "Qué es el Merval",
       "degree": 7
     },
     {
       "id": "conceptos_generales_diversificacion",
-      "label": "Diversificaci\u00f3n",
+      "label": "Diversificación",
       "degree": 6
     },
     {
@@ -108,8 +108,8 @@
   ],
   "surprises": [
     {
-      "source": "README \u2013 investiments-info",
-      "target": "Diversificaci\u00f3n",
+      "source": "README – investiments-info",
+      "target": "Diversificación",
       "source_files": [
         "README.md",
         "conceptos-generales/diversificacion.md"
@@ -119,7 +119,7 @@
       "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "README \u2013 investiments-info",
+      "source": "README – investiments-info",
       "target": "Dollar-Cost Averaging (DCA)",
       "source_files": [
         "README.md",
@@ -130,8 +130,8 @@
       "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "README \u2013 investiments-info",
-      "target": "Inter\u00e9s compuesto",
+      "source": "README – investiments-info",
+      "target": "Interés compuesto",
       "source_files": [
         "README.md",
         "conceptos-generales/interes-compuesto.md"
@@ -141,7 +141,7 @@
       "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "README \u2013 investiments-info",
+      "source": "README – investiments-info",
       "target": "Tipos de activos financieros",
       "source_files": [
         "README.md",
@@ -152,8 +152,8 @@
       "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "README \u2013 investiments-info",
-      "target": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
+      "source": "README – investiments-info",
+      "target": "Bitcoin y Ethereum: conceptos básicos",
       "source_files": [
         "README.md",
         "crypto/bitcoin-ethereum.md"
@@ -163,8 +163,26 @@
       "why": "connects across different repos/directories; bridges separate communities"
     }
   ],
-  "tokens": {
-    "input": 35135,
-    "output": 8630
-  }
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `README – investiments-info` connect `Mercado argentino y glosario` to `Estrategias y conceptos de inversión`, `Activos financieros y mercados`, `Bitcoin y blockchain`, `Custodia y exchanges cripto`?",
+      "why": "High betweenness centrality (0.323) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Bitcoin y Ethereum: conceptos básicos` connect `Bitcoin y blockchain` to `Activos financieros y mercados`, `Mercado argentino y glosario`, `Custodia y exchanges cripto`?",
+      "why": "High betweenness centrality (0.219) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Glosario de términos` connect `Mercado argentino y glosario` to `Estrategias y conceptos de inversión`, `Activos financieros y mercados`, `Bitcoin y blockchain`, `Custodia y exchanges cripto`?",
+      "why": "High betweenness centrality (0.213) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Concepto: Regla del 72`, `Concepto: Renta variable`, `Concepto: Renta fija` to the rest of the system?",
+      "why": "3 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
 }

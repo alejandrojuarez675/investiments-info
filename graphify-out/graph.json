@@ -50,6 +50,72 @@
   },
   "nodes": [
     {
+      "label": "cedears.md",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "merval_cedears",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "cedears.md"
+    },
+    {
+      "label": "CEDEARs (Certificados de Dep\u00f3sito Argentinos)",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "cedears (certificados de deposito argentinos)"
+    },
+    {
+      "label": "C\u00f3mo funcionan",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "merval_cedears_c\u00f3mo_funcionan",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "como funcionan"
+    },
+    {
+      "label": "Por qu\u00e9 se usan",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "merval_cedears_por_qu\u00e9_se_usan",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "por que se usan"
+    },
+    {
+      "label": "Riesgos y particularidades",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "merval_cedears_riesgos_y_particularidades",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "riesgos y particularidades"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "merval/cedears.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "merval_cedears_fuentes",
+      "community": 1,
+      "community_name": "Activos financieros y mercados",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "README \u2013 investiments-info",
       "file_type": "document",
       "source_file": "README.md",
@@ -58,10 +124,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 5,
       "norm_label": "readme \u2013 investiments-info",
-      "id": "readme",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "README \u2013 investiments-info",
+      "id": "readme"
     },
     {
       "label": "Diversificaci\u00f3n",
@@ -72,10 +138,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 6,
       "norm_label": "diversificacion",
-      "id": "conceptos_generales_diversificacion",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Diversificaci\u00f3n",
+      "id": "conceptos_generales_diversificacion"
     },
     {
       "label": "Dollar-Cost Averaging (DCA)",
@@ -88,8 +154,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "dollar-cost averaging (dca)",
-      "id": "conceptos_generales_dollar_cost_averaging",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "conceptos_generales_dollar_cost_averaging"
     },
     {
       "label": "Inter\u00e9s compuesto",
@@ -102,8 +168,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "interes compuesto",
-      "id": "conceptos_generales_interes_compuesto",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "conceptos_generales_interes_compuesto"
     },
     {
       "label": "Relaci\u00f3n riesgo-retorno",
@@ -116,8 +182,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "relacion riesgo-retorno",
-      "id": "conceptos_generales_riesgo_retorno",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "conceptos_generales_riesgo_retorno"
     },
     {
       "label": "Tipos de activos financieros",
@@ -130,8 +196,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "tipos de activos financieros",
-      "id": "conceptos_generales_tipos_de_activos",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "Activos financieros y mercados",
+      "id": "conceptos_generales_tipos_de_activos"
     },
     {
       "label": "Bitcoin y Ethereum: conceptos b\u00e1sicos",
@@ -144,8 +210,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "bitcoin y ethereum: conceptos basicos",
-      "id": "crypto_bitcoin_ethereum",
-      "community_name": "Bitcoin y blockchain"
+      "community_name": "Bitcoin y blockchain",
+      "id": "crypto_bitcoin_ethereum"
     },
     {
       "label": "Exchanges y custodia de criptoactivos",
@@ -158,8 +224,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "exchanges y custodia de criptoactivos",
-      "id": "crypto_exchanges_custodia",
-      "community_name": "Custodia y exchanges cripto"
+      "community_name": "Custodia y exchanges cripto",
+      "id": "crypto_exchanges_custodia"
     },
     {
       "label": "Glosario de t\u00e9rminos",
@@ -172,8 +238,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "glosario de terminos",
-      "id": "glosario_glosario_glosario_glosario",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "glosario_glosario_glosario_glosario_glosario"
     },
     {
       "label": "Bonos argentinos",
@@ -186,22 +252,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "bonos argentinos",
-      "id": "merval_bonos_argentinos",
-      "community_name": "Mercado argentino y glosario"
-    },
-    {
-      "label": "CEDEARs",
-      "file_type": "document",
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "cedears",
-      "id": "merval_cedears",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "Mercado argentino y glosario",
+      "id": "merval_bonos_argentinos"
     },
     {
       "label": "Qu\u00e9 es el Merval",
@@ -214,8 +266,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "que es el merval",
-      "id": "merval_que_es_merval",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "merval_que_es_merval"
     },
     {
       "label": "ETFs que replican el S&P 500 (VOO, SPY, IVV)",
@@ -226,10 +278,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 5,
       "norm_label": "etfs que replican el s&p 500 (voo, spy, ivv)",
-      "id": "sp500_etfs_sp500",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "README \u2013 investiments-info",
+      "id": "sp500_etfs_sp500"
     },
     {
       "label": "Qu\u00e9 es el S&P 500",
@@ -240,10 +292,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "norm_label": "que es el s&p 500",
-      "id": "sp500_que_es_sp500",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "README \u2013 investiments-info",
+      "id": "sp500_que_es_sp500"
     },
     {
       "label": "Concepto: Diversificaci\u00f3n",
@@ -254,10 +306,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 6,
       "norm_label": "concepto: diversificacion",
-      "id": "concept_diversificacion",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Diversificaci\u00f3n",
+      "id": "concept_diversificacion"
     },
     {
       "label": "Concepto: Riesgo sistem\u00e1tico",
@@ -268,10 +320,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 6,
       "norm_label": "concepto: riesgo sistematico",
-      "id": "concept_riesgo_sistematico",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Diversificaci\u00f3n",
+      "id": "concept_riesgo_sistematico"
     },
     {
       "label": "Concepto: Dollar-Cost Averaging",
@@ -284,8 +336,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "concepto: dollar-cost averaging",
-      "id": "concept_dca",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "concept_dca"
     },
     {
       "label": "Concepto: Inter\u00e9s compuesto",
@@ -298,8 +350,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "concepto: interes compuesto",
-      "id": "concept_interes_compuesto",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "concept_interes_compuesto"
     },
     {
       "label": "Concepto: Regla del 72",
@@ -312,8 +364,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "concepto: regla del 72",
-      "id": "concept_regla_72",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "concept_regla_72"
     },
     {
       "label": "Concepto: Relaci\u00f3n riesgo-retorno",
@@ -326,8 +378,8 @@
       "contributor": null,
       "community": 0,
       "norm_label": "concepto: relacion riesgo-retorno",
-      "id": "concept_riesgo_retorno",
-      "community_name": "Estrategias y conceptos de inversi\u00f3n"
+      "community_name": "Estrategias y conceptos de inversi\u00f3n",
+      "id": "concept_riesgo_retorno"
     },
     {
       "label": "Concepto: Blockchain",
@@ -340,8 +392,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "concepto: blockchain",
-      "id": "concept_blockchain",
-      "community_name": "Bitcoin y blockchain"
+      "community_name": "Bitcoin y blockchain",
+      "id": "concept_blockchain"
     },
     {
       "label": "Concepto: Proof of Work",
@@ -354,8 +406,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "concepto: proof of work",
-      "id": "concept_proof_of_work",
-      "community_name": "Bitcoin y blockchain"
+      "community_name": "Bitcoin y blockchain",
+      "id": "concept_proof_of_work"
     },
     {
       "label": "Concepto: Bitcoin (BTC)",
@@ -368,8 +420,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "concepto: bitcoin (btc)",
-      "id": "concept_bitcoin",
-      "community_name": "Bitcoin y blockchain"
+      "community_name": "Bitcoin y blockchain",
+      "id": "concept_bitcoin"
     },
     {
       "label": "Concepto: Ethereum (ETH)",
@@ -382,8 +434,8 @@
       "contributor": null,
       "community": 3,
       "norm_label": "concepto: ethereum (eth)",
-      "id": "concept_ethereum",
-      "community_name": "Bitcoin y blockchain"
+      "community_name": "Bitcoin y blockchain",
+      "id": "concept_ethereum"
     },
     {
       "label": "Concepto: Exchange centralizado (CEX)",
@@ -396,8 +448,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "concepto: exchange centralizado (cex)",
-      "id": "concept_cex",
-      "community_name": "Custodia y exchanges cripto"
+      "community_name": "Custodia y exchanges cripto",
+      "id": "concept_cex"
     },
     {
       "label": "Concepto: Cold wallet",
@@ -410,8 +462,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "concepto: cold wallet",
-      "id": "concept_cold_wallet",
-      "community_name": "Custodia y exchanges cripto"
+      "community_name": "Custodia y exchanges cripto",
+      "id": "concept_cold_wallet"
     },
     {
       "label": "Concepto: Hot wallet",
@@ -424,8 +476,8 @@
       "contributor": null,
       "community": 4,
       "norm_label": "concepto: hot wallet",
-      "id": "concept_hot_wallet",
-      "community_name": "Custodia y exchanges cripto"
+      "community_name": "Custodia y exchanges cripto",
+      "id": "concept_hot_wallet"
     },
     {
       "label": "Concepto: ETF",
@@ -436,10 +488,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 5,
       "norm_label": "concepto: etf",
-      "id": "concept_etf",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "README \u2013 investiments-info",
+      "id": "concept_etf"
     },
     {
       "label": "Concepto: Renta variable",
@@ -452,8 +504,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "concepto: renta variable",
-      "id": "concept_renta_variable",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "Activos financieros y mercados",
+      "id": "concept_renta_variable"
     },
     {
       "label": "Concepto: Renta fija",
@@ -466,22 +518,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "concepto: renta fija",
-      "id": "concept_renta_fija",
-      "community_name": "Activos financieros y mercados"
-    },
-    {
-      "label": "Concepto: CEDEAR",
-      "file_type": "concept",
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "concepto: cedear",
-      "id": "concept_cedear",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "Activos financieros y mercados",
+      "id": "concept_renta_fija"
     },
     {
       "label": "Concepto: Contado con Liquidaci\u00f3n (CCL)",
@@ -492,10 +530,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "norm_label": "concepto: contado con liquidacion (ccl)",
-      "id": "concept_ccl",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "Mercado argentino y glosario",
+      "id": "concept_ccl"
     },
     {
       "label": "Concepto: Riesgo pa\u00eds (EMBI+)",
@@ -508,8 +546,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "concepto: riesgo pais (embi+)",
-      "id": "concept_riesgo_pais",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "concept_riesgo_pais"
     },
     {
       "label": "Concepto: CER (Coeficiente de Estabilizaci\u00f3n de Referencia)",
@@ -522,8 +560,8 @@
       "contributor": null,
       "community": 2,
       "norm_label": "concepto: cer (coeficiente de estabilizacion de referencia)",
-      "id": "concept_cer",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "concept_cer"
     },
     {
       "label": "Concepto: \u00cdndice S&P 500",
@@ -534,10 +572,10 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 5,
       "norm_label": "concepto: indice s&p 500",
-      "id": "concept_sp500",
-      "community_name": "Activos financieros y mercados"
+      "community_name": "README \u2013 investiments-info",
+      "id": "concept_sp500"
     },
     {
       "label": "Concepto: \u00cdndice Merval",
@@ -550,11 +588,101 @@
       "contributor": null,
       "community": 2,
       "norm_label": "concepto: indice merval",
-      "id": "concept_merval",
-      "community_name": "Mercado argentino y glosario"
+      "community_name": "Mercado argentino y glosario",
+      "id": "concept_merval"
     }
   ],
   "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "conceptos-generales/tipos-de-activos.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "conceptos_generales_tipos_de_activos",
+      "target": "merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "glosario/glosario.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "glosario_glosario_glosario_glosario_glosario",
+      "target": "merval_cedears"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "merval/cedears.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "merval_cedears",
+      "target": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "merval/que-es-merval.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "merval_que_es_merval",
+      "target": "merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme",
+      "target": "merval_cedears"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "merval/cedears.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "target": "merval_cedears_c\u00f3mo_funcionan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "merval/cedears.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "target": "merval_cedears_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "merval/cedears.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "target": "merval_cedears_por_qu\u00e9_se_usan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "merval/cedears.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "merval_cedears_cedears_certificados_de_dep\u00f3sito_argentinos",
+      "target": "merval_cedears_riesgos_y_particularidades",
+      "confidence_score": 1.0
+    },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -633,7 +761,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "readme",
-      "target": "glosario_glosario_glosario_glosario"
+      "target": "glosario_glosario_glosario_glosario_glosario"
     },
     {
       "relation": "references",
@@ -644,16 +772,6 @@
       "weight": 1.0,
       "source": "readme",
       "target": "merval_bonos_argentinos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme",
-      "target": "merval_cedears"
     },
     {
       "relation": "references",
@@ -732,7 +850,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "conceptos_generales_diversificacion"
     },
     {
@@ -772,7 +890,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "conceptos_generales_dollar_cost_averaging"
     },
     {
@@ -842,18 +960,8 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "conceptos_generales_riesgo_retorno"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "conceptos-generales/tipos-de-activos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "conceptos_generales_tipos_de_activos",
-      "target": "concept_cedear"
     },
     {
       "relation": "references",
@@ -913,16 +1021,6 @@
       "source_location": null,
       "weight": 1.0,
       "source": "conceptos_generales_tipos_de_activos",
-      "target": "merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "conceptos-generales/tipos-de-activos.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "conceptos_generales_tipos_de_activos",
       "target": "sp500_etfs_sp500"
     },
     {
@@ -932,7 +1030,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "conceptos_generales_tipos_de_activos"
     },
     {
@@ -992,7 +1090,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "crypto_bitcoin_ethereum"
     },
     {
@@ -1032,7 +1130,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "crypto_exchanges_custodia"
     },
     {
@@ -1042,7 +1140,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "concept_ccl"
     },
     {
@@ -1052,7 +1150,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "concept_cer"
     },
     {
@@ -1062,7 +1160,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "merval_bonos_argentinos"
     },
     {
@@ -1072,17 +1170,7 @@
       "source_file": "glosario/glosario.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
-      "target": "merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "glosario/glosario.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "glosario_glosario_glosario_glosario",
+      "source": "glosario_glosario_glosario_glosario_glosario",
       "target": "sp500_etfs_sp500"
     },
     {
@@ -1104,46 +1192,6 @@
       "weight": 1.0,
       "source": "merval_bonos_argentinos",
       "target": "concept_riesgo_pais"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "merval_cedears",
-      "target": "concept_ccl"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "merval_cedears",
-      "target": "concept_cedear"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "merval_cedears",
-      "target": "sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "merval/que-es-merval.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "merval_que_es_merval",
-      "target": "merval_cedears"
     },
     {
       "relation": "references",
@@ -1329,16 +1377,6 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.95,
-      "source_file": "merval/cedears.md",
-      "source_location": null,
-      "weight": 0.95,
-      "source": "concept_cedear",
-      "target": "concept_ccl"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
       "source_file": "merval/que-es-merval.md",
       "source_location": null,
       "weight": 0.95,
@@ -1391,5 +1429,5 @@
       "source_file": "crypto/exchanges-custodia.md"
     }
   ],
-  "built_at_commit": "b7d599e7e30c01ab3bacd439bcb9f275d90f5087"
+  "built_at_commit": "c80ef2174a5fcb62eadd3eafc6663842c0046e91"
 }
