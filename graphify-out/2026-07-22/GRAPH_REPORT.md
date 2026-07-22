@@ -5,18 +5,19 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 442 nodes · 593 edges · 47 communities (45 shown, 2 thin omitted)
+- 442 nodes · 544 edges · 44 communities (42 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7d194b15`
+- Built from commit: `1f12638d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
+- Activos y Glosario
 - Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -58,9 +59,6 @@
 - Impuestos a las inversiones en Argentina
 - Sistema previsional argentino: jubilación y por qué complementar
 - Comparativa transversal de clases de activos
-- investiments-info
-- Glosario de términos
-- Estrategias de carry trade y trading cambiario en Argentina
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -80,7 +78,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (47 total, 2 thin omitted)
+## Communities (44 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -107,8 +105,8 @@ Cohesion: 0.12
 Nodes (16): Activo (stock picking), Agresivo, Conservador, Corto plazo (trading), Dollar-Cost Averaging (DCA), Ejemplo ilustrativo de asignación de cartera por perfil, Fuentes, Heurística simple de autoevaluación de perfil (+8 more)
 
 ### Community 7 - "Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade"
-Cohesion: 0.25
-Nodes (8): Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade, Carry trade: qué es y cómo funciona en Argentina, Cuándo conviene estar en pesos y cuándo en dólares, Cómo pensar la asignación entre pesos y dólares en una cartera, Fuentes, Por qué Argentina es una economía bimonetaria, Por qué el carry trade es una apuesta cambiaria, no un arbitraje, Qué se compra y vende en dólares, y qué en pesos
+Cohesion: 0.09
+Nodes (20): Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade, Carry trade: qué es y cómo funciona en Argentina, Cuándo conviene estar en pesos y cuándo en dólares, Cómo pensar la asignación entre pesos y dólares en una cartera, Fuentes, Por qué Argentina es una economía bimonetaria, Por qué el carry trade es una apuesta cambiaria, no un arbitraje, Qué se compra y vende en dólares, y qué en pesos (+12 more)
 
 ### Community 8 - "ETFs que replican el S&P 500"
 Cohesion: 0.22
@@ -250,16 +248,8 @@ Nodes (6): Cómo empezar a pensar el complemento, Cómo funciona el sistema prev
 Cohesion: 0.40
 Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
 
-### Community 44 - "investiments-info"
-Cohesion: 0.50
-Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
-
-### Community 46 - "Estrategias de carry trade y trading cambiario en Argentina"
-Cohesion: 0.25
-Nodes (8): Carry trade: mecánica, Cuándo conviene hacer carry trade (y cuándo no), Desventajas y riesgos del carry trade, Estrategias de carry trade y trading cambiario en Argentina, Fuentes, Otras estrategias emparentadas de trading cambiario, Por qué el carry trade es una apuesta cambiaria, no un arbitraje, Ventajas del carry trade
-
 ## Knowledge Gaps
-- **329 isolated node(s):** `graphify`, `Cotización dólar/peso`, `Convención de archivos`, `Estructura`, `Para asistentes de IA` (+324 more)
+- **329 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Por qué Argentina es una economía bimonetaria`, `Qué se compra y vende en dólares, y qué en pesos` (+324 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -267,16 +257,16 @@ Nodes (8): Carry trade: mecánica, Cuándo conviene hacer carry trade (y cuándo
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.092) - this node is a cross-community bridge._
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.071) - this node is a cross-community bridge._
+  _High betweenness centrality (0.067) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.066) - this node is a cross-community bridge._
-- **What connects `graphify`, `Cotización dólar/peso`, `Convención de archivos` to the rest of the system?**
+  _High betweenness centrality (0.063) - this node is a cross-community bridge._
+- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
   _329 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
-  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

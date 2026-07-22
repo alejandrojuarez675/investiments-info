@@ -1,0 +1,4 @@
+fecha,instrumento,moneda,tasa_tipo,tasa_valor,plazo_dias,fuente_url,notas
+2026-07-22,lecap,ARS,TIREA,0.2832,90,https://alfyinversiones.com.ar/blog/lecaps-la-guia-definitiva-para-ganarle-al-plazo-fijo/,Lecap vencimiento 13-nov; TEM 2.10%
+2026-07-22,tamar,ARS,TIREA,0.3150,365,https://www.ambito.com/finanzas/los-rendimientos-las-lecaps-confunden-al-mercado-aun-son-atractivos-n6253738,Letra TAMAR margen de corte 5.40% sobre tasa de referencia
+2026-07-22,dolar_oficial,ARS,tipo_de_cambio,1500,,https://indicadores.ar/indicadores-economicos/dolar-oficial,Cotizacion BNA al 21-jul-2026
