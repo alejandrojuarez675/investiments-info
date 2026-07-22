@@ -53,6 +53,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
 - **Merval** ([`docs/merval/`](docs/merval/))
   - [Qué es el Merval](docs/merval/que-es-merval.md)
+  - [Acciones argentinas: panel líder y general](docs/merval/acciones-argentinas.md)
   - [CEDEARs](docs/merval/cedears.md)
   - [Bonos argentinos](docs/merval/bonos-argentinos.md)
   - [Obligaciones Negociables (ONs) argentinas](docs/merval/obligaciones-negociables.md)

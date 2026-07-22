@@ -1,0 +1,204 @@
+{
+  "communities": {
+    "0": [
+      "concept_bitcoin",
+      "concept_blockchain",
+      "concept_defi",
+      "concept_ethereum",
+      "concept_proof_of_stake",
+      "concept_proof_of_work",
+      "concept_smart_contracts",
+      "docs_crypto_bitcoin_ethereum"
+    ],
+    "1": [
+      "concept_ccl",
+      "concept_cedear",
+      "concept_etf",
+      "concept_merval",
+      "concept_riesgo_pais",
+      "docs_merval_cedears",
+      "docs_merval_que_es_merval"
+    ],
+    "2": [
+      "concept_cer",
+      "concept_riesgo_retorno",
+      "concept_volatilidad",
+      "docs_conceptos_generales_tipos_de_activos",
+      "docs_glosario_glosario",
+      "docs_merval_bonos_argentinos",
+      "readme"
+    ],
+    "3": [
+      "concept_cex",
+      "concept_cold_wallet",
+      "concept_hot_wallet",
+      "concept_self_custody",
+      "docs_crypto_exchanges_custodia"
+    ],
+    "4": [
+      "concept_diversificacion",
+      "concept_markowitz",
+      "concept_riesgo_no_sistematico",
+      "concept_riesgo_sistematico",
+      "docs_conceptos_generales_diversificacion"
+    ],
+    "5": [
+      "concept_ivv",
+      "concept_sp500",
+      "concept_spy",
+      "concept_voo",
+      "docs_sp500_etfs_sp500"
+    ],
+    "6": [
+      "concept_dca",
+      "concept_interes_compuesto",
+      "concept_regla_72",
+      "docs_conceptos_generales_dollar_cost_averaging"
+    ],
+    "7": [
+      "claude_md",
+      "docs_sp500_que_es_sp500"
+    ]
+  },
+  "cohesion": {
+    "0": 0.39285714285714285,
+    "1": 0.38095238095238093,
+    "2": 0.5238095238095238,
+    "3": 0.6,
+    "4": 0.5,
+    "5": 0.6,
+    "6": 0.5,
+    "7": 1.0
+  },
+  "gods": [
+    {
+      "id": "readme",
+      "label": "README — investiments-info",
+      "degree": 13
+    },
+    {
+      "id": "docs_crypto_bitcoin_ethereum",
+      "label": "Bitcoin y Ethereum: conceptos básicos",
+      "degree": 11
+    },
+    {
+      "id": "docs_glosario_glosario",
+      "label": "Glosario de términos",
+      "degree": 10
+    },
+    {
+      "id": "docs_sp500_etfs_sp500",
+      "label": "ETFs que replican el S&P 500 (VOO, SPY, IVV)",
+      "degree": 9
+    },
+    {
+      "id": "docs_conceptos_generales_diversificacion",
+      "label": "Diversificación",
+      "degree": 7
+    },
+    {
+      "id": "docs_crypto_exchanges_custodia",
+      "label": "Exchanges y custodia de criptoactivos",
+      "degree": 7
+    },
+    {
+      "id": "docs_merval_cedears",
+      "label": "CEDEARs",
+      "degree": 7
+    },
+    {
+      "id": "docs_merval_que_es_merval",
+      "label": "Qué es el Merval",
+      "degree": 7
+    },
+    {
+      "id": "docs_sp500_que_es_sp500",
+      "label": "Qué es el S&P 500",
+      "degree": 7
+    },
+    {
+      "id": "docs_conceptos_generales_tipos_de_activos",
+      "label": "Tipos de activos financieros",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "CLAUDE.md — Project Instructions",
+      "target": "Qué es el S&P 500",
+      "source_files": [
+        "CLAUDE.md",
+        "docs/sp500/que-es-sp500.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `CLAUDE.md — Project Instructions` unexpectedly reaches hub `Qué es el S&P 500`"
+    },
+    {
+      "source": "README — investiments-info",
+      "target": "Interés compuesto",
+      "source_files": [
+        "README.md",
+        "docs/conceptos-generales/interes-compuesto.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README — investiments-info",
+      "target": "Diversificación",
+      "source_files": [
+        "README.md",
+        "docs/conceptos-generales/diversificacion.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README — investiments-info",
+      "target": "Dollar-Cost Averaging (DCA)",
+      "source_files": [
+        "README.md",
+        "docs/conceptos-generales/dollar-cost-averaging.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "README — investiments-info",
+      "target": "Bitcoin y Ethereum: conceptos básicos",
+      "source_files": [
+        "README.md",
+        "docs/crypto/bitcoin-ethereum.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `README — investiments-info` connect `Activos y Glosario` to `Bitcoin y Ethereum`, `CEDEARs y Merval`, `Exchanges y Custodia Cripto`, `Diversificación de Portafolio`, `ETFs del S&P 500`, `DCA e Interés Compuesto`, `S&P 500 y Proyecto`?",
+      "why": "High betweenness centrality (0.386) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Bitcoin y Ethereum: conceptos básicos` connect `Bitcoin y Ethereum` to `Activos y Glosario`, `Exchanges y Custodia Cripto`?",
+      "why": "High betweenness centrality (0.304) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Diversificación` connect `Diversificación de Portafolio` to `Activos y Glosario`, `DCA e Interés Compuesto`, `S&P 500 y Proyecto`?",
+      "why": "High betweenness centrality (0.182) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `CLAUDE.md — Project Instructions`, `Riesgo sistemático`, `Dollar-Cost Averaging` to the rest of the system?",
+      "why": "10 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

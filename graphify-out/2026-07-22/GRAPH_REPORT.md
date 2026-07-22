@@ -1,21 +1,20 @@
-# Graph Report - investiments-info  (2026-07-22)
+# Graph Report - investiments-info  (2026-07-20)
 
 ## Corpus Check
-- 31 files · ~29,468 words
+- 30 files · ~28,794 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 306 nodes · 385 edges · 30 communities (27 shown, 3 thin omitted)
+- 298 nodes · 373 edges · 29 communities (26 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `87b43c29`
+- Built from commit: `b2f9a48f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- Acciones argentinas: panel líder y general
 - CEDEARs y Merval
 - Activos y Glosario
 - Diversificación de Portafolio
@@ -64,11 +63,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (30 total, 3 thin omitted)
-
-### Community 0 - "Acciones argentinas: panel líder y general"
-Cohesion: 0.29
-Nodes (7): Acciones argentinas: panel líder y general, Cómo se opera, Ejemplo ilustrativo de concentración sectorial, Fuentes, Panel líder vs. panel general, Riesgos y consideraciones, Ventajas frente a otros instrumentos
+## Communities (29 total, 3 thin omitted)
 
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
@@ -91,7 +86,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.20
+Cohesion: 0.22
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -175,7 +170,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **229 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+224 more)
+- **223 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas`, `Análisis técnico vs. análisis fundamental` (+218 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -183,13 +178,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.131) - this node is a cross-community bridge._
+  _High betweenness centrality (0.134) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.101) - this node is a cross-community bridge._
+  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.095) - this node is a cross-community bridge._
-- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _229 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.097) - this node is a cross-community bridge._
+- **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
+  _223 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

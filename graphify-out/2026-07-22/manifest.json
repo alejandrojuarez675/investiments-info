@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724237.0936816,
-    "ast_hash": "17893a500ba360691729e451af6d5ddd",
+    "mtime": 1784581794.9801357,
+    "ast_hash": "98651db736ffd9984ec0a816a0405b85",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -147,11 +147,6 @@
   "docs/merval/plazo-fijo.md": {
     "mtime": 1784581291.0933187,
     "ast_hash": "f7cc7f422178cd16da30815d700c0030",
-    "semantic_hash": ""
-  },
-  "docs/merval/acciones-argentinas.md": {
-    "mtime": 1784724233.0469508,
-    "ast_hash": "0fea7262a98dcf3f0c714e14452bc763",
     "semantic_hash": ""
   }
 }
