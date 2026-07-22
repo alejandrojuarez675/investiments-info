@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784725674.9075906,
-    "ast_hash": "e26ec2fb7ea20a0612279f549033e55e",
+    "mtime": 1784725887.952189,
+    "ast_hash": "b788683f75a2cce153d675813b75b0e4",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -230,8 +230,13 @@
     "semantic_hash": ""
   },
   "docs/conceptos-generales/argentina-y-el-dolar.md": {
-    "mtime": 1784725809.3928342,
-    "ast_hash": "a2eadc604d53096fd743de5a7afce347",
+    "mtime": 1784725838.3524642,
+    "ast_hash": "81aab1fa64525fcf1b4b0f8a76d751b8",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/estrategias-carry-trade-argentina.md": {
+    "mtime": 1784725883.1859195,
+    "ast_hash": "729e4828bd246d99911cd0b0a01dd293",
     "semantic_hash": ""
   }
 }
