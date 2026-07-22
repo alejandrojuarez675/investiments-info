@@ -243,5 +243,10 @@
     "mtime": 1784746516.6161883,
     "ast_hash": "fbb6592e513dc0002ccfef1a1bbf5646",
     "semantic_hash": ""
+  },
+  "data/tasas/README.md": {
+    "mtime": 1784746782.4599924,
+    "ast_hash": "186849515ab7f6c6670390b4c49f1691",
+    "semantic_hash": ""
   }
 }

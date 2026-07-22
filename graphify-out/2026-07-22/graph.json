@@ -21,15 +21,125 @@
   },
   "nodes": [
     {
+      "label": "20260722-invetir-1000-usd.md",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "20260722-invetir-1000-usd.md"
+    },
+    {
+      "label": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "usd 1.000 a un ano: carry trade vs. s&p 500"
+    },
+    {
+      "label": "Datos de referencia (julio 2026)",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "datos de referencia (julio 2026)"
+    },
+    {
+      "label": "Recomendaci\u00f3n",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "recomendacion"
+    },
+    {
+      "label": "C\u00e1lculo: Escenario 1 \u2014 Carry trade puro",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "calculo: escenario 1 \u2014 carry trade puro"
+    },
+    {
+      "label": "C\u00e1lculo: Escenario 2 \u2014 S&P 500 puro",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "calculo: escenario 2 \u2014 s&p 500 puro"
+    },
+    {
+      "label": "C\u00e1lculo: Escenario 3 \u2014 Mezcla 60% carry / 40% S&P 500",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "calculo: escenario 3 \u2014 mezcla 60% carry / 40% s&p 500"
+    },
+    {
+      "label": "Conclusi\u00f3n",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_conclusi\u00f3n",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "conclusion"
+    },
+    {
+      "label": "Advertencia",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_advertencia",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "advertencia"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "reports_20260722_invetir_1000_usd_fuentes",
+      "community": 44,
+      "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "readme",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "readme"
     },
     {
       "label": "investiments-info",
@@ -37,10 +147,10 @@
       "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "readme_investiments_info",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "investiments-info"
+      "norm_label": "investiments-info",
+      "id": "readme_investiments_info"
     },
     {
       "label": "Convenci\u00f3n de archivos",
@@ -48,10 +158,10 @@
       "source_file": "README.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "readme_convenci\u00f3n_de_archivos",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "convencion de archivos"
+      "norm_label": "convencion de archivos",
+      "id": "readme_convenci\u00f3n_de_archivos"
     },
     {
       "label": "Estructura",
@@ -59,10 +169,10 @@
       "source_file": "README.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "readme_estructura",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "estructura"
+      "norm_label": "estructura",
+      "id": "readme_estructura"
     },
     {
       "label": "Para asistentes de IA",
@@ -70,10 +180,10 @@
       "source_file": "README.md",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "readme_para_asistentes_de_ia",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "para asistentes de ia"
+      "norm_label": "para asistentes de ia",
+      "id": "readme_para_asistentes_de_ia"
     },
     {
       "label": "argentina-y-el-dolar.md",
@@ -81,10 +191,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "argentina-y-el-dolar.md"
+      "norm_label": "argentina-y-el-dolar.md",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar"
     },
     {
       "label": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
@@ -92,10 +202,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "argentina y el dolar: que se dolariza, cuando conviene pesos u otro dolar, y carry trade"
+      "norm_label": "argentina y el dolar: que se dolariza, cuando conviene pesos u otro dolar, y carry trade",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade"
     },
     {
       "label": "Por qu\u00e9 Argentina es una econom\u00eda bimonetaria",
@@ -103,10 +213,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_argentina_es_una_econom\u00eda_bimonetaria",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "por que argentina es una economia bimonetaria"
+      "norm_label": "por que argentina es una economia bimonetaria",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_argentina_es_una_econom\u00eda_bimonetaria"
     },
     {
       "label": "Qu\u00e9 se compra y vende en d\u00f3lares, y qu\u00e9 en pesos",
@@ -114,10 +224,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_qu\u00e9_se_compra_y_vende_en_d\u00f3lares_y_qu\u00e9_en_pesos",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "que se compra y vende en dolares, y que en pesos"
+      "norm_label": "que se compra y vende en dolares, y que en pesos",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_qu\u00e9_se_compra_y_vende_en_d\u00f3lares_y_qu\u00e9_en_pesos"
     },
     {
       "label": "Cu\u00e1ndo conviene estar en pesos y cu\u00e1ndo en d\u00f3lares",
@@ -125,10 +235,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_cu\u00e1ndo_conviene_estar_en_pesos_y_cu\u00e1ndo_en_d\u00f3lares",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "cuando conviene estar en pesos y cuando en dolares"
+      "norm_label": "cuando conviene estar en pesos y cuando en dolares",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_cu\u00e1ndo_conviene_estar_en_pesos_y_cu\u00e1ndo_en_d\u00f3lares"
     },
     {
       "label": "Carry trade: qu\u00e9 es y c\u00f3mo funciona en Argentina",
@@ -136,10 +246,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L95",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_carry_trade_qu\u00e9_es_y_c\u00f3mo_funciona_en_argentina",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "carry trade: que es y como funciona en argentina"
+      "norm_label": "carry trade: que es y como funciona en argentina",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_carry_trade_qu\u00e9_es_y_c\u00f3mo_funciona_en_argentina"
     },
     {
       "label": "Por qu\u00e9 el carry trade es una apuesta cambiaria, no un arbitraje",
@@ -147,10 +257,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L140",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "por que el carry trade es una apuesta cambiaria, no un arbitraje"
+      "norm_label": "por que el carry trade es una apuesta cambiaria, no un arbitraje",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje"
     },
     {
       "label": "C\u00f3mo pensar la asignaci\u00f3n entre pesos y d\u00f3lares en una cartera",
@@ -158,10 +268,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L173",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_c\u00f3mo_pensar_la_asignaci\u00f3n_entre_pesos_y_d\u00f3lares_en_una_cartera",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "como pensar la asignacion entre pesos y dolares en una cartera"
+      "norm_label": "como pensar la asignacion entre pesos y dolares en una cartera",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_c\u00f3mo_pensar_la_asignaci\u00f3n_entre_pesos_y_d\u00f3lares_en_una_cartera"
     },
     {
       "label": "Fuentes",
@@ -169,10 +279,10 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L189",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_argentina_y_el_dolar_fuentes",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "docs_conceptos_generales_argentina_y_el_dolar_fuentes"
     },
     {
       "label": "estrategias-carry-trade-argentina.md",
@@ -180,10 +290,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "estrategias-carry-trade-argentina.md"
+      "norm_label": "estrategias-carry-trade-argentina.md",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina"
     },
     {
       "label": "Estrategias de carry trade y trading cambiario en Argentina",
@@ -191,10 +301,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "estrategias de carry trade y trading cambiario en argentina"
+      "norm_label": "estrategias de carry trade y trading cambiario en argentina",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina"
     },
     {
       "label": "Carry trade: mec\u00e1nica",
@@ -202,10 +312,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "carry trade: mecanica"
+      "norm_label": "carry trade: mecanica",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica"
     },
     {
       "label": "Por qu\u00e9 el carry trade es una apuesta cambiaria, no un arbitraje",
@@ -213,10 +323,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "por que el carry trade es una apuesta cambiaria, no un arbitraje"
+      "norm_label": "por que el carry trade es una apuesta cambiaria, no un arbitraje",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje"
     },
     {
       "label": "Ventajas del carry trade",
@@ -224,10 +334,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L83",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_ventajas_del_carry_trade",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "ventajas del carry trade"
+      "norm_label": "ventajas del carry trade",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_ventajas_del_carry_trade"
     },
     {
       "label": "Desventajas y riesgos del carry trade",
@@ -235,10 +345,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L104",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_desventajas_y_riesgos_del_carry_trade",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "desventajas y riesgos del carry trade"
+      "norm_label": "desventajas y riesgos del carry trade",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_desventajas_y_riesgos_del_carry_trade"
     },
     {
       "label": "Cu\u00e1ndo conviene hacer carry trade (y cu\u00e1ndo no)",
@@ -246,10 +356,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L132",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_cu\u00e1ndo_conviene_hacer_carry_trade_y_cu\u00e1ndo_no",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "cuando conviene hacer carry trade (y cuando no)"
+      "norm_label": "cuando conviene hacer carry trade (y cuando no)",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_cu\u00e1ndo_conviene_hacer_carry_trade_y_cu\u00e1ndo_no"
     },
     {
       "label": "Otras estrategias emparentadas de trading cambiario",
@@ -257,10 +367,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L156",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_otras_estrategias_emparentadas_de_trading_cambiario",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "otras estrategias emparentadas de trading cambiario"
+      "norm_label": "otras estrategias emparentadas de trading cambiario",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_otras_estrategias_emparentadas_de_trading_cambiario"
     },
     {
       "label": "Fuentes",
@@ -268,10 +378,10 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L196",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_fuentes",
       "community": 7,
       "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_fuentes"
     },
     {
       "label": "CLAUDE.md",
@@ -4885,14 +4995,104 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd",
+      "target": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_advertencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_conclusi\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-invetir-1000-usd.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
+      "target": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar"
     },
     {
       "relation": "references",
@@ -4900,9 +5100,9 @@
       "source_file": "README.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina"
     },
     {
       "relation": "contains",
@@ -4910,9 +5110,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_investiments_info",
-      "confidence_score": 1.0
+      "target": "readme_investiments_info"
     },
     {
       "relation": "contains",
@@ -4920,9 +5120,9 @@
       "source_file": "README.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos",
-      "confidence_score": 1.0
+      "target": "readme_convenci\u00f3n_de_archivos"
     },
     {
       "relation": "contains",
@@ -4930,9 +5130,9 @@
       "source_file": "README.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_estructura",
-      "confidence_score": 1.0
+      "target": "readme_estructura"
     },
     {
       "relation": "contains",
@@ -4940,9 +5140,9 @@
       "source_file": "README.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia",
-      "confidence_score": 1.0
+      "target": "readme_para_asistentes_de_ia"
     },
     {
       "relation": "contains",
@@ -4950,9 +5150,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade"
     },
     {
       "relation": "contains",
@@ -4960,9 +5160,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_carry_trade_qu\u00e9_es_y_c\u00f3mo_funciona_en_argentina",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_carry_trade_qu\u00e9_es_y_c\u00f3mo_funciona_en_argentina"
     },
     {
       "relation": "contains",
@@ -4970,9 +5170,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_cu\u00e1ndo_conviene_estar_en_pesos_y_cu\u00e1ndo_en_d\u00f3lares",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_cu\u00e1ndo_conviene_estar_en_pesos_y_cu\u00e1ndo_en_d\u00f3lares"
     },
     {
       "relation": "contains",
@@ -4980,9 +5180,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_c\u00f3mo_pensar_la_asignaci\u00f3n_entre_pesos_y_d\u00f3lares_en_una_cartera",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_c\u00f3mo_pensar_la_asignaci\u00f3n_entre_pesos_y_d\u00f3lares_en_una_cartera"
     },
     {
       "relation": "contains",
@@ -4990,9 +5190,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_fuentes",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_fuentes"
     },
     {
       "relation": "contains",
@@ -5000,9 +5200,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_argentina_es_una_econom\u00eda_bimonetaria",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_argentina_es_una_econom\u00eda_bimonetaria"
     },
     {
       "relation": "contains",
@@ -5010,9 +5210,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_argentina_y_el_d\u00f3lar_qu\u00e9_se_dolariza_cu\u00e1ndo_conviene_pesos_u_otro_d\u00f3lar_y_carry_trade",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_qu\u00e9_se_compra_y_vende_en_d\u00f3lares_y_qu\u00e9_en_pesos",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_qu\u00e9_se_compra_y_vende_en_d\u00f3lares_y_qu\u00e9_en_pesos"
     },
     {
       "relation": "contains",
@@ -5020,9 +5220,9 @@
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_argentina_y_el_dolar_carry_trade_qu\u00e9_es_y_c\u00f3mo_funciona_en_argentina",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_argentina_y_el_dolar_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje"
     },
     {
       "relation": "contains",
@@ -5030,9 +5230,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina"
     },
     {
       "relation": "contains",
@@ -5040,9 +5240,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica"
     },
     {
       "relation": "contains",
@@ -5050,9 +5250,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_cu\u00e1ndo_conviene_hacer_carry_trade_y_cu\u00e1ndo_no",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_cu\u00e1ndo_conviene_hacer_carry_trade_y_cu\u00e1ndo_no"
     },
     {
       "relation": "contains",
@@ -5060,9 +5260,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_desventajas_y_riesgos_del_carry_trade",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_desventajas_y_riesgos_del_carry_trade"
     },
     {
       "relation": "contains",
@@ -5070,9 +5270,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L196",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_fuentes",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_fuentes"
     },
     {
       "relation": "contains",
@@ -5080,9 +5280,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L156",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_otras_estrategias_emparentadas_de_trading_cambiario",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_otras_estrategias_emparentadas_de_trading_cambiario"
     },
     {
       "relation": "contains",
@@ -5090,9 +5290,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_ventajas_del_carry_trade",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_ventajas_del_carry_trade"
     },
     {
       "relation": "contains",
@@ -5100,9 +5300,9 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje",
-      "confidence_score": 1.0
+      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje"
     },
     {
       "relation": "contains",
@@ -10341,5 +10541,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "1f12638d1a5a548d0c230df51dfc29a32c29ad63"
+  "built_at_commit": "70bac769f023c5aa341c5a6176eb12625a83c4a7"
 }

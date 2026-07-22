@@ -21,15 +21,81 @@
   },
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_tasas_readme",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Registro de tasas",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_tasas_readme_registro_de_tasas",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "registro de tasas"
+    },
+    {
+      "label": "Columnas",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "data_tasas_readme_columnas",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "columnas"
+    },
+    {
+      "label": "Instrumentos v\u00e1lidos",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "data_tasas_readme_instrumentos_v\u00e1lidos",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "instrumentos validos"
+    },
+    {
+      "label": "Convenciones",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "data_tasas_readme_convenciones",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "convenciones"
+    },
+    {
+      "label": "C\u00f3mo agregar una observaci\u00f3n",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "como agregar una observacion"
+    },
+    {
       "label": "20260722-invetir-1000-usd.md",
       "file_type": "document",
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "20260722-invetir-1000-usd.md"
+      "norm_label": "20260722-invetir-1000-usd.md",
+      "id": "reports_20260722_invetir_1000_usd"
     },
     {
       "label": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
@@ -37,10 +103,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "usd 1.000 a un ano: carry trade vs. s&p 500"
+      "norm_label": "usd 1.000 a un ano: carry trade vs. s&p 500",
+      "id": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500"
     },
     {
       "label": "Datos de referencia (julio 2026)",
@@ -48,10 +114,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "datos de referencia (julio 2026)"
+      "norm_label": "datos de referencia (julio 2026)",
+      "id": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026"
     },
     {
       "label": "Recomendaci\u00f3n",
@@ -59,10 +125,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "recomendacion"
+      "norm_label": "recomendacion",
+      "id": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n"
     },
     {
       "label": "C\u00e1lculo: Escenario 1 \u2014 Carry trade puro",
@@ -70,10 +136,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "calculo: escenario 1 \u2014 carry trade puro"
+      "norm_label": "calculo: escenario 1 \u2014 carry trade puro",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro"
     },
     {
       "label": "C\u00e1lculo: Escenario 2 \u2014 S&P 500 puro",
@@ -81,10 +147,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "calculo: escenario 2 \u2014 s&p 500 puro"
+      "norm_label": "calculo: escenario 2 \u2014 s&p 500 puro",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro"
     },
     {
       "label": "C\u00e1lculo: Escenario 3 \u2014 Mezcla 60% carry / 40% S&P 500",
@@ -92,10 +158,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "calculo: escenario 3 \u2014 mezcla 60% carry / 40% s&p 500"
+      "norm_label": "calculo: escenario 3 \u2014 mezcla 60% carry / 40% s&p 500",
+      "id": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500"
     },
     {
       "label": "Conclusi\u00f3n",
@@ -103,10 +169,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L83",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_conclusi\u00f3n",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "conclusion"
+      "norm_label": "conclusion",
+      "id": "reports_20260722_invetir_1000_usd_conclusi\u00f3n"
     },
     {
       "label": "Advertencia",
@@ -114,10 +180,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L92",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_advertencia",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "advertencia"
+      "norm_label": "advertencia",
+      "id": "reports_20260722_invetir_1000_usd_advertencia"
     },
     {
       "label": "Fuentes",
@@ -125,10 +191,10 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L100",
       "_origin": "ast",
-      "id": "reports_20260722_invetir_1000_usd_fuentes",
       "community": 44,
       "community_name": "USD 1.000 a un a\u00f1o: carry trade vs. S&P 500",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "reports_20260722_invetir_1000_usd_fuentes"
     },
     {
       "label": "README.md",
@@ -4997,12 +5063,62 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "data_tasas_readme",
+      "target": "data_tasas_readme_registro_de_tasas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_columnas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_convenciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_instrumentos_v\u00e1lidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd",
-      "target": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500"
     },
     {
       "relation": "contains",
@@ -5010,9 +5126,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_advertencia",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_advertencia"
     },
     {
       "relation": "contains",
@@ -5020,9 +5136,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_conclusi\u00f3n",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_conclusi\u00f3n"
     },
     {
       "relation": "contains",
@@ -5030,9 +5146,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_1_carry_trade_puro"
     },
     {
       "relation": "contains",
@@ -5040,9 +5156,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_2_s_p_500_puro"
     },
     {
       "relation": "contains",
@@ -5050,9 +5166,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_c\u00e1lculo_escenario_3_mezcla_60_carry_40_s_p_500"
     },
     {
       "relation": "contains",
@@ -5060,9 +5176,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_datos_de_referencia_julio_2026"
     },
     {
       "relation": "contains",
@@ -5070,9 +5186,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_fuentes",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_fuentes"
     },
     {
       "relation": "contains",
@@ -5080,9 +5196,9 @@
       "source_file": "reports/20260722-invetir-1000-usd.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
-      "target": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n"
     },
     {
       "relation": "references",
@@ -10541,5 +10657,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "70bac769f023c5aa341c5a6176eb12625a83c4a7"
+  "built_at_commit": "185f09df015c5ea0507a1e702420d4b09004d640"
 }
