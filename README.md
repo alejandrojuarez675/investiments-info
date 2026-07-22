@@ -60,6 +60,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Obligaciones Negociables (ONs) argentinas](docs/merval/obligaciones-negociables.md)
   - [Brokers en Argentina: comparación y cómo abrir cuenta](docs/merval/brokers-argentina.md)
   - [FCI money market y billeteras virtuales](docs/merval/fci-money-market.md)
+  - [Fondos comunes de inversión: renta fija, variable y mixtos](docs/merval/fondos-comunes-inversion.md)
   - [Plazo fijo en Argentina: tradicional y UVA](docs/merval/plazo-fijo.md)
   - [Dólar en Argentina: oficial, MEP, CCL y blue](docs/merval/dolar-argentina.md)
   - [Mercado Pago en Argentina: catálogo de productos](docs/merval/mercado-pago.md)

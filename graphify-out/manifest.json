@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724283.4265187,
-    "ast_hash": "d707e35ed8a254f73fd9388a1e97edf6",
+    "mtime": 1784724341.0407276,
+    "ast_hash": "6201c89ee150f776494ad5bd5c643bdf",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -157,6 +157,11 @@
   "docs/merval/cauciones-bursatiles.md": {
     "mtime": 1784724279.3347993,
     "ast_hash": "555a21459fe2950f7c4f1322c1786250",
+    "semantic_hash": ""
+  },
+  "docs/merval/fondos-comunes-inversion.md": {
+    "mtime": 1784724335.484823,
+    "ast_hash": "edb700a9bbd10bfd931d5e700b9eb4cf",
     "semantic_hash": ""
   }
 }

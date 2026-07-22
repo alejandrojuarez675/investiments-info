@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 19,
+      "community": 20,
       "community_name": "investiments-info",
       "norm_label": "investiments-info"
     },
@@ -71,7 +71,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 19,
+      "community": 20,
       "community_name": "investiments-info",
       "norm_label": "convencion de archivos"
     },
@@ -82,7 +82,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 19,
+      "community": 20,
       "community_name": "investiments-info",
       "norm_label": "estructura"
     },
@@ -90,10 +90,10 @@
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L72",
+      "source_location": "L73",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 19,
+      "community": 20,
       "community_name": "investiments-info",
       "norm_label": "para asistentes de ia"
     },
@@ -2837,6 +2837,94 @@
       "norm_label": "fuentes"
     },
     {
+      "label": "fondos-comunes-inversion.md",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fondos-comunes-inversion.md"
+    },
+    {
+      "label": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "fondos comunes de inversion: renta fija, variable y mixtos"
+    },
+    {
+      "label": "C\u00f3mo funciona un FCI",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "como funciona un fci"
+    },
+    {
+      "label": "Categor\u00edas principales",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "categorias principales"
+    },
+    {
+      "label": "Costos",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_costos",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "costos"
+    },
+    {
+      "label": "Ventajas frente a comprar los activos directamente",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "ventajas frente a comprar los activos directamente"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "riesgos y consideraciones"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "docs_merval_fondos_comunes_inversion_fuentes",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "mercado-pago.md",
       "file_type": "document",
       "source_file": "docs/merval/mercado-pago.md",
@@ -3602,7 +3690,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L67",
+      "source_location": "L68",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_crypto_bitcoin_ethereum",
@@ -3612,7 +3700,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_crypto_exchanges_custodia",
@@ -3622,7 +3710,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_glosario_glosario",
@@ -3682,7 +3770,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L64",
+      "source_location": "L65",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_merval_dolar_argentina",
@@ -3702,7 +3790,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_fondos_comunes_inversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_merval_mercado_pago",
@@ -3722,7 +3820,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_merval_plazo_fijo",
@@ -3792,7 +3890,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L72",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -6821,6 +6919,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_fci_money_market",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L63",
       "weight": 1.0,
@@ -6896,6 +7004,86 @@
       "weight": 1.0,
       "source": "docs_merval_fci_money_market_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales",
       "target": "docs_merval_fci_money_market_por_br\u00f3ker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_obligaciones_negociables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_costos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
       "confidence_score": 1.0
     },
     {
@@ -7425,5 +7613,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "35d6c4b81fec5d78514c459e110a97795945da71"
+  "built_at_commit": "bae41e7791795081341b85384b38a699b4bd9a7e"
 }

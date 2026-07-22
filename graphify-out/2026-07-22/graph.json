@@ -27,8 +27,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "readme.md"
     },
     {
@@ -38,8 +38,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "investiments-info"
     },
     {
@@ -49,8 +49,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "convencion de archivos"
     },
     {
@@ -60,107 +60,96 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L71",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "para asistentes de ia"
     },
     {
-      "label": "acciones-argentinas.md",
+      "label": "cauciones-bursatiles.md",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "acciones-argentinas.md"
+      "id": "docs_merval_cauciones_bursatiles",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "cauciones-bursatiles.md"
     },
     {
-      "label": "Acciones argentinas: panel l\u00edder y general",
+      "label": "Cauciones burs\u00e1tiles en Argentina",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "acciones argentinas: panel lider y general"
+      "id": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "cauciones bursatiles en argentina"
     },
     {
-      "label": "Panel l\u00edder vs. panel general",
+      "label": "C\u00f3mo funciona",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L17",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L16",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_panel_l\u00edder_vs_panel_general",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "panel lider vs. panel general"
+      "id": "docs_merval_cauciones_bursatiles_c\u00f3mo_funciona",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "como funciona"
     },
     {
-      "label": "C\u00f3mo se opera",
+      "label": "Uso como colocaci\u00f3n de liquidez",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L30",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L36",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_c\u00f3mo_se_opera",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "como se opera"
+      "id": "docs_merval_cauciones_bursatiles_uso_como_colocaci\u00f3n_de_liquidez",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "uso como colocacion de liquidez"
     },
     {
-      "label": "Ventajas frente a otros instrumentos",
+      "label": "Tasa de cauci\u00f3n",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L43",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L52",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_ventajas_frente_a_otros_instrumentos",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "ventajas frente a otros instrumentos"
+      "id": "docs_merval_cauciones_bursatiles_tasa_de_cauci\u00f3n",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "tasa de caucion"
     },
     {
       "label": "Riesgos y consideraciones",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_riesgos_y_consideraciones",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "riesgos y consideraciones"
-    },
-    {
-      "label": "Ejemplo ilustrativo de concentraci\u00f3n sectorial",
-      "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
       "source_location": "L73",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_ejemplo_ilustrativo_de_concentraci\u00f3n_sectorial",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
-      "norm_label": "ejemplo ilustrativo de concentracion sectorial"
+      "id": "docs_merval_cauciones_bursatiles_riesgos_y_consideraciones",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
+      "norm_label": "riesgos y consideraciones"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L86",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L90",
       "_origin": "ast",
-      "id": "docs_merval_acciones_argentinas_fuentes",
-      "community": 0,
-      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "id": "docs_merval_cauciones_bursatiles_fuentes",
+      "community": 3,
+      "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "fuentes"
     },
     {
@@ -2138,8 +2127,8 @@
       "source_file": "docs/crypto/exchanges-custodia.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
-      "community_name": "Exchanges y custodia de criptoactivos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "exchanges-custodia.md",
       "id": "docs_crypto_exchanges_custodia"
     },
@@ -2263,6 +2252,94 @@
       "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_glosario_glosario_fuentes"
+    },
+    {
+      "label": "acciones-argentinas.md",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "acciones-argentinas.md",
+      "id": "docs_merval_acciones_argentinas"
+    },
+    {
+      "label": "Acciones argentinas: panel l\u00edder y general",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "acciones argentinas: panel lider y general",
+      "id": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general"
+    },
+    {
+      "label": "Panel l\u00edder vs. panel general",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "panel lider vs. panel general",
+      "id": "docs_merval_acciones_argentinas_panel_l\u00edder_vs_panel_general"
+    },
+    {
+      "label": "C\u00f3mo se opera",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "como se opera",
+      "id": "docs_merval_acciones_argentinas_c\u00f3mo_se_opera"
+    },
+    {
+      "label": "Ventajas frente a otros instrumentos",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "ventajas frente a otros instrumentos",
+      "id": "docs_merval_acciones_argentinas_ventajas_frente_a_otros_instrumentos"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "riesgos y consideraciones",
+      "id": "docs_merval_acciones_argentinas_riesgos_y_consideraciones"
+    },
+    {
+      "label": "Ejemplo ilustrativo de concentraci\u00f3n sectorial",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "ejemplo ilustrativo de concentracion sectorial",
+      "id": "docs_merval_acciones_argentinas_ejemplo_ilustrativo_de_concentraci\u00f3n_sectorial"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
+      "norm_label": "fuentes",
+      "id": "docs_merval_acciones_argentinas_fuentes"
     },
     {
       "label": "bonos-argentinos.md",
@@ -3395,10 +3472,10 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L56",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "readme",
-      "target": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_cauciones_bursatiles",
       "confidence_score": 1.0
     },
     {
@@ -3435,7 +3512,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L71",
+      "source_location": "L72",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -3444,71 +3521,61 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas",
-      "target": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "source": "docs_merval_cauciones_bursatiles",
+      "target": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L30",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L16",
       "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_c\u00f3mo_se_opera",
+      "source": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "target": "docs_merval_cauciones_bursatiles_c\u00f3mo_funciona",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "target": "docs_merval_cauciones_bursatiles_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
       "source_location": "L73",
       "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_ejemplo_ilustrativo_de_concentraci\u00f3n_sectorial",
+      "source": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "target": "docs_merval_cauciones_bursatiles_riesgos_y_consideraciones",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L86",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L52",
       "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_fuentes",
+      "source": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "target": "docs_merval_cauciones_bursatiles_tasa_de_cauci\u00f3n",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L17",
+      "source_file": "docs/merval/cauciones-bursatiles.md",
+      "source_location": "L36",
       "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_panel_l\u00edder_vs_panel_general",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_riesgos_y_consideraciones",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/acciones-argentinas.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "target": "docs_merval_acciones_argentinas_ventajas_frente_a_otros_instrumentos",
+      "source": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
+      "target": "docs_merval_cauciones_bursatiles_uso_como_colocaci\u00f3n_de_liquidez",
       "confidence_score": 1.0
     },
     {
@@ -5914,6 +5981,116 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_brokers_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_dolar_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas",
+      "target": "docs_merval_que_es_merval"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_c\u00f3mo_se_opera"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_ejemplo_ilustrativo_de_concentraci\u00f3n_sectorial"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_panel_l\u00edder_vs_panel_general"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_riesgos_y_consideraciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/acciones-argentinas.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
+      "target": "docs_merval_acciones_argentinas_ventajas_frente_a_otros_instrumentos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/bonos-argentinos.md",
       "source_location": "L9",
       "weight": 1.0,
@@ -6958,5 +7135,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "35d6c4b81fec5d78514c459e110a97795945da71"
+  "built_at_commit": "bae41e7791795081341b85384b38a699b4bd9a7e"
 }
