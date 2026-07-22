@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724237.0936816,
-    "ast_hash": "17893a500ba360691729e451af6d5ddd",
+    "mtime": 1784724283.4265187,
+    "ast_hash": "d707e35ed8a254f73fd9388a1e97edf6",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -152,6 +152,11 @@
   "docs/merval/acciones-argentinas.md": {
     "mtime": 1784724233.0469508,
     "ast_hash": "0fea7262a98dcf3f0c714e14452bc763",
+    "semantic_hash": ""
+  },
+  "docs/merval/cauciones-bursatiles.md": {
+    "mtime": 1784724279.3347993,
+    "ast_hash": "555a21459fe2950f7c4f1322c1786250",
     "semantic_hash": ""
   }
 }

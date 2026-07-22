@@ -56,6 +56,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Acciones argentinas: panel líder y general](docs/merval/acciones-argentinas.md)
   - [CEDEARs](docs/merval/cedears.md)
   - [Bonos argentinos](docs/merval/bonos-argentinos.md)
+  - [Cauciones bursátiles en Argentina](docs/merval/cauciones-bursatiles.md)
   - [Obligaciones Negociables (ONs) argentinas](docs/merval/obligaciones-negociables.md)
   - [Brokers en Argentina: comparación y cómo abrir cuenta](docs/merval/brokers-argentina.md)
   - [FCI money market y billeteras virtuales](docs/merval/fci-money-market.md)
