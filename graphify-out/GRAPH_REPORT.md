@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 424 nodes · 567 edges · 46 communities (43 shown, 3 thin omitted)
+- 424 nodes · 537 edges · 46 communities (43 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f779ee08`
+- Built from commit: `c18f0ad3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -110,7 +110,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.20
+Cohesion: 0.22
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -250,7 +250,7 @@ Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **317 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+312 more)
+- **317 isolated node(s):** `Fuentes`, `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA` (+312 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -263,7 +263,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
   _High betweenness centrality (0.069) - this node is a cross-community bridge._
-- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+- **What connects `Fuentes`, `graphify`, `Convención de archivos` to the rest of the system?**
   _317 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
