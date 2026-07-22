@@ -2,3 +2,8 @@ fecha,instrumento,moneda,tasa_tipo,tasa_valor,plazo_dias,fuente_url,notas
 2026-07-22,lecap,ARS,TIREA,0.2832,90,https://alfyinversiones.com.ar/blog/lecaps-la-guia-definitiva-para-ganarle-al-plazo-fijo/,Lecap vencimiento 13-nov; TEM 2.10%
 2026-07-22,tamar,ARS,TIREA,0.3150,365,https://www.ambito.com/finanzas/los-rendimientos-las-lecaps-confunden-al-mercado-aun-son-atractivos-n6253738,Letra TAMAR margen de corte 5.40% sobre tasa de referencia
 2026-07-22,dolar_oficial,ARS,tipo_de_cambio,1500,,https://indicadores.ar/indicadores-economicos/dolar-oficial,Cotizacion BNA al 21-jul-2026
+2026-07-22,dolar_mep,ARS,tipo_de_cambio,1509.85,,https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-miercoles-22-de-julio-minuto-a-minuto/,Dolar MEP 22-jul-2026
+2026-07-22,dolar_ccl,ARS,tipo_de_cambio,1565.28,,https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-miercoles-22-de-julio-minuto-a-minuto/,Dolar CCL 22-jul-2026
+2026-07-22,dolar_blue,ARS,tipo_de_cambio,1545,,https://www.cronista.com/finanzas-mercados/dolar-hoy-y-dolar-blue-hoy-cual-es-la-cotizacion-del-miercoles-22-de-julio-minuto-a-minuto/,Dolar blue venta 22-jul-2026; maximo del año
+2026-07-20,lecap,ARS,TEA,0.2559,,https://www.infobae.com/economia/2026/07/20/retrocedieron-las-coberturas-en-dolares-de-los-inversores-que-apuestan-a-que-las-tasas-le-ganen-al-dolar/,TEA convalidada en licitacion Lecap a noviembre; licitacion de mediados de julio
+2026-07-20,tamar,ARS,TIREA,0.2160,365,https://www.infobae.com/economia/2026/07/20/retrocedieron-las-coberturas-en-dolares-de-los-inversores-que-apuestan-a-que-las-tasas-le-ganen-al-dolar/,TAMAR bajo a 21.6% (-0.37pp) en la primera semana de julio
