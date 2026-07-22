@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724643.135499,
-    "ast_hash": "1bb6395b880649efad07f332eac4ff3a",
+    "mtime": 1784724693.2584682,
+    "ast_hash": "405dbd1f858c48bff32e3720e3557a16",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -192,6 +192,11 @@
   "docs/sp500/etfs-ucits-europa.md": {
     "mtime": 1784724637.8606603,
     "ast_hash": "7fe8156d50eb3f450ec2104fd52bdb69",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/real-estate-fci-inmobiliario.md": {
+    "mtime": 1784724687.9128442,
+    "ast_hash": "4a39539f749ae38d8b0271e6a43de153",
     "semantic_hash": ""
   }
 }

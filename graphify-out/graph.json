@@ -676,8 +676,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_derivados_opciones_futuros_y_cobertura",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "derivados: opciones, futuros y cobertura"
     },
     {
@@ -687,8 +687,8 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_opciones",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "opciones"
     },
     {
@@ -698,8 +698,8 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_futuros",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "futuros"
     },
     {
@@ -709,8 +709,8 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_cobertura_vs_especulaci\u00f3n_el_mismo_instrumento_dos_usos",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "cobertura vs. especulacion: el mismo instrumento, dos usos"
     },
     {
@@ -720,8 +720,8 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_apalancamiento_la_caracter\u00edstica_central_de_los_derivados",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "apalancamiento: la caracteristica central de los derivados"
     },
     {
@@ -731,8 +731,8 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_riesgos_y_consideraciones",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "riesgos y consideraciones"
     },
     {
@@ -742,8 +742,8 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "docs_conceptos_generales_derivados_cobertura_fuentes",
-      "community": 22,
-      "community_name": "Derivados: opciones, futuros y cobertura",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "fuentes"
     },
     {
@@ -1314,8 +1314,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_conceptos_generales_fiscalidad_internacional",
-      "community": 23,
-      "community_name": "Fiscalidad internacional para el inversor argentino",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fiscalidad-internacional.md"
     },
     {
@@ -2590,19 +2590,19 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 39,
+      "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "glosario de terminos"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
       "source_file": "docs/glosario/glosario.md",
-      "source_location": "L95",
+      "source_location": "L134",
       "_origin": "ast",
       "id": "docs_glosario_glosario_fuentes",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 39,
+      "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "fuentes"
     },
     {
@@ -2623,7 +2623,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_acciones_argentinas_panel_l\u00edder_y_general",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "acciones argentinas: panel lider y general"
     },
@@ -2634,7 +2634,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_panel_l\u00edder_vs_panel_general",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "panel lider vs. panel general"
     },
@@ -2645,7 +2645,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_c\u00f3mo_se_opera",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "como se opera"
     },
@@ -2656,7 +2656,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_ventajas_frente_a_otros_instrumentos",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "ventajas frente a otros instrumentos"
     },
@@ -2667,7 +2667,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_riesgos_y_consideraciones",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "riesgos y consideraciones"
     },
@@ -2678,7 +2678,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_ejemplo_ilustrativo_de_concentraci\u00f3n_sectorial",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "ejemplo ilustrativo de concentracion sectorial"
     },
@@ -2689,7 +2689,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "docs_merval_acciones_argentinas_fuentes",
-      "community": 0,
+      "community": 13,
       "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "fuentes"
     },
@@ -2854,8 +2854,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_c\u00f3mo_abrir_cuenta",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "brokers en argentina: comparacion y como abrir cuenta"
     },
     {
@@ -2865,8 +2865,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "los brokers mas usados"
     },
     {
@@ -2876,8 +2876,8 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "comparacion de costos y productos (aproximado, verificar vigencia)"
     },
     {
@@ -2887,8 +2887,8 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "criterio para elegir o migrar de broker"
     },
     {
@@ -2898,8 +2898,8 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_c\u00f3mo_abrir_una_cuenta_comitente",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "como abrir una cuenta comitente"
     },
     {
@@ -2909,8 +2909,8 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "docs_merval_brokers_argentina_fuentes",
-      "community": 13,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y FCI money market",
+      "community": 22,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
       "norm_label": "fuentes"
     },
     {
@@ -3437,8 +3437,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_merval_mercado_pago",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
       "norm_label": "mercado-pago.md"
     },
     {
@@ -3943,8 +3943,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_sp500_etfs_ucits_europa",
-      "community": 26,
-      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "etfs-ucits-europa.md"
     },
     {
@@ -5190,6 +5190,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_derivados_cobertura",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/derivados-cobertura.md",
@@ -5910,6 +5920,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_fiscalidad_internacional",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/fiscalidad-internacional.md",
@@ -6390,6 +6410,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_real_estate_fci_inmobiliario",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/real-estate-fci-inmobiliario.md",
@@ -6457,6 +6487,16 @@
       "weight": 1.0,
       "source": "docs_conceptos_generales_rebalanceo_portfolio",
       "target": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio",
       "confidence_score": 1.0
     },
     {
@@ -6567,6 +6607,16 @@
       "weight": 1.0,
       "source": "docs_conceptos_generales_renta_fija_internacional",
       "target": "docs_merval_obligaciones_negociables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_renta_fija_internacional",
       "confidence_score": 1.0
     },
     {
@@ -7353,6 +7403,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_cauciones_bursatiles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
       "source_location": "L20",
       "weight": 1.0,
       "source": "docs_glosario_glosario",
@@ -7367,6 +7427,26 @@
       "weight": 1.0,
       "source": "docs_glosario_glosario",
       "target": "docs_merval_dolar_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_fondos_comunes_inversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_impuestos_inversiones_argentina",
       "confidence_score": 1.0
     },
     {
@@ -7390,10 +7470,20 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_sp500_etfs_ucits_europa",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
-      "source_location": "L95",
+      "source_location": "L134",
       "weight": 1.0,
       "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
       "target": "docs_glosario_glosario_fuentes",
@@ -8866,5 +8956,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "4d77747174bbb59ac40239a1b385f8c82af901e1"
+  "built_at_commit": "6fc3ce30273a7fed12c3b87586667f8cdaec13ba"
 }

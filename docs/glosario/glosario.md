@@ -3,7 +3,7 @@ title: "Glosario de términos"
 tema: glosario
 tags: [terminologia, lookup]
 nivel: intermedio
-ultima_revision: 2026-07-20
+ultima_revision: 2026-07-22
 ---
 
 # Glosario de términos
@@ -91,6 +91,45 @@ correspondiente donde se desarrolla en profundidad, si existe.
 - **Position sizing**: cálculo del tamaño de una posición en base al
   capital arriesgado, no al capital total disponible. Ver
   [Estrategias de trading](../conceptos-generales/estrategias-trading.md#gestión-de-riesgo-y-position-sizing).
+- **Caución bursátil**: préstamo de corto plazo garantizado con títulos
+  valores, operado en Byma. Ver
+  [Cauciones bursátiles](../merval/cauciones-bursatiles.md).
+- **Cuotaparte**: unidad de participación en un fondo común de inversión;
+  su valor (VCP) se actualiza diariamente. Ver
+  [Fondos comunes de inversión](../merval/fondos-comunes-inversion.md).
+- **Bienes Personales**: impuesto argentino anual sobre el patrimonio
+  (stock de activos), no sobre la ganancia. Ver
+  [Impuestos a las inversiones en Argentina](../merval/impuestos-inversiones-argentina.md).
+- **Duración**: medida de sensibilidad del precio de un bono a cambios en
+  las tasas de interés. Ver
+  [Renta fija internacional](../conceptos-generales/renta-fija-internacional.md#duración-la-medida-clave-de-riesgo-de-tasa).
+- **Curva de rendimientos**: relación entre la tasa de interés de los
+  bonos del Tesoro y su plazo. Ver
+  [Renta fija internacional](../conceptos-generales/renta-fija-internacional.md#curva-de-rendimientos).
+- **Opción (call / put)**: derivado que da el derecho, no la obligación,
+  de comprar (call) o vender (put) un activo a un precio determinado. Ver
+  [Derivados: opciones, futuros y cobertura](../conceptos-generales/derivados-cobertura.md).
+- **Futuro**: contrato que obliga a comprar o vender un activo a un
+  precio pactado en una fecha futura. Ver
+  [Derivados: opciones, futuros y cobertura](../conceptos-generales/derivados-cobertura.md#futuros).
+- **ROFEX / A3**: mercado argentino de futuros, incluyendo el futuro de
+  dólar. Ver [Derivados: opciones, futuros y
+  cobertura](../conceptos-generales/derivados-cobertura.md#futuros).
+- **FATCA**: normativa de EE.UU. que obliga a instituciones financieras a
+  reportar cuentas de titulares identificados como "US persons". Ver
+  [Fiscalidad internacional](../conceptos-generales/fiscalidad-internacional.md#fatca-y-crs-intercambio-automático-de-información).
+- **CRS (Common Reporting Standard)**: mecanismo multilateral de
+  intercambio automático de información fiscal entre países adheridos.
+  Ver [Fiscalidad internacional](../conceptos-generales/fiscalidad-internacional.md#fatca-y-crs-intercambio-automático-de-información).
+- **Rebalanceo**: proceso de volver una cartera a su asignación de
+  activos objetivo tras desviarse por movimientos de mercado. Ver
+  [Rebalanceo de portfolio](../conceptos-generales/rebalanceo-portfolio.md).
+- **UCITS**: marco regulatorio europeo para fondos de inversión y ETFs,
+  típicamente domiciliados en Irlanda o Luxemburgo. Ver
+  [ETFs UCITS](../sp500/etfs-ucits-europa.md).
+- **REIT (Real Estate Investment Trust)**: sociedad que cotiza en bolsa y
+  posee o financia propiedades generadoras de renta. Ver
+  [Real estate: FCI inmobiliarios y REITs](../conceptos-generales/real-estate-fci-inmobiliario.md).
 
 ## Fuentes
 

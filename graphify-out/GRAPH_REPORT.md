@@ -1,23 +1,22 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 40 files · ~36,075 words
+- 40 files · ~36,365 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 374 nodes · 471 edges · 39 communities (36 shown, 3 thin omitted)
+- 374 nodes · 480 edges · 40 communities (37 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4d777471`
+- Built from commit: `6fc3ce30`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
-- Activos y Glosario
 - Cauciones bursátiles en Argentina
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -28,7 +27,7 @@
 - Relación riesgo-retorno
 - CEDEARs (Certificados de Depósito Argentinos)
 - Estrategias de trading de corto plazo
-- Brokers en Argentina: comparación y FCI money market
+- Acciones argentinas: panel líder y general
 - Bonos argentinos
 - Bitcoin y Ethereum: conceptos básicos
 - Qué es el S&P 500
@@ -37,7 +36,7 @@
 - Rebalanceo de portfolio
 - Renta fija internacional: bonos del Tesoro y corporativos
 - Fondos comunes de inversión: renta fija, variable y mixtos
-- Derivados: opciones, futuros y cobertura
+- Brokers en Argentina: comparación y cómo abrir cuenta
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
 - Impuestos a las inversiones en Argentina
@@ -54,6 +53,7 @@
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
+- Glosario de términos
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -73,11 +73,11 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (39 total, 3 thin omitted)
+## Communities (40 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
-Nodes (7): Acciones argentinas: panel líder y general, Cómo se opera, Ejemplo ilustrativo de concentración sectorial, Fuentes, Panel líder vs. panel general, Riesgos y consideraciones, Ventajas frente a otros instrumentos
+Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
@@ -104,7 +104,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -119,9 +119,9 @@ Nodes (8): CEDEARs (Certificados de Depósito Argentinos), CEDEARs más operados
 Cohesion: 0.12
 Nodes (16): Análisis técnico como base operativa, Breakout trading (ruptura de rangos), Day trading (trading intradía), Elementos comunes a toda estrategia de trading, Estrategias de trading de corto plazo, Fuentes, Gestión de riesgo y position sizing, Limitaciones generales del trading de corto plazo (+8 more)
 
-### Community 13 - "Brokers en Argentina: comparación y FCI money market"
-Cohesion: 0.33
-Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
+### Community 13 - "Acciones argentinas: panel líder y general"
+Cohesion: 0.29
+Nodes (7): Acciones argentinas: panel líder y general, Cómo se opera, Ejemplo ilustrativo de concentración sectorial, Fuentes, Panel líder vs. panel general, Riesgos y consideraciones, Ventajas frente a otros instrumentos
 
 ### Community 14 - "Bonos argentinos"
 Cohesion: 0.17
@@ -151,12 +151,12 @@ Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Cur
 Cohesion: 0.29
 Nodes (7): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente
 
-### Community 22 - "Derivados: opciones, futuros y cobertura"
-Cohesion: 0.29
-Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
+### Community 22 - "Brokers en Argentina: comparación y cómo abrir cuenta"
+Cohesion: 0.33
+Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
@@ -168,7 +168,7 @@ Cohesion: 0.33
 Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 26 - "ETFs UCITS (domiciliados en Europa): acumulación vs. distribución"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Acumulación (Acc) vs. distribución (Dist), Diferencia clave: retención sobre dividendos, ETFs UCITS (domiciliados en Europa): acumulación vs. distribución, Fuentes, Qué es UCITS, Ventajas y desventajas frente a un ETF de EE.UU.
 
 ### Community 27 - "Real estate como inversión: FCI inmobiliarios y REITs"
