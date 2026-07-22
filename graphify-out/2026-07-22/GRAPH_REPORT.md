@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 49 files · ~45,300 words
+- 50 files · ~45,769 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 452 nodes · 553 edges · 45 communities (43 shown, 2 thin omitted)
+- 458 nodes · 558 edges · 46 communities (44 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `70bac769`
+- Built from commit: `185f09df`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,6 +60,7 @@
 - Sistema previsional argentino: jubilación y por qué complementar
 - Comparativa transversal de clases de activos
 - USD 1.000 a un año: carry trade vs. S&P 500
+- Registro de tasas
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -79,7 +80,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (45 total, 2 thin omitted)
+## Communities (46 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -253,8 +254,12 @@ Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparat
 Cohesion: 0.20
 Nodes (9): Advertencia, Conclusión, Cálculo: Escenario 1 — Carry trade puro, Cálculo: Escenario 2 — S&P 500 puro, Cálculo: Escenario 3 — Mezcla 60% carry / 40% S&P 500, Datos de referencia (julio 2026), Fuentes, Recomendación (+1 more)
 
+### Community 45 - "Registro de tasas"
+Cohesion: 0.33
+Nodes (5): Columnas, Convenciones, Cómo agregar una observación, Instrumentos válidos, Registro de tasas
+
 ## Knowledge Gaps
-- **337 isolated node(s):** `Datos de referencia (julio 2026)`, `Recomendación`, `Cálculo: Escenario 1 — Carry trade puro`, `Cálculo: Escenario 2 — S&P 500 puro`, `Cálculo: Escenario 3 — Mezcla 60% carry / 40% S&P 500` (+332 more)
+- **341 isolated node(s):** `Columnas`, `Instrumentos válidos`, `Convenciones`, `Cómo agregar una observación`, `Datos de referencia (julio 2026)` (+336 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -262,13 +267,13 @@ Nodes (9): Advertencia, Conclusión, Cálculo: Escenario 1 — Carry trade puro,
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.083) - this node is a cross-community bridge._
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+  _High betweenness centrality (0.062) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
-- **What connects `Datos de referencia (julio 2026)`, `Recomendación`, `Cálculo: Escenario 1 — Carry trade puro` to the rest of the system?**
-  _337 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.059) - this node is a cross-community bridge._
+- **What connects `Columnas`, `Instrumentos válidos`, `Convenciones` to the rest of the system?**
+  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**

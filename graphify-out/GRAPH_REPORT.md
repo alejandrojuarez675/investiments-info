@@ -1,23 +1,22 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 50 files · ~45,769 words
+- 50 files · ~46,580 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 458 nodes · 558 edges · 46 communities (44 shown, 2 thin omitted)
+- 458 nodes · 528 edges · 46 communities (44 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `185f09df`
+- Built from commit: `6c953f50`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
-- Activos y Glosario
 - Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -118,10 +117,6 @@ Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ET
 Cohesion: 0.20
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
-### Community 10 - "Relación riesgo-retorno"
-Cohesion: 0.22
-Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
-
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
 Cohesion: 0.25
 Nodes (8): CEDEARs (Certificados de Depósito Argentinos), CEDEARs más operados por sector (referencia orientativa), Cómo comprar un CEDEAR: pasos concretos, Cómo funcionan, Fuentes, Por qué se usan, Ratio de conversión: cómo se calcula el precio teórico, Riesgos y particularidades
@@ -167,7 +162,7 @@ Cohesion: 0.25
 Nodes (8): Consideraciones prácticas, DeFi: finanzas descentralizadas, Fuentes, Qué es una stablecoin, Riesgos específicos de DeFi, Stablecoins y DeFi: conceptos básicos, Tipos de stablecoins según su respaldo, Uso como "dólar digital" en Argentina
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (6): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
@@ -175,11 +170,11 @@ Cohesion: 0.25
 Nodes (8): Cómo funcionan, Emisores frecuentes por sector (referencia orientativa), Fuentes, Obligaciones Negociables (ONs) argentinas, Riesgo crediticio: distinto al riesgo soberano, Riesgos y consideraciones, Spread de rendimiento: ON vs. bono soberano, Ventajas frente a otros instrumentos de renta fija
 
 ### Community 25 - "Sesgos de comportamiento del inversor"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Anclaje, Aversión a la pérdida, Cómo mitigar estos sesgos en la práctica, Efecto disposición, Exceso de confianza (overconfidence), FOMO (Fear Of Missing Out), Fuentes, Sesgo de confirmación (+1 more)
 
 ### Community 26 - "ETFs UCITS (domiciliados en Europa): acumulación vs. distribución"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (6): Acumulación (Acc) vs. distribución (Dist), Diferencia clave: retención sobre dividendos, ETFs UCITS (domiciliados en Europa): acumulación vs. distribución, Fuentes, Qué es UCITS, Ventajas y desventajas frente a un ETF de EE.UU.
 
 ### Community 27 - "Real estate como inversión: FCI inmobiliarios y REITs"
@@ -191,8 +186,8 @@ Cohesion: 0.09
 Nodes (22): ADX (Average Directional Index), Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen, ATR (Average True Range), Bandas de Bollinger, Combinar indicadores: evitar la redundancia, Cruces de medias móviles, Estocástico (stochastic oscillator), Fuentes (+14 more)
 
 ### Community 29 - "Trading con gráficos: análisis técnico"
-Cohesion: 0.12
-Nodes (17): Análisis técnico: gráficos, velas y patrones de precio, Fuentes, Gráfico de barras (OHLC), Gráfico de Heikin-Ashi, Gráfico de líneas, Gráfico de velas japonesas (candlestick), Líneas, canales y estructura de tendencia, Marco temporal (timeframe) (+9 more)
+Cohesion: 0.07
+Nodes (26): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+18 more)
 
 ### Community 30 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -259,20 +254,18 @@ Cohesion: 0.33
 Nodes (5): Columnas, Convenciones, Cómo agregar una observación, Instrumentos válidos, Registro de tasas
 
 ## Knowledge Gaps
-- **341 isolated node(s):** `Columnas`, `Instrumentos válidos`, `Convenciones`, `Cómo agregar una observación`, `Datos de referencia (julio 2026)` (+336 more)
+- **341 isolated node(s):** `Fuentes`, `Columnas`, `Instrumentos válidos`, `Convenciones`, `Cómo agregar una observación` (+336 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.081) - this node is a cross-community bridge._
-- **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
-- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.059) - this node is a cross-community bridge._
-- **What connects `Columnas`, `Instrumentos válidos`, `Convenciones` to the rest of the system?**
+- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Trading con gráficos: análisis técnico`?**
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Trading con gráficos: análisis técnico`?**
+  _High betweenness centrality (0.058) - this node is a cross-community bridge._
+- **What connects `Fuentes`, `Columnas`, `Instrumentos válidos` to the rest of the system?**
   _341 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
@@ -280,3 +273,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
