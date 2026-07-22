@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 39,
+      "community": 41,
       "community_name": "investiments-info",
       "norm_label": "investiments-info"
     },
@@ -71,7 +71,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 39,
+      "community": 41,
       "community_name": "investiments-info",
       "norm_label": "convencion de archivos"
     },
@@ -82,7 +82,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 39,
+      "community": 41,
       "community_name": "investiments-info",
       "norm_label": "estructura"
     },
@@ -90,10 +90,10 @@
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L82",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 39,
+      "community": 41,
       "community_name": "investiments-info",
       "norm_label": "para asistentes de ia"
     },
@@ -2810,7 +2810,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "community": 41,
+      "community": 42,
       "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "glosario de terminos"
     },
@@ -2821,7 +2821,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "docs_glosario_glosario_fuentes",
-      "community": 41,
+      "community": 42,
       "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "fuentes"
     },
@@ -3648,6 +3648,83 @@
       "id": "docs_merval_impuestos_inversiones_argentina_fuentes",
       "community": 40,
       "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "jubilacion-sistema-previsional-argentina.md",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "jubilacion-sistema-previsional-argentina.md"
+    },
+    {
+      "label": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "norm_label": "sistema previsional argentino: jubilacion y por que complementar"
+    },
+    {
+      "label": "C\u00f3mo funciona el sistema previsional argentino",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_c\u00f3mo_funciona_el_sistema_previsional_argentino",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "norm_label": "como funciona el sistema previsional argentino"
+    },
+    {
+      "label": "Por qu\u00e9 el sistema por s\u00ed solo suele no alcanzar",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_por_qu\u00e9_el_sistema_por_s\u00ed_solo_suele_no_alcanzar",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "norm_label": "por que el sistema por si solo suele no alcanzar"
+    },
+    {
+      "label": "El rol de invertir por cuenta propia",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_el_rol_de_invertir_por_cuenta_propia",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "norm_label": "el rol de invertir por cuenta propia"
+    },
+    {
+      "label": "C\u00f3mo empezar a pensar el complemento",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_c\u00f3mo_empezar_a_pensar_el_complemento",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
+      "norm_label": "como empezar a pensar el complemento"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "docs_merval_jubilacion_sistema_previsional_argentina_fuentes",
+      "community": 39,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
       "norm_label": "fuentes"
     },
     {
@@ -4563,7 +4640,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L77",
+      "source_location": "L78",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_crypto_bitcoin_ethereum",
@@ -4573,7 +4650,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_crypto_exchanges_custodia",
@@ -4583,7 +4660,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L80",
+      "source_location": "L81",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_glosario_glosario",
@@ -4677,6 +4754,16 @@
       "weight": 1.0,
       "source": "readme",
       "target": "docs_merval_impuestos_inversiones_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina",
       "confidence_score": 1.0
     },
     {
@@ -4783,7 +4870,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L82",
+      "source_location": "L83",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -5732,6 +5819,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina",
+      "target": "docs_conceptos_generales_diversificacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/plazo-fijo.md",
       "source_location": "L126",
       "weight": 1.0,
@@ -5886,6 +5983,16 @@
       "source_location": "L34",
       "weight": 1.0,
       "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_dollar_cost_averaging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina",
       "target": "docs_conceptos_generales_dollar_cost_averaging",
       "confidence_score": 1.0
     },
@@ -8872,6 +8979,66 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_c\u00f3mo_empezar_a_pensar_el_complemento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_c\u00f3mo_funciona_el_sistema_previsional_argentino",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_el_rol_de_invertir_por_cuenta_propia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_merval_jubilacion_sistema_previsional_argentina_sistema_previsional_argentino_jubilaci\u00f3n_y_por_qu\u00e9_complementar",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina_por_qu\u00e9_el_sistema_por_s\u00ed_solo_suele_no_alcanzar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L9",
       "weight": 1.0,
@@ -9456,5 +9623,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "d61aa0bb361af61322fe1e80475a72829558d6c0"
+  "built_at_commit": "0d5af6f6384ab24e6be1ffb1f76408cd27791992"
 }
