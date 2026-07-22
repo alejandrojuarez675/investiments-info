@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724541.4170976,
-    "ast_hash": "3407c728082d8e69a93b813d0f4ab430",
+    "mtime": 1784724588.51326,
+    "ast_hash": "0d42904efa0d98d67946f32a0f13474a",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -182,6 +182,11 @@
   "docs/conceptos-generales/fiscalidad-internacional.md": {
     "mtime": 1784724536.8295858,
     "ast_hash": "d0b3f4e1f5594eff959a1d93f6b5ab39",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/rebalanceo-portfolio.md": {
+    "mtime": 1784724583.826605,
+    "ast_hash": "2fd68d919bd223efa26b0e79b1841446",
     "semantic_hash": ""
   }
 }

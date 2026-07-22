@@ -55,6 +55,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
+  - [ETFs UCITS (domiciliados en Europa): acumulación vs. distribución](docs/sp500/etfs-ucits-europa.md)
 - **Merval** ([`docs/merval/`](docs/merval/))
   - [Qué es el Merval](docs/merval/que-es-merval.md)
   - [Acciones argentinas: panel líder y general](docs/merval/acciones-argentinas.md)

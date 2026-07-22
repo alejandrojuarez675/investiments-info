@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 37 files · ~33,876 words
+- 38 files · ~34,603 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 351 nodes · 409 edges · 32 communities (29 shown, 3 thin omitted)
+- 359 nodes · 417 edges · 36 communities (33 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8fc1cf45`
+- Built from commit: `682773de`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,9 +34,13 @@
 - Qué es el S&P 500
 - Exchanges y custodia de criptoactivos
 - CLAUDE.md
+- Rebalanceo de portfolio
+- Renta fija internacional: bonos del Tesoro y corporativos
+- Fondos comunes de inversión: renta fija, variable y mixtos
 - Derivados: opciones, futuros y cobertura
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
+- Impuestos a las inversiones en Argentina
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
 - Diversificación
@@ -66,7 +70,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (32 total, 3 thin omitted)
+## Communities (36 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -129,20 +133,36 @@ Cohesion: 0.15
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
-Cohesion: 0.22
+Cohesion: 0.25
 Nodes (8): Buenas prácticas generales (educativas, no exhaustivas), Casos históricos de colapsos y hackeos (referencia), Comparación estructurada de exchanges principales, Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Guía paso a paso: configuración de una hardware wallet, Wallets propias (self-custody)
 
+### Community 19 - "Rebalanceo de portfolio"
+Cohesion: 0.15
+Nodes (11): Costos y fricciones a considerar, Cómo se ejecuta, Fuentes, Métodos de rebalanceo, Por qué es difícil de ejecutar en la práctica, Por qué una cartera se desalinea sola, Rebalanceo de portfolio, Convención de archivos (+3 more)
+
+### Community 20 - "Renta fija internacional: bonos del Tesoro y corporativos"
+Cohesion: 0.29
+Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones
+
+### Community 21 - "Fondos comunes de inversión: renta fija, variable y mixtos"
+Cohesion: 0.29
+Nodes (7): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente
+
 ### Community 22 - "Derivados: opciones, futuros y cobertura"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
-Cohesion: 0.17
-Nodes (10): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico), Convención de archivos, Estructura (+2 more)
+Cohesion: 0.29
+Nodes (6): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
-Cohesion: 0.06
-Nodes (28): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones, Categorías principales (+20 more)
+Cohesion: 0.25
+Nodes (8): Cómo funcionan, Emisores frecuentes por sector (referencia orientativa), Fuentes, Obligaciones Negociables (ONs) argentinas, Riesgo crediticio: distinto al riesgo soberano, Riesgos y consideraciones, Spread de rendimiento: ON vs. bono soberano, Ventajas frente a otros instrumentos de renta fija
+
+### Community 25 - "Impuestos a las inversiones en Argentina"
+Cohesion: 0.33
+Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 28 - "Plazo fijo y dólar: las inversiones más populares en Argentina"
 Cohesion: 0.09
@@ -185,7 +205,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **262 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Doble imposición: el problema de base`, `Retenciones en la fuente (EE.UU. como caso típico)` (+257 more)
+- **268 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Por qué una cartera se desalinea sola`, `Métodos de rebalanceo` (+263 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -193,16 +213,16 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.111) - this node is a cross-community bridge._
+  _High betweenness centrality (0.110) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
   _High betweenness centrality (0.085) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
   _High betweenness centrality (0.080) - this node is a cross-community bridge._
 - **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _262 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _268 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Obligaciones Negociables (ONs) argentinas` be split into smaller, more focused modules?**
-  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
+- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

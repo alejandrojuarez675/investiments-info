@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 38 files · ~34,603 words
+- 39 files · ~35,328 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 359 nodes · 452 edges · 37 communities (34 shown, 3 thin omitted)
+- 366 nodes · 459 edges · 38 communities (35 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8fc1cf45`
+- Built from commit: `682773de`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,6 +41,7 @@
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
 - Impuestos a las inversiones en Argentina
+- ETFs UCITS (domiciliados en Europa): acumulación vs. distribución
 - investiments-info
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
@@ -71,7 +72,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (37 total, 3 thin omitted)
+## Communities (38 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -165,7 +166,11 @@ Nodes (8): Cómo funcionan, Emisores frecuentes por sector (referencia orientati
 Cohesion: 0.33
 Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
-### Community 26 - "investiments-info"
+### Community 26 - "ETFs UCITS (domiciliados en Europa): acumulación vs. distribución"
+Cohesion: 0.29
+Nodes (6): Acumulación (Acc) vs. distribución (Dist), Diferencia clave: retención sobre dividendos, ETFs UCITS (domiciliados en Europa): acumulación vs. distribución, Fuentes, Qué es UCITS, Ventajas y desventajas frente a un ETF de EE.UU.
+
+### Community 27 - "investiments-info"
 Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
@@ -210,7 +215,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **268 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+263 more)
+- **273 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+268 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -218,13 +223,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.112) - this node is a cross-community bridge._
+  _High betweenness centrality (0.110) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.086) - this node is a cross-community bridge._
+  _High betweenness centrality (0.085) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.081) - this node is a cross-community bridge._
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _268 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _273 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
