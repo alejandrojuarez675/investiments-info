@@ -248,5 +248,15 @@
     "mtime": 1784746782.4599924,
     "ast_hash": "186849515ab7f6c6670390b4c49f1691",
     "semantic_hash": ""
+  },
+  ".claude/skills/get-weekly-shorted-report/SKILL.md": {
+    "mtime": 1784750267.515137,
+    "ast_hash": "8c15c40fad3a867cc36d9b7268789126",
+    "semantic_hash": ""
+  },
+  "reports/20260722-reporte-semanal-mercado.md": {
+    "mtime": 1784750404.9337924,
+    "ast_hash": "5ff515fe4c4359a89476a1100e034db6",
+    "semantic_hash": ""
   }
 }

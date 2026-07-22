@@ -1,22 +1,23 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 50 files · ~46,580 words
+- 52 files · ~47,448 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 458 nodes · 528 edges · 46 communities (44 shown, 2 thin omitted)
+- 472 nodes · 540 edges · 46 communities (44 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6c953f50`
+- Built from commit: `7b34c05d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
+- Activos y Glosario
 - Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -82,16 +83,20 @@
 ## Communities (46 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
-Cohesion: 0.29
+Cohesion: 0.25
 Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
+### Community 2 - "Activos y Glosario"
+Cohesion: 0.13
+Nodes (11): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general, Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker (+3 more)
+
 ### Community 3 - "Relación riesgo-retorno"
-Cohesion: 0.22
-Nodes (9): Beta: sensibilidad respecto al mercado, CAPM: retorno esperado a partir del riesgo sistemático, Cómo se calcula la volatilidad en la práctica, Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad" (+1 more)
+Cohesion: 0.10
+Nodes (18): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+10 more)
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
@@ -186,8 +191,8 @@ Cohesion: 0.09
 Nodes (22): ADX (Average Directional Index), Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen, ATR (Average True Range), Bandas de Bollinger, Combinar indicadores: evitar la redundancia, Cruces de medias móviles, Estocástico (stochastic oscillator), Fuentes (+14 more)
 
 ### Community 29 - "Trading con gráficos: análisis técnico"
-Cohesion: 0.07
-Nodes (26): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+18 more)
+Cohesion: 0.12
+Nodes (17): Análisis técnico: gráficos, velas y patrones de precio, Fuentes, Gráfico de barras (OHLC), Gráfico de Heikin-Ashi, Gráfico de líneas, Gráfico de velas japonesas (candlestick), Líneas, canales y estructura de tendencia, Marco temporal (timeframe) (+9 more)
 
 ### Community 30 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -226,8 +231,8 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ### Community 39 - "Brokers en Argentina: comparación y cómo abrir cuenta"
-Cohesion: 0.33
-Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
+Cohesion: 0.22
+Nodes (8): Advertencia, Dónde conviene invertir esta semana, Fuentes, Panorama de la semana, Reporte semanal de mercado (22-jul-2026), Resumen ejecutivo, Riesgos a vigilar, Tasas y cotizaciones clave
 
 ### Community 40 - "Cauciones bursátiles en Argentina"
 Cohesion: 0.33
@@ -238,12 +243,12 @@ Cohesion: 0.33
 Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 42 - "Sistema previsional argentino: jubilación y por qué complementar"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (6): Cómo empezar a pensar el complemento, Cómo funciona el sistema previsional argentino, El rol de invertir por cuenta propia, Fuentes, Por qué el sistema por sí solo suele no alcanzar, Sistema previsional argentino: jubilación y por qué complementar
 
 ### Community 43 - "Comparativa transversal de clases de activos"
 Cohesion: 0.40
-Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
+Nodes (4): Al finalizar, Antes de escribir, Reporte semanal de mercado, Secciones del reporte (v1)
 
 ### Community 44 - "USD 1.000 a un año: carry trade vs. S&P 500"
 Cohesion: 0.20
@@ -254,24 +259,24 @@ Cohesion: 0.33
 Nodes (5): Columnas, Convenciones, Cómo agregar una observación, Instrumentos válidos, Registro de tasas
 
 ## Knowledge Gaps
-- **341 isolated node(s):** `Fuentes`, `Columnas`, `Instrumentos válidos`, `Convenciones`, `Cómo agregar una observación` (+336 more)
+- **351 isolated node(s):** `Antes de escribir`, `Secciones del reporte (v1)`, `Al finalizar`, `Resumen ejecutivo`, `Panorama de la semana` (+346 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Trading con gráficos: análisis técnico`?**
-  _High betweenness centrality (0.080) - this node is a cross-community bridge._
-- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Trading con gráficos: análisis técnico`?**
+- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Relación riesgo-retorno`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Relación riesgo-retorno`?**
   _High betweenness centrality (0.058) - this node is a cross-community bridge._
-- **What connects `Fuentes`, `Columnas`, `Instrumentos válidos` to the rest of the system?**
-  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Relación riesgo-retorno`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **What connects `Antes de escribir`, `Secciones del reporte (v1)`, `Al finalizar` to the rest of the system?**
+  _351 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Activos y Glosario` be split into smaller, more focused modules?**
+  _Cohesion score 0.12682926829268293 - nodes in this community are weakly interconnected._
+- **Should `Relación riesgo-retorno` be split into smaller, more focused modules?**
+  _Cohesion score 0.10276679841897234 - nodes in this community are weakly interconnected._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
-- **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
-  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

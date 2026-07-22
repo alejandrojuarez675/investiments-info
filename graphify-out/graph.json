@@ -21,15 +21,169 @@
   },
   "nodes": [
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Reporte semanal de mercado",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "reporte semanal de mercado"
+    },
+    {
+      "label": "Antes de escribir",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "antes de escribir"
+    },
+    {
+      "label": "Secciones del reporte (v1)",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "secciones del reporte (v1)"
+    },
+    {
+      "label": "Al finalizar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "al finalizar"
+    },
+    {
+      "label": "20260722-reporte-semanal-mercado.md",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "20260722-reporte-semanal-mercado.md"
+    },
+    {
+      "label": "Reporte semanal de mercado (22-jul-2026)",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "reporte semanal de mercado (22-jul-2026)"
+    },
+    {
+      "label": "Resumen ejecutivo",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_resumen_ejecutivo",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "resumen ejecutivo"
+    },
+    {
+      "label": "Panorama de la semana",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_panorama_de_la_semana",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "panorama de la semana"
+    },
+    {
+      "label": "Tasas y cotizaciones clave",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_tasas_y_cotizaciones_clave",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "tasas y cotizaciones clave"
+    },
+    {
+      "label": "D\u00f3nde conviene invertir esta semana",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_d\u00f3nde_conviene_invertir_esta_semana",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "donde conviene invertir esta semana"
+    },
+    {
+      "label": "Riesgos a vigilar",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_riesgos_a_vigilar",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "riesgos a vigilar"
+    },
+    {
+      "label": "Advertencia",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_advertencia",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "advertencia"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "reports_20260722_reporte_semanal_mercado_fuentes",
+      "community": 39,
+      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "glosario.md",
       "file_type": "document",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_glosario_glosario",
       "community": 10,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "glosario.md"
+      "norm_label": "glosario.md",
+      "id": "docs_glosario_glosario"
     },
     {
       "label": "Glosario de t\u00e9rminos",
@@ -37,10 +191,10 @@
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
       "community": 10,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "glosario de terminos"
+      "norm_label": "glosario de terminos",
+      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
     },
     {
       "label": "Fuentes",
@@ -48,10 +202,10 @@
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L257",
       "_origin": "ast",
-      "id": "docs_glosario_glosario_fuentes",
       "community": 10,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "docs_glosario_glosario_fuentes"
     },
     {
       "label": "README.md",
@@ -521,8 +675,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis-tecnico-fundamentos.md",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos"
     },
@@ -532,8 +686,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis tecnico: fundamentos, premisas y critica",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_fundamentos_premisas_y_cr\u00edtica"
     },
@@ -543,8 +697,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "las tres premisas clasicas",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_las_tres_premisas_cl\u00e1sicas"
     },
@@ -554,8 +708,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis tecnico vs. analisis fundamental",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_vs_an\u00e1lisis_fundamental"
     },
@@ -565,8 +719,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "la hipotesis del mercado eficiente: la critica central",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_la_hip\u00f3tesis_del_mercado_eficiente_la_cr\u00edtica_central"
     },
@@ -576,8 +730,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L100",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "sesgo de confirmacion y pareidolia de patrones",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_sesgo_de_confirmaci\u00f3n_y_pareidolia_de_patrones"
     },
@@ -587,8 +741,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L121",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "curve fitting (sobreoptimizacion)",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_curve_fitting_sobreoptimizaci\u00f3n"
     },
@@ -598,8 +752,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L144",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "pros y contras del analisis tecnico",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_pros_y_contras_del_an\u00e1lisis_t\u00e9cnico"
     },
@@ -609,8 +763,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L165",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "relacion con la gestion de riesgo",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_relaci\u00f3n_con_la_gesti\u00f3n_de_riesgo"
     },
@@ -620,8 +774,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L179",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_fuentes"
     },
@@ -631,8 +785,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-graficos-patrones.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis-tecnico-graficos-patrones.md",
       "id": "docs_conceptos_generales_analisis_tecnico_graficos_patrones"
     },
@@ -829,8 +983,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-indicadores.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis-tecnico-indicadores.md",
       "id": "docs_conceptos_generales_analisis_tecnico_indicadores"
     },
@@ -1203,8 +1357,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "comparativa transversal de clases de activos",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_comparativa_transversal_de_clases_de_activos"
     },
@@ -1214,8 +1368,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "tabla comparativa general",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_tabla_comparativa_general"
     },
@@ -1225,8 +1379,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "como leer la tabla segun el objetivo",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_c\u00f3mo_leer_la_tabla_seg\u00fan_el_objetivo"
     },
@@ -1236,8 +1390,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "combinando clases de activos: el rol de la diversificacion",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_combinando_clases_de_activos_el_rol_de_la_diversificaci\u00f3n"
     },
@@ -1247,8 +1401,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_fuentes"
     },
@@ -1258,8 +1412,8 @@
       "source_file": "docs/conceptos-generales/derivados-cobertura.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 0,
+      "community_name": "Acciones argentinas: panel l\u00edder y general",
       "norm_label": "derivados-cobertura.md",
       "id": "docs_conceptos_generales_derivados_cobertura"
     },
@@ -1720,8 +1874,8 @@
       "source_file": "docs/conceptos-generales/estrategias-trading.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "estrategias-trading.md",
       "id": "docs_conceptos_generales_estrategias_trading"
     },
@@ -2622,8 +2776,8 @@
       "source_file": "docs/conceptos-generales/riesgo-retorno.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
-      "community_name": "Trading con gr\u00e1ficos: an\u00e1lisis t\u00e9cnico",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "riesgo-retorno.md",
       "id": "docs_conceptos_generales_riesgo_retorno"
     },
@@ -3711,8 +3865,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "brokers en argentina: comparacion y como abrir cuenta",
       "id": "docs_merval_brokers_argentina_brokers_en_argentina_comparaci\u00f3n_y_c\u00f3mo_abrir_cuenta"
     },
@@ -3722,8 +3876,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "los brokers mas usados",
       "id": "docs_merval_brokers_argentina_los_brokers_m\u00e1s_usados"
     },
@@ -3733,8 +3887,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "comparacion de costos y productos (aproximado, verificar vigencia)",
       "id": "docs_merval_brokers_argentina_comparaci\u00f3n_de_costos_y_productos_aproximado_verificar_vigencia"
     },
@@ -3744,8 +3898,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "criterio para elegir o migrar de broker",
       "id": "docs_merval_brokers_argentina_criterio_para_elegir_o_migrar_de_br\u00f3ker"
     },
@@ -3755,8 +3909,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L64",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "como abrir una cuenta comitente",
       "id": "docs_merval_brokers_argentina_c\u00f3mo_abrir_una_cuenta_comitente"
     },
@@ -3766,8 +3920,8 @@
       "source_file": "docs/merval/brokers-argentina.md",
       "source_location": "L97",
       "_origin": "ast",
-      "community": 39,
-      "community_name": "Brokers en Argentina: comparaci\u00f3n y c\u00f3mo abrir cuenta",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_merval_brokers_argentina_fuentes"
     },
@@ -4294,8 +4448,8 @@
       "source_file": "docs/merval/jubilacion-sistema-previsional-argentina.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 42,
+      "community_name": "Sistema previsional argentino: jubilaci\u00f3n y por qu\u00e9 complementar",
       "norm_label": "jubilacion-sistema-previsional-argentina.md",
       "id": "docs_merval_jubilacion_sistema_previsional_argentina"
     },
@@ -5063,12 +5217,132 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill",
+      "target": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado",
+      "target": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_advertencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_d\u00f3nde_conviene_invertir_esta_semana",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_panorama_de_la_semana",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_resumen_ejecutivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_riesgos_a_vigilar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260722-reporte-semanal-mercado.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "reports_20260722_reporte_semanal_mercado_reporte_semanal_de_mercado_22_jul_2026",
+      "target": "reports_20260722_reporte_semanal_mercado_tasas_y_cotizaciones_clave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_glosario_glosario",
-      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "confidence_score": 1.0
+      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
     },
     {
       "relation": "contains",
@@ -5076,9 +5350,9 @@
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "target": "docs_glosario_glosario_fuentes",
-      "confidence_score": 1.0
+      "target": "docs_glosario_glosario_fuentes"
     },
     {
       "relation": "contains",
@@ -10357,5 +10631,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "6c953f500837e41c79506ba96160b0443a218636"
+  "built_at_commit": "7b34c05de44f219175e5d0ba980c4ca682fce480"
 }
