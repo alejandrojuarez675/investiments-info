@@ -27,8 +27,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "readme.md"
     },
     {
@@ -38,8 +38,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "investiments-info"
     },
     {
@@ -49,8 +49,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "convencion de archivos"
     },
     {
@@ -60,107 +60,96 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "para asistentes de ia"
     },
     {
-      "label": "fondos-comunes-inversion.md",
+      "label": "impuestos-inversiones-argentina.md",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "fondos-comunes-inversion.md"
+      "id": "docs_merval_impuestos_inversiones_argentina",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "impuestos-inversiones-argentina.md"
     },
     {
-      "label": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "label": "Impuestos a las inversiones en Argentina",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "fondos comunes de inversion: renta fija, variable y mixtos"
+      "id": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "impuestos a las inversiones en argentina"
     },
     {
-      "label": "C\u00f3mo funciona un FCI",
+      "label": "Bienes Personales: impuesto a la tenencia",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L17",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L18",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "como funciona un fci"
+      "id": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "bienes personales: impuesto a la tenencia"
     },
     {
-      "label": "Categor\u00edas principales",
+      "label": "Impuesto a las Ganancias sobre inversiones",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L30",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L34",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "categorias principales"
+      "id": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "impuesto a las ganancias sobre inversiones"
     },
     {
-      "label": "Costos",
+      "label": "Diferencias de tratamiento por instrumento (l\u00f3gica general)",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L46",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L55",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_costos",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "costos"
+      "id": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "diferencias de tratamiento por instrumento (logica general)"
     },
     {
-      "label": "Ventajas frente a comprar los activos directamente",
+      "label": "Consideraciones pr\u00e1cticas",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "ventajas frente a comprar los activos directamente"
-    },
-    {
-      "label": "Riesgos y consideraciones",
-      "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L70",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "riesgos y consideraciones"
+      "id": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "consideraciones practicas"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L87",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L88",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_fuentes",
-      "community": 19,
-      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "id": "docs_merval_impuestos_inversiones_argentina_fuentes",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "fuentes"
     },
     {
@@ -2925,6 +2914,94 @@
       "id": "docs_merval_fci_money_market_fuentes"
     },
     {
+      "label": "fondos-comunes-inversion.md",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fondos-comunes-inversion.md",
+      "id": "docs_merval_fondos_comunes_inversion"
+    },
+    {
+      "label": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "fondos comunes de inversion: renta fija, variable y mixtos",
+      "id": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos"
+    },
+    {
+      "label": "C\u00f3mo funciona un FCI",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "como funciona un fci",
+      "id": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci"
+    },
+    {
+      "label": "Categor\u00edas principales",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "categorias principales",
+      "id": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales"
+    },
+    {
+      "label": "Costos",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "costos",
+      "id": "docs_merval_fondos_comunes_inversion_costos"
+    },
+    {
+      "label": "Ventajas frente a comprar los activos directamente",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "ventajas frente a comprar los activos directamente",
+      "id": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "riesgos y consideraciones",
+      "id": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
+      "norm_label": "fuentes",
+      "id": "docs_merval_fondos_comunes_inversion_fuentes"
+    },
+    {
       "label": "mercado-pago.md",
       "file_type": "document",
       "source_file": "docs/merval/mercado-pago.md",
@@ -3560,10 +3637,10 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L63",
+      "source_location": "L67",
       "weight": 1.0,
       "source": "readme",
-      "target": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_impuestos_inversiones_argentina",
       "confidence_score": 1.0
     },
     {
@@ -3600,7 +3677,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -3609,71 +3686,61 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion",
-      "target": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "source": "docs_merval_impuestos_inversiones_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L30",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L18",
       "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_costos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L87",
-      "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_fuentes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L70",
       "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L59",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L55",
       "weight": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones",
       "confidence_score": 1.0
     },
     {
@@ -6709,6 +6776,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_fci_money_market"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L63",
       "weight": 1.0,
@@ -6785,6 +6862,86 @@
       "confidence_score": 1.0,
       "source": "docs_merval_fci_money_market_los_m\u00e1s_usados_gestoras_y_billeteras_virtuales",
       "target": "docs_merval_fci_money_market_por_br\u00f3ker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_merval_obligaciones_negociables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_costos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
+      "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente"
     },
     {
       "relation": "contains",
@@ -7313,5 +7470,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "a4ace0683d103dd3efa16dc95ec1d2828fd187a4"
+  "built_at_commit": "ec2e33c6b2fca56dc7daa5f23a3d97394e9f970e"
 }
