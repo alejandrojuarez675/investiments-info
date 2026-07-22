@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784725119.3921597,
-    "ast_hash": "6f77bf21e2c82115f59fc2ec2047b52d",
+    "mtime": 1784725190.4488904,
+    "ast_hash": "9499504e83e42356c71c29843641f60c",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -195,8 +195,8 @@
     "semantic_hash": ""
   },
   "docs/conceptos-generales/real-estate-fci-inmobiliario.md": {
-    "mtime": 1784724687.9128442,
-    "ast_hash": "4a39539f749ae38d8b0271e6a43de153",
+    "mtime": 1784725185.9925573,
+    "ast_hash": "3e618413d194d2e3bc61cd93fd8d91d4",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/sesgos-comportamiento-inversor.md": {
@@ -217,6 +217,11 @@
   "docs/crypto/stablecoins-defi.md": {
     "mtime": 1784725114.5991383,
     "ast_hash": "7182d3570fd5ec816ec183bd8c533a6f",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/inversion-inmobiliaria-directa.md": {
+    "mtime": 1784725167.1441221,
+    "ast_hash": "d9cd8a32b4164f3d6dc29bca2458c247",
     "semantic_hash": ""
   }
 }

@@ -17,8 +17,11 @@ FCI inmobiliarios en Argentina y los REITs a nivel internacional.
 
 Comprar una propiedad para alquilar o para revalorización es la forma más
 tradicional de invertir en real estate en Argentina, y sigue siendo
-percibida culturalmente como un refugio de valor. Sus características
-distintivas frente a otros activos:
+percibida culturalmente como un refugio de valor. Para el desarrollo en
+profundidad de esta modalidad (rentabilidad, costos de transacción,
+riesgos), ver [inversión inmobiliaria
+directa](inversion-inmobiliaria-directa.md). Aquí se resumen sus
+características distintivas frente a otros activos:
 
 - **Ilíquido**: vender una propiedad puede tomar semanas o meses,
   a diferencia de un activo financiero que se liquida en días.

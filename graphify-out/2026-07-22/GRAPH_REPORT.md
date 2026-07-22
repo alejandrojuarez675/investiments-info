@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 43 files · ~38,622 words
+- 44 files · ~39,536 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 401 nodes · 477 edges · 39 communities (37 shown, 2 thin omitted)
+- 410 nodes · 487 edges · 36 communities (34 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7b6f1ece`
+- Built from commit: `f5ea8aca`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -18,6 +18,7 @@
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
 - Activos y Glosario
+- Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
 - Interés compuesto
@@ -27,16 +28,13 @@
 - Relación riesgo-retorno
 - CEDEARs (Certificados de Depósito Argentinos)
 - Estrategias de trading de corto plazo
-- Acciones argentinas: panel líder y general
 - Bonos argentinos
 - Bitcoin y Ethereum: conceptos básicos
 - Qué es el S&P 500
 - Exchanges y custodia de criptoactivos
 - CLAUDE.md
 - Rebalanceo de portfolio
-- Renta fija internacional: bonos del Tesoro y corporativos
 - Fondos comunes de inversión: renta fija, variable y mixtos
-- Brokers en Argentina: comparación y cómo abrir cuenta
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
 - Sesgos de comportamiento del inversor
@@ -44,16 +42,15 @@
 - Real estate como inversión: FCI inmobiliarios y REITs
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
-- Diversificación
 - Fuentes de datos de precios y tasas en vivo
 - Qué es el Merval
 - Diversificación
 - Cartera de ejemplo: aplicando los conceptos de forma práctica
+- Stablecoins y DeFi: conceptos básicos
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
-- Sistema previsional argentino: jubilación y por qué complementar
-- Impuestos a las inversiones en Argentina
+- Cauciones bursátiles en Argentina
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -73,10 +70,10 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (39 total, 2 thin omitted)
+## Communities (36 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
-Cohesion: 0.29
+Cohesion: 0.25
 Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
 ### Community 1 - "CEDEARs y Merval"
@@ -84,16 +81,20 @@ Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
 ### Community 2 - "Activos y Glosario"
-Cohesion: 0.14
-Nodes (8): Fuentes, Glosario de términos, Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
+Cohesion: 0.15
+Nodes (8): Fuentes, Glosario de términos, Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
+
+### Community 3 - "Relación riesgo-retorno"
+Cohesion: 0.22
+Nodes (9): Beta: sensibilidad respecto al mercado, CAPM: retorno esperado a partir del riesgo sistemático, Cómo se calcula la volatilidad en la práctica, Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad" (+1 more)
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
 Nodes (10): CEDEARs (particularidad argentina), Criptoactivos, Efectivo y equivalentes, Fondos indexados y ETFs, Fuentes, Real estate, Renta fija (bonos), Renta variable (acciones) (+2 more)
 
 ### Community 5 - "ETFs del S&P 500"
-Cohesion: 0.22
-Nodes (9): Aplicación práctica, Cómo funciona, DCA vs. lump sum: comparación ilustrativa, Dollar-Cost Averaging (DCA), Ejemplo numérico completo, Fuentes, Limitaciones, Value averaging: una variante de DCA (+1 more)
+Cohesion: 0.07
+Nodes (24): Aplicación práctica, Cómo funciona, DCA vs. lump sum: comparación ilustrativa, Dollar-Cost Averaging (DCA), Ejemplo numérico completo, Fuentes, Limitaciones, Value averaging: una variante de DCA (+16 more)
 
 ### Community 6 - "Interés compuesto"
 Cohesion: 0.12
@@ -108,8 +109,8 @@ Cohesion: 0.20
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
-Cohesion: 0.10
-Nodes (18): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+10 more)
+Cohesion: 0.22
+Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
 Cohesion: 0.25
@@ -118,10 +119,6 @@ Nodes (8): CEDEARs (Certificados de Depósito Argentinos), CEDEARs más operados
 ### Community 12 - "Estrategias de trading de corto plazo"
 Cohesion: 0.12
 Nodes (16): Análisis técnico como base operativa, Breakout trading (ruptura de rangos), Day trading (trading intradía), Elementos comunes a toda estrategia de trading, Estrategias de trading de corto plazo, Fuentes, Gestión de riesgo y position sizing, Limitaciones generales del trading de corto plazo (+8 more)
-
-### Community 13 - "Acciones argentinas: panel líder y general"
-Cohesion: 0.29
-Nodes (7): Acciones argentinas: panel líder y general, Cómo se opera, Ejemplo ilustrativo de concentración sectorial, Fuentes, Panel líder vs. panel general, Riesgos y consideraciones, Ventajas frente a otros instrumentos
 
 ### Community 14 - "Bonos argentinos"
 Cohesion: 0.17
@@ -136,24 +133,16 @@ Cohesion: 0.15
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
-Cohesion: 0.25
+Cohesion: 0.22
 Nodes (8): Buenas prácticas generales (educativas, no exhaustivas), Casos históricos de colapsos y hackeos (referencia), Comparación estructurada de exchanges principales, Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Guía paso a paso: configuración de una hardware wallet, Wallets propias (self-custody)
 
 ### Community 19 - "Rebalanceo de portfolio"
 Cohesion: 0.29
 Nodes (7): Costos y fricciones a considerar, Cómo se ejecuta, Fuentes, Métodos de rebalanceo, Por qué es difícil de ejecutar en la práctica, Por qué una cartera se desalinea sola, Rebalanceo de portfolio
 
-### Community 20 - "Renta fija internacional: bonos del Tesoro y corporativos"
-Cohesion: 0.29
-Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones
-
 ### Community 21 - "Fondos comunes de inversión: renta fija, variable y mixtos"
 Cohesion: 0.29
 Nodes (7): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente
-
-### Community 22 - "Brokers en Argentina: comparación y cómo abrir cuenta"
-Cohesion: 0.33
-Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
 Cohesion: 0.29
@@ -183,17 +172,13 @@ Nodes (22): ADX (Average Directional Index), Análisis técnico: indicadores de 
 Cohesion: 0.12
 Nodes (17): Análisis técnico: gráficos, velas y patrones de precio, Fuentes, Gráfico de barras (OHLC), Gráfico de Heikin-Ashi, Gráfico de líneas, Gráfico de velas japonesas (candlestick), Líneas, canales y estructura de tendencia, Marco temporal (timeframe) (+9 more)
 
-### Community 30 - "Diversificación"
-Cohesion: 0.22
-Nodes (9): Características principales, Composición sectorial: peso relativo cambiante, Cómo funciona la ponderación por capitalización: ejemplo simplificado, Cómo invertir en el índice, Fuentes, Por qué se usa como referencia, Qué es el S&P 500, Rendimiento histórico por década (referencia orientativa) (+1 more)
-
 ### Community 31 - "Fuentes de datos de precios y tasas en vivo"
 Cohesion: 0.13
 Nodes (15): ArgentinaDatos API (cotizaciones y tasas locales), Bonos y letras argentinas (AL30, GD30, LECAP, BONCER, dólar linked), CEDEARs, CoinGecko API (precios de criptoactivos), Crypto (Bitcoin, Ethereum, exchanges), DolarAPI (dólar en Argentina), Dólar (oficial, MEP, CCL, blue, ahorro), Ejemplos concretos de requests a APIs clave (+7 more)
 
 ### Community 32 - "Qué es el Merval"
-Cohesion: 0.25
-Nodes (8): Características principales, Cómo invertir, Fuentes, Historia de crisis relevantes (referencia, con fechas), Merval en pesos vs. Merval en dólares ("Merval en CCL"), Metodología de ponderación: ejemplo simplificado, Qué es el Merval, Riesgos particulares del mercado argentino
+Cohesion: 0.06
+Nodes (28): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones, Acciones argentinas: panel líder y general (+20 more)
 
 ### Community 33 - "Diversificación"
 Cohesion: 0.22
@@ -202,6 +187,10 @@ Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de dive
 ### Community 34 - "Cartera de ejemplo: aplicando los conceptos de forma práctica"
 Cohesion: 0.22
 Nodes (9): Cartera de ejemplo: aplicando los conceptos de forma práctica, Fuentes, Paso 1: definir el perfil y el horizonte, Paso 2: separar el dinero por función, no por instrumento, Paso 3: asignación de activos para la porción de largo plazo, Paso 4: aplicar DCA para entrar, Paso 5: rebalancear con una regla definida de antemano, Paso 6: revisar (no reaccionar) periódicamente (+1 more)
+
+### Community 35 - "Stablecoins y DeFi: conceptos básicos"
+Cohesion: 0.14
+Nodes (12): Consideraciones prácticas, DeFi: finanzas descentralizadas, Fuentes, Qué es una stablecoin, Riesgos específicos de DeFi, Stablecoins y DeFi: conceptos básicos, Tipos de stablecoins según su respaldo, Uso como "dólar digital" en Argentina (+4 more)
 
 ### Community 36 - "FCI money market y billeteras virtuales en Argentina"
 Cohesion: 0.25
@@ -215,16 +204,12 @@ Nodes (7): Cómo calcular el interés de un plazo fijo tradicional, Fuentes, Pla
 Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
-### Community 39 - "Sistema previsional argentino: jubilación y por qué complementar"
-Cohesion: 0.17
-Nodes (10): Cómo empezar a pensar el complemento, Cómo funciona el sistema previsional argentino, El rol de invertir por cuenta propia, Fuentes, Por qué el sistema por sí solo suele no alcanzar, Sistema previsional argentino: jubilación y por qué complementar, Convención de archivos, Estructura (+2 more)
-
-### Community 40 - "Impuestos a las inversiones en Argentina"
+### Community 41 - "Cauciones bursátiles en Argentina"
 Cohesion: 0.33
-Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
+Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
 
 ## Knowledge Gaps
-- **300 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Cómo funciona el sistema previsional argentino`, `Por qué el sistema por sí solo suele no alcanzar` (+295 more)
+- **307 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Qué es una stablecoin`, `Tipos de stablecoins según su respaldo` (+302 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -232,16 +217,16 @@ Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.098) - this node is a cross-community bridge._
+  _High betweenness centrality (0.095) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.075) - this node is a cross-community bridge._
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.071) - this node is a cross-community bridge._
+  _High betweenness centrality (0.069) - this node is a cross-community bridge._
 - **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _300 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _307 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Activos y Glosario` be split into smaller, more focused modules?**
-  _Cohesion score 0.140534262485482 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14871794871794872 - nodes in this community are weakly interconnected._
+- **Should `ETFs del S&P 500` be split into smaller, more focused modules?**
+  _Cohesion score 0.07333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Relación riesgo-retorno` be split into smaller, more focused modules?**
-  _Cohesion score 0.10457516339869281 - nodes in this community are weakly interconnected._
