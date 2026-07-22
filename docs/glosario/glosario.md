@@ -153,6 +153,106 @@ correspondiente donde se desarrolla en profundidad, si existe.
   sobre el valor de la propiedad, usada para estimar rentabilidad
   inmobiliaria. Ver
   [Inversión inmobiliaria directa](../conceptos-generales/inversion-inmobiliaria-directa.md#cómo-estimar-la-rentabilidad-cap-rate).
+- **Carry trade**: estrategia que consiste en tomar posición en la moneda
+  o instrumento de menor rendimiento nominal para invertir en el de mayor
+  rendimiento nominal, ganando la diferencia de tasas mientras el tipo de
+  cambio no se mueva en contra en una magnitud mayor a esa diferencia. Ver
+  [Argentina y el dólar](../conceptos-generales/argentina-y-el-dolar.md#carry-trade-qué-es-y-cómo-funciona-en-argentina)
+  y [Estrategias de carry trade y trading cambiario en Argentina](../conceptos-generales/estrategias-carry-trade-argentina.md).
+- **Bimonetarismo**: convivencia estructural de dos monedas con roles
+  distintos en la economía argentina (peso para transacciones e ingresos,
+  dólar para ahorro y activos de valor). Ver
+  [Argentina y el dólar](../conceptos-generales/argentina-y-el-dolar.md#por-qué-argentina-es-una-economía-bimonetaria).
+- **Arbitraje MEP-CCL ("puré")**: comprar dólar MEP y vender
+  simultáneamente CCL (o viceversa) cuando la brecha entre ambos se
+  ensancha, buscando capturar esa diferencia. Ver
+  [Estrategias de carry trade y trading cambiario en Argentina](../conceptos-generales/estrategias-carry-trade-argentina.md#otras-estrategias-emparentadas-de-trading-cambiario).
+- **Dólar futuro**: contrato (operado en A3/ex-ROFEX o Byma) que fija hoy
+  el tipo de cambio al que se comprarán o venderán dólares en una fecha
+  futura, usado tanto para cobertura como para especulación. Ver
+  [Derivados: opciones, futuros y cobertura](../conceptos-generales/derivados-cobertura.md#futuros).
+- **Lecap (Letra Capitalizable)**: letra del Tesoro Nacional en pesos, uno
+  de los instrumentos más usados para hacer carry trade en Argentina por
+  su liquidez y plazos cortos. Ver
+  [Estrategias de carry trade y trading cambiario en Argentina](../conceptos-generales/estrategias-carry-trade-argentina.md).
+- **TAMAR (Tasa Mayorista Argentina)**: tasa de referencia de depósitos
+  mayoristas en pesos, usada como base variable de algunos instrumentos
+  del Tesoro (ver registro histórico de observaciones en
+  [data/tasas/tasas.csv](../../data/tasas/tasas.csv)).
+- **BONCAP**: bono del Tesoro Nacional capitalizable en pesos, variante de
+  plazo más largo que la Lecap.
+- **Perfil de inversor (conservador/moderado/agresivo)**: clasificación
+  según tolerancia al riesgo, horizonte temporal y estilo de gestión, que
+  orienta la asignación de cartera. Ver
+  [Tipos de inversores](../conceptos-generales/tipos-de-inversores.md).
+- **Buy and hold**: estrategia de mantener posiciones durante años o
+  décadas apostando al crecimiento estructural de los activos, en
+  contraste con el trading de corto plazo. Ver
+  [Tipos de inversores](../conceptos-generales/tipos-de-inversores.md#largo-plazo-buy-and-hold).
+- **Stock picking**: selección de activos individuales buscando superar
+  el rendimiento del mercado, en contraste con la inversión pasiva
+  indexada. Ver [Tipos de inversores](../conceptos-generales/tipos-de-inversores.md#activo-stock-picking).
+- **Scalping**: modalidad de trading que abre y cierra posiciones en
+  segundos a minutos, buscando ganancias pequeñas con volumen alto de
+  operaciones. Ver [Estrategias de trading](../conceptos-generales/estrategias-trading.md#scalping).
+- **Day trading**: posiciones que se abren y cierran dentro del mismo día,
+  sin exposición overnight. Ver
+  [Estrategias de trading](../conceptos-generales/estrategias-trading.md#day-trading-trading-intradía).
+- **Swing trading**: estrategia que busca capturar movimientos de precio
+  de varios días a pocas semanas. Ver
+  [Estrategias de trading](../conceptos-generales/estrategias-trading.md#swing-trading).
+- **Stop-loss / trailing stop**: orden que cierra una posición
+  automáticamente al tocar un nivel de precio predefinido (stop-loss fijo)
+  o que se ajusta a favor de la posición a medida que el precio se mueve
+  favorablemente (trailing stop). Ver
+  [Estrategias de trading](../conceptos-generales/estrategias-trading.md#stop-loss-y-trailing-stop).
+- **Relación riesgo-retorno (múltiplo R)**: cuánto se puede ganar frente a
+  cuánto se puede perder en una operación, expresado en múltiplos de la
+  distancia de riesgo (R). Ver
+  [Estrategias de trading](../conceptos-generales/estrategias-trading.md#relación-riesgo-retorno-r-múltiplo).
+- **Vela japonesa (candlestick)**: representación gráfica de un período de
+  precio (apertura, cierre, máximo, mínimo) mediante un cuerpo y mechas.
+  Ver [Análisis técnico: gráficos y patrones](../conceptos-generales/analisis-tecnico-graficos-patrones.md#gráfico-de-velas-japonesas-candlestick).
+- **Retroceso de Fibonacci**: niveles horizontales (23,6%, 38,2%, 50%,
+  61,8%, 78,6%) trazados entre un máximo y un mínimo, usados para
+  anticipar dónde puede detenerse una corrección dentro de una tendencia.
+  Ver [Gráficos y patrones](../conceptos-generales/analisis-tecnico-graficos-patrones.md#líneas-canales-y-estructura-de-tendencia).
+- **Cabeza y hombros / doble techo/piso**: patrones gráficos clásicos de
+  reversión de tendencia. Ver
+  [Gráficos y patrones](../conceptos-generales/analisis-tecnico-graficos-patrones.md#patrones-de-reversión).
+- **Apalancamiento**: tomar una posición de valor nocional mayor al
+  capital efectivamente desembolsado, amplificando tanto ganancias como
+  pérdidas. Ver
+  [Derivados: opciones, futuros y cobertura](../conceptos-generales/derivados-cobertura.md#apalancamiento-la-característica-central-de-los-derivados).
+- **Panel líder / panel general**: agrupación de acciones argentinas en
+  Byma según liquidez y capitalización de mercado. Ver
+  [Acciones argentinas](../merval/acciones-argentinas.md#panel-líder-vs-panel-general).
+- **ALyC (Agente de Liquidación y Compensación)**: bróker o agente de
+  bolsa habilitado por la CNV para operar en el mercado argentino. Ver
+  [Brokers en Argentina](../merval/brokers-argentina.md).
+- **Cuenta comitente**: cuenta que habilita a una persona a operar en el
+  mercado de capitales a través de un bróker/ALyC. Ver
+  [Brokers en Argentina](../merval/brokers-argentina.md#cómo-abrir-una-cuenta-comitente).
+- **CNV (Comisión Nacional de Valores)**: organismo regulador del mercado
+  de capitales argentino. Ver
+  [Brokers en Argentina](../merval/brokers-argentina.md).
+- **Billetera virtual**: aplicación fintech (ej. Mercado Pago, Ualá) que
+  ofrece cuenta, pagos y, habitualmente, saldo remunerado vía FCI money
+  market. Ver [Mercado Pago en Argentina](../merval/mercado-pago.md).
+- **CVU (Clave Virtual Uniforme)**: identificador de cuenta usado por
+  billeteras virtuales, equivalente al CBU bancario. Ver
+  [Mercado Pago en Argentina](../merval/mercado-pago.md#pagos-y-cobros).
+- **Merval (S&P Merval)**: principal índice bursátil de Argentina,
+  compuesto por una canasta de las acciones más líquidas que cotizan en
+  Byma. Ver [Qué es el Merval](../merval/que-es-merval.md).
+- **Free float**: porción de las acciones de una empresa efectivamente
+  disponible para el público, excluyendo tenencias de control no
+  negociables; se usa para ponderar índices como el Merval y el S&P 500.
+  Ver [Qué es el Merval](../merval/que-es-merval.md#metodología-de-ponderación-ejemplo-simplificado).
+- **Mega cap**: empresa de capitalización de mercado muy grande, cuyo
+  peso domina el desempeño de un índice ponderado por capitalización
+  (ej. Apple, Microsoft, Nvidia en el S&P 500). Ver
+  [Qué es el S&P 500](../sp500/que-es-sp500.md).
 
 ## Fuentes
 
