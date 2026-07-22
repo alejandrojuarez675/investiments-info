@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784725190.4488904,
-    "ast_hash": "9499504e83e42356c71c29843641f60c",
+    "mtime": 1784725242.6777668,
+    "ast_hash": "e85d0d6d13869b326c52538437346eff",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -222,6 +222,11 @@
   "docs/conceptos-generales/inversion-inmobiliaria-directa.md": {
     "mtime": 1784725167.1441221,
     "ast_hash": "d9cd8a32b4164f3d6dc29bca2458c247",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/comparativa-clases-de-activos.md": {
+    "mtime": 1784725237.600805,
+    "ast_hash": "459d602aa58875df60a3dd43b0d80e69",
     "semantic_hash": ""
   }
 }

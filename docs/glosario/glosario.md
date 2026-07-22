@@ -130,6 +130,29 @@ correspondiente donde se desarrolla en profundidad, si existe.
 - **REIT (Real Estate Investment Trust)**: sociedad que cotiza en bolsa y
   posee o financia propiedades generadoras de renta. Ver
   [Real estate: FCI inmobiliarios y REITs](../conceptos-generales/real-estate-fci-inmobiliario.md).
+- **Sesgo de confirmación**: tendencia a buscar información que confirma
+  una decisión ya tomada e ignorar la que la contradice. Ver
+  [Sesgos de comportamiento del inversor](../conceptos-generales/sesgos-comportamiento-inversor.md#sesgo-de-confirmación).
+- **Aversión a la pérdida**: el dolor de perder una suma se siente más
+  intensamente que el placer de ganar la misma suma. Ver
+  [Sesgos de comportamiento del inversor](../conceptos-generales/sesgos-comportamiento-inversor.md#aversión-a-la-pérdida).
+- **FOMO (Fear Of Missing Out)**: impulso a comprar un activo después de
+  que ya subió mucho, por miedo a quedar afuera de la ganancia. Ver
+  [Sesgos de comportamiento del inversor](../conceptos-generales/sesgos-comportamiento-inversor.md#fomo-fear-of-missing-out).
+- **ANSES**: organismo que administra el sistema previsional de reparto
+  en Argentina. Ver
+  [Sistema previsional argentino](../merval/jubilacion-sistema-previsional-argentina.md).
+- **Stablecoin**: criptoactivo diseñado para mantener paridad estable con
+  otro activo, típicamente el dólar. Ver
+  [Stablecoins y DeFi](../crypto/stablecoins-defi.md).
+- **DeFi (finanzas descentralizadas)**: ecosistema de aplicaciones
+  financieras construidas sobre blockchain mediante contratos
+  inteligentes, sin intermediarios tradicionales. Ver
+  [Stablecoins y DeFi](../crypto/stablecoins-defi.md#defi-finanzas-descentralizadas).
+- **Cap rate**: tasa de capitalización; ingreso neto anual por alquiler
+  sobre el valor de la propiedad, usada para estimar rentabilidad
+  inmobiliaria. Ver
+  [Inversión inmobiliaria directa](../conceptos-generales/inversion-inmobiliaria-directa.md#cómo-estimar-la-rentabilidad-cap-rate).
 
 ## Fuentes
 

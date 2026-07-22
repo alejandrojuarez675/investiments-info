@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 46 files · ~41,129 words
+- 46 files · ~41,296 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 424 nodes · 563 edges · 46 communities (43 shown, 3 thin omitted)
+- 424 nodes · 567 edges · 46 communities (43 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `73d49c2f`
+- Built from commit: `f779ee08`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -54,8 +54,8 @@
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
 - Brokers en Argentina: comparación y cómo abrir cuenta
-- Impuestos a las inversiones en Argentina
 - Cauciones bursátiles en Argentina
+- Impuestos a las inversiones en Argentina
 - Sistema previsional argentino: jubilación y por qué complementar
 - Comparativa transversal de clases de activos
 - investiments-info
@@ -110,7 +110,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -229,13 +229,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 Cohesion: 0.33
 Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
 
-### Community 40 - "Impuestos a las inversiones en Argentina"
-Cohesion: 0.33
-Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
-
-### Community 41 - "Cauciones bursátiles en Argentina"
+### Community 40 - "Cauciones bursátiles en Argentina"
 Cohesion: 0.33
 Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
+
+### Community 41 - "Impuestos a las inversiones en Argentina"
+Cohesion: 0.33
+Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 42 - "Sistema previsional argentino: jubilación y por qué complementar"
 Cohesion: 0.33

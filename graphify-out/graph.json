@@ -3071,7 +3071,7 @@
       "label": "Fuentes",
       "file_type": "document",
       "source_file": "docs/glosario/glosario.md",
-      "source_location": "L134",
+      "source_location": "L157",
       "_origin": "ast",
       "id": "docs_glosario_glosario_fuentes",
       "community": 45,
@@ -3404,7 +3404,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "cauciones bursatiles en argentina"
     },
@@ -3415,7 +3415,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_c\u00f3mo_funciona",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "como funciona"
     },
@@ -3426,7 +3426,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_uso_como_colocaci\u00f3n_de_liquidez",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "uso como colocacion de liquidez"
     },
@@ -3437,7 +3437,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_tasa_de_cauci\u00f3n",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "tasa de caucion"
     },
@@ -3448,7 +3448,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_riesgos_y_consideraciones",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "riesgos y consideraciones"
     },
@@ -3459,7 +3459,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_fuentes",
-      "community": 41,
+      "community": 40,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "fuentes"
     },
@@ -3844,7 +3844,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "impuestos a las inversiones en argentina"
     },
@@ -3855,7 +3855,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "bienes personales: impuesto a la tenencia"
     },
@@ -3866,7 +3866,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "impuesto a las ganancias sobre inversiones"
     },
@@ -3877,7 +3877,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "diferencias de tratamiento por instrumento (logica general)"
     },
@@ -3888,7 +3888,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "consideraciones practicas"
     },
@@ -3899,7 +3899,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "docs_merval_impuestos_inversiones_argentina_fuentes",
-      "community": 40,
+      "community": 41,
       "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "fuentes"
     },
@@ -3987,8 +3987,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_merval_mercado_pago",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
       "norm_label": "mercado-pago.md"
     },
     {
@@ -7430,6 +7430,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_inversion_inmobiliaria_directa",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
@@ -7927,6 +7937,16 @@
       "weight": 1.0,
       "source": "docs_conceptos_generales_sesgos_comportamiento_inversor",
       "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor",
       "confidence_score": 1.0
     },
     {
@@ -8630,6 +8650,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_stablecoins_defi",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/crypto/stablecoins-defi.md",
@@ -8773,6 +8803,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_jubilacion_sistema_previsional_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
       "source_location": "L30",
       "weight": 1.0,
       "source": "docs_glosario_glosario",
@@ -8803,7 +8843,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
-      "source_location": "L134",
+      "source_location": "L157",
       "weight": 1.0,
       "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
       "target": "docs_glosario_glosario_fuentes",
@@ -10336,5 +10376,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "73d49c2f24271337dc06e4ab36c00db954e7b998"
+  "built_at_commit": "f779ee088cb60ded0548d659d85e2e2b94f4b7e5"
 }
