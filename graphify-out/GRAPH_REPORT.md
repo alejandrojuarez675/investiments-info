@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 45 files · ~40,381 words
+- 46 files · ~41,129 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 418 nodes · 538 edges · 45 communities (42 shown, 3 thin omitted)
+- 424 nodes · 563 edges · 46 communities (43 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f5ea8aca`
+- Built from commit: `73d49c2f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,7 +36,7 @@
 - Rebalanceo de portfolio
 - Inversión inmobiliaria directa en Argentina
 - Fondos comunes de inversión: renta fija, variable y mixtos
-- Renta fija internacional: bonos del Tesoro y corporativos
+- Stablecoins y DeFi: conceptos básicos
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
 - Sesgos de comportamiento del inversor
@@ -49,7 +49,7 @@
 - Qué es el Merval
 - Diversificación
 - Cartera de ejemplo: aplicando los conceptos de forma práctica
-- Stablecoins y DeFi: conceptos básicos
+- Renta fija internacional: bonos del Tesoro y corporativos
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
@@ -57,6 +57,7 @@
 - Impuestos a las inversiones en Argentina
 - Cauciones bursátiles en Argentina
 - Sistema previsional argentino: jubilación y por qué complementar
+- Comparativa transversal de clases de activos
 - investiments-info
 - Glosario de términos
 
@@ -78,7 +79,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (45 total, 3 thin omitted)
+## Communities (46 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -156,9 +157,9 @@ Nodes (7): Costos de transacción, Cómo estimar la rentabilidad: cap rate, Dola
 Cohesion: 0.29
 Nodes (7): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente
 
-### Community 22 - "Renta fija internacional: bonos del Tesoro y corporativos"
-Cohesion: 0.29
-Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones
+### Community 22 - "Stablecoins y DeFi: conceptos básicos"
+Cohesion: 0.25
+Nodes (8): Consideraciones prácticas, DeFi: finanzas descentralizadas, Fuentes, Qué es una stablecoin, Riesgos específicos de DeFi, Stablecoins y DeFi: conceptos básicos, Tipos de stablecoins según su respaldo, Uso como "dólar digital" en Argentina
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
 Cohesion: 0.33
@@ -208,9 +209,9 @@ Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de dive
 Cohesion: 0.22
 Nodes (9): Cartera de ejemplo: aplicando los conceptos de forma práctica, Fuentes, Paso 1: definir el perfil y el horizonte, Paso 2: separar el dinero por función, no por instrumento, Paso 3: asignación de activos para la porción de largo plazo, Paso 4: aplicar DCA para entrar, Paso 5: rebalancear con una regla definida de antemano, Paso 6: revisar (no reaccionar) periódicamente (+1 more)
 
-### Community 35 - "Stablecoins y DeFi: conceptos básicos"
-Cohesion: 0.25
-Nodes (8): Consideraciones prácticas, DeFi: finanzas descentralizadas, Fuentes, Qué es una stablecoin, Riesgos específicos de DeFi, Stablecoins y DeFi: conceptos básicos, Tipos de stablecoins según su respaldo, Uso como "dólar digital" en Argentina
+### Community 35 - "Renta fija internacional: bonos del Tesoro y corporativos"
+Cohesion: 0.29
+Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones
 
 ### Community 36 - "FCI money market y billeteras virtuales en Argentina"
 Cohesion: 0.25
@@ -240,12 +241,16 @@ Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos 
 Cohesion: 0.33
 Nodes (6): Cómo empezar a pensar el complemento, Cómo funciona el sistema previsional argentino, El rol de invertir por cuenta propia, Fuentes, Por qué el sistema por sí solo suele no alcanzar, Sistema previsional argentino: jubilación y por qué complementar
 
-### Community 43 - "investiments-info"
+### Community 43 - "Comparativa transversal de clases de activos"
+Cohesion: 0.40
+Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
+
+### Community 44 - "investiments-info"
 Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **313 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+308 more)
+- **317 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+312 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -253,13 +258,13 @@ Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistent
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.097) - this node is a cross-community bridge._
+  _High betweenness centrality (0.096) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.075) - this node is a cross-community bridge._
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.069) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _313 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _317 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

@@ -56,6 +56,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Sesgos de comportamiento del inversor](docs/conceptos-generales/sesgos-comportamiento-inversor.md)
   - [Cartera de ejemplo: aplicando los conceptos de forma práctica](docs/conceptos-generales/cartera-ejemplo-practico.md)
   - [Inversión inmobiliaria directa en Argentina](docs/conceptos-generales/inversion-inmobiliaria-directa.md)
+  - [Comparativa transversal de clases de activos](docs/conceptos-generales/comparativa-clases-de-activos.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
