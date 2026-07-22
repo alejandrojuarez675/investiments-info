@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724341.0407276,
-    "ast_hash": "6201c89ee150f776494ad5bd5c643bdf",
+    "mtime": 1784724391.2957406,
+    "ast_hash": "ce055821512c77f52cf9b6e0a8e1bd4e",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -162,6 +162,11 @@
   "docs/merval/fondos-comunes-inversion.md": {
     "mtime": 1784724335.484823,
     "ast_hash": "edb700a9bbd10bfd931d5e700b9eb4cf",
+    "semantic_hash": ""
+  },
+  "docs/merval/impuestos-inversiones-argentina.md": {
+    "mtime": 1784724386.8192031,
+    "ast_hash": "52ca60083726427c6f3fc4b49c919c02",
     "semantic_hash": ""
   }
 }

@@ -64,6 +64,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Plazo fijo en Argentina: tradicional y UVA](docs/merval/plazo-fijo.md)
   - [Dólar en Argentina: oficial, MEP, CCL y blue](docs/merval/dolar-argentina.md)
   - [Mercado Pago en Argentina: catálogo de productos](docs/merval/mercado-pago.md)
+  - [Impuestos a las inversiones en Argentina](docs/merval/impuestos-inversiones-argentina.md)
 - **Crypto** ([`docs/crypto/`](docs/crypto/))
   - [Bitcoin y Ethereum: conceptos básicos](docs/crypto/bitcoin-ethereum.md)
   - [Exchanges y custodia de criptoactivos](docs/crypto/exchanges-custodia.md)

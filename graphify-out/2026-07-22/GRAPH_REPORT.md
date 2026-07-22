@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 32 files · ~30,150 words
+- 33 files · ~30,833 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 313 nodes · 365 edges · 30 communities (27 shown, 3 thin omitted)
+- 321 nodes · 374 edges · 31 communities (28 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bae41e77`
+- Built from commit: `a4ace068`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,6 +34,7 @@
 - Qué es el S&P 500
 - Exchanges y custodia de criptoactivos
 - CLAUDE.md
+- Fondos comunes de inversión: renta fija, variable y mixtos
 - Obligaciones Negociables (ONs) argentinas
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
@@ -64,7 +65,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (30 total, 3 thin omitted)
+## Communities (31 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -75,8 +76,8 @@ Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
 ### Community 3 - "Cauciones bursátiles en Argentina"
-Cohesion: 0.17
-Nodes (10): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez, Convención de archivos, Estructura (+2 more)
+Cohesion: 0.33
+Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
@@ -127,8 +128,12 @@ Cohesion: 0.15
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
-Cohesion: 0.25
+Cohesion: 0.22
 Nodes (8): Buenas prácticas generales (educativas, no exhaustivas), Casos históricos de colapsos y hackeos (referencia), Comparación estructurada de exchanges principales, Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Guía paso a paso: configuración de una hardware wallet, Wallets propias (self-custody)
+
+### Community 19 - "Fondos comunes de inversión: renta fija, variable y mixtos"
+Cohesion: 0.15
+Nodes (11): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente, Convención de archivos (+3 more)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
 Cohesion: 0.25
@@ -175,7 +180,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **234 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Cómo funciona`, `Uso como colocación de liquidez` (+229 more)
+- **240 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Cómo funciona un FCI`, `Categorías principales` (+235 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -183,13 +188,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.123) - this node is a cross-community bridge._
+  _High betweenness centrality (0.120) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.095) - this node is a cross-community bridge._
+  _High betweenness centrality (0.092) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.089) - this node is a cross-community bridge._
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _234 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _240 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
