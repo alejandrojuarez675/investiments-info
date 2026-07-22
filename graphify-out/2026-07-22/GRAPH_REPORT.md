@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 46 files · ~41,321 words
+- 47 files · ~43,568 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 424 nodes · 538 edges · 45 communities (43 shown, 2 thin omitted)
+- 436 nodes · 586 edges · 46 communities (44 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bf3b1e89`
+- Built from commit: `7d194b15`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,6 +21,7 @@
 - Diversificación de Portafolio
 - ETFs del S&P 500
 - Interés compuesto
+- Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade
 - ETFs que replican el S&P 500
 - Mercado Pago en Argentina: catálogo de productos
 - Relación riesgo-retorno
@@ -78,7 +79,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (45 total, 2 thin omitted)
+## Communities (46 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -103,6 +104,10 @@ Nodes (9): Aplicación práctica, Cómo funciona, DCA vs. lump sum: comparación
 ### Community 6 - "Interés compuesto"
 Cohesion: 0.12
 Nodes (16): Activo (stock picking), Agresivo, Conservador, Corto plazo (trading), Dollar-Cost Averaging (DCA), Ejemplo ilustrativo de asignación de cartera por perfil, Fuentes, Heurística simple de autoevaluación de perfil (+8 more)
+
+### Community 7 - "Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade"
+Cohesion: 0.18
+Nodes (11): Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade, Carry trade: qué es y cómo funciona en Argentina, Cuándo conviene estar en pesos y cuándo en dólares, Cuándo conviene hacer carry trade (y cuándo no), Cómo pensar la asignación entre pesos y dólares en una cartera, Desventajas y riesgos del carry trade, Fuentes, Por qué Argentina es una economía bimonetaria (+3 more)
 
 ### Community 8 - "ETFs que replican el S&P 500"
 Cohesion: 0.22
@@ -249,7 +254,7 @@ Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **317 isolated node(s):** `graphify`, `Cotización dólar/peso`, `Fuentes`, `Convención de archivos`, `Estructura` (+312 more)
+- **326 isolated node(s):** `graphify`, `Cotización dólar/peso`, `Convención de archivos`, `Estructura`, `Para asistentes de IA` (+321 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -257,13 +262,13 @@ Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistent
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.096) - this node is a cross-community bridge._
+  _High betweenness centrality (0.093) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.073) - this node is a cross-community bridge._
+  _High betweenness centrality (0.072) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.069) - this node is a cross-community bridge._
-- **What connects `graphify`, `Cotización dólar/peso`, `Fuentes` to the rest of the system?**
-  _317 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+- **What connects `graphify`, `Cotización dólar/peso`, `Convención de archivos` to the rest of the system?**
+  _326 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

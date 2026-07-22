@@ -165,6 +165,11 @@ dólares pese a haber cobrado una tasa nominal en pesos alta.
   en el caso argentino la contraparte de la apuesta es, específicamente,
   la política cambiaria doméstica.
 
+Para un desarrollo en profundidad de las ventajas, desventajas y de cuándo
+conviene (o no) aplicar esta y otras estrategias especulativas basadas en
+el esquema cambiario argentino, ver [Estrategias de carry trade y trading
+cambiario en Argentina](estrategias-carry-trade-argentina.md).
+
 ## Cómo pensar la asignación entre pesos y dólares en una cartera
 
 - Ninguna cartera bien diversificada debería estar 100% en una sola

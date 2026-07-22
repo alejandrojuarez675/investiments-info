@@ -58,6 +58,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Inversión inmobiliaria directa en Argentina](docs/conceptos-generales/inversion-inmobiliaria-directa.md)
   - [Comparativa transversal de clases de activos](docs/conceptos-generales/comparativa-clases-de-activos.md)
   - [Argentina y el dólar: dolarización, pesos vs. dólares y carry trade](docs/conceptos-generales/argentina-y-el-dolar.md)
+  - [Estrategias de carry trade y trading cambiario en Argentina](docs/conceptos-generales/estrategias-carry-trade-argentina.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)

@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784725242.6777668,
-    "ast_hash": "e85d0d6d13869b326c52538437346eff",
+    "mtime": 1784725674.9075906,
+    "ast_hash": "e26ec2fb7ea20a0612279f549033e55e",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "docs/merval/dolar-argentina.md": {
-    "mtime": 1784581324.6541765,
-    "ast_hash": "6abcda669ac438d84da1ad5743e7e9c5",
+    "mtime": 1784725681.6129892,
+    "ast_hash": "0ee523cc7ed4c4435b8587ba8ca4e1e0",
     "semantic_hash": ""
   },
   "docs/merval/fci-money-market.md": {
@@ -227,6 +227,11 @@
   "docs/conceptos-generales/comparativa-clases-de-activos.md": {
     "mtime": 1784725237.600805,
     "ast_hash": "459d602aa58875df60a3dd43b0d80e69",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/argentina-y-el-dolar.md": {
+    "mtime": 1784725809.3928342,
+    "ast_hash": "a2eadc604d53096fd743de5a7afce347",
     "semantic_hash": ""
   }
 }
