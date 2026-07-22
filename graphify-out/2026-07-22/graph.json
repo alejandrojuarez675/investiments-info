@@ -21,36 +21,168 @@
   },
   "nodes": [
     {
-      "label": "glosario.md",
+      "label": "README.md",
       "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
+      "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_glosario_glosario",
-      "community": 39,
-      "community_name": "Glosario de t\u00e9rminos",
-      "norm_label": "glosario.md"
+      "id": "readme",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "readme.md"
     },
     {
-      "label": "Glosario de t\u00e9rminos",
+      "label": "investiments-info",
       "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_investiments_info",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "investiments-info"
+    },
+    {
+      "label": "Convenci\u00f3n de archivos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "readme_convenci\u00f3n_de_archivos",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "convencion de archivos"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "readme_estructura",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "estructura"
+    },
+    {
+      "label": "Para asistentes de IA",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "readme_para_asistentes_de_ia",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "para asistentes de ia"
+    },
+    {
+      "label": "sesgos-comportamiento-inversor.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "sesgos-comportamiento-inversor.md"
+    },
+    {
+      "label": "Sesgos de comportamiento del inversor",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "community": 39,
-      "community_name": "Glosario de t\u00e9rminos",
-      "norm_label": "glosario de terminos"
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "sesgos de comportamiento del inversor"
+    },
+    {
+      "label": "Aversi\u00f3n a la p\u00e9rdida",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_aversi\u00f3n_a_la_p\u00e9rdida",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "aversion a la perdida"
+    },
+    {
+      "label": "Efecto disposici\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_efecto_disposici\u00f3n",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "efecto disposicion"
+    },
+    {
+      "label": "FOMO (Fear Of Missing Out)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_fomo_fear_of_missing_out",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "fomo (fear of missing out)"
+    },
+    {
+      "label": "Sesgo de confirmaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgo_de_confirmaci\u00f3n",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "sesgo de confirmacion"
+    },
+    {
+      "label": "Anclaje",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_anclaje",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "anclaje"
+    },
+    {
+      "label": "Exceso de confianza (overconfidence)",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_exceso_de_confianza_overconfidence",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "exceso de confianza (overconfidence)"
+    },
+    {
+      "label": "C\u00f3mo mitigar estos sesgos en la pr\u00e1ctica",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_c\u00f3mo_mitigar_estos_sesgos_en_la_pr\u00e1ctica",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
+      "norm_label": "como mitigar estos sesgos en la practica"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L134",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L104",
       "_origin": "ast",
-      "id": "docs_glosario_glosario_fuentes",
-      "community": 39,
-      "community_name": "Glosario de t\u00e9rminos",
+      "id": "docs_conceptos_generales_sesgos_comportamiento_inversor_fuentes",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
       "norm_label": "fuentes"
     },
     {
@@ -74,61 +206,6 @@
       "community_name": "CLAUDE.md",
       "norm_label": "graphify",
       "id": "claude_graphify"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
-      "norm_label": "readme.md",
-      "id": "readme"
-    },
-    {
-      "label": "investiments-info",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 34,
-      "community_name": "investiments-info",
-      "norm_label": "investiments-info",
-      "id": "readme_investiments_info"
-    },
-    {
-      "label": "Convenci\u00f3n de archivos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 34,
-      "community_name": "investiments-info",
-      "norm_label": "convencion de archivos",
-      "id": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 34,
-      "community_name": "investiments-info",
-      "norm_label": "estructura",
-      "id": "readme_estructura"
-    },
-    {
-      "label": "Para asistentes de IA",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "community": 34,
-      "community_name": "investiments-info",
-      "norm_label": "para asistentes de ia",
-      "id": "readme_para_asistentes_de_ia"
     },
     {
       "label": "analisis-tecnico-fundamentos.md",
@@ -2606,6 +2683,39 @@
       "id": "docs_crypto_exchanges_custodia_fuentes"
     },
     {
+      "label": "glosario.md",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario.md",
+      "id": "docs_glosario_glosario"
+    },
+    {
+      "label": "Glosario de t\u00e9rminos",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "glosario de terminos",
+      "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L134",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "fuentes",
+      "id": "docs_glosario_glosario_fuentes"
+    },
+    {
       "label": "acciones-argentinas.md",
       "file_type": "document",
       "source_file": "docs/merval/acciones-argentinas.md",
@@ -3370,8 +3480,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "impuestos a las inversiones en argentina",
       "id": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina"
     },
@@ -3381,8 +3491,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "bienes personales: impuesto a la tenencia",
       "id": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia"
     },
@@ -3392,8 +3502,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "impuesto a las ganancias sobre inversiones",
       "id": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones"
     },
@@ -3403,8 +3513,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "diferencias de tratamiento por instrumento (logica general)",
       "id": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general"
     },
@@ -3414,8 +3524,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "consideraciones practicas",
       "id": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas"
     },
@@ -3425,8 +3535,8 @@
       "source_file": "docs/merval/impuestos-inversiones-argentina.md",
       "source_location": "L88",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 40,
+      "community_name": "Impuestos a las inversiones en Argentina",
       "norm_label": "fuentes",
       "id": "docs_merval_impuestos_inversiones_argentina_fuentes"
     },
@@ -3436,8 +3546,8 @@
       "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
       "norm_label": "mercado-pago.md",
       "id": "docs_merval_mercado_pago"
     },
@@ -4140,33 +4250,143 @@
   ],
   "links": [
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "docs_glosario_glosario",
-      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "docs_glosario_glosario"
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/glosario/glosario.md",
-      "source_location": "L134",
+      "source_file": "README.md",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "target": "docs_glosario_glosario_fuentes",
+      "source": "readme",
+      "target": "readme_investiments_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_convenci\u00f3n_de_archivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_estructura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_para_asistentes_de_ia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_anclaje",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_aversi\u00f3n_a_la_p\u00e9rdida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_c\u00f3mo_mitigar_estos_sesgos_en_la_pr\u00e1ctica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_efecto_disposici\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_exceso_de_confianza_overconfidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_fomo_fear_of_missing_out",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgos_de_comportamiento_del_inversor",
+      "target": "docs_conceptos_generales_sesgos_comportamiento_inversor_sesgo_de_confirmaci\u00f3n",
       "confidence_score": 1.0
     },
     {
@@ -4178,396 +4398,6 @@
       "confidence_score": 1.0,
       "source": "claude",
       "target": "claude_graphify"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_analisis_tecnico_fundamentos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_analisis_tecnico_graficos_patrones"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_analisis_tecnico_indicadores"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_derivados_cobertura"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_diversificacion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_dollar_cost_averaging"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_estrategias_trading"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_fiscalidad_internacional"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_fuentes_de_datos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_interes_compuesto"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_real_estate_fci_inmobiliario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_renta_fija_internacional"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_riesgo_retorno"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_tipos_de_activos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_tipos_de_inversores"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_crypto_bitcoin_ethereum"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L76",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_crypto_exchanges_custodia"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_acciones_argentinas"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_bonos_argentinos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L67",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_brokers_argentina"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_cauciones_bursatiles"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_cedears"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_dolar_argentina"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_fci_money_market"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_fondos_comunes_inversion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_impuestos_inversiones_argentina"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_mercado_pago"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_obligaciones_negociables"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L70",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_plazo_fijo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_merval_que_es_merval"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L58",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_sp500_etfs_sp500"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_sp500_etfs_ucits_europa"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_sp500_que_es_sp500"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_investiments_info"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_estructura"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia"
     },
     {
       "relation": "contains",
@@ -4638,6 +4468,16 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_analisis_tecnico_fundamentos",
       "target": "docs_crypto_bitcoin_ethereum"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_analisis_tecnico_fundamentos"
     },
     {
       "relation": "contains",
@@ -4748,6 +4588,16 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_analisis_tecnico_graficos_patrones",
       "target": "docs_conceptos_generales_estrategias_trading"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_analisis_tecnico_graficos_patrones"
     },
     {
       "relation": "contains",
@@ -4938,6 +4788,16 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_analisis_tecnico_indicadores",
       "target": "docs_conceptos_generales_riesgo_retorno"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_analisis_tecnico_indicadores"
     },
     {
       "relation": "contains",
@@ -5180,6 +5040,16 @@
       "target": "docs_merval_dolar_argentina"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_derivados_cobertura"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/derivados-cobertura.md",
@@ -5287,6 +5157,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_rebalanceo_portfolio",
+      "target": "docs_conceptos_generales_diversificacion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_diversificacion"
     },
     {
@@ -5442,6 +5322,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_dollar_cost_averaging"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/sp500/que-es-sp500.md",
       "source_location": "L83",
       "weight": 1.0,
@@ -5557,6 +5447,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_inversores",
+      "target": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
     },
     {
@@ -5697,6 +5597,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_inversores",
+      "target": "docs_conceptos_generales_estrategias_trading"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_estrategias_trading"
     },
     {
@@ -5858,6 +5768,16 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_fiscalidad_internacional",
       "target": "docs_conceptos_generales_fiscalidad_internacional_fiscalidad_internacional_para_el_inversor_argentino"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_fiscalidad_internacional"
     },
     {
       "relation": "contains",
@@ -6210,6 +6130,16 @@
       "target": "docs_conceptos_generales_interes_compuesto"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_interes_compuesto"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/interes-compuesto.md",
@@ -6330,6 +6260,16 @@
       "target": "docs_merval_fondos_comunes_inversion"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_real_estate_fci_inmobiliario"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/real-estate-fci-inmobiliario.md",
@@ -6398,6 +6338,16 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_rebalanceo_portfolio",
       "target": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio"
     },
     {
       "relation": "references",
@@ -6510,6 +6460,16 @@
       "target": "docs_merval_obligaciones_negociables"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_conceptos_generales_renta_fija_internacional"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
@@ -6597,6 +6557,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_inversores",
+      "target": "docs_conceptos_generales_riesgo_retorno"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_riesgo_retorno"
     },
     {
@@ -6737,6 +6707,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_tipos_de_inversores",
+      "target": "docs_conceptos_generales_tipos_de_activos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
       "target": "docs_conceptos_generales_tipos_de_activos"
     },
     {
@@ -7060,6 +7040,16 @@
       "target": "docs_crypto_bitcoin_ethereum_bitcoin_y_ethereum_conceptos_b\u00e1sicos"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_bitcoin_ethereum"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/crypto/bitcoin-ethereum.md",
@@ -7160,6 +7150,16 @@
       "target": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_crypto_exchanges_custodia"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/crypto/exchanges-custodia.md",
@@ -7228,6 +7228,116 @@
       "confidence_score": 1.0,
       "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
       "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_glosario_glosario_glosario_de_t\u00e9rminos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_bonos_argentinos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_cauciones_bursatiles"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_dolar_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_fondos_comunes_inversion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_impuestos_inversiones_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_merval_obligaciones_negociables"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_sp500_etfs_sp500"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario",
+      "target": "docs_sp500_etfs_ucits_europa"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/glosario/glosario.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
+      "target": "docs_glosario_glosario_fuentes"
     },
     {
       "relation": "contains",
@@ -8696,5 +8806,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "4fb398d7718ea5fa111ef19edc3368efc7820584"
+  "built_at_commit": "d61aa0bb361af61322fe1e80475a72829558d6c0"
 }

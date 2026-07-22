@@ -54,6 +54,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Rebalanceo de portfolio](docs/conceptos-generales/rebalanceo-portfolio.md)
   - [Real estate como inversión: FCI inmobiliarios y REITs](docs/conceptos-generales/real-estate-fci-inmobiliario.md)
   - [Sesgos de comportamiento del inversor](docs/conceptos-generales/sesgos-comportamiento-inversor.md)
+  - [Cartera de ejemplo: aplicando los conceptos de forma práctica](docs/conceptos-generales/cartera-ejemplo-practico.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
