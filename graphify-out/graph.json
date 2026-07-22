@@ -60,7 +60,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 41,
+      "community": 42,
       "community_name": "investiments-info",
       "norm_label": "investiments-info"
     },
@@ -71,7 +71,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 41,
+      "community": 42,
       "community_name": "investiments-info",
       "norm_label": "convencion de archivos"
     },
@@ -82,7 +82,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 41,
+      "community": 42,
       "community_name": "investiments-info",
       "norm_label": "estructura"
     },
@@ -90,10 +90,10 @@
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L83",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 41,
+      "community": 42,
       "community_name": "investiments-info",
       "norm_label": "para asistentes de ia"
     },
@@ -115,8 +115,8 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_fundamentos_premisas_y_cr\u00edtica",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis tecnico: fundamentos, premisas y critica"
     },
     {
@@ -126,8 +126,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_las_tres_premisas_cl\u00e1sicas",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "las tres premisas clasicas"
     },
     {
@@ -137,8 +137,8 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_vs_an\u00e1lisis_fundamental",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "analisis tecnico vs. analisis fundamental"
     },
     {
@@ -148,8 +148,8 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_la_hip\u00f3tesis_del_mercado_eficiente_la_cr\u00edtica_central",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "la hipotesis del mercado eficiente: la critica central"
     },
     {
@@ -159,8 +159,8 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_sesgo_de_confirmaci\u00f3n_y_pareidolia_de_patrones",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "sesgo de confirmacion y pareidolia de patrones"
     },
     {
@@ -170,8 +170,8 @@
       "source_location": "L121",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_curve_fitting_sobreoptimizaci\u00f3n",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "curve fitting (sobreoptimizacion)"
     },
     {
@@ -181,8 +181,8 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_pros_y_contras_del_an\u00e1lisis_t\u00e9cnico",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "pros y contras del analisis tecnico"
     },
     {
@@ -192,8 +192,8 @@
       "source_location": "L165",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_relaci\u00f3n_con_la_gesti\u00f3n_de_riesgo",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "relacion con la gestion de riesgo"
     },
     {
@@ -203,8 +203,8 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_fuentes",
-      "community": 35,
-      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
+      "community": 10,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "fuentes"
     },
     {
@@ -2062,7 +2062,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_relaci\u00f3n_riesgo_retorno",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "relacion riesgo-retorno"
     },
@@ -2073,7 +2073,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_riesgo_no_es_solo_volatilidad",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "riesgo no es solo \"volatilidad\""
     },
@@ -2084,7 +2084,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_espectro_t\u00edpico_de_riesgo_retorno_orientativo_no_determin\u00edstico",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "espectro tipico de riesgo-retorno (orientativo, no deterministico)"
     },
@@ -2095,7 +2095,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_c\u00f3mo_se_calcula_la_volatilidad_en_la_pr\u00e1ctica",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "como se calcula la volatilidad en la practica"
     },
@@ -2106,7 +2106,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_sharpe_ratio_c\u00f3mo_se_calcula",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "sharpe ratio: como se calcula"
     },
@@ -2117,7 +2117,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_beta_sensibilidad_respecto_al_mercado",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "beta: sensibilidad respecto al mercado"
     },
@@ -2128,7 +2128,7 @@
       "source_location": "L121",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_capm_retorno_esperado_a_partir_del_riesgo_sistem\u00e1tico",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "capm: retorno esperado a partir del riesgo sistematico"
     },
@@ -2139,7 +2139,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_horizonte_temporal_y_tolerancia_al_riesgo",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "horizonte temporal y tolerancia al riesgo"
     },
@@ -2150,7 +2150,7 @@
       "source_location": "L159",
       "_origin": "ast",
       "id": "docs_conceptos_generales_riesgo_retorno_fuentes",
-      "community": 10,
+      "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
       "norm_label": "fuentes"
     },
@@ -2793,6 +2793,105 @@
       "norm_label": "fuentes"
     },
     {
+      "label": "stablecoins-defi.md",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "stablecoins-defi.md"
+    },
+    {
+      "label": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "stablecoins y defi: conceptos basicos"
+    },
+    {
+      "label": "Qu\u00e9 es una stablecoin",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_qu\u00e9_es_una_stablecoin",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "que es una stablecoin"
+    },
+    {
+      "label": "Tipos de stablecoins seg\u00fan su respaldo",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_tipos_de_stablecoins_seg\u00fan_su_respaldo",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "tipos de stablecoins segun su respaldo"
+    },
+    {
+      "label": "Uso como \"d\u00f3lar digital\" en Argentina",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_uso_como_d\u00f3lar_digital_en_argentina",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "uso como \"dolar digital\" en argentina"
+    },
+    {
+      "label": "DeFi: finanzas descentralizadas",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_defi_finanzas_descentralizadas",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "defi: finanzas descentralizadas"
+    },
+    {
+      "label": "Riesgos espec\u00edficos de DeFi",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_riesgos_espec\u00edficos_de_defi",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "riesgos especificos de defi"
+    },
+    {
+      "label": "Consideraciones pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_consideraciones_pr\u00e1cticas",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "consideraciones practicas"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "docs_crypto_stablecoins_defi_fuentes",
+      "community": 35,
+      "community_name": "Stablecoins y DeFi: conceptos b\u00e1sicos",
+      "norm_label": "fuentes"
+    },
+    {
       "label": "glosario.md",
       "file_type": "document",
       "source_file": "docs/glosario/glosario.md",
@@ -2810,7 +2909,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
-      "community": 42,
+      "community": 43,
       "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "glosario de terminos"
     },
@@ -2821,7 +2920,7 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "docs_glosario_glosario_fuentes",
-      "community": 42,
+      "community": 43,
       "community_name": "Glosario de t\u00e9rminos",
       "norm_label": "fuentes"
     },
@@ -3151,7 +3250,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_cauciones_burs\u00e1tiles_en_argentina",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "cauciones bursatiles en argentina"
     },
@@ -3162,7 +3261,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_c\u00f3mo_funciona",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "como funciona"
     },
@@ -3173,7 +3272,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_uso_como_colocaci\u00f3n_de_liquidez",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "uso como colocacion de liquidez"
     },
@@ -3184,7 +3283,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_tasa_de_cauci\u00f3n",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "tasa de caucion"
     },
@@ -3195,7 +3294,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_riesgos_y_consideraciones",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "riesgos y consideraciones"
     },
@@ -3206,7 +3305,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "docs_merval_cauciones_bursatiles_fuentes",
-      "community": 3,
+      "community": 41,
       "community_name": "Cauciones burs\u00e1tiles en Argentina",
       "norm_label": "fuentes"
     },
@@ -4660,7 +4759,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L81",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_crypto_stablecoins_defi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L82",
       "weight": 1.0,
       "source": "readme",
       "target": "docs_glosario_glosario",
@@ -4870,7 +4979,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L83",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -7799,6 +7908,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi",
+      "target": "docs_crypto_bitcoin_ethereum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L38",
       "weight": 1.0,
@@ -7909,6 +8028,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi",
+      "target": "docs_crypto_exchanges_custodia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L44",
       "weight": 1.0,
@@ -7984,6 +8113,96 @@
       "weight": 1.0,
       "source": "docs_crypto_exchanges_custodia_exchanges_y_custodia_de_criptoactivos",
       "target": "docs_crypto_exchanges_custodia_wallets_propias_self_custody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi",
+      "target": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi",
+      "target": "docs_merval_dolar_argentina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_consideraciones_pr\u00e1cticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_defi_finanzas_descentralizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_qu\u00e9_es_una_stablecoin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_riesgos_espec\u00edficos_de_defi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_tipos_de_stablecoins_seg\u00fan_su_respaldo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crypto/stablecoins-defi.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_crypto_stablecoins_defi_stablecoins_y_defi_conceptos_b\u00e1sicos",
+      "target": "docs_crypto_stablecoins_defi_uso_como_d\u00f3lar_digital_en_argentina",
       "confidence_score": 1.0
     },
     {
@@ -9623,5 +9842,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "0d5af6f6384ab24e6be1ffb1f76408cd27791992"
+  "built_at_commit": "7b6f1ecec5140cb5251f9b173e3e19a31870342c"
 }

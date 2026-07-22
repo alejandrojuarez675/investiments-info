@@ -1,23 +1,23 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 43 files · ~38,622 words
+- 44 files · ~39,536 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 401 nodes · 517 edges · 43 communities (40 shown, 3 thin omitted)
+- 410 nodes · 529 edges · 44 communities (41 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0d5af6f6`
+- Built from commit: `7b6f1ece`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
-- Cauciones bursátiles en Argentina
+- Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
 - Interés compuesto
@@ -49,12 +49,13 @@
 - Qué es el Merval
 - Diversificación
 - Cartera de ejemplo: aplicando los conceptos de forma práctica
-- Análisis técnico: fundamentos, premisas y crítica
+- Stablecoins y DeFi: conceptos básicos
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
 - Sistema previsional argentino: jubilación y por qué complementar
 - Impuestos a las inversiones en Argentina
+- Cauciones bursátiles en Argentina
 - investiments-info
 - Glosario de términos
 
@@ -76,7 +77,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (43 total, 3 thin omitted)
+## Communities (44 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -86,9 +87,9 @@ Nodes (7): Apalancamiento: la característica central de los derivados, Cobertur
 Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
-### Community 3 - "Cauciones bursátiles en Argentina"
-Cohesion: 0.33
-Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
+### Community 3 - "Relación riesgo-retorno"
+Cohesion: 0.22
+Nodes (9): Beta: sensibilidad respecto al mercado, CAPM: retorno esperado a partir del riesgo sistemático, Cómo se calcula la volatilidad en la práctica, Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad" (+1 more)
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
@@ -112,7 +113,7 @@ Nodes (9): Comparación de costos con competidores directos, Crédito y financia
 
 ### Community 10 - "Relación riesgo-retorno"
 Cohesion: 0.22
-Nodes (9): Beta: sensibilidad respecto al mercado, CAPM: retorno esperado a partir del riesgo sistemático, Cómo se calcula la volatilidad en la práctica, Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad" (+1 more)
+Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
 Cohesion: 0.25
@@ -206,9 +207,9 @@ Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de dive
 Cohesion: 0.22
 Nodes (9): Cartera de ejemplo: aplicando los conceptos de forma práctica, Fuentes, Paso 1: definir el perfil y el horizonte, Paso 2: separar el dinero por función, no por instrumento, Paso 3: asignación de activos para la porción de largo plazo, Paso 4: aplicar DCA para entrar, Paso 5: rebalancear con una regla definida de antemano, Paso 6: revisar (no reaccionar) periódicamente (+1 more)
 
-### Community 35 - "Análisis técnico: fundamentos, premisas y crítica"
-Cohesion: 0.22
-Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
+### Community 35 - "Stablecoins y DeFi: conceptos básicos"
+Cohesion: 0.25
+Nodes (8): Consideraciones prácticas, DeFi: finanzas descentralizadas, Fuentes, Qué es una stablecoin, Riesgos específicos de DeFi, Stablecoins y DeFi: conceptos básicos, Tipos de stablecoins según su respaldo, Uso como "dólar digital" en Argentina
 
 ### Community 36 - "FCI money market y billeteras virtuales en Argentina"
 Cohesion: 0.25
@@ -230,12 +231,16 @@ Nodes (6): Cómo empezar a pensar el complemento, Cómo funciona el sistema prev
 Cohesion: 0.33
 Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
-### Community 41 - "investiments-info"
+### Community 41 - "Cauciones bursátiles en Argentina"
+Cohesion: 0.33
+Nodes (6): Cauciones bursátiles en Argentina, Cómo funciona, Fuentes, Riesgos y consideraciones, Tasa de caución, Uso como colocación de liquidez
+
+### Community 42 - "investiments-info"
 Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ## Knowledge Gaps
-- **300 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+295 more)
+- **307 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+302 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -243,13 +248,13 @@ Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistent
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.101) - this node is a cross-community bridge._
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.078) - this node is a cross-community bridge._
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.073) - this node is a cross-community bridge._
+  _High betweenness centrality (0.071) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _300 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _307 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

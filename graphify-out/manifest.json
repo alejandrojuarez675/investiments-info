@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784725059.9730713,
-    "ast_hash": "76f24694d6311f5f8157ce1312af99c8",
+    "mtime": 1784725119.3921597,
+    "ast_hash": "6f77bf21e2c82115f59fc2ec2047b52d",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -212,6 +212,11 @@
   "docs/merval/jubilacion-sistema-previsional-argentina.md": {
     "mtime": 1784725055.3030357,
     "ast_hash": "ae80d69d4195d6005280f156e1ccd3f1",
+    "semantic_hash": ""
+  },
+  "docs/crypto/stablecoins-defi.md": {
+    "mtime": 1784725114.5991383,
+    "ast_hash": "7182d3570fd5ec816ec183bd8c533a6f",
     "semantic_hash": ""
   }
 }

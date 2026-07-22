@@ -77,6 +77,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
 - **Crypto** ([`docs/crypto/`](docs/crypto/))
   - [Bitcoin y Ethereum: conceptos básicos](docs/crypto/bitcoin-ethereum.md)
   - [Exchanges y custodia de criptoactivos](docs/crypto/exchanges-custodia.md)
+  - [Stablecoins y DeFi: conceptos básicos](docs/crypto/stablecoins-defi.md)
 - **Glosario** ([`docs/glosario/`](docs/glosario/))
   - [Glosario de términos](docs/glosario/glosario.md)
 
