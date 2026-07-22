@@ -27,8 +27,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "readme.md"
     },
     {
@@ -38,8 +38,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "investiments-info"
     },
     {
@@ -49,8 +49,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "convencion de archivos"
     },
     {
@@ -60,107 +60,96 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L79",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "para asistentes de ia"
     },
     {
-      "label": "rebalanceo-portfolio.md",
+      "label": "etfs-ucits-europa.md",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "rebalanceo-portfolio.md"
+      "id": "docs_sp500_etfs_ucits_europa",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "etfs-ucits-europa.md"
     },
     {
-      "label": "Rebalanceo de portfolio",
+      "label": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "rebalanceo de portfolio"
+      "id": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "etfs ucits (domiciliados en europa): acumulacion vs. distribucion"
     },
     {
-      "label": "Por qu\u00e9 una cartera se desalinea sola",
+      "label": "Qu\u00e9 es UCITS",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L18",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_una_cartera_se_desalinea_sola",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "por que una cartera se desalinea sola"
+      "id": "docs_sp500_etfs_ucits_europa_qu\u00e9_es_ucits",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "que es ucits"
     },
     {
-      "label": "M\u00e9todos de rebalanceo",
+      "label": "Diferencia clave: retenci\u00f3n sobre dividendos",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L42",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L27",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_m\u00e9todos_de_rebalanceo",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "metodos de rebalanceo"
+      "id": "docs_sp500_etfs_ucits_europa_diferencia_clave_retenci\u00f3n_sobre_dividendos",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "diferencia clave: retencion sobre dividendos"
     },
     {
-      "label": "C\u00f3mo se ejecuta",
+      "label": "Acumulaci\u00f3n (Acc) vs. distribuci\u00f3n (Dist)",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L59",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_c\u00f3mo_se_ejecuta",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "como se ejecuta"
+      "id": "docs_sp500_etfs_ucits_europa_acumulaci\u00f3n_acc_vs_distribuci\u00f3n_dist",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "acumulacion (acc) vs. distribucion (dist)"
     },
     {
-      "label": "Costos y fricciones a considerar",
+      "label": "Ventajas y desventajas frente a un ETF de EE.UU.",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_costos_y_fricciones_a_considerar",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "costos y fricciones a considerar"
-    },
-    {
-      "label": "Por qu\u00e9 es dif\u00edcil de ejecutar en la pr\u00e1ctica",
-      "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_es_dif\u00edcil_de_ejecutar_en_la_pr\u00e1ctica",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
-      "norm_label": "por que es dificil de ejecutar en la practica"
+      "id": "docs_sp500_etfs_ucits_europa_ventajas_y_desventajas_frente_a_un_etf_de_ee_uu",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
+      "norm_label": "ventajas y desventajas frente a un etf de ee.uu."
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L98",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L94",
       "_origin": "ast",
-      "id": "docs_conceptos_generales_rebalanceo_portfolio_fuentes",
-      "community": 19,
-      "community_name": "Rebalanceo de portfolio",
+      "id": "docs_sp500_etfs_ucits_europa_fuentes",
+      "community": 26,
+      "community_name": "ETFs UCITS (domiciliados en Europa): acumulaci\u00f3n vs. distribuci\u00f3n",
       "norm_label": "fuentes"
     },
     {
@@ -752,8 +741,8 @@
       "source_file": "docs/conceptos-generales/derivados-cobertura.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 22,
+      "community_name": "Derivados: opciones, futuros y cobertura",
       "norm_label": "derivados-cobertura.md",
       "id": "docs_conceptos_generales_derivados_cobertura"
     },
@@ -1759,6 +1748,94 @@
       "id": "docs_conceptos_generales_interes_compuesto_fuentes"
     },
     {
+      "label": "rebalanceo-portfolio.md",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "rebalanceo-portfolio.md",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio"
+    },
+    {
+      "label": "Rebalanceo de portfolio",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "rebalanceo de portfolio",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio"
+    },
+    {
+      "label": "Por qu\u00e9 una cartera se desalinea sola",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "por que una cartera se desalinea sola",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_una_cartera_se_desalinea_sola"
+    },
+    {
+      "label": "M\u00e9todos de rebalanceo",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "metodos de rebalanceo",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_m\u00e9todos_de_rebalanceo"
+    },
+    {
+      "label": "C\u00f3mo se ejecuta",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "como se ejecuta",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_c\u00f3mo_se_ejecuta"
+    },
+    {
+      "label": "Costos y fricciones a considerar",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "costos y fricciones a considerar",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_costos_y_fricciones_a_considerar"
+    },
+    {
+      "label": "Por qu\u00e9 es dif\u00edcil de ejecutar en la pr\u00e1ctica",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "por que es dificil de ejecutar en la practica",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_es_dif\u00edcil_de_ejecutar_en_la_pr\u00e1ctica"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "Rebalanceo de portfolio",
+      "norm_label": "fuentes",
+      "id": "docs_conceptos_generales_rebalanceo_portfolio_fuentes"
+    },
+    {
       "label": "renta-fija-internacional.md",
       "file_type": "document",
       "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
@@ -2391,8 +2468,8 @@
       "source_file": "docs/crypto/exchanges-custodia.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 17,
+      "community_name": "Exchanges y custodia de criptoactivos",
       "norm_label": "exchanges-custodia.md",
       "id": "docs_crypto_exchanges_custodia"
     },
@@ -3978,10 +4055,10 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L54",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "readme",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio",
+      "target": "docs_sp500_etfs_ucits_europa",
       "confidence_score": 1.0
     },
     {
@@ -4018,7 +4095,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L79",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -4027,81 +4104,61 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "source": "docs_sp500_etfs_ucits_europa",
+      "target": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/merval/fondos-comunes-inversion.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_merval_fondos_comunes_inversion",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "target": "docs_sp500_etfs_ucits_europa_acumulaci\u00f3n_acc_vs_distribuci\u00f3n_dist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "target": "docs_sp500_etfs_ucits_europa_diferencia_clave_retenci\u00f3n_sobre_dividendos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "target": "docs_sp500_etfs_ucits_europa_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "target": "docs_sp500_etfs_ucits_europa_qu\u00e9_es_ucits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/sp500/etfs-ucits-europa.md",
       "source_location": "L71",
       "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_costos_y_fricciones_a_considerar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_c\u00f3mo_se_ejecuta",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L98",
-      "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_fuentes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_m\u00e9todos_de_rebalanceo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L88",
-      "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_es_dif\u00edcil_de_ejecutar_en_la_pr\u00e1ctica",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
-      "target": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_una_cartera_se_desalinea_sola",
+      "source": "docs_sp500_etfs_ucits_europa_etfs_ucits_domiciliados_en_europa_acumulaci\u00f3n_vs_distribuci\u00f3n",
+      "target": "docs_sp500_etfs_ucits_europa_ventajas_y_desventajas_frente_a_un_etf_de_ee_uu",
       "confidence_score": 1.0
     },
     {
@@ -4847,6 +4904,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio",
+      "target": "docs_conceptos_generales_diversificacion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/glosario/glosario.md",
       "source_location": "L50",
       "weight": 1.0,
@@ -4982,6 +5049,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_interes_compuesto",
+      "target": "docs_conceptos_generales_dollar_cost_averaging"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio",
       "target": "docs_conceptos_generales_dollar_cost_averaging"
     },
     {
@@ -5883,6 +5960,86 @@
       "confidence_score": 1.0,
       "source": "docs_conceptos_generales_interes_compuesto_inter\u00e9s_compuesto",
       "target": "docs_conceptos_generales_interes_compuesto_tna_vs_tea_por_qu\u00e9_importa_la_frecuencia_de_capitalizaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/fondos-comunes-inversion.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_fondos_comunes_inversion",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_costos_y_fricciones_a_considerar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_c\u00f3mo_se_ejecuta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_m\u00e9todos_de_rebalanceo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_es_dif\u00edcil_de_ejecutar_en_la_pr\u00e1ctica"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/rebalanceo-portfolio.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_conceptos_generales_rebalanceo_portfolio_rebalanceo_de_portfolio",
+      "target": "docs_conceptos_generales_rebalanceo_portfolio_por_qu\u00e9_una_cartera_se_desalinea_sola"
     },
     {
       "relation": "contains",
@@ -8161,5 +8318,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "682773de8610dc40e55eb7d3220aa43e29c08a45"
+  "built_at_commit": "4d77747174bbb59ac40239a1b385f8c82af901e1"
 }

@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 39 files · ~35,328 words
+- 40 files · ~36,075 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 366 nodes · 459 edges · 38 communities (35 shown, 3 thin omitted)
+- 374 nodes · 471 edges · 39 communities (36 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `682773de`
+- Built from commit: `4d777471`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,13 +42,14 @@
 - Obligaciones Negociables (ONs) argentinas
 - Impuestos a las inversiones en Argentina
 - ETFs UCITS (domiciliados en Europa): acumulación vs. distribución
-- investiments-info
+- Real estate como inversión: FCI inmobiliarios y REITs
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
 - Diversificación
 - Fuentes de datos de precios y tasas en vivo
 - Qué es el Merval
 - Diversificación
+- investiments-info
 - Análisis técnico: fundamentos, premisas y crítica
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
@@ -72,7 +73,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (38 total, 3 thin omitted)
+## Communities (39 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -170,9 +171,9 @@ Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas
 Cohesion: 0.29
 Nodes (6): Acumulación (Acc) vs. distribución (Dist), Diferencia clave: retención sobre dividendos, ETFs UCITS (domiciliados en Europa): acumulación vs. distribución, Fuentes, Qué es UCITS, Ventajas y desventajas frente a un ETF de EE.UU.
 
-### Community 27 - "investiments-info"
-Cohesion: 0.50
-Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
+### Community 27 - "Real estate como inversión: FCI inmobiliarios y REITs"
+Cohesion: 0.29
+Nodes (7): Comparación de liquidez y acceso, El ladrillo físico: punto de partida, FCI inmobiliarios (Argentina), Fuentes, Real estate como inversión: FCI inmobiliarios y REITs, REITs (Real Estate Investment Trusts), Riesgos y consideraciones
 
 ### Community 28 - "Plazo fijo y dólar: las inversiones más populares en Argentina"
 Cohesion: 0.09
@@ -198,6 +199,10 @@ Nodes (8): Características principales, Cómo invertir, Fuentes, Historia de cr
 Cohesion: 0.22
 Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Ratio de Sharpe: medir el retorno ajustado por riesgo, Rebalanceo de cartera (+1 more)
 
+### Community 34 - "investiments-info"
+Cohesion: 0.50
+Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
+
 ### Community 35 - "Análisis técnico: fundamentos, premisas y crítica"
 Cohesion: 0.22
 Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
@@ -215,7 +220,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **273 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+268 more)
+- **279 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+274 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -223,13 +228,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.110) - this node is a cross-community bridge._
+  _High betweenness centrality (0.108) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+  _High betweenness centrality (0.083) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+  _High betweenness centrality (0.078) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _273 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _279 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
