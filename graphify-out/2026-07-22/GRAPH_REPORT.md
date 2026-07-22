@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 34 files · ~31,582 words
+- 35 files · ~32,293 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 328 nodes · 382 edges · 32 communities (29 shown, 3 thin omitted)
+- 336 nodes · 391 edges · 33 communities (30 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ec2e33c6`
+- Built from commit: `53f9443b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,6 +36,7 @@
 - CLAUDE.md
 - Fondos comunes de inversión: renta fija, variable y mixtos
 - Impuestos a las inversiones en Argentina
+- Renta fija internacional: bonos del Tesoro y corporativos
 - Obligaciones Negociables (ONs) argentinas
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
@@ -66,7 +67,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (32 total, 3 thin omitted)
+## Communities (33 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -137,8 +138,12 @@ Cohesion: 0.29
 Nodes (7): Categorías principales, Costos, Cómo funciona un FCI, Fondos comunes de inversión: renta fija, variable y mixtos, Fuentes, Riesgos y consideraciones, Ventajas frente a comprar los activos directamente
 
 ### Community 20 - "Impuestos a las inversiones en Argentina"
-Cohesion: 0.17
-Nodes (10): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina, Convención de archivos, Estructura (+2 more)
+Cohesion: 0.33
+Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
+
+### Community 21 - "Renta fija internacional: bonos del Tesoro y corporativos"
+Cohesion: 0.15
+Nodes (11): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones, Convención de archivos (+3 more)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
 Cohesion: 0.25
@@ -185,7 +190,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **245 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Bienes Personales: impuesto a la tenencia`, `Impuesto a las Ganancias sobre inversiones` (+240 more)
+- **251 isolated node(s):** `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Bonos del Tesoro de EE.UU.`, `Bonos corporativos (corporate bonds)` (+246 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -193,13 +198,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.118) - this node is a cross-community bridge._
+  _High betweenness centrality (0.115) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+  _High betweenness centrality (0.088) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+  _High betweenness centrality (0.083) - this node is a cross-community bridge._
 - **What connects `Convención de archivos`, `Estructura`, `Para asistentes de IA` to the rest of the system?**
-  _245 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

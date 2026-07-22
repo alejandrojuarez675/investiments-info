@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724391.2957406,
-    "ast_hash": "ce055821512c77f52cf9b6e0a8e1bd4e",
+    "mtime": 1784724437.1286757,
+    "ast_hash": "9b51eebc774838c6230c2c5b4be013f1",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -167,6 +167,11 @@
   "docs/merval/impuestos-inversiones-argentina.md": {
     "mtime": 1784724386.8192031,
     "ast_hash": "52ca60083726427c6f3fc4b49c919c02",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/renta-fija-internacional.md": {
+    "mtime": 1784724431.6176445,
+    "ast_hash": "e1f36d458922e45d85b36b198f9fd493",
     "semantic_hash": ""
   }
 }

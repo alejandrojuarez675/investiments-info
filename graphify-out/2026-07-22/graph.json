@@ -27,8 +27,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "readme.md"
     },
     {
@@ -38,8 +38,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_investiments_info",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "investiments-info"
     },
     {
@@ -49,8 +49,8 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "convencion de archivos"
     },
     {
@@ -60,96 +60,107 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "readme_estructura",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "estructura"
     },
     {
       "label": "Para asistentes de IA",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L74",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "readme_para_asistentes_de_ia",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "para asistentes de ia"
     },
     {
-      "label": "impuestos-inversiones-argentina.md",
+      "label": "renta-fija-internacional.md",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "impuestos-inversiones-argentina.md"
+      "id": "docs_conceptos_generales_renta_fija_internacional",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "renta-fija-internacional.md"
     },
     {
-      "label": "Impuestos a las inversiones en Argentina",
+      "label": "Renta fija internacional: bonos del Tesoro y corporativos",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "impuestos a las inversiones en argentina"
+      "id": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "renta fija internacional: bonos del tesoro y corporativos"
     },
     {
-      "label": "Bienes Personales: impuesto a la tenencia",
+      "label": "Bonos del Tesoro de EE.UU.",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "bienes personales: impuesto a la tenencia"
+      "id": "docs_conceptos_generales_renta_fija_internacional_bonos_del_tesoro_de_ee_uu",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "bonos del tesoro de ee.uu."
     },
     {
-      "label": "Impuesto a las Ganancias sobre inversiones",
+      "label": "Bonos corporativos (corporate bonds)",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L34",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L30",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "impuesto a las ganancias sobre inversiones"
+      "id": "docs_conceptos_generales_renta_fija_internacional_bonos_corporativos_corporate_bonds",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "bonos corporativos (corporate bonds)"
     },
     {
-      "label": "Diferencias de tratamiento por instrumento (l\u00f3gica general)",
+      "label": "Curva de rendimientos",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L55",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "diferencias de tratamiento por instrumento (logica general)"
+      "id": "docs_conceptos_generales_renta_fija_internacional_curva_de_rendimientos",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "curva de rendimientos"
     },
     {
-      "label": "Consideraciones pr\u00e1cticas",
+      "label": "Duraci\u00f3n: la medida clave de riesgo de tasa",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L70",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L59",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
-      "norm_label": "consideraciones practicas"
+      "id": "docs_conceptos_generales_renta_fija_internacional_duraci\u00f3n_la_medida_clave_de_riesgo_de_tasa",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "duracion: la medida clave de riesgo de tasa"
+    },
+    {
+      "label": "Riesgos y consideraciones",
+      "file_type": "document",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "docs_conceptos_generales_renta_fija_internacional_riesgos_y_consideraciones",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
+      "norm_label": "riesgos y consideraciones"
     },
     {
       "label": "Fuentes",
       "file_type": "document",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L88",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L93",
       "_origin": "ast",
-      "id": "docs_merval_impuestos_inversiones_argentina_fuentes",
-      "community": 20,
-      "community_name": "Impuestos a las inversiones en Argentina",
+      "id": "docs_conceptos_generales_renta_fija_internacional_fuentes",
+      "community": 21,
+      "community_name": "Renta fija internacional: bonos del Tesoro y corporativos",
       "norm_label": "fuentes"
     },
     {
@@ -3002,6 +3013,83 @@
       "id": "docs_merval_fondos_comunes_inversion_fuentes"
     },
     {
+      "label": "impuestos-inversiones-argentina.md",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Activos y Glosario",
+      "norm_label": "impuestos-inversiones-argentina.md",
+      "id": "docs_merval_impuestos_inversiones_argentina"
+    },
+    {
+      "label": "Impuestos a las inversiones en Argentina",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "impuestos a las inversiones en argentina",
+      "id": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina"
+    },
+    {
+      "label": "Bienes Personales: impuesto a la tenencia",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "bienes personales: impuesto a la tenencia",
+      "id": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia"
+    },
+    {
+      "label": "Impuesto a las Ganancias sobre inversiones",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "impuesto a las ganancias sobre inversiones",
+      "id": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones"
+    },
+    {
+      "label": "Diferencias de tratamiento por instrumento (l\u00f3gica general)",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "diferencias de tratamiento por instrumento (logica general)",
+      "id": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general"
+    },
+    {
+      "label": "Consideraciones pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "consideraciones practicas",
+      "id": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "Impuestos a las inversiones en Argentina",
+      "norm_label": "fuentes",
+      "id": "docs_merval_impuestos_inversiones_argentina_fuentes"
+    },
+    {
       "label": "mercado-pago.md",
       "file_type": "document",
       "source_file": "docs/merval/mercado-pago.md",
@@ -3637,10 +3725,10 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L67",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "readme",
-      "target": "docs_merval_impuestos_inversiones_argentina",
+      "target": "docs_conceptos_generales_renta_fija_internacional",
       "confidence_score": 1.0
     },
     {
@@ -3677,7 +3765,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L74",
+      "source_location": "L75",
       "weight": 1.0,
       "source": "readme_investiments_info",
       "target": "readme_para_asistentes_de_ia",
@@ -3686,61 +3774,71 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "source": "docs_conceptos_generales_renta_fija_internacional",
+      "target": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_bonos_corporativos_corporate_bonds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
       "source_location": "L18",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia",
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_bonos_del_tesoro_de_ee_uu",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L70",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L46",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas",
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_curva_de_rendimientos",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L55",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L59",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general",
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_duraci\u00f3n_la_medida_clave_de_riesgo_de_tasa",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L88",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L93",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_fuentes",
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_fuentes",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
-      "source_location": "L34",
+      "source_file": "docs/conceptos-generales/renta-fija-internacional.md",
+      "source_location": "L76",
       "weight": 1.0,
-      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
-      "target": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones",
+      "source": "docs_conceptos_generales_renta_fija_internacional_renta_fija_internacional_bonos_del_tesoro_y_corporativos",
+      "target": "docs_conceptos_generales_renta_fija_internacional_riesgos_y_consideraciones",
       "confidence_score": 1.0
     },
     {
@@ -6606,6 +6704,16 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina",
+      "target": "docs_merval_cedears"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "docs/merval/plazo-fijo.md",
       "source_location": "L15",
       "weight": 1.0,
@@ -6942,6 +7050,76 @@
       "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
       "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina",
+      "target": "docs_merval_obligaciones_negociables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_bienes_personales_impuesto_a_la_tenencia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_consideraciones_pr\u00e1cticas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_diferencias_de_tratamiento_por_instrumento_l\u00f3gica_general"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_fuentes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/merval/impuestos-inversiones-argentina.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_merval_impuestos_inversiones_argentina_impuestos_a_las_inversiones_en_argentina",
+      "target": "docs_merval_impuestos_inversiones_argentina_impuesto_a_las_ganancias_sobre_inversiones"
     },
     {
       "relation": "contains",
@@ -7470,5 +7648,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "ec2e33c6b2fca56dc7daa5f23a3d97394e9f970e"
+  "built_at_commit": "53f9443bc73205a14998ff752bd63022881b893d"
 }

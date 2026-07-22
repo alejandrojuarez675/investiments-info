@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724437.1286757,
-    "ast_hash": "9b51eebc774838c6230c2c5b4be013f1",
+    "mtime": 1784724494.5836325,
+    "ast_hash": "7154b796126570660b85cb815ae41686",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -172,6 +172,11 @@
   "docs/conceptos-generales/renta-fija-internacional.md": {
     "mtime": 1784724431.6176445,
     "ast_hash": "e1f36d458922e45d85b36b198f9fd493",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/derivados-cobertura.md": {
+    "mtime": 1784724483.6000566,
+    "ast_hash": "06b047831d1615f12fd42eaef4b2d20f",
     "semantic_hash": ""
   }
 }

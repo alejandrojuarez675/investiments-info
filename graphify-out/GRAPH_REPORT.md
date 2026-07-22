@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 35 files · ~32,293 words
+- 36 files · ~33,122 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 336 nodes · 424 edges · 34 communities (31 shown, 3 thin omitted)
+- 344 nodes · 434 edges · 35 communities (32 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ec2e33c6`
+- Built from commit: `53f9443b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,6 +37,7 @@
 - Fondos comunes de inversión: renta fija, variable y mixtos
 - Impuestos a las inversiones en Argentina
 - Renta fija internacional: bonos del Tesoro y corporativos
+- Derivados: opciones, futuros y cobertura
 - investiments-info
 - Obligaciones Negociables (ONs) argentinas
 - Plazo fijo y dólar: las inversiones más populares en Argentina
@@ -68,7 +69,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (34 total, 3 thin omitted)
+## Communities (35 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -99,7 +100,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -146,7 +147,11 @@ Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas
 Cohesion: 0.29
 Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Curva de rendimientos, Duración: la medida clave de riesgo de tasa, Fuentes, Renta fija internacional: bonos del Tesoro y corporativos, Riesgos y consideraciones
 
-### Community 22 - "investiments-info"
+### Community 22 - "Derivados: opciones, futuros y cobertura"
+Cohesion: 0.29
+Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
+
+### Community 23 - "investiments-info"
 Cohesion: 0.50
 Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
@@ -195,7 +200,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **251 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+246 more)
+- **257 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+252 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -203,13 +208,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.120) - this node is a cross-community bridge._
+  _High betweenness centrality (0.117) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.092) - this node is a cross-community bridge._
+  _High betweenness centrality (0.090) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.087) - this node is a cross-community bridge._
+  _High betweenness centrality (0.085) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _257 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
