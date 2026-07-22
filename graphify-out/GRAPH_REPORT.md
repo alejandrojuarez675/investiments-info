@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 36 files · ~33,122 words
+- 37 files · ~33,876 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 344 nodes · 434 edges · 35 communities (32 shown, 3 thin omitted)
+- 351 nodes · 441 edges · 36 communities (33 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `53f9443b`
+- Built from commit: `a98cd713`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,8 +38,9 @@
 - Impuestos a las inversiones en Argentina
 - Renta fija internacional: bonos del Tesoro y corporativos
 - Derivados: opciones, futuros y cobertura
-- investiments-info
+- Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
+- investiments-info
 - Plazo fijo y dólar: las inversiones más populares en Argentina
 - Trading con gráficos: análisis técnico
 - Diversificación
@@ -69,7 +70,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (35 total, 3 thin omitted)
+## Communities (36 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -100,7 +101,7 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.20
+Cohesion: 0.22
 Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 10 - "Relación riesgo-retorno"
@@ -151,13 +152,17 @@ Nodes (7): Bonos corporativos (corporate bonds), Bonos del Tesoro de EE.UU., Cur
 Cohesion: 0.29
 Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
-### Community 23 - "investiments-info"
-Cohesion: 0.50
-Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
+### Community 23 - "Fiscalidad internacional para el inversor argentino"
+Cohesion: 0.29
+Nodes (6): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
 Cohesion: 0.25
 Nodes (8): Cómo funcionan, Emisores frecuentes por sector (referencia orientativa), Fuentes, Obligaciones Negociables (ONs) argentinas, Riesgo crediticio: distinto al riesgo soberano, Riesgos y consideraciones, Spread de rendimiento: ON vs. bono soberano, Ventajas frente a otros instrumentos de renta fija
+
+### Community 25 - "investiments-info"
+Cohesion: 0.50
+Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
 
 ### Community 28 - "Plazo fijo y dólar: las inversiones más populares en Argentina"
 Cohesion: 0.09
@@ -200,7 +205,7 @@ Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
 ## Knowledge Gaps
-- **257 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+252 more)
+- **262 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+257 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -208,13 +213,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.117) - this node is a cross-community bridge._
+  _High betweenness centrality (0.115) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
+  _High betweenness centrality (0.088) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.085) - this node is a cross-community bridge._
+  _High betweenness centrality (0.083) - this node is a cross-community bridge._
 - **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
-  _257 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _262 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

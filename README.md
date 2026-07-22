@@ -50,6 +50,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen](docs/conceptos-generales/analisis-tecnico-indicadores.md)
   - [Renta fija internacional: bonos del Tesoro y corporativos](docs/conceptos-generales/renta-fija-internacional.md)
   - [Derivados: opciones, futuros y cobertura](docs/conceptos-generales/derivados-cobertura.md)
+  - [Fiscalidad internacional para el inversor argentino](docs/conceptos-generales/fiscalidad-internacional.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)
