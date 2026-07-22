@@ -12,7 +12,10 @@ Por los controles cambiarios históricos, en Argentina coexisten varias
 cotizaciones del dólar según el canal de acceso. Junto con el plazo fijo
 (ver [Plazo fijo](plazo-fijo.md)), es uno de los dos instrumentos más
 usados por el ahorrista argentino promedio antes de recurrir a
-instrumentos de mercado de capitales.
+instrumentos de mercado de capitales. Para el contexto de por qué
+Argentina funciona como economía bimonetaria, qué se compra y vende en
+cada moneda, y qué es el carry trade en pesos, ver [Argentina y el
+dólar](../conceptos-generales/argentina-y-el-dolar.md).
 
 ## Los distintos "dólares" en Argentina
 
