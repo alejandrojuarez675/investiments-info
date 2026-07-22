@@ -53,6 +53,7 @@ Todo el contenido vive bajo [`docs/`](docs/):
   - [Fiscalidad internacional para el inversor argentino](docs/conceptos-generales/fiscalidad-internacional.md)
   - [Rebalanceo de portfolio](docs/conceptos-generales/rebalanceo-portfolio.md)
   - [Real estate como inversión: FCI inmobiliarios y REITs](docs/conceptos-generales/real-estate-fci-inmobiliario.md)
+  - [Sesgos de comportamiento del inversor](docs/conceptos-generales/sesgos-comportamiento-inversor.md)
 - **S&P 500** ([`docs/sp500/`](docs/sp500/))
   - [Qué es el S&P 500](docs/sp500/que-es-sp500.md)
   - [ETFs que replican el S&P 500 (VOO, SPY, IVV) y el Nasdaq-100 (QQQ)](docs/sp500/etfs-sp500.md)

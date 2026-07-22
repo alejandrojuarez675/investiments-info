@@ -1,23 +1,22 @@
 # Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 40 files · ~36,365 words
+- 41 files · ~37,148 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 374 nodes · 454 edges · 39 communities (36 shown, 3 thin omitted)
+- 384 nodes · 491 edges · 41 communities (38 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4fb398d7`
+- Built from commit: `5edae434`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
-- Activos y Glosario
 - Cauciones bursátiles en Argentina
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -40,6 +39,7 @@
 - Brokers en Argentina: comparación y cómo abrir cuenta
 - Fiscalidad internacional para el inversor argentino
 - Obligaciones Negociables (ONs) argentinas
+- Sesgos de comportamiento del inversor
 - ETFs UCITS (domiciliados en Europa): acumulación vs. distribución
 - Real estate como inversión: FCI inmobiliarios y REITs
 - Plazo fijo y dólar: las inversiones más populares en Argentina
@@ -54,6 +54,7 @@
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
 - Glosario de términos
+- Impuestos a las inversiones en Argentina
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -73,7 +74,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (39 total, 3 thin omitted)
+## Communities (41 total, 3 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -82,10 +83,6 @@ Nodes (7): Apalancamiento: la característica central de los derivados, Cobertur
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
-
-### Community 2 - "Activos y Glosario"
-Cohesion: 0.16
-Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 3 - "Cauciones bursátiles en Argentina"
 Cohesion: 0.33
@@ -140,7 +137,7 @@ Cohesion: 0.15
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
-Cohesion: 0.22
+Cohesion: 0.25
 Nodes (8): Buenas prácticas generales (educativas, no exhaustivas), Casos históricos de colapsos y hackeos (referencia), Comparación estructurada de exchanges principales, Exchanges centralizados (CEX), Exchanges y custodia de criptoactivos, Fuentes, Guía paso a paso: configuración de una hardware wallet, Wallets propias (self-custody)
 
 ### Community 19 - "Rebalanceo de portfolio"
@@ -160,15 +157,19 @@ Cohesion: 0.33
 Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
 
 ### Community 23 - "Fiscalidad internacional para el inversor argentino"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Consideraciones prácticas para el inversor argentino, Doble imposición: el problema de base, FATCA y CRS: intercambio automático de información, Fiscalidad internacional para el inversor argentino, Fuentes, Retenciones en la fuente (EE.UU. como caso típico)
 
 ### Community 24 - "Obligaciones Negociables (ONs) argentinas"
 Cohesion: 0.25
 Nodes (8): Cómo funcionan, Emisores frecuentes por sector (referencia orientativa), Fuentes, Obligaciones Negociables (ONs) argentinas, Riesgo crediticio: distinto al riesgo soberano, Riesgos y consideraciones, Spread de rendimiento: ON vs. bono soberano, Ventajas frente a otros instrumentos de renta fija
 
+### Community 25 - "Sesgos de comportamiento del inversor"
+Cohesion: 0.22
+Nodes (9): Anclaje, Aversión a la pérdida, Cómo mitigar estos sesgos en la práctica, Efecto disposición, Exceso de confianza (overconfidence), FOMO (Fear Of Missing Out), Fuentes, Sesgo de confirmación (+1 more)
+
 ### Community 26 - "ETFs UCITS (domiciliados en Europa): acumulación vs. distribución"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Acumulación (Acc) vs. distribución (Dist), Diferencia clave: retención sobre dividendos, ETFs UCITS (domiciliados en Europa): acumulación vs. distribución, Fuentes, Qué es UCITS, Ventajas y desventajas frente a un ETF de EE.UU.
 
 ### Community 27 - "Real estate como inversión: FCI inmobiliarios y REITs"
@@ -219,8 +220,12 @@ Nodes (7): Cómo calcular el interés de un plazo fijo tradicional, Fuentes, Pla
 Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
 
+### Community 40 - "Impuestos a las inversiones en Argentina"
+Cohesion: 0.33
+Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
+
 ## Knowledge Gaps
-- **279 isolated node(s):** `Fuentes`, `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA` (+274 more)
+- **287 isolated node(s):** `graphify`, `Convención de archivos`, `Estructura`, `Para asistentes de IA`, `Las tres premisas clásicas` (+282 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -228,13 +233,13 @@ Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.108) - this node is a cross-community bridge._
+  _High betweenness centrality (0.105) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.083) - this node is a cross-community bridge._
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.078) - this node is a cross-community bridge._
-- **What connects `Fuentes`, `graphify`, `Convención de archivos` to the rest of the system?**
-  _279 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **What connects `graphify`, `Convención de archivos`, `Estructura` to the rest of the system?**
+  _287 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

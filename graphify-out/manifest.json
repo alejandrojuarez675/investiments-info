@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1784724693.2584682,
-    "ast_hash": "405dbd1f858c48bff32e3720e3557a16",
+    "mtime": 1784724954.4816825,
+    "ast_hash": "0c3e735f60664ec8626d1db5ce9e681d",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/diversificacion.md": {
@@ -197,6 +197,11 @@
   "docs/conceptos-generales/real-estate-fci-inmobiliario.md": {
     "mtime": 1784724687.9128442,
     "ast_hash": "4a39539f749ae38d8b0271e6a43de153",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/sesgos-comportamiento-inversor.md": {
+    "mtime": 1784724948.829226,
+    "ast_hash": "03f2b01f6ad1493b30464bbf9a6958b6",
     "semantic_hash": ""
   }
 }
