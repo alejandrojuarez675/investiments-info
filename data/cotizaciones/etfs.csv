@@ -1,0 +1,8 @@
+fecha,ticker,moneda,precio,fuente_url,notas
+2026-07-22,SPY,USD,747.41,https://stockanalysis.com/etf/spy/,Cierre sesion regular
+2026-07-22,IVV,USD,750.93,https://stockanalysis.com/etf/ivv/,Cierre sesion regular
+2026-07-22,VOO,USD,687.03,https://stockanalysis.com/etf/voo/,Cierre sesion regular
+2026-07-22,QQQ,USD,705.35,https://stockanalysis.com/etf/qqq/,Cierre sesion regular
+2026-07-22,QQQM,USD,290.42,https://stockanalysis.com/etf/qqqm/,Cierre sesion regular
+2026-07-22,CSPX,USD,809.48,https://finance.yahoo.com/quote/CSPX.L/,Listado LSE cotiza en USD; NAV intradia no obtenido
+2026-07-22,VUAA,USD,143.26,https://finance.yahoo.com/quote/VUAA.L/,Listado LSE en USD; existen lineas separadas en EUR (Xetra/Euronext ~126 EUR) y GBP (Londres), no confundir

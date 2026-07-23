@@ -1,0 +1,10 @@
+fecha,ticker,moneda,precio,tir,paridad,fuente_url,notas
+2026-07-22,AL29,USD,55.38,0.059,0.923,https://www.rava.com/perfil/AL29D,Especie AL29D (ley local, liquidacion dolar cable); TIR/paridad de bonistas.com
+2026-07-22,AL30,USD,56.95,0.070,0.890,https://www.rava.com/perfil/AL30D,Especie AL30D; TIR/paridad de bonistas.com
+2026-07-22,AL35,USD,81.34,0.0876,0.812,https://www.rava.com/perfil/AL35D,Especie AL35D; TIR/paridad de bonistas.com
+2026-07-22,AL41,USD,76.75,0.087,0.766,https://www.rava.com/perfil/AL41D,Especie AL41D; TIR/paridad de bonistas.com
+2026-07-22,GD30,USD,58.42,0.057,0.913,https://www.rava.com/perfil/GD30D,Especie GD30D (ley extranjera); TIR/paridad de bonistas.com
+2026-07-22,GD35,USD,83.30,0.083,0.832,https://www.rava.com/perfil/GD35D,Especie GD35D; TIR/paridad de bonistas.com
+2026-07-22,GD38,USD,87.30,0.0794,0.871,https://www.rava.com/perfil/GD38D,Especie GD38D; TIR/paridad de bonistas.com
+2026-07-22,GD41,USD,78.14,0.0839,0.780,https://www.rava.com/perfil/GD41D,Especie GD41D; TIR/paridad de bonistas.com
+2026-07-22,GD46,USD,72.09,0.083,0.792,https://www.rava.com/perfil/GD46D,Especie GD46D; TIR/paridad de bonistas.com

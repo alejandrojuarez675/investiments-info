@@ -1,0 +1,17 @@
+fecha,ticker,moneda,precio,ratio,fuente_url,notas
+2026-07-22,AAPL,ARS,25620.00,20:1,https://www.cohen.com.ar/Bursatil/Especie/AAPL/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,MSFT,ARS,20440.00,30:1,https://www.cohen.com.ar/Bursatil/Especie/MSFT/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,NVDA,ARS,13870.00,24:1,https://www.cohen.com.ar/Bursatil/Especie/NVDA/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,AMZN,ARS,2682.50,144:1,https://www.cohen.com.ar/Bursatil/Especie/AMZN/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,GOOGL,ARS,9295.00,58:1,https://www.cohen.com.ar/Bursatil/Especie/GOOGL/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,META,ARS,41100.00,24:1,https://www.cohen.com.ar/Bursatil/Especie/META/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,SPY,ARS,19600.00,60:1,https://www.cohen.com.ar/Bursatil/Especie/SPY/MERVAL/24hs,Cierre rueda BYMA 16:59; ratio cambio recientemente de 20:1 a 60:1
+2026-07-22,QQQ,ARS,55450.00,20:1,https://www.cohen.com.ar/Bursatil/Especie/QQQ/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,JPM,ARS,36560.00,15:1,https://www.cohen.com.ar/Bursatil/Especie/JPM/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,V,ARS,30800.00,18:1,https://www.cohen.com.ar/Bursatil/Especie/V/MERVAL/24hs,Cierre rueda BYMA 16:58
+2026-07-22,MA,ARS,25320.00,33:1,https://www.cohen.com.ar/Bursatil/Especie/MA/MERVAL/24hs,Cierre rueda BYMA 16:57
+2026-07-22,KO,ARS,25920.00,5:1,https://www.cohen.com.ar/Bursatil/Especie/KO/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,MCD,ARS,17270.00,24:1,https://www.cohen.com.ar/Bursatil/Especie/MCD/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,WMT,ARS,9575.00,18:1,https://www.cohen.com.ar/Bursatil/Especie/WMT/MERVAL/24hs,Cierre rueda BYMA 16:57
+2026-07-22,TSLA,ARS,39240.00,15:1,https://www.cohen.com.ar/Bursatil/Especie/TSLA/MERVAL/24hs,Cierre rueda BYMA 16:59
+2026-07-22,XOM,ARS,24280.00,10:1,https://www.cohen.com.ar/Bursatil/Especie/XOM/MERVAL/24hs,Cierre rueda BYMA 16:59

@@ -30,7 +30,8 @@ una línea que explique qué es) y recién después usarlo en `tasas.csv`.
 | `lecap` | Letra del Tesoro capitalizable en pesos. |
 | `boncap` | Bono del Tesoro capitalizable en pesos. |
 | `tamar` | Letra/instrumento atado a tasa TAMAR (Tasa Mayorista Argentina). |
-| `plazo_fijo` | Plazo fijo tradicional en pesos. |
+| `plazo_fijo` | Plazo fijo tradicional en pesos (tasa fija, interés simple, plazo mínimo habitual 30 días). |
+| `plazo_fijo_uva` | Plazo fijo UVA en pesos (capital ajustado por UVA/CER + tasa adicional fija, plazo mínimo habitual 90 días). Registrar la tasa adicional en `tasa_valor` y aclarar en `notas` que es la tasa adicional sobre el ajuste UVA, no la TNA total. |
 | `caucion` | Caución bursátil. |
 | `fci_money_market` | Fondo Común de Inversión money market en pesos. |
 | `dolar_oficial` | Tipo de cambio oficial (BNA/BCRA). |
@@ -47,6 +48,16 @@ una línea que explique qué es) y recién después usarlo en `tasas.csv`.
   distintos plazos (ej. Lecaps a 90 y a 180 días).
 - Al usar estos datos en un reporte (`reports/`), citar la fila de origen
   (fecha + instrumento) además de la fuente URL.
+
+## Plazo fijo: qué banco usar como referencia
+
+Las tasas de plazo fijo varían por banco. Como referencia por defecto,
+usar el promedio de bancos públicos/privados grandes que publica el BCRA
+(ver [Tasas de interés de depósitos a plazo fijo -
+BCRA](https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp)),
+o, si se busca la tasa de un banco específico, aclararlo en `notas` (ej.
+"Banco Nación", "Banco Galicia") en vez de mezclar bancos distintos bajo
+el mismo `instrumento` sin aclaración.
 
 ## Cómo agregar una observación
 

@@ -1,0 +1,21 @@
+fecha,ticker,moneda,precio,fuente_url,notas
+2026-07-22,BRK.B,USD,489.39,https://stockanalysis.com/stocks/brk.b/,Cierre sesion regular
+2026-07-22,LLY,USD,1163.01,https://stockanalysis.com/stocks/lly/,Cierre sesion regular
+2026-07-22,JPM,USD,348.21,https://stockanalysis.com/stocks/jpm/,Cierre sesion regular
+2026-07-22,V,USD,353.42,https://stockanalysis.com/stocks/v/,Cierre sesion regular
+2026-07-22,UNH,USD,431.31,https://stockanalysis.com/stocks/unh/,Cierre sesion regular
+2026-07-22,JNJ,USD,255.63,https://stockanalysis.com/stocks/jnj/,Cierre sesion regular
+2026-07-22,WMT,USD,109.33,https://stockanalysis.com/stocks/wmt/,Cierre sesion regular; premarket 23-jul 09:18 EDT 107.80
+2026-07-22,XOM,USD,154.45,https://stockanalysis.com/stocks/xom/,Cierre sesion regular
+2026-07-22,MA,USD,531.98,https://stockanalysis.com/stocks/ma/,Cierre sesion regular
+2026-07-22,PG,USD,149.13,https://stockanalysis.com/stocks/pg/,Cierre sesion regular
+2026-07-22,HD,USD,331.45,https://stockanalysis.com/stocks/hd/,Cierre sesion regular
+2026-07-22,CVX,USD,192.98,https://stockanalysis.com/stocks/cvx/,Cierre sesion regular
+2026-07-22,MRK,USD,127.47,https://stockanalysis.com/stocks/mrk/,Cierre sesion regular
+2026-07-22,KO,USD,82.20,https://stockanalysis.com/stocks/ko/,Cierre sesion regular; premarket 23-jul 09:15 EDT 82.01
+2026-07-22,BAC,USD,61.62,https://stockanalysis.com/stocks/bac/,Cierre sesion regular; premarket 23-jul 09:14 EDT 61.20
+2026-07-22,ABBV,USD,253.30,https://stockanalysis.com/stocks/abbv/,Cierre sesion regular
+2026-07-22,ORCL,USD,125.84,https://stockanalysis.com/stocks/orcl/,Cierre sesion regular; premarket 23-jul 09:20 EDT 123.77
+2026-07-22,MCD,USD,263.57,https://stockanalysis.com/stocks/mcd/,Cierre sesion regular
+2026-07-22,CRM,USD,163.00,https://stockanalysis.com/stocks/crm/,Cierre sesion regular
+2026-07-22,DIS,USD,95.87,https://stockanalysis.com/stocks/dis/,Cierre sesion regular

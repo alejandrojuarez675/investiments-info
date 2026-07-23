@@ -1,0 +1,6 @@
+fecha,ticker,moneda,precio,fuente_url,notas
+2026-07-23,BTC,USD,65000.12,https://www.coingecko.com/en/coins/bitcoin,Rango observado ~65000-66200 segun exchange
+2026-07-23,ETH,USD,1897.65,https://www.coingecko.com/en/coins/ethereum,Rango observado ~1900-1945 segun exchange
+2026-07-23,USDT,USD,0.9995,https://www.coingecko.com/en/coins/tether,
+2026-07-23,USDC,USD,0.9998,https://www.coingecko.com/en/coins/usdc,
+2026-07-23,DAI,USD,1.00,https://www.coingecko.com/en/coins/dai,
