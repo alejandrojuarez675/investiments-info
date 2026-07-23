@@ -1,0 +1,19 @@
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile.dev
+    restart: unless-stopped
+    environment:
+      # Reutiliza el Postgres ya existente (contenedor investiments-info-pg, puerto host 5433).
+      DATABASE_URL: postgresql://postgres:postgres@host.docker.internal:5433/investiments
+      PGSSL: "false"
+      NEXT_PUBLIC_SITE_URL: http://localhost:3005
+    ports:
+      - "3005:3000"
+    volumes:
+      - ./web:/app
+      - /app/node_modules
+      - /app/.next
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
