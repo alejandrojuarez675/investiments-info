@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 149 files · ~81,038 words
+- 149 files · ~81,393 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1068 nodes · 1238 edges · 133 communities (123 shown, 10 thin omitted)
+- 1069 nodes · 1238 edges · 135 communities (125 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d92f7fd7`
+- Built from commit: `fafdc7a6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,6 +145,7 @@
 - redactor-espectaculos.md
 - redactor-policiales.md
 - redactor-politica.md
+- layout.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -160,15 +161,15 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
-- `sitemap()` --calls--> `listarSlugs()`  [EXTRACTED]
-  web/src/app/sitemap.ts → web/src/lib/articulos.ts
+  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
+- `generateMetadata()` --calls--> `urlArticulo()`  [EXTRACTED]
+  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `ArticuloPage()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `ArticuloPage()` --calls--> `obtenerRelacionados()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 
 ## Import Cycles
 - None detected.
@@ -176,7 +177,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (133 total, 10 thin omitted)
+## Communities (135 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -639,8 +640,8 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.10
-Nodes (21): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, geistMono, geistSans, metadata, Home() (+13 more)
+Cohesion: 0.18
+Nodes (17): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, Home(), sitemap(), ArticuloCard(), formatearFecha() (+9 more)
 
 ### Community 118 - "web"
 Cohesion: 0.29
@@ -658,25 +659,29 @@ Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report
 Cohesion: 0.40
 Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
 
+### Community 133 - "layout.tsx"
+Cohesion: 0.23
+Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
+
 ## Knowledge Gaps
-- **736 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+731 more)
+- **737 isolated node(s):** `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido`, `Guardado en la base de datos`, `Al finalizar` (+732 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
 - **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
-- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
-- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
-  _736 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **What connects `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido` to the rest of the system?**
+  _737 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Inversión inmobiliaria directa en Argentina` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

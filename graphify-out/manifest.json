@@ -619,11 +619,6 @@
     "ast_hash": "139dda64a56b63edefc91f44616a7e18",
     "semantic_hash": ""
   },
-  "web/src/app/articulo/[slug]/page.tsx": {
-    "mtime": 1784824350.5554821,
-    "ast_hash": "4a60b2ba189adf3fcd363f94140c9b45",
-    "semantic_hash": ""
-  },
   "web/src/app/layout.tsx": {
     "mtime": 1784824354.3090923,
     "ast_hash": "0005d07203b27e128a3e9d125db4adb3",
@@ -645,13 +640,13 @@
     "semantic_hash": ""
   },
   "web/src/app/sitemap.ts": {
-    "mtime": 1784824334.4394217,
-    "ast_hash": "a81bee98c0f8fdd64955afc36ae4163a",
+    "mtime": 1784833325.4086058,
+    "ast_hash": "6a2bafc816b7ea270f3080f633037772",
     "semantic_hash": ""
   },
   "web/src/lib/articulos.ts": {
-    "mtime": 1784824339.603917,
-    "ast_hash": "07e33c8294b65e53fdfe5bf355f9a871",
+    "mtime": 1784833288.3361955,
+    "ast_hash": "3e72b114b83bb94e515a17b5fda5f1d4",
     "semantic_hash": ""
   },
   "web/src/lib/config.ts": {
@@ -720,8 +715,8 @@
     "semantic_hash": ""
   },
   "web/src/components/ArticuloCard.tsx": {
-    "mtime": 1784823924.7100122,
-    "ast_hash": "d5a7287eb82d97758479ad184fdb8b0d",
+    "mtime": 1784833318.648421,
+    "ast_hash": "c3a8c1cc40939b1c9ad600e479eabbf4",
     "semantic_hash": ""
   },
   "web/src/lib/tipos-articulo.ts": {
@@ -730,8 +725,8 @@
     "semantic_hash": ""
   },
   ".claude/skills/get-news-report/SKILL.md": {
-    "mtime": 1784832399.4910884,
-    "ast_hash": "61a5acc6a26486f5339e9305d6740d8d",
+    "mtime": 1784833499.863237,
+    "ast_hash": "deac5bd8d51456f7fc7109dfe6c1db30",
     "semantic_hash": ""
   },
   ".claude/skills/run/SKILL.md": {
@@ -770,8 +765,13 @@
     "semantic_hash": ""
   },
   "docs/know-how/seo-redaccion-infobae.md": {
-    "mtime": 1784832357.6516669,
-    "ast_hash": "74c9a6f0575e3b393de013a243bdab6d",
+    "mtime": 1784833490.7491887,
+    "ast_hash": "e05e91214b287ef1ca464a221a2ff302",
+    "semantic_hash": ""
+  },
+  "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx": {
+    "mtime": 1784833305.0659304,
+    "ast_hash": "160e89b5bec050e6a1cba47101b61ded",
     "semantic_hash": ""
   }
 }
