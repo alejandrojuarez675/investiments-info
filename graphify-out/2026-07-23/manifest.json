@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1784840920.2634537,
-    "ast_hash": "55c431062f9666771207ea68fed07467",
+    "mtime": 1784842465.8194952,
+    "ast_hash": "1316b7fcc8c47ae8af6f17f3bf100cc0",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
@@ -725,8 +725,8 @@
     "semantic_hash": ""
   },
   ".claude/skills/get-news-report/SKILL.md": {
-    "mtime": 1784841058.8347552,
-    "ast_hash": "0d7e83175de0603884c1837f4688fd89",
+    "mtime": 1784842045.407013,
+    "ast_hash": "b1d723ec0ede55bffb13a378a96a9e0d",
     "semantic_hash": ""
   },
   ".claude/skills/run/SKILL.md": {

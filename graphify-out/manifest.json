@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1784842465.8194952,
-    "ast_hash": "1316b7fcc8c47ae8af6f17f3bf100cc0",
+    "mtime": 1784843321.8704462,
+    "ast_hash": "f67b99e0135a76139f5f414d87ea5fe2",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
@@ -715,8 +715,8 @@
     "semantic_hash": ""
   },
   "web/src/components/ArticuloCard.tsx": {
-    "mtime": 1784840772.6412902,
-    "ast_hash": "eb5247d70379bce370c93c2bfb7ee228",
+    "mtime": 1784843407.2823913,
+    "ast_hash": "e3303fb2cf28d1b26f3d162017c6fcc6",
     "semantic_hash": ""
   },
   "web/src/lib/tipos-articulo.ts": {
@@ -725,8 +725,8 @@
     "semantic_hash": ""
   },
   ".claude/skills/get-news-report/SKILL.md": {
-    "mtime": 1784842045.407013,
-    "ast_hash": "b1d723ec0ede55bffb13a378a96a9e0d",
+    "mtime": 1784843620.5678666,
+    "ast_hash": "1e18ac011c78b34fd66d85c85ea3f478",
     "semantic_hash": ""
   },
   ".claude/skills/run/SKILL.md": {
@@ -770,8 +770,8 @@
     "semantic_hash": ""
   },
   "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx": {
-    "mtime": 1784838195.2770965,
-    "ast_hash": "2133898db46ef33423d943c05a01271b",
+    "mtime": 1784843435.9995382,
+    "ast_hash": "a2edd622fb01ffda45109b018f0673b6",
     "semantic_hash": ""
   },
   "docs/know-how/layout-detalle-nota-infobae.md": {
@@ -800,8 +800,18 @@
     "semantic_hash": ""
   },
   "web/src/components/CarruselNoticias.tsx": {
-    "mtime": 1784841007.6920776,
-    "ast_hash": "4b5e2ae0dbd0187d39476b5c371f20f4",
+    "mtime": 1784843415.0595052,
+    "ast_hash": "d48c4721da6e13df45edce69152a35ea",
+    "semantic_hash": ""
+  },
+  "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/ImagenDetalle.tsx": {
+    "mtime": 1784843440.8314898,
+    "ast_hash": "73cec830fb993cb28c1bf832bc090dec",
+    "semantic_hash": ""
+  },
+  "web/src/components/ImagenArticulo.tsx": {
+    "mtime": 1784843392.7120168,
+    "ast_hash": "e0fc866f87eada3e07a2383009904389",
     "semantic_hash": ""
   }
 }
