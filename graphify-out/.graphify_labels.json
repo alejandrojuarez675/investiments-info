@@ -108,6 +108,7 @@
   "106": "Visa",
   "107": "Walmart",
   "108": "Walt Disney",
+  "109": "4. Perfiles de redactor por tema",
   "110": "Inversión inmobiliaria directa en Argentina",
   "111": "Análisis técnico: fundamentos, premisas y crítica",
   "112": "Daily report",
@@ -127,5 +128,8 @@
   "126": "Get news report",
   "127": "robots.ts",
   "128": "Footer.tsx",
-  "129": "Header.tsx"
+  "129": "Header.tsx",
+  "130": "redactor-espectaculos.md",
+  "131": "redactor-policiales.md",
+  "132": "redactor-politica.md"
 }

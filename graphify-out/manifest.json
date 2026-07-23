@@ -730,8 +730,8 @@
     "semantic_hash": ""
   },
   ".claude/skills/get-news-report/SKILL.md": {
-    "mtime": 1784823924.6590123,
-    "ast_hash": "7ba91c49c91dd728dc5a48ee13dcefed",
+    "mtime": 1784832399.4910884,
+    "ast_hash": "61a5acc6a26486f5339e9305d6740d8d",
     "semantic_hash": ""
   },
   ".claude/skills/run/SKILL.md": {
@@ -742,6 +742,36 @@
   "docker-compose.yml": {
     "mtime": 1784826161.1833422,
     "ast_hash": "a603555e5f32db5ff2b4117dd1581d31",
+    "semantic_hash": ""
+  },
+  ".claude/agents/redactor-deportes.md": {
+    "mtime": 1784832445.760836,
+    "ast_hash": "94348b0ccdbbc5a007ce98085b65e67e",
+    "semantic_hash": ""
+  },
+  ".claude/agents/redactor-economia.md": {
+    "mtime": 1784832425.1127768,
+    "ast_hash": "56fd6bd53705c5ec33cc43967012dc9a",
+    "semantic_hash": ""
+  },
+  ".claude/agents/redactor-espectaculos.md": {
+    "mtime": 1784832467.5526824,
+    "ast_hash": "b9e868423708a0b76b2a1a7f0421fb78",
+    "semantic_hash": ""
+  },
+  ".claude/agents/redactor-policiales.md": {
+    "mtime": 1784832456.9986703,
+    "ast_hash": "e4167d1727ae66b39ddc894e4f92b52d",
+    "semantic_hash": ""
+  },
+  ".claude/agents/redactor-politica.md": {
+    "mtime": 1784832436.1004088,
+    "ast_hash": "c4f7e6c7324b512ddcfc248c8e33fe2a",
+    "semantic_hash": ""
+  },
+  "docs/know-how/seo-redaccion-infobae.md": {
+    "mtime": 1784832357.6516669,
+    "ast_hash": "74c9a6f0575e3b393de013a243bdab6d",
     "semantic_hash": ""
   }
 }

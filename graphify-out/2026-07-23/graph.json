@@ -21,15 +21,81 @@
   },
   "nodes": [
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Run",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill_run",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "run"
+    },
+    {
+      "label": "Base de datos",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill_base_de_datos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "base de datos"
+    },
+    {
+      "label": "Levantar",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill_levantar",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "levantar"
+    },
+    {
+      "label": "Bajar",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill_bajar",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "bajar"
+    },
+    {
+      "label": "Notas",
+      "file_type": "document",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "claude_skills_run_skill_notas",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
+      "norm_label": "notas"
+    },
+    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_articulo_slug_page",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "web_src_app_articulo_slug_page"
     },
     {
       "label": "Props",
@@ -37,10 +103,10 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "web_src_app_articulo_slug_page_props",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "props"
+      "norm_label": "props",
+      "id": "web_src_app_articulo_slug_page_props"
     },
     {
       "label": "generateStaticParams()",
@@ -48,10 +114,10 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "web_src_app_articulo_slug_page_generatestaticparams",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "generatestaticparams()"
+      "norm_label": "generatestaticparams()",
+      "id": "web_src_app_articulo_slug_page_generatestaticparams"
     },
     {
       "label": "generateMetadata()",
@@ -59,10 +125,10 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "web_src_app_articulo_slug_page_generatemetadata",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "generatemetadata()"
+      "norm_label": "generatemetadata()",
+      "id": "web_src_app_articulo_slug_page_generatemetadata"
     },
     {
       "label": "ArticuloPage()",
@@ -70,10 +136,10 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "web_src_app_articulo_slug_page_articulopage",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulopage()"
+      "norm_label": "articulopage()",
+      "id": "web_src_app_articulo_slug_page_articulopage"
     },
     {
       "label": "layout.tsx",
@@ -81,10 +147,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_layout",
       "community": 125,
       "community_name": "layout.tsx",
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "web_src_app_layout"
     },
     {
       "label": "geistSans",
@@ -92,10 +158,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "web_src_app_layout_geistsans",
       "community": 125,
       "community_name": "layout.tsx",
-      "norm_label": "geistsans"
+      "norm_label": "geistsans",
+      "id": "web_src_app_layout_geistsans"
     },
     {
       "label": "geistMono",
@@ -103,10 +169,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "web_src_app_layout_geistmono",
       "community": 125,
       "community_name": "layout.tsx",
-      "norm_label": "geistmono"
+      "norm_label": "geistmono",
+      "id": "web_src_app_layout_geistmono"
     },
     {
       "label": "metadata",
@@ -114,10 +180,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "web_src_app_layout_metadata",
       "community": 125,
       "community_name": "layout.tsx",
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "web_src_app_layout_metadata"
     },
     {
       "label": "RootLayout()",
@@ -125,10 +191,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "web_src_app_layout_rootlayout",
       "community": 125,
       "community_name": "layout.tsx",
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "web_src_app_layout_rootlayout"
     },
     {
       "label": "sitemap.ts",
@@ -136,10 +202,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "web_src_app_sitemap"
     },
     {
       "label": "sitemap()",
@@ -147,10 +213,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_app_sitemap_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "web_src_app_sitemap_sitemap"
     },
     {
       "label": "articulos.ts",
@@ -158,10 +224,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_articulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulos.ts"
+      "norm_label": "articulos.ts",
+      "id": "web_src_lib_articulos"
     },
     {
       "label": "TipoArticulo",
@@ -169,10 +235,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_tipoarticulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "tipoarticulo"
+      "norm_label": "tipoarticulo",
+      "id": "web_src_lib_articulos_tipoarticulo"
     },
     {
       "label": "Articulo",
@@ -180,10 +246,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_articulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulo"
+      "norm_label": "articulo",
+      "id": "web_src_lib_articulos_articulo"
     },
     {
       "label": "listarArticulos()",
@@ -191,10 +257,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listararticulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listararticulos()"
+      "norm_label": "listararticulos()",
+      "id": "web_src_lib_articulos_listararticulos"
     },
     {
       "label": "obtenerArticuloPorSlug()",
@@ -202,10 +268,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_obtenerarticuloporslug",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "obtenerarticuloporslug()"
+      "norm_label": "obtenerarticuloporslug()",
+      "id": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "label": "obtenerRelacionados()",
@@ -213,10 +279,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_obtenerrelacionados",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "obtenerrelacionados()"
+      "norm_label": "obtenerrelacionados()",
+      "id": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "label": "listarSlugs()",
@@ -224,10 +290,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L78",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listarslugs",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listarslugs()"
+      "norm_label": "listarslugs()",
+      "id": "web_src_lib_articulos_listarslugs"
     },
     {
       "label": "SKILL.md",
@@ -2743,8 +2809,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 109,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "comparativa transversal de clases de activos",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_comparativa_transversal_de_clases_de_activos"
     },
@@ -2754,8 +2820,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 109,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "tabla comparativa general",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_tabla_comparativa_general"
     },
@@ -2765,8 +2831,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 109,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "como leer la tabla segun el objetivo",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_c\u00f3mo_leer_la_tabla_seg\u00fan_el_objetivo"
     },
@@ -2776,8 +2842,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 109,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "combinando clases de activos: el rol de la diversificacion",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_combinando_clases_de_activos_el_rol_de_la_diversificaci\u00f3n"
     },
@@ -2787,8 +2853,8 @@
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 109,
-      "community_name": "Comparativa transversal de clases de activos",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_comparativa_clases_de_activos_fuentes"
     },
@@ -2897,8 +2963,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "diversificacion",
       "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
     },
@@ -2908,8 +2974,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "idea central",
       "id": "docs_conceptos_generales_diversificacion_idea_central"
     },
@@ -2919,8 +2985,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "correlacion: como se mide",
       "id": "docs_conceptos_generales_diversificacion_correlaci\u00f3n_c\u00f3mo_se_mide"
     },
@@ -2930,8 +2996,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "varianza de un portafolio de dos activos",
       "id": "docs_conceptos_generales_diversificacion_varianza_de_un_portafolio_de_dos_activos"
     },
@@ -2941,8 +3007,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "ratio de sharpe: medir el retorno ajustado por riesgo",
       "id": "docs_conceptos_generales_diversificacion_ratio_de_sharpe_medir_el_retorno_ajustado_por_riesgo"
     },
@@ -2952,8 +3018,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L80",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "rebalanceo de cartera",
       "id": "docs_conceptos_generales_diversificacion_rebalanceo_de_cartera"
     },
@@ -2963,8 +3029,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "formas comunes de diversificar",
       "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
     },
@@ -2974,8 +3040,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L112",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "limites de la diversificacion",
       "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
     },
@@ -2985,8 +3051,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L122",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Diversificaci\u00f3n",
+      "community": 13,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_diversificacion_fuentes"
     },
@@ -4371,8 +4437,8 @@
       "source_file": "docs/conceptos-generales/sesgos-comportamiento-inversor.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 25,
+      "community_name": "Sesgos de comportamiento del inversor",
       "norm_label": "sesgos-comportamiento-inversor.md",
       "id": "docs_conceptos_generales_sesgos_comportamiento_inversor"
     },
@@ -6043,8 +6109,8 @@
       "source_file": "docs/merval/mercado-pago.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 9,
+      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
       "norm_label": "mercado-pago.md",
       "id": "docs_merval_mercado_pago"
     },
@@ -11410,12 +11476,62 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_run_skill",
+      "target": "claude_skills_run_skill_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "claude_skills_run_skill_run",
+      "target": "claude_skills_run_skill_bajar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_skills_run_skill_run",
+      "target": "claude_skills_run_skill_base_de_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "claude_skills_run_skill_run",
+      "target": "claude_skills_run_skill_levantar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/run/SKILL.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "claude_skills_run_skill_run",
+      "target": "claude_skills_run_skill_notas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_app_articulo_slug_page_articulopage",
-      "confidence_score": 1.0
+      "target": "web_src_app_articulo_slug_page_articulopage"
     },
     {
       "relation": "contains",
@@ -11423,9 +11539,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_app_articulo_slug_page_generatemetadata",
-      "confidence_score": 1.0
+      "target": "web_src_app_articulo_slug_page_generatemetadata"
     },
     {
       "relation": "contains",
@@ -11433,9 +11549,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_app_articulo_slug_page_generatestaticparams",
-      "confidence_score": 1.0
+      "target": "web_src_app_articulo_slug_page_generatestaticparams"
     },
     {
       "relation": "contains",
@@ -11443,9 +11559,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_app_articulo_slug_page_props",
-      "confidence_score": 1.0
+      "target": "web_src_app_articulo_slug_page_props"
     },
     {
       "relation": "imports_from",
@@ -11454,9 +11570,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -11465,9 +11581,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "imports",
@@ -11476,9 +11592,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "relation": "imports",
@@ -11487,9 +11603,9 @@
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos_obtenerrelacionados",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "relation": "calls",
@@ -11541,9 +11657,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_geistmono",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_geistmono"
     },
     {
       "relation": "contains",
@@ -11551,9 +11667,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_geistsans",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_geistsans"
     },
     {
       "relation": "contains",
@@ -11561,9 +11677,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -11571,9 +11687,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_rootlayout"
     },
     {
       "relation": "contains",
@@ -11581,9 +11697,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_app_sitemap_sitemap",
-      "confidence_score": 1.0
+      "target": "web_src_app_sitemap_sitemap"
     },
     {
       "relation": "imports_from",
@@ -11592,9 +11708,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -11603,9 +11719,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "calls",
@@ -11646,9 +11762,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_articulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_articulo"
     },
     {
       "relation": "contains",
@@ -11656,9 +11772,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listararticulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listararticulos"
     },
     {
       "relation": "contains",
@@ -11666,9 +11782,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "contains",
@@ -11676,9 +11792,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "relation": "contains",
@@ -11686,9 +11802,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_obtenerrelacionados",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "relation": "contains",
@@ -11696,9 +11812,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_tipoarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_tipoarticulo"
     },
     {
       "relation": "imports_from",
@@ -23001,5 +23117,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "2c6a1cce59c345aba715427e2e08c49538957bf3"
+  "built_at_commit": "c8f4dd7fe84319d9bab06295f6b5a8a8a456d75a"
 }
