@@ -1,22 +1,23 @@
-# Graph Report - investiments-info  (2026-07-23)
+# Graph Report - investiments-info  (2026-07-22)
 
 ## Corpus Check
-- 113 files · ~68,488 words
+- 52 files · ~47,448 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 857 nodes · 924 edges · 110 communities (108 shown, 2 thin omitted)
+- 472 nodes · 540 edges · 46 communities (44 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `522ee734`
+- Built from commit: `7b34c05d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
+- Activos y Glosario
 - Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -60,70 +61,6 @@
 - Comparativa transversal de clases de activos
 - USD 1.000 a un año: carry trade vs. S&P 500
 - Registro de tasas
-- Relación riesgo-retorno
-- Adecoagro (AGRO)
-- Banco Macro (BMA)
-- Bioceres Crop Solutions (BIOX)
-- Central Puerto (CEPU)
-- Corporación América Airports (CAAP)
-- Cresud (CRESY)
-- Despegar.com (DESP)
-- Edenor (EDN)
-- Globant (GLOB)
-- Grupo Financiero Galicia (GGAL)
-- Grupo Supervielle (SUPV)
-- IRSA (IRS)
-- IRSA Propiedades Comerciales (IRCP)
-- Loma Negra (LOMA)
-- MercadoLibre (MELI)
-- Pampa Energía (PAM)
-- Telecom Argentina (TEO)
-- Transportadora de Gas del Sur (TGS)
-- Vista Energy (VIST)
-- Brokers en Argentina: comparación y cómo abrir cuenta
-- README.md
-- YPF (YPF)
-- Aluar
-- Banco BBVA Argentina
-- Banco Macro
-- Banco Santander Argentina
-- Cablevisión Holding
-- Central Puerto
-- Cresud
-- Edenor
-- Grupo Financiero Galicia
-- Grupo Supervielle
-- IRSA
-- Loma Negra
-- Mirgor
-- Pampa Energía
-- Sociedad Comercial del Plata
-- Telecom Argentina
-- Ternium Argentina
-- Transener
-- Transportadora de Gas del Sur (TGS)
-- YPF
-- AbbVie
-- Bank of America
-- Berkshire Hathaway
-- Chevron
-- Coca-Cola
-- Eli Lilly
-- Exxon Mobil
-- Home Depot
-- Johnson & Johnson
-- JPMorgan Chase
-- Mastercard
-- McDonald's
-- Merck
-- Oracle
-- Procter & Gamble
-- Salesforce
-- UnitedHealth Group
-- Visa
-- Walmart
-- Walt Disney
-- Comparativa transversal de clases de activos
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -143,19 +80,23 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (110 total, 2 thin omitted)
+## Communities (46 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
-Cohesion: 0.29
+Cohesion: 0.25
 Nodes (7): Apalancamiento: la característica central de los derivados, Cobertura vs. especulación: el mismo instrumento, dos usos, Derivados: opciones, futuros y cobertura, Fuentes, Futuros, Opciones, Riesgos y consideraciones
 
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
+### Community 2 - "Activos y Glosario"
+Cohesion: 0.13
+Nodes (11): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general, Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker (+3 more)
+
 ### Community 3 - "Relación riesgo-retorno"
-Cohesion: 0.22
-Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
+Cohesion: 0.10
+Nodes (18): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+10 more)
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
@@ -302,7 +243,7 @@ Cohesion: 0.33
 Nodes (6): Bienes Personales: impuesto a la tenencia, Consideraciones prácticas, Diferencias de tratamiento por instrumento (lógica general), Fuentes, Impuesto a las Ganancias sobre inversiones, Impuestos a las inversiones en Argentina
 
 ### Community 42 - "Sistema previsional argentino: jubilación y por qué complementar"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (6): Cómo empezar a pensar el complemento, Cómo funciona el sistema previsional argentino, El rol de invertir por cuenta propia, Fuentes, Por qué el sistema por sí solo suele no alcanzar, Sistema previsional argentino: jubilación y por qué complementar
 
 ### Community 43 - "Comparativa transversal de clases de activos"
@@ -317,281 +258,25 @@ Nodes (9): Advertencia, Conclusión, Cálculo: Escenario 1 — Carry trade puro,
 Cohesion: 0.33
 Nodes (5): Columnas, Convenciones, Cómo agregar una observación, Instrumentos válidos, Registro de tasas
 
-### Community 46 - "Relación riesgo-retorno"
-Cohesion: 0.22
-Nodes (9): Beta: sensibilidad respecto al mercado, CAPM: retorno esperado a partir del riesgo sistemático, Cómo se calcula la volatilidad en la práctica, Espectro típico de riesgo-retorno (orientativo, no determinístico), Fuentes, Horizonte temporal y tolerancia al riesgo, Relación riesgo-retorno, Riesgo no es solo "volatilidad" (+1 more)
-
-### Community 47 - "Adecoagro (AGRO)"
-Cohesion: 0.29
-Nodes (6): Adecoagro (AGRO), Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 48 - "Banco Macro (BMA)"
-Cohesion: 0.29
-Nodes (6): Banco Macro (BMA), Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 49 - "Bioceres Crop Solutions (BIOX)"
-Cohesion: 0.29
-Nodes (6): Bioceres Crop Solutions (BIOX), Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 50 - "Central Puerto (CEPU)"
-Cohesion: 0.29
-Nodes (6): Central Puerto (CEPU), Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 51 - "Corporación América Airports (CAAP)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Corporación América Airports (CAAP), Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 52 - "Cresud (CRESY)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Cresud (CRESY), Datos clave, Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 53 - "Despegar.com (DESP)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Despegar.com (DESP), Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 54 - "Edenor (EDN)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Edenor (EDN), Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 55 - "Globant (GLOB)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Globant (GLOB), Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 56 - "Grupo Financiero Galicia (GGAL)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Grupo Financiero Galicia (GGAL), Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 57 - "Grupo Supervielle (SUPV)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Grupo Supervielle (SUPV), Historia, Qué hace, Relevancia como CEDEAR
-
-### Community 58 - "IRSA (IRS)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, IRSA (IRS), Qué hace, Relevancia como CEDEAR
-
-### Community 59 - "IRSA Propiedades Comerciales (IRCP)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, IRSA Propiedades Comerciales (IRCP), Qué hace, Relevancia como CEDEAR
-
-### Community 60 - "Loma Negra (LOMA)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Loma Negra (LOMA), Qué hace, Relevancia como CEDEAR
-
-### Community 61 - "MercadoLibre (MELI)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, MercadoLibre (MELI), Qué hace, Relevancia como CEDEAR
-
-### Community 62 - "Pampa Energía (PAM)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Pampa Energía (PAM), Qué hace, Relevancia como CEDEAR
-
-### Community 63 - "Telecom Argentina (TEO)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR, Telecom Argentina (TEO)
-
-### Community 64 - "Transportadora de Gas del Sur (TGS)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR, Transportadora de Gas del Sur (TGS)
-
-### Community 65 - "Vista Energy (VIST)"
-Cohesion: 0.29
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR, Vista Energy (VIST)
-
-### Community 66 - "Brokers en Argentina: comparación y cómo abrir cuenta"
-Cohesion: 0.33
-Nodes (6): Brokers en Argentina: comparación y cómo abrir cuenta, Comparación de costos y productos (aproximado, verificar vigencia), Criterio para elegir o migrar de bróker, Cómo abrir una cuenta comitente, Fuentes, Los brokers más usados
-
-### Community 67 - "README.md"
-Cohesion: 0.33
-Nodes (4): ADRs argentinos en Nueva York (base de CEDEARs), MERVAL — panel líder (Argentina, BYMA), NYSE — grandes empresas de Estados Unidos, Índice de empresas
-
-### Community 68 - "YPF (YPF)"
-Cohesion: 0.33
-Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR, YPF (YPF)
-
-### Community 69 - "Aluar"
-Cohesion: 0.33
-Nodes (5): Aluar, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 70 - "Banco BBVA Argentina"
-Cohesion: 0.33
-Nodes (5): Banco BBVA Argentina, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 71 - "Banco Macro"
-Cohesion: 0.33
-Nodes (5): Banco Macro, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 72 - "Banco Santander Argentina"
-Cohesion: 0.33
-Nodes (5): Banco Santander Argentina, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 73 - "Cablevisión Holding"
-Cohesion: 0.33
-Nodes (5): Cablevisión Holding, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 74 - "Central Puerto"
-Cohesion: 0.33
-Nodes (5): Central Puerto, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 75 - "Cresud"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Cresud, Datos clave, Historia, Qué hace
-
-### Community 76 - "Edenor"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Edenor, Historia, Qué hace
-
-### Community 77 - "Grupo Financiero Galicia"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Grupo Financiero Galicia, Historia, Qué hace
-
-### Community 78 - "Grupo Supervielle"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Grupo Supervielle, Historia, Qué hace
-
-### Community 79 - "IRSA"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, IRSA, Qué hace
-
-### Community 80 - "Loma Negra"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Loma Negra, Qué hace
-
-### Community 81 - "Mirgor"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Mirgor, Qué hace
-
-### Community 82 - "Pampa Energía"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Pampa Energía, Qué hace
-
-### Community 83 - "Sociedad Comercial del Plata"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Sociedad Comercial del Plata
-
-### Community 84 - "Telecom Argentina"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Telecom Argentina
-
-### Community 85 - "Ternium Argentina"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Ternium Argentina
-
-### Community 86 - "Transener"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Transener
-
-### Community 87 - "Transportadora de Gas del Sur (TGS)"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Transportadora de Gas del Sur (TGS)
-
-### Community 88 - "YPF"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, YPF
-
-### Community 89 - "AbbVie"
-Cohesion: 0.33
-Nodes (5): AbbVie, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 90 - "Bank of America"
-Cohesion: 0.33
-Nodes (5): Bank of America, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 91 - "Berkshire Hathaway"
-Cohesion: 0.33
-Nodes (5): Berkshire Hathaway, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 92 - "Chevron"
-Cohesion: 0.33
-Nodes (5): Chevron, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 93 - "Coca-Cola"
-Cohesion: 0.33
-Nodes (5): Coca-Cola, Contexto de mercado reciente, Datos clave, Historia, Qué hace
-
-### Community 94 - "Eli Lilly"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Eli Lilly, Historia, Qué hace
-
-### Community 95 - "Exxon Mobil"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Exxon Mobil, Historia, Qué hace
-
-### Community 96 - "Home Depot"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Home Depot, Qué hace
-
-### Community 97 - "Johnson & Johnson"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Johnson & Johnson, Qué hace
-
-### Community 98 - "JPMorgan Chase"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, JPMorgan Chase, Qué hace
-
-### Community 99 - "Mastercard"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Mastercard, Qué hace
-
-### Community 100 - "McDonald's"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, McDonald's, Qué hace
-
-### Community 101 - "Merck"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Merck, Qué hace
-
-### Community 102 - "Oracle"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Oracle, Qué hace
-
-### Community 103 - "Procter & Gamble"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Procter & Gamble, Qué hace
-
-### Community 104 - "Salesforce"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Salesforce
-
-### Community 105 - "UnitedHealth Group"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, UnitedHealth Group
-
-### Community 106 - "Visa"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Visa
-
-### Community 107 - "Walmart"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Walmart
-
-### Community 108 - "Walt Disney"
-Cohesion: 0.33
-Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Walt Disney
-
-### Community 109 - "Comparativa transversal de clases de activos"
-Cohesion: 0.40
-Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
-
 ## Knowledge Gaps
-- **614 isolated node(s):** `MERVAL — panel líder (Argentina, BYMA)`, `NYSE — grandes empresas de Estados Unidos`, `ADRs argentinos en Nueva York (base de CEDEARs)`, `Qué hace`, `Historia` (+609 more)
+- **351 isolated node(s):** `Antes de escribir`, `Secciones del reporte (v1)`, `Al finalizar`, `Resumen ejecutivo`, `Panorama de la semana` (+346 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `MERVAL — panel líder (Argentina, BYMA)`, `NYSE — grandes empresas de Estados Unidos`, `ADRs argentinos en Nueva York (base de CEDEARs)` to the rest of the system?**
-  _614 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Relación riesgo-retorno`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Relación riesgo-retorno`?**
+  _High betweenness centrality (0.058) - this node is a cross-community bridge._
+- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Relación riesgo-retorno`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **What connects `Antes de escribir`, `Secciones del reporte (v1)`, `Al finalizar` to the rest of the system?**
+  _351 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Activos y Glosario` be split into smaller, more focused modules?**
+  _Cohesion score 0.12682926829268293 - nodes in this community are weakly interconnected._
+- **Should `Relación riesgo-retorno` be split into smaller, more focused modules?**
+  _Cohesion score 0.10276679841897234 - nodes in this community are weakly interconnected._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
-- **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._

@@ -258,5 +258,310 @@
     "mtime": 1784750404.9337924,
     "ast_hash": "5ff515fe4c4359a89476a1100e034db6",
     "semantic_hash": ""
+  },
+  "empresas/README.md": {
+    "mtime": 1784811132.4422865,
+    "ast_hash": "886e3298a50c02f44f5ad476a0a3fbd8",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/adecoagro.md": {
+    "mtime": 1784810951.2724721,
+    "ast_hash": "2f070828378e2cff06e3f05b7e675967",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/banco-macro.md": {
+    "mtime": 1784810824.8599377,
+    "ast_hash": "e8abf1853b6f83d27b57af00a673acb8",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/bioceres-crop-solutions.md": {
+    "mtime": 1784810940.1455133,
+    "ast_hash": "801ab7907d5a4b49c7a9078bc8962a70",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/central-puerto.md": {
+    "mtime": 1784810913.2170203,
+    "ast_hash": "0238b16532c45dd59fe62951c58de6ab",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/corporacion-america-airports.md": {
+    "mtime": 1784810927.4165752,
+    "ast_hash": "264199f07f5d66622d139e907dd960b3",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/cresud.md": {
+    "mtime": 1784810982.8719497,
+    "ast_hash": "029002b808f35751c0e7eb22128d78c1",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/despegar.md": {
+    "mtime": 1784810799.6793544,
+    "ast_hash": "a15e3887ef7006fbaf3b80b494d5eecf",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/edenor.md": {
+    "mtime": 1784810962.2231488,
+    "ast_hash": "1fd7ea5890717a26130694d1c820c651",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/globant.md": {
+    "mtime": 1784810787.7562757,
+    "ast_hash": "f9cd54768f489f3e7e22ebabbb266bdd",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/grupo-financiero-galicia.md": {
+    "mtime": 1784810834.380166,
+    "ast_hash": "8525c775a73f2cb713562e4e1e79c90a",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/grupo-supervielle.md": {
+    "mtime": 1784810993.9089527,
+    "ast_hash": "76edd886c53b1f48be79d848f219d19b",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/irsa-propiedades-comerciales.md": {
+    "mtime": 1784810890.512584,
+    "ast_hash": "5f1c1451fd7b5519158bf66621557f17",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/irsa.md": {
+    "mtime": 1784810879.0810602,
+    "ast_hash": "2bbce767515700392e521b7582b780c8",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/loma-negra.md": {
+    "mtime": 1784810901.0578349,
+    "ast_hash": "acf1038795a7e4a5f983b8a9edb3b8b7",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/mercadolibre.md": {
+    "mtime": 1784810772.5625284,
+    "ast_hash": "761af1bf99df75a87939223c8b10f3f5",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/pampa-energia.md": {
+    "mtime": 1784810857.2888312,
+    "ast_hash": "377fe6f2d0870fb224a61835347ac5c2",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/telecom-argentina.md": {
+    "mtime": 1784810868.616141,
+    "ast_hash": "5f03b1086d606dbbb665de9bbd1fff6f",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/transportadora-de-gas-del-sur.md": {
+    "mtime": 1784810972.1552024,
+    "ast_hash": "8f344ab105b96afca3e5024d7a7a9803",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/vista-energy.md": {
+    "mtime": 1784810812.3721988,
+    "ast_hash": "27e8fb664b8b96f30abddc058a46fc0b",
+    "semantic_hash": ""
+  },
+  "empresas/adrs-argentinos-ny/ypf.md": {
+    "mtime": 1784810845.952048,
+    "ast_hash": "e68d64dd57cf6aec3566f64389f99498",
+    "semantic_hash": ""
+  },
+  "empresas/merval/aluar.md": {
+    "mtime": 1784810802.6905036,
+    "ast_hash": "f3f1417b8c566af9910765d3a32b7c3e",
+    "semantic_hash": ""
+  },
+  "empresas/merval/banco-bbva-argentina.md": {
+    "mtime": 1784810746.187926,
+    "ast_hash": "180b15aa00c4cf06769a896ccb0c1531",
+    "semantic_hash": ""
+  },
+  "empresas/merval/banco-macro.md": {
+    "mtime": 1784810737.3471265,
+    "ast_hash": "0b756290576b6205278ea5c88186d831",
+    "semantic_hash": ""
+  },
+  "empresas/merval/banco-santander-argentina.md": {
+    "mtime": 1784810860.0286872,
+    "ast_hash": "a2e97a3707ad623bb3bd97ee4ed9bce0",
+    "semantic_hash": ""
+  },
+  "empresas/merval/cablevision-holding.md": {
+    "mtime": 1784810873.8180735,
+    "ast_hash": "4b335f2c43b735b5aca1211fd98bfc0a",
+    "semantic_hash": ""
+  },
+  "empresas/merval/central-puerto.md": {
+    "mtime": 1784810829.5715072,
+    "ast_hash": "a20692e6ba2c4327d5b77813f60b1aeb",
+    "semantic_hash": ""
+  },
+  "empresas/merval/cresud.md": {
+    "mtime": 1784810769.4065037,
+    "ast_hash": "88447319d0f554705b248ce8be74d7d2",
+    "semantic_hash": ""
+  },
+  "empresas/merval/edenor.md": {
+    "mtime": 1784810867.3529117,
+    "ast_hash": "594285ad1d2fd96c6b574ffd379ebb7e",
+    "semantic_hash": ""
+  },
+  "empresas/merval/grupo-financiero-galicia.md": {
+    "mtime": 1784810723.6607277,
+    "ast_hash": "1585dfa0b339b181fd88c302e5b15aff",
+    "semantic_hash": ""
+  },
+  "empresas/merval/grupo-supervielle.md": {
+    "mtime": 1784810850.824243,
+    "ast_hash": "d89413e24cfca38e20690e1d780f03ac",
+    "semantic_hash": ""
+  },
+  "empresas/merval/irsa.md": {
+    "mtime": 1784810882.8155162,
+    "ast_hash": "a8d58c4c81c0f84b672002b2a7900f82",
+    "semantic_hash": ""
+  },
+  "empresas/merval/loma-negra.md": {
+    "mtime": 1784810818.1708477,
+    "ast_hash": "99ab2118a40912934479bd47d3d5378e",
+    "semantic_hash": ""
+  },
+  "empresas/merval/mirgor.md": {
+    "mtime": 1784810890.9130585,
+    "ast_hash": "2732b069eded56ef760829f775860d2c",
+    "semantic_hash": ""
+  },
+  "empresas/merval/pampa-energia.md": {
+    "mtime": 1784810757.7236133,
+    "ast_hash": "eb8c087a5814c1905f91b00558d381d0",
+    "semantic_hash": ""
+  },
+  "empresas/merval/sociedad-comercial-del-plata.md": {
+    "mtime": 1784810842.8813827,
+    "ast_hash": "72a9a50da357d067a7c1301284e04fd7",
+    "semantic_hash": ""
+  },
+  "empresas/merval/telecom-argentina.md": {
+    "mtime": 1784810780.4795582,
+    "ast_hash": "cb2541561bec46b2bef3ea58fa8181a2",
+    "semantic_hash": ""
+  },
+  "empresas/merval/ternium-argentina.md": {
+    "mtime": 1784810809.989035,
+    "ast_hash": "c0fa857c0f7ded0ea2caa972be99c9c3",
+    "semantic_hash": ""
+  },
+  "empresas/merval/transener.md": {
+    "mtime": 1784810835.6495829,
+    "ast_hash": "d0c396fafca1fe3782052ac1ad372acb",
+    "semantic_hash": ""
+  },
+  "empresas/merval/transportadora-de-gas-del-sur-tgs.md": {
+    "mtime": 1784810791.6677275,
+    "ast_hash": "d0c29888e58d734f516aacce9195b024",
+    "semantic_hash": ""
+  },
+  "empresas/merval/ypf.md": {
+    "mtime": 1784810711.7539883,
+    "ast_hash": "c2f6f175a9496501de9509b70cb0649a",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/abbvie.md": {
+    "mtime": 1784810914.950719,
+    "ast_hash": "cf5921c7c4895171b5f78d1560855d19",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/bank-of-america.md": {
+    "mtime": 1784810902.176796,
+    "ast_hash": "c417309322f2557f279c2c3c21464907",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/berkshire-hathaway.md": {
+    "mtime": 1784810723.335096,
+    "ast_hash": "42c883f5de256e63911cab5c1cef8b9b",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/chevron.md": {
+    "mtime": 1784810862.5091157,
+    "ast_hash": "75984655662c270f7b5f6b622cd549a6",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/coca-cola.md": {
+    "mtime": 1784810889.1248589,
+    "ast_hash": "855693b34c5a24f8a6705d3e6ed23c05",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/eli-lilly.md": {
+    "mtime": 1784810736.2991502,
+    "ast_hash": "a6f6c23456af97da7a7f91a3c84cb6ee",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/exxon-mobil.md": {
+    "mtime": 1784810815.0938318,
+    "ast_hash": "73f4e2d43e46f14fd8d943425a7e8f7b",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/home-depot.md": {
+    "mtime": 1784810850.6531522,
+    "ast_hash": "bf9bc5efd6010eee3f85781bab8017a9",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/johnson-and-johnson.md": {
+    "mtime": 1784810788.5676425,
+    "ast_hash": "90777ae05a5180bafb09a1c6b9d7c224",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/jpmorgan-chase.md": {
+    "mtime": 1784810748.8113537,
+    "ast_hash": "53bf0fd7013b50c202b7448a87f62023",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/mastercard.md": {
+    "mtime": 1784810826.6208978,
+    "ast_hash": "4c0dfb45e4f3b3b202bab0229904929e",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/mcdonalds.md": {
+    "mtime": 1784810943.1225588,
+    "ast_hash": "fa57aa03fe05ee143a3ca53db57a7c9b",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/merck.md": {
+    "mtime": 1784810875.1837294,
+    "ast_hash": "f8f00c7144eb90ed6b86f71126618bdc",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/oracle.md": {
+    "mtime": 1784810928.622271,
+    "ast_hash": "ef52a1648f11bfa8f83b89ecbaaab7ff",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/procter-and-gamble.md": {
+    "mtime": 1784810839.675536,
+    "ast_hash": "37a324ea8a87e3e69447be823491599e",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/salesforce.md": {
+    "mtime": 1784810955.4329555,
+    "ast_hash": "406020f7210b41a8756aaec0002e7894",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/unitedhealth-group.md": {
+    "mtime": 1784810775.4486177,
+    "ast_hash": "690a4603cc7b2881e5721c8a21cf602f",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/visa.md": {
+    "mtime": 1784810762.1175525,
+    "ast_hash": "c8e5445274bbbeba3d4bf5c4dbca092b",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/walmart.md": {
+    "mtime": 1784810801.7741475,
+    "ast_hash": "829beaa1b2e703dc15f799e486d39ea7",
+    "semantic_hash": ""
+  },
+  "empresas/nyse/walt-disney.md": {
+    "mtime": 1784810970.0312874,
+    "ast_hash": "cb483354a9ccfb94c7977fcf1327c32e",
+    "semantic_hash": ""
   }
 }

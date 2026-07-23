@@ -1,0 +1,262 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1784573480.3040173,
+    "ast_hash": "8064cd4cf3a073b1f486ded0c6e52bde",
+    "semantic_hash": "8064cd4cf3a073b1f486ded0c6e52bde"
+  },
+  "CLAUDE.md": {
+    "mtime": 1784725515.176095,
+    "ast_hash": "447a665fcf0e9b010a5abd9871a7a365",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1784725887.952189,
+    "ast_hash": "b788683f75a2cce153d675813b75b0e4",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/diversificacion.md": {
+    "mtime": 1784581360.7935534,
+    "ast_hash": "40be3bb097785d7f57ff9efd63547a9f",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/dollar-cost-averaging.md": {
+    "mtime": 1784581384.2306743,
+    "ast_hash": "2c317c8da4ea8b9dfdcfb21539f36462",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/interes-compuesto.md": {
+    "mtime": 1784581409.8883972,
+    "ast_hash": "7771059795d503de7b1f60bca33fa8d8",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/riesgo-retorno.md": {
+    "mtime": 1784581452.2359803,
+    "ast_hash": "98860dd7aa541379b35558697a86785e",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/tipos-de-activos.md": {
+    "mtime": 1784581490.428875,
+    "ast_hash": "a24dfc6b74ddc5a39a243ab43944324f",
+    "semantic_hash": ""
+  },
+  "docs/crypto/bitcoin-ethereum.md": {
+    "mtime": 1784581717.7242343,
+    "ast_hash": "575a423aa05a1cb59edf34569f820155",
+    "semantic_hash": ""
+  },
+  "docs/crypto/exchanges-custodia.md": {
+    "mtime": 1784581745.1734211,
+    "ast_hash": "0d85f9580e0e4c3d982f8bcae691901d",
+    "semantic_hash": ""
+  },
+  "docs/glosario/glosario.md": {
+    "mtime": 1784749156.5490184,
+    "ast_hash": "1fffcc12686af39a467cd30d44b7e8d3",
+    "semantic_hash": ""
+  },
+  "docs/merval/bonos-argentinos.md": {
+    "mtime": 1784581649.8395827,
+    "ast_hash": "358d6c1c4bcc0967492ae158d664986f",
+    "semantic_hash": ""
+  },
+  "docs/merval/cedears.md": {
+    "mtime": 1784581630.6608393,
+    "ast_hash": "601b358d8304c0f4b94525580dff5521",
+    "semantic_hash": ""
+  },
+  "docs/merval/que-es-merval.md": {
+    "mtime": 1784581610.8295307,
+    "ast_hash": "35db1750cc3b97013a20d5e08ed76394",
+    "semantic_hash": ""
+  },
+  "docs/sp500/etfs-sp500.md": {
+    "mtime": 1784581582.5983763,
+    "ast_hash": "8e5a9d3b437d87856c7fb6af31d675b6",
+    "semantic_hash": ""
+  },
+  "docs/sp500/que-es-sp500.md": {
+    "mtime": 1784581557.034258,
+    "ast_hash": "0add989f1046366ef682282751013234",
+    "semantic_hash": ""
+  },
+  "docs/merval/brokers-argentina.md": {
+    "mtime": 1784581264.911773,
+    "ast_hash": "e8aadc1e7b793cca3be9b4a474817d43",
+    "semantic_hash": ""
+  },
+  ".claude/settings.local.json": {
+    "mtime": 1784578956.4607086,
+    "ast_hash": "de3af5b4a6195ff60fd45d81d4fac044",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
+    "mtime": 1784581142.0383003,
+    "ast_hash": "b1ea16cc63c4ed784cca8afc87df9ace",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/estrategias-trading.md": {
+    "mtime": 1784581104.8061042,
+    "ast_hash": "21e471555222456e29b8d533fd0111b7",
+    "semantic_hash": ""
+  },
+  "docs/merval/obligaciones-negociables.md": {
+    "mtime": 1784581668.5818553,
+    "ast_hash": "9c75490ee98e07f7a622d4bef62854ca",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/fuentes-de-datos.md": {
+    "mtime": 1784581526.330856,
+    "ast_hash": "423c81482800e89fa1a5debe5a8edf38",
+    "semantic_hash": ""
+  },
+  "docs/merval/mercado-pago.md": {
+    "mtime": 1784581685.3901553,
+    "ast_hash": "468cf1dc0fc65f35f3d865b1ea3a7a92",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/tipos-de-inversores.md": {
+    "mtime": 1784581815.7122848,
+    "ast_hash": "9f004e73c6b47a111fcc7fe87b1b19e6",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/analisis-tecnico-fundamentos.md": {
+    "mtime": 1784580957.295771,
+    "ast_hash": "a0f23acd96556817eeb0ac19839f0533",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/analisis-tecnico-graficos-patrones.md": {
+    "mtime": 1784581020.682102,
+    "ast_hash": "a195fc34db0ebfad9b7c9f73ddac3797",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/analisis-tecnico-indicadores.md": {
+    "mtime": 1784581067.3333082,
+    "ast_hash": "9bc59c6e986f416d25a8c4a8ead54717",
+    "semantic_hash": ""
+  },
+  "docs/merval/dolar-argentina.md": {
+    "mtime": 1784725681.6129892,
+    "ast_hash": "0ee523cc7ed4c4435b8587ba8ca4e1e0",
+    "semantic_hash": ""
+  },
+  "docs/merval/fci-money-market.md": {
+    "mtime": 1784581210.2890766,
+    "ast_hash": "d6c6ccaf405c7086c5571840b346763d",
+    "semantic_hash": ""
+  },
+  "docs/merval/plazo-fijo.md": {
+    "mtime": 1784581291.0933187,
+    "ast_hash": "f7cc7f422178cd16da30815d700c0030",
+    "semantic_hash": ""
+  },
+  "docs/merval/acciones-argentinas.md": {
+    "mtime": 1784724233.0469508,
+    "ast_hash": "0fea7262a98dcf3f0c714e14452bc763",
+    "semantic_hash": ""
+  },
+  "docs/merval/cauciones-bursatiles.md": {
+    "mtime": 1784724279.3347993,
+    "ast_hash": "555a21459fe2950f7c4f1322c1786250",
+    "semantic_hash": ""
+  },
+  "docs/merval/fondos-comunes-inversion.md": {
+    "mtime": 1784724335.484823,
+    "ast_hash": "edb700a9bbd10bfd931d5e700b9eb4cf",
+    "semantic_hash": ""
+  },
+  "docs/merval/impuestos-inversiones-argentina.md": {
+    "mtime": 1784724386.8192031,
+    "ast_hash": "52ca60083726427c6f3fc4b49c919c02",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/renta-fija-internacional.md": {
+    "mtime": 1784724431.6176445,
+    "ast_hash": "e1f36d458922e45d85b36b198f9fd493",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/derivados-cobertura.md": {
+    "mtime": 1784724483.6000566,
+    "ast_hash": "06b047831d1615f12fd42eaef4b2d20f",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/fiscalidad-internacional.md": {
+    "mtime": 1784724536.8295858,
+    "ast_hash": "d0b3f4e1f5594eff959a1d93f6b5ab39",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/rebalanceo-portfolio.md": {
+    "mtime": 1784724583.826605,
+    "ast_hash": "2fd68d919bd223efa26b0e79b1841446",
+    "semantic_hash": ""
+  },
+  "docs/sp500/etfs-ucits-europa.md": {
+    "mtime": 1784724637.8606603,
+    "ast_hash": "7fe8156d50eb3f450ec2104fd52bdb69",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/real-estate-fci-inmobiliario.md": {
+    "mtime": 1784725185.9925573,
+    "ast_hash": "3e618413d194d2e3bc61cd93fd8d91d4",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/sesgos-comportamiento-inversor.md": {
+    "mtime": 1784724948.829226,
+    "ast_hash": "03f2b01f6ad1493b30464bbf9a6958b6",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/cartera-ejemplo-practico.md": {
+    "mtime": 1784725001.3361583,
+    "ast_hash": "cdbae1cd10995c77c51a67ce7581cd60",
+    "semantic_hash": ""
+  },
+  "docs/merval/jubilacion-sistema-previsional-argentina.md": {
+    "mtime": 1784725055.3030357,
+    "ast_hash": "ae80d69d4195d6005280f156e1ccd3f1",
+    "semantic_hash": ""
+  },
+  "docs/crypto/stablecoins-defi.md": {
+    "mtime": 1784725114.5991383,
+    "ast_hash": "7182d3570fd5ec816ec183bd8c533a6f",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/inversion-inmobiliaria-directa.md": {
+    "mtime": 1784725167.1441221,
+    "ast_hash": "d9cd8a32b4164f3d6dc29bca2458c247",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/comparativa-clases-de-activos.md": {
+    "mtime": 1784725237.600805,
+    "ast_hash": "459d602aa58875df60a3dd43b0d80e69",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/argentina-y-el-dolar.md": {
+    "mtime": 1784725838.3524642,
+    "ast_hash": "81aab1fa64525fcf1b4b0f8a76d751b8",
+    "semantic_hash": ""
+  },
+  "docs/conceptos-generales/estrategias-carry-trade-argentina.md": {
+    "mtime": 1784725883.1859195,
+    "ast_hash": "729e4828bd246d99911cd0b0a01dd293",
+    "semantic_hash": ""
+  },
+  "reports/20260722-invetir-1000-usd.md": {
+    "mtime": 1784746516.6161883,
+    "ast_hash": "fbb6592e513dc0002ccfef1a1bbf5646",
+    "semantic_hash": ""
+  },
+  "data/tasas/README.md": {
+    "mtime": 1784746782.4599924,
+    "ast_hash": "186849515ab7f6c6670390b4c49f1691",
+    "semantic_hash": ""
+  },
+  ".claude/skills/get-weekly-shorted-report/SKILL.md": {
+    "mtime": 1784750267.515137,
+    "ast_hash": "8c15c40fad3a867cc36d9b7268789126",
+    "semantic_hash": ""
+  },
+  "reports/20260722-reporte-semanal-mercado.md": {
+    "mtime": 1784750404.9337924,
+    "ast_hash": "5ff515fe4c4359a89476a1100e034db6",
+    "semantic_hash": ""
+  }
+}
