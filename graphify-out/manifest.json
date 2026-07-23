@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.local.json": {
-    "mtime": 1784578956.4607086,
-    "ast_hash": "de3af5b4a6195ff60fd45d81d4fac044",
+    "mtime": 1784840920.2634537,
+    "ast_hash": "55c431062f9666771207ea68fed07467",
     "semantic_hash": ""
   },
   "docs/conceptos-generales/estrategias-inversion-largo-plazo.md": {
@@ -630,8 +630,8 @@
     "semantic_hash": ""
   },
   "web/src/app/page.tsx": {
-    "mtime": 1784823924.7070124,
-    "ast_hash": "9368f66b719fec1663f3e1701b2c4db6",
+    "mtime": 1784841028.5614111,
+    "ast_hash": "bf64392d76b85329e1a9db2899fa0e96",
     "semantic_hash": ""
   },
   "web/src/app/robots.ts": {
@@ -645,8 +645,8 @@
     "semantic_hash": ""
   },
   "web/src/lib/articulos.ts": {
-    "mtime": 1784838185.3940887,
-    "ast_hash": "4709402af3bd3ee863ce9491e7af7662",
+    "mtime": 1784841236.867486,
+    "ast_hash": "46689b7048f00220971ab14faafc90cf",
     "semantic_hash": ""
   },
   "web/src/lib/config.ts": {
@@ -705,18 +705,18 @@
     "semantic_hash": ""
   },
   "web/src/components/Footer.tsx": {
-    "mtime": 1784823924.71101,
-    "ast_hash": "c9b0a20bb3c350b609c3bf892df57b81",
+    "mtime": 1784841053.2718346,
+    "ast_hash": "d8bc071d2a3058144ff8e27b39d4e57e",
     "semantic_hash": ""
   },
   "web/src/components/Header.tsx": {
-    "mtime": 1784823924.7130117,
-    "ast_hash": "a02fd148036336e03de0ff9256c99350",
+    "mtime": 1784840561.6790206,
+    "ast_hash": "8d61bf884324c6f07996cccf3bf052ec",
     "semantic_hash": ""
   },
   "web/src/components/ArticuloCard.tsx": {
-    "mtime": 1784833318.648421,
-    "ast_hash": "c3a8c1cc40939b1c9ad600e479eabbf4",
+    "mtime": 1784840772.6412902,
+    "ast_hash": "eb5247d70379bce370c93c2bfb7ee228",
     "semantic_hash": ""
   },
   "web/src/lib/tipos-articulo.ts": {
@@ -725,8 +725,8 @@
     "semantic_hash": ""
   },
   ".claude/skills/get-news-report/SKILL.md": {
-    "mtime": 1784835594.9736497,
-    "ast_hash": "29d6e6a5e16673e2300272a6519911c5",
+    "mtime": 1784841058.8347552,
+    "ast_hash": "0d7e83175de0603884c1837f4688fd89",
     "semantic_hash": ""
   },
   ".claude/skills/run/SKILL.md": {
@@ -780,8 +780,8 @@
     "semantic_hash": ""
   },
   "web/src/app/[categoria]/page.tsx": {
-    "mtime": 1784838099.681585,
-    "ast_hash": "9b2d0ebd50fb0b58805be4b8d62b5439",
+    "mtime": 1784841257.9601033,
+    "ast_hash": "ee65769f2afdd981b4149e8302024051",
     "semantic_hash": ""
   },
   "web/src/components/SeccionColumna.tsx": {
@@ -790,13 +790,18 @@
     "semantic_hash": ""
   },
   "web/src/lib/categorias.ts": {
-    "mtime": 1784838021.8695462,
-    "ast_hash": "f6b7865b6fa9b597838a302d7a0752bc",
+    "mtime": 1784841223.9018936,
+    "ast_hash": "8936901e03c9657ac9ae94a4045b3c43",
     "semantic_hash": ""
   },
   "docs/know-how/layout-home-infobae.md": {
     "mtime": 1784838942.5914855,
     "ast_hash": "5864b7e0ac88dedad4c8b248ea4d4173",
+    "semantic_hash": ""
+  },
+  "web/src/components/CarruselNoticias.tsx": {
+    "mtime": 1784841007.6920776,
+    "ast_hash": "4b5e2ae0dbd0187d39476b5c371f20f4",
     "semantic_hash": ""
   }
 }

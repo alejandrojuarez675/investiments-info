@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { listarArticulosPorCategoria } from "@/lib/articulos";
-import { infoCategoria } from "@/lib/categorias";
+import { infoCategoria, categoriasReales, CATEGORIA_ALIAS } from "@/lib/categorias";
 import { pool } from "@/lib/db";
 import { SITE_NAME } from "@/lib/config";
 import ArticuloCard from "@/components/ArticuloCard";
@@ -15,7 +15,11 @@ export async function generateStaticParams() {
   const { rows } = await pool.query<{ categoria: string }>(
     `SELECT DISTINCT categoria FROM articulos WHERE publicado_en <= now()`
   );
-  return rows.map(({ categoria }) => ({ categoria }));
+  const categorias = new Set(rows.map(({ categoria }) => categoria));
+  for (const alias of Object.keys(CATEGORIA_ALIAS)) {
+    categorias.add(alias);
+  }
+  return Array.from(categorias).map((categoria) => ({ categoria }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -30,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoriaPage({ params }: Props) {
   const { categoria } = await params;
-  const articulos = await listarArticulosPorCategoria(categoria);
+  const articulos = await listarArticulosPorCategoria(categoriasReales(categoria));
 
   if (articulos.length === 0) {
     notFound();

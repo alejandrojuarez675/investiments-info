@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { SITE_NAME } from "@/lib/config";
+import { CATEGORIA_INFO } from "@/lib/categorias";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -7,6 +9,14 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
+        <nav className={styles.nav}>
+          <Link href="/">Portada</Link>
+          {Object.entries(CATEGORIA_INFO).map(([categoria, info]) => (
+            <Link key={categoria} href={`/${categoria}/`}>
+              {info.etiqueta}
+            </Link>
+          ))}
+        </nav>
         <p>
           © {year} {SITE_NAME}. Todos los derechos reservados.
         </p>

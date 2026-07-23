@@ -75,18 +75,34 @@ export async function obtenerRelacionados(id: number): Promise<Articulo[]> {
   });
 }
 
-export async function listarArticulosPorCategoria(
-  categoria: string,
-  limit = 20,
-  offset = 0
+export async function listarArticulosPorTipo(
+  tipo: TipoArticulo,
+  limit = 10
 ): Promise<Articulo[]> {
   const { rows } = await pool.query<Articulo>(
     `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
      FROM articulos
-     WHERE categoria = $1 AND publicado_en <= now()
+     WHERE tipo = $1 AND publicado_en <= now()
+     ORDER BY publicado_en DESC
+     LIMIT $2`,
+    [tipo, limit]
+  );
+  return rows;
+}
+
+export async function listarArticulosPorCategoria(
+  categoria: string | string[],
+  limit = 20,
+  offset = 0
+): Promise<Articulo[]> {
+  const categorias = Array.isArray(categoria) ? categoria : [categoria];
+  const { rows } = await pool.query<Articulo>(
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
+     FROM articulos
+     WHERE categoria = ANY($1::text[]) AND publicado_en <= now()
      ORDER BY publicado_en DESC
      LIMIT $2 OFFSET $3`,
-    [categoria, limit, offset]
+    [categorias, limit, offset]
   );
   return rows;
 }
@@ -113,6 +129,52 @@ export async function obtenerSeccionesRelacionadas(
      ORDER BY COUNT(*) DESC, MAX(publicado_en) DESC
      LIMIT $3`,
     [categoriaActual, MIN_NOTAS_POR_SECCION, maxCategorias]
+  );
+
+  if (categorias.length === 0) {
+    return [];
+  }
+
+  const nombresCategorias = categorias.map((c) => c.categoria);
+
+  const { rows: articulos } = await pool.query<Articulo>(
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
+     FROM (
+       SELECT *, ROW_NUMBER() OVER (
+         PARTITION BY categoria ORDER BY publicado_en DESC
+       ) AS rn
+       FROM articulos
+       WHERE publicado_en <= now() AND categoria = ANY($1::text[])
+     ) sub
+     WHERE rn <= $2
+     ORDER BY categoria, rn`,
+    [nombresCategorias, maxNotasPorCategoria]
+  );
+
+  return nombresCategorias.map((categoria) => ({
+    categoria,
+    articulos: articulos.filter((a) => a.categoria === categoria),
+  }));
+}
+
+/**
+ * Igual que obtenerSeccionesRelacionadas, pero sin excluir ninguna
+ * categoría — para armar el feed de la home, que no parte de una nota
+ * puntual.
+ */
+export async function obtenerSeccionesHome(
+  maxCategorias = 4,
+  maxNotasPorCategoria = 6
+): Promise<{ categoria: string; articulos: Articulo[] }[]> {
+  const { rows: categorias } = await pool.query<{ categoria: string }>(
+    `SELECT categoria
+     FROM articulos
+     WHERE publicado_en <= now()
+     GROUP BY categoria
+     HAVING COUNT(*) >= $1
+     ORDER BY COUNT(*) DESC, MAX(publicado_en) DESC
+     LIMIT $2`,
+    [MIN_NOTAS_POR_SECCION, maxCategorias]
   );
 
   if (categorias.length === 0) {

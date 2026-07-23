@@ -20,6 +20,23 @@
   opacity: 0.8;
 }
 
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.nav a {
+  color: var(--color-text);
+}
+
+.nav a:hover {
+  color: var(--color-accent);
+}
+
 @media (max-width: 600px) {
   .inner {
     padding: 24px 20px;

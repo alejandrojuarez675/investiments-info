@@ -1,10 +1,20 @@
-import { listarArticulos } from "@/lib/articulos";
+import {
+  listarArticulos,
+  listarArticulosPorTipo,
+  obtenerSeccionesHome,
+} from "@/lib/articulos";
 import ArticuloCard from "@/components/ArticuloCard";
+import SeccionColumna from "@/components/SeccionColumna";
+import CarruselNoticias from "@/components/CarruselNoticias";
 import styles from "./page.module.css";
 
 export default async function Home() {
-  const articulos = await listarArticulos();
-  const [destacado, ...resto] = articulos;
+  const [articulos, secciones, ultimasNoticias] = await Promise.all([
+    listarArticulos(),
+    obtenerSeccionesHome(),
+    listarArticulosPorTipo("news"),
+  ]);
+  const [destacado, secundaria1, secundaria2, ...resto] = articulos;
 
   return (
     <main className={styles.page}>
@@ -21,9 +31,19 @@ export default async function Home() {
       )}
 
       {destacado && (
-        <div className={styles.destacadoWrapper}>
+        <section className={styles.apertura}>
           <ArticuloCard articulo={destacado} destacado />
-        </div>
+          {(secundaria1 || secundaria2) && (
+            <div className={styles.aperturaSecundarias}>
+              {secundaria1 && (
+                <ArticuloCard articulo={secundaria1} ocultarResumen />
+              )}
+              {secundaria2 && (
+                <ArticuloCard articulo={secundaria2} ocultarResumen />
+              )}
+            </div>
+          )}
+        </section>
       )}
 
       {resto.length > 0 && (
@@ -33,6 +53,20 @@ export default async function Home() {
           ))}
         </section>
       )}
+
+      {secciones.length > 0 && (
+        <section className={styles.secciones}>
+          {secciones.map(({ categoria, articulos: notasSeccion }) => (
+            <SeccionColumna
+              key={categoria}
+              categoria={categoria}
+              articulos={notasSeccion}
+            />
+          ))}
+        </section>
+      )}
+
+      <CarruselNoticias titulo="Últimas noticias" articulos={ultimasNoticias} />
     </main>
   );
 }

@@ -14,9 +14,14 @@ function formatearFecha(fecha: Date) {
 type Props = {
   articulo: Articulo;
   destacado?: boolean;
+  ocultarResumen?: boolean;
 };
 
-export default function ArticuloCard({ articulo, destacado = false }: Props) {
+export default function ArticuloCard({
+  articulo,
+  destacado = false,
+  ocultarResumen = false,
+}: Props) {
   const info = TIPO_INFO[articulo.tipo];
 
   return (
@@ -44,7 +49,7 @@ export default function ArticuloCard({ articulo, destacado = false }: Props) {
       ) : (
         <h3>{articulo.titulo}</h3>
       )}
-      <p>{articulo.resumen}</p>
+      {!ocultarResumen && <p>{articulo.resumen}</p>}
       <span className={styles.meta}>
         {articulo.categoria} · {formatearFecha(articulo.publicado_en)}
       </span>
