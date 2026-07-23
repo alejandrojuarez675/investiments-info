@@ -49,14 +49,17 @@ artículos individuales (tipo `news`) en la base de datos que usa `web/`
    - **URL de una imagen representativa**, que NO sea la imagen destacada
      (og:image) del mismo medio del cual se toman los hechos/texto de la
      nota — evitar reutilizar el material gráfico propio de la fuente de
-     la que "copiamos" el contenido. Preferir una foto genérica y libre de
-     derechos (ej. Unsplash: buscar por tema como "dollar bills", "stock
+     la que "copiamos" el contenido. Preferir una foto genérica, libre de
+     derechos y de un banco open source/sin licencia restrictiva — **no
+     usar Unsplash** — como Pexels (`images.pexels.com`), Pixabay
+     (`pixabay.com`, buscar la URL directa de la imagen) o Wikimedia
+     Commons (`upload.wikimedia.org`, contenido de dominio público/CC),
+     buscando por tema según la vertical (ej. "dollar bills", "stock
      market chart", "stadium crowd", "red carpet", "police lights",
-     "congress building", etc., y tomar la URL directa
-     `images.unsplash.com/photo-...`, no el link a la página HTML de
-     Unsplash). Si se usa una foto de un medio periodístico, que sea uno
-     distinto al de la fuente principal del texto. Verificar que la URL
-     devuelva un archivo de imagen accesible (HTTP 200), no una página HTML.
+     "congress building"). Si se usa una foto de un medio periodístico,
+     que sea uno distinto al de la fuente principal del texto. Verificar
+     que la URL devuelva un archivo de imagen accesible (HTTP 200), no una
+     página HTML.
    - **Categoría/vertical** (`economia`, `politica`, `deportes`,
      `policiales`, `espectaculos`).
    - **Fecha de publicación** real de la noticia (no la fecha de hoy si son
