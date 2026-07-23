@@ -10,6 +10,7 @@ import {
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
 import SeccionColumna from "@/components/SeccionColumna";
+import ImagenDetalle from "./ImagenDetalle";
 import styles from "./page.module.css";
 
 type Props = {
@@ -122,14 +123,11 @@ export default async function ArticuloPage({ params }: Props) {
           Por {articulo.autor} ·{" "}
           {articulo.publicado_en.toLocaleDateString("es-AR")}
         </p>
-        {articulo.imagen_url ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={articulo.imagen_url}
-            alt={articulo.titulo}
-            className={styles.imagen}
-          />
-        ) : null}
+        <ImagenDetalle
+          src={articulo.imagen_url}
+          alt={articulo.titulo}
+          className={styles.imagen}
+        />
         <div
           className={styles.contenido}
           dangerouslySetInnerHTML={{

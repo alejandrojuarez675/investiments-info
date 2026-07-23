@@ -1,0 +1,26 @@
+.fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icono {
+  font-size: 2.2em;
+  opacity: 0.55;
+}
+
+.daily-report {
+  background: linear-gradient(135deg, #fdf1e3, #f6d9ae);
+}
+
+.reporte-semanal {
+  background: linear-gradient(135deg, #e8effd, #b9cdf7);
+}
+
+.analisis {
+  background: linear-gradient(135deg, #e7f5eb, #b7e0c3);
+}
+
+.news {
+  background: linear-gradient(135deg, #fce8e8, #f2b9b9);
+}

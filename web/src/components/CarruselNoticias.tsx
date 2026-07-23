@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { urlArticulo, type Articulo } from "@/lib/articulos";
+import ImagenArticulo from "./ImagenArticulo";
 import styles from "./CarruselNoticias.module.css";
 
 type Props = {
@@ -22,15 +23,11 @@ export default function CarruselNoticias({ titulo, articulos }: Props) {
             href={urlArticulo(articulo)}
             className={styles.item}
           >
-            {articulo.imagen_url ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={articulo.imagen_url}
-                alt=""
-                className={styles.imagen}
-                loading="lazy"
-              />
-            ) : null}
+            <ImagenArticulo
+              src={articulo.imagen_url}
+              tipo={articulo.tipo}
+              className={styles.imagen}
+            />
             <span className={styles.itemTitulo}>{articulo.titulo}</span>
           </Link>
         ))}

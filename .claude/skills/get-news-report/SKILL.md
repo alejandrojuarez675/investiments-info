@@ -49,17 +49,34 @@ artículos individuales (tipo `news`) en la base de datos que usa `web/`
    - **URL de una imagen representativa**, que NO sea la imagen destacada
      (og:image) del mismo medio del cual se toman los hechos/texto de la
      nota — evitar reutilizar el material gráfico propio de la fuente de
-     la que "copiamos" el contenido. Preferir una foto genérica, libre de
-     derechos y de un banco open source/sin licencia restrictiva — **no
-     usar Unsplash** — como Pexels (`images.pexels.com`), Pixabay
-     (`pixabay.com`, buscar la URL directa de la imagen) o Wikimedia
-     Commons (`upload.wikimedia.org`, contenido de dominio público/CC),
-     buscando por tema según la vertical (ej. "dollar bills", "stock
-     market chart", "stadium crowd", "red carpet", "police lights",
-     "congress building"). Si se usa una foto de un medio periodístico,
-     que sea uno distinto al de la fuente principal del texto. Verificar
-     que la URL devuelva un archivo de imagen accesible (HTTP 200), no una
-     página HTML.
+     la que "copiamos" el contenido. Libre de derechos, de un banco open
+     source/sin licencia restrictiva — **no usar Unsplash**.
+     - **Buscar por el hecho concreto de la noticia, no por la vertical
+       en general**: usar como término de búsqueda el nombre propio
+       relevante (club, jugador, funcionario, empresa, edificio, evento)
+       en vez de una categoría genérica. Una búsqueda como "stadium
+       crowd" o "congress building" devuelve una foto de stock que no
+       tiene relación real con el hecho narrado y se nota como
+       "genérica" — preferir, por ejemplo, "Boca Juniors stadium",
+       "Casa Rosada Buenos Aires" o el nombre del equipo/persona
+       involucrada, y recién si no hay resultado específico bajar a un
+       término más amplio de la vertical (ej. "stadium crowd", "dollar
+       bills", "police lights", "red carpet") como último recurso.
+     - **Método de búsqueda**: usar Google Images (búsqueda web de
+       imágenes) con el término específico del hecho para encontrar una
+       foto real y relevante, priorizando que la URL resultante sea de
+       un banco libre de derechos (Pexels `images.pexels.com`, Pixabay
+       `pixabay.com`) o de Wikimedia Commons (`upload.wikimedia.org`,
+       contenido de dominio público/CC) — no tomar cualquier resultado
+       de Google Images sin fijarse el origen, porque muchas fotos
+       indexadas tienen derechos de autor. Si el resultado más relevante
+       para el término específico no tiene un origen libre de derechos,
+       reformular la búsqueda agregando el banco de fotos al término
+       (ej. `site:pexels.com <término>` o `site:pixabay.com <término>`).
+     - Si se usa una foto de un medio periodístico, que sea uno distinto
+       al de la fuente principal del texto. Verificar que la URL
+       devuelva un archivo de imagen accesible (HTTP 200), no una
+       página HTML.
    - **Categoría/vertical** (`economia`, `politica`, `deportes`,
      `policiales`, `espectaculos`).
    - **Fecha de publicación** real de la noticia (no la fecha de hoy si son

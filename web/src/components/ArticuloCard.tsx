@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { urlArticulo, type Articulo } from "@/lib/articulos";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
+import ImagenArticulo from "./ImagenArticulo";
 import styles from "./ArticuloCard.module.css";
 
 function formatearFecha(fecha: Date) {
@@ -35,15 +36,11 @@ export default function ArticuloCard({
         <span aria-hidden="true">{info.icono}</span>
         {info.etiqueta}
       </span>
-      {articulo.imagen_url ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={articulo.imagen_url}
-          alt=""
-          className={styles.imagen}
-          loading="lazy"
-        />
-      ) : null}
+      <ImagenArticulo
+        src={articulo.imagen_url}
+        tipo={articulo.tipo}
+        className={styles.imagen}
+      />
       {destacado ? (
         <h2>{articulo.titulo}</h2>
       ) : (
