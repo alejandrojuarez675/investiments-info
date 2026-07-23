@@ -25,17 +25,24 @@ base de datos que usa `web/` (tabla `articulos`).
    Priorizar fuentes reconocidas (Ámbito, Infobae, Cronista, Bloomberg,
    Reuters, Página 12, Rio Times, etc.) y variedad de temas — no repetir el
    mismo hecho en varias noticias.
-2. Para cada una de las 10 noticias, reunir:
+2. Para cada una de las 10 noticias, reunir primero los **hechos crudos**
+   (cifras, declaraciones, fechas, nombres) y la o las URLs de fuente — el
+   contenido final en prosa se redacta después, en el paso de "Redacción"
+   más abajo. Además de los hechos, reunir:
    - **Título** (propio, no necesariamente el titular original — puede
      reescribirse para claridad).
    - **Resumen** (1-2 frases).
-   - **Contenido** en HTML (igual formato que `web/db/seed.sql`: `<h2>`,
-     `<p>`, `<ul>`, etc., con una sección de fuentes al final con el link
-     original).
-   - **URL de una imagen representativa**. Preferir la imagen destacada de
-     la nota original (og:image) o una imagen libre de derechos relacionada
-     al tema (ej. Unsplash). Debe ser una URL directa a un archivo de
-     imagen accesible públicamente, no un link a una página HTML.
+   - **URL de una imagen representativa**, que NO sea la imagen destacada
+     (og:image) del mismo medio del cual se toman los hechos/texto de la
+     nota — evitar reutilizar el material gráfico propio de la fuente de
+     la que "copiamos" el contenido. Preferir una foto genérica y libre de
+     derechos (ej. Unsplash: buscar por tema como "dollar bills", "stock
+     market chart", "oil rig", "bitcoin", "central bank building", "wheat
+     field", etc., y tomar la URL directa `images.unsplash.com/photo-...`,
+     no el link a la página HTML de Unsplash). Si se usa una foto de un
+     medio periodístico, que sea uno distinto al de la fuente principal
+     del texto. Verificar que la URL devuelva un archivo de imagen
+     accesible (HTTP 200), no una página HTML.
    - **Categoría** (ej. `dolar`, `mercados`, `empresas`, `macro`, `cripto`).
    - **Fecha de publicación** real de la noticia (no la fecha de hoy si son
      distintas).
@@ -44,6 +51,25 @@ base de datos que usa `web/` (tabla `articulos`).
    (el objetivo son 10 noticias con imagen real, no 10 noticias a toda
    costa).
 
+## Redacción del contenido
+
+El HTML de `contenido` no debe ser una lista de bullets sueltos: tiene que
+leerse como una nota periodística real.
+
+1. Delegar la redacción de las 10 notas a un subagente redactor (Task tool,
+   `general-purpose`), pasándole para cada noticia únicamente los **hechos
+   crudos** reunidos en el paso anterior (cifras, declaraciones, fechas) y
+   las URLs de fuente — nunca pedirle que busque o "complete" datos por su
+   cuenta ni que invente contexto no verificado.
+2. Pedirle explícitamente el formato: 4-6 párrafos en `<p>` (lede +
+   desarrollo + por qué importa), con `<h2>` como separadores de sección
+   opcionales, una `<ul>` corta solo si hay datos tabulares (cotizaciones,
+   cifras comparables), y siempre una sección final `<h2>Fuentes</h2>` con
+   los mismos links de origen (sin inventar URLs nuevas).
+3. Revisar el resultado del subagente contra los hechos crudos antes de
+   usarlo: si agregó alguna cifra, cita o dato que no estaba en el material
+   provisto, corregirlo o quitarlo.
+
 ## Guardado en la base de datos
 
 1. Generar un `slug` único por noticia (kebab-case, descriptivo, sin
@@ -51,7 +77,8 @@ base de datos que usa `web/` (tabla `articulos`).
    los slugs existentes en `web/db/seed.sql`).
 2. Insertar cada noticia como una fila en `articulos` con:
    - `tipo = 'news'`
-   - `imagen_url` con la URL de la imagen encontrada
+   - `contenido` con el HTML redactado en el paso anterior (ya revisado)
+   - `imagen_url` con la URL de la imagen genérica encontrada
    - `autor = 'Redacción'` (salvo indicación contraria)
    - `publicado_en` con la fecha real de la noticia
 3. Ejecutar el/los INSERT contra la base de datos configurada en
