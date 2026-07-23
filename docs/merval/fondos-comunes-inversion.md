@@ -18,7 +18,11 @@ invierten en carteras de mayor riesgo y rendimiento potencial.
 
 - Un FCI es un patrimonio común, administrado por una **sociedad gerente**
   (que decide la estrategia de inversión) y custodiado por una **sociedad
-  depositaria** (que resguarda los activos), ambas reguladas por la CNV.
+  depositaria** (que resguarda los activos), ambas reguladas por la CNV. Para
+  el detalle de esta organización interna, y qué alternativas existen si el
+  objetivo es gestionar dinero propio junto con el de otra persona sin ser una
+  gestora regulada, ver [organización interna de un FCI y alternativas para
+  grupos chicos](organizacion-interna-fci-y-alternativas-para-grupos-chicos.md).
 - El inversor no compra activos directamente: compra **cuotapartes** del
   fondo. El valor de la cuotaparte (VCP) se actualiza diariamente según el
   valor de mercado de la cartera subyacente, dividido por la cantidad de
