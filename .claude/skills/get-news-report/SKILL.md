@@ -1,12 +1,12 @@
 ---
 name: get-news-report
-description: Busca 10 noticias variadas (2 de economía, 2 de política, 2 de deportes, 2 de policiales, 2 de espectáculos) de las últimas 24hs, cada una con su imagen, y las guarda como artículos tipo "news" en la base de datos (web/db).
+description: Busca 25 noticias variadas (5 de economía, 5 de política, 5 de deportes, 5 de policiales, 5 de espectáculos) de las últimas 24hs, cada una con su imagen, y las guarda como artículos tipo "news" en la base de datos (web/db).
 ---
 
 # Get news report
 
-Busca **10 noticias relevantes** publicadas en las últimas 24hs, repartidas
-en 5 verticales temáticas (**2 noticias por vertical**: Economía, Política,
+Busca **25 noticias relevantes** publicadas en las últimas 24hs, repartidas
+en 5 verticales temáticas (**5 noticias por vertical**: Economía, Política,
 Deportes, Policiales/Sociedad, Espectáculos/Teleshow), y las inserta como
 artículos individuales (tipo `news`) en la base de datos que usa `web/`
 (tabla `articulos`).
@@ -27,7 +27,7 @@ artículos individuales (tipo `news`) en la base de datos que usa `web/`
 ## Búsqueda de noticias
 
 1. Buscar noticias publicadas en las **últimas 24hs**, repartidas en 5
-   verticales con **2 noticias cada una** (10 en total):
+   verticales con **5 noticias cada una** (25 en total):
    - **Economía**: mercados, macro, tasas, dólar, cripto, empresas.
    - **Política**: gobierno, Congreso, funcionarios, proyectos de ley.
    - **Deportes**: resultados, selecciones, clubes, declaraciones.
@@ -39,7 +39,7 @@ artículos individuales (tipo `news`) en la base de datos que usa `web/`
    TyC Sports, ESPN para deportes; Infobae, Clarín, La Nación para
    policiales/espectáculos) y variedad de temas dentro de cada vertical —
    no repetir el mismo hecho en varias noticias.
-2. Para cada una de las 10 noticias, reunir primero los **hechos crudos**
+2. Para cada una de las 25 noticias, reunir primero los **hechos crudos**
    (cifras, declaraciones, fechas, nombres) y la o las URLs de fuente — el
    contenido final en prosa se redacta después, en el paso de "Redacción"
    más abajo. Además de los hechos, reunir:
@@ -63,8 +63,8 @@ artículos individuales (tipo `news`) en la base de datos que usa `web/`
      distintas).
 3. No inventar datos ni URLs de imagen: si no se encuentra una imagen
    confiable para una noticia, buscar otra noticia candidata dentro de la
-   misma vertical (el objetivo son 10 noticias con imagen real, 2 por
-   vertical, no 10 noticias a toda costa).
+   misma vertical (el objetivo son 25 noticias con imagen real, 5 por
+   vertical, no 25 noticias a toda costa).
 
 ## Redacción del contenido
 
