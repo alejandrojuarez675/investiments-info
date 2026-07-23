@@ -21,6 +21,72 @@
   },
   "nodes": [
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Get news report",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill_get_news_report",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "get news report"
+    },
+    {
+      "label": "Antes de buscar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill_antes_de_buscar",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "antes de buscar"
+    },
+    {
+      "label": "B\u00fasqueda de noticias",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "busqueda de noticias"
+    },
+    {
+      "label": "Guardado en la base de datos",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "guardado en la base de datos"
+    },
+    {
+      "label": "Al finalizar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "claude_skills_get_news_report_skill_al_finalizar",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "al finalizar"
+    },
+    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
@@ -74,28 +140,6 @@
       "community": 117,
       "community_name": "page.tsx",
       "norm_label": "articulopage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_src_app_page",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "Home()",
-      "file_type": "code",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "web_src_app_page_home",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "home()"
     },
     {
       "label": "ArticuloCard.tsx",
@@ -228,6 +272,28 @@
       "community": 117,
       "community_name": "page.tsx",
       "norm_label": "tipo_info"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "page.tsx",
+      "id": "web_src_app_page"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "home()",
+      "id": "web_src_app_page_home"
     },
     {
       "label": "layout.tsx",
@@ -11322,6 +11388,56 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_get_news_report_skill",
+      "target": "claude_skills_get_news_report_skill_get_news_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_al_finalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_antes_de_buscar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L50",
       "weight": 1.0,
@@ -11448,69 +11564,15 @@
       "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_app_page_home",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "web/src/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_components_articulocard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_components_articulocard_articulocard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_lib_articulos_listararticulos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "web_src_app_page_home",
-      "target": "web_src_lib_articulos_listararticulos"
+      "source": "web_src_app_page",
+      "target": "web_src_components_articulocard"
     },
     {
       "relation": "contains",
@@ -11591,11 +11653,33 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L40",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "web_src_components_articulocard_articulocard",
       "target": "web_src_components_articulocard_formatearfecha",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_components_articulocard_articulocard"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports_from",
@@ -11684,6 +11768,28 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_lib_articulos_listararticulos"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "web_src_app_page_home",
+      "target": "web_src_lib_articulos_listararticulos"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
@@ -11711,6 +11817,16 @@
       "source": "web_src_lib_tipos_articulo",
       "target": "web_src_lib_tipos_articulo_tipo_info",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_app_page_home"
     },
     {
       "relation": "contains",
@@ -22898,5 +23014,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "4b0a41d1b0d706c54619dfcb7e31cc49bac94de6"
+  "built_at_commit": "4e0aa04b79c05d3250051615c2fa9e313319b205"
 }
