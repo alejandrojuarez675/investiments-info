@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Articulo } from "@/lib/articulos";
+import { urlArticulo, type Articulo } from "@/lib/articulos";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
 import styles from "./ArticuloCard.module.css";
 
@@ -21,7 +21,7 @@ export default function ArticuloCard({ articulo, destacado = false }: Props) {
 
   return (
     <Link
-      href={`/articulo/${articulo.slug}`}
+      href={urlArticulo(articulo)}
       className={`${styles.card} ${styles[articulo.tipo]} ${
         destacado ? styles.destacado : ""
       }`}

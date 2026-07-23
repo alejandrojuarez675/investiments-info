@@ -1,18 +1,38 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { obtenerArticuloPorSlug, obtenerRelacionados, listarSlugs } from "@/lib/articulos";
+import {
+  obtenerArticuloPorSlug,
+  obtenerRelacionados,
+  listarSlugs,
+  urlArticulo,
+} from "@/lib/articulos";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
 import ArticuloCard from "@/components/ArticuloCard";
 import styles from "./page.module.css";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{
+    categoria: string;
+    anio: string;
+    mes: string;
+    dia: string;
+    slug: string;
+  }>;
 };
 
 export async function generateStaticParams() {
-  const slugs = await listarSlugs();
-  return slugs.map(({ slug }) => ({ slug }));
+  const articulos = await listarSlugs();
+  return articulos.map(({ slug, categoria, publicado_en }) => {
+    const fecha = new Date(publicado_en);
+    return {
+      categoria,
+      anio: String(fecha.getUTCFullYear()),
+      mes: String(fecha.getUTCMonth() + 1).padStart(2, "0"),
+      dia: String(fecha.getUTCDate()).padStart(2, "0"),
+      slug,
+    };
+  });
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -23,17 +43,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
+  const url = urlArticulo(articulo);
+
   return {
     title: articulo.titulo,
     description: articulo.resumen,
     alternates: {
-      canonical: `/articulo/${articulo.slug}`,
+      canonical: url,
     },
     openGraph: {
       type: "article",
       title: articulo.titulo,
       description: articulo.resumen,
-      url: `${SITE_URL}/articulo/${articulo.slug}`,
+      url: `${SITE_URL}${url}`,
       siteName: SITE_NAME,
       locale: "es_AR",
       publishedTime: articulo.publicado_en.toISOString(),
@@ -50,10 +72,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ArticuloPage({ params }: Props) {
-  const { slug } = await params;
+  const { categoria, anio, mes, dia, slug } = await params;
   const articulo = await obtenerArticuloPorSlug(slug);
 
   if (!articulo) {
+    notFound();
+  }
+
+  // La URL canónica se arma solo a partir de slug/categoria/publicado_en;
+  // si alguien llega con un path viejo o con la categoría/fecha desactualizada
+  // (el artículo se movió de categoría, por ejemplo), no lo mostramos como
+  // encontrado para evitar contenido duplicado bajo dos URLs distintas.
+  const urlCanonica = urlArticulo(articulo);
+  const urlSolicitada = `/${categoria}/${anio}/${mes}/${dia}/${slug}/`;
+  if (urlSolicitada !== urlCanonica) {
     notFound();
   }
 
@@ -70,7 +102,7 @@ export default async function ArticuloPage({ params }: Props) {
     image: articulo.imagen_url ? [articulo.imagen_url] : undefined,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/articulo/${articulo.slug}`,
+      "@id": `${SITE_URL}${urlCanonica}`,
     },
   };
 

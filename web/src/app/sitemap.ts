@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { listarSlugs } from "@/lib/articulos";
+import { listarSlugs, urlArticulo } from "@/lib/articulos";
 import { SITE_URL } from "@/lib/config";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -12,12 +12,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily",
       priority: 1,
     },
-    ...articulos.map(({ slug, actualizado_en, imagen_url }) => ({
-      url: `${SITE_URL}/articulo/${slug}`,
-      lastModified: actualizado_en,
+    ...articulos.map((articulo) => ({
+      url: `${SITE_URL}${urlArticulo(articulo)}`,
+      lastModified: articulo.actualizado_en,
       changeFrequency: "daily" as const,
       priority: 0.7,
-      ...(imagen_url ? { images: [imagen_url] } : {}),
+      ...(articulo.imagen_url ? { images: [articulo.imagen_url] } : {}),
     })),
   ];
 }

@@ -95,6 +95,12 @@ leerse como una nota periodística real.
    remover caracteres no válidos para URL (tildes, signos de puntuación) y
    verificar que no colisione con un slug existente (agregar sufijo si hace
    falta, no truncar el título para "resolver" la colisión).
+   - La URL final que ve el usuario **no es solo el slug**: `web/` la arma
+     como `/{categoria}/{yyyy}/{mm}/{dd}/{slug}/`, combinando la columna
+     `categoria` de este INSERT y la fecha `publicado_en` (ver sección 2 del
+     know-how). Por eso la `categoria` de cada noticia debe quedar en
+     minúsculas y sin espacios (ej. `dolar`, `macro`, `mercados`, `cripto`),
+     igual que las categorías ya usadas en `web/db/seed.sql`.
 2. Insertar cada noticia como una fila en `articulos` con:
    - `tipo = 'news'`
    - `contenido` con el HTML redactado en el paso anterior (ya revisado)

@@ -92,6 +92,19 @@ a partir del **titular completo** en kebab-case (sin fecha redundante si ya
 va en la URL por columnas separadas, o incluyéndola si el slug es la única
 parte variable). Mantenerlo re-legible pero no editorializarlo de más.
 
+**Implementado**: `web/` ya arma la URL final con el patrón
+`/{categoria}/{yyyy}/{mm}/{dd}/{slug}/`, combinando la columna `categoria`,
+la fecha de `publicado_en` y el `slug` de la nota (ruta dinámica en
+`web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx`, helper
+`urlArticulo()` en `web/src/lib/articulos.ts`). Esto significa que **el
+`slug` generado al redactar una nota no es, por sí solo, la URL completa**
+— solo identifica unívocamente al artículo en la base (columna `slug` UNIQUE).
+La categoría (columna `categoria`, ej. `dolar`, `macro`, `mercados`,
+`cripto`, `daily-report`, `reporte-semanal`, `reporte`) y la fecha de
+publicación determinan el resto del path, así que conviene que la categoría
+elegida al insertar la nota ya esté en minúsculas y sin espacios (apta para
+URL tal cual), como ya se hace en `web/db/seed.sql`.
+
 ## 3. Patrón editorial: la autoría varía según el tipo de nota (no la sección)
 
 Este es el hallazgo central del análisis. El JSON-LD `author` alterna entre:

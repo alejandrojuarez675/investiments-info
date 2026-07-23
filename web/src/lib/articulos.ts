@@ -76,14 +76,39 @@ export async function obtenerRelacionados(id: number): Promise<Articulo[]> {
 }
 
 export async function listarSlugs(): Promise<
-  { slug: string; actualizado_en: Date; imagen_url: string | null }[]
+  {
+    slug: string;
+    categoria: string;
+    publicado_en: Date;
+    actualizado_en: Date;
+    imagen_url: string | null;
+  }[]
 > {
   const { rows } = await pool.query<{
     slug: string;
+    categoria: string;
+    publicado_en: Date;
     actualizado_en: Date;
     imagen_url: string | null;
   }>(
-    `SELECT slug, actualizado_en, imagen_url FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`
+    `SELECT slug, categoria, publicado_en, actualizado_en, imagen_url FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`
   );
   return rows;
+}
+
+/**
+ * Arma la URL de un artículo con el formato /{categoria}/{yyyy}/{mm}/{dd}/{slug}/,
+ * usando la fecha de publicación (no de actualización) para que la URL no cambie
+ * si el artículo se edita después.
+ */
+export function urlArticulo(articulo: {
+  slug: string;
+  categoria: string;
+  publicado_en: Date;
+}): string {
+  const fecha = new Date(articulo.publicado_en);
+  const anio = fecha.getUTCFullYear();
+  const mes = String(fecha.getUTCMonth() + 1).padStart(2, "0");
+  const dia = String(fecha.getUTCDate()).padStart(2, "0");
+  return `/${articulo.categoria}/${anio}/${mes}/${dia}/${articulo.slug}/`;
 }
