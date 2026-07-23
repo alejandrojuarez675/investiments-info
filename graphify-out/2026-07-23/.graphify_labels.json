@@ -123,5 +123,7 @@
   "121": "next.config.ts",
   "122": "migrate.ts",
   "123": "not-found.tsx",
-  "124": "CLAUDE.md"
+  "124": "CLAUDE.md",
+  "125": "layout.tsx",
+  "126": "page.tsx"
 }

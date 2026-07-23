@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 137 files · ~75,880 words
+- 139 files · ~76,098 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1016 nodes · 1125 edges · 125 communities (119 shown, 6 thin omitted)
+- 1021 nodes · 1129 edges · 127 communities (120 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6b122bdc`
+- Built from commit: `ff24ca36`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -137,6 +137,8 @@
 - AGENTS.md
 - eslint.config.mjs
 - next.config.ts
+- layout.tsx
+- page.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -151,8 +153,6 @@
 10. `Dollar-Cost Averaging (DCA)` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Home()` --calls--> `listarArticulos()`  [EXTRACTED]
-  web/src/app/page.tsx → web/src/lib/articulos.ts
 - `sitemap()` --calls--> `listarSlugs()`  [EXTRACTED]
   web/src/app/sitemap.ts → web/src/lib/articulos.ts
 
@@ -162,7 +162,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (125 total, 6 thin omitted)
+## Communities (127 total, 7 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -621,28 +621,30 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.14
-Nodes (8): geistMono, geistSans, metadata, Home(), sitemap(), Articulo, listarArticulos(), listarSlugs()
+Cohesion: 0.22
+Nodes (3): sitemap(), Articulo, listarSlugs()
 
 ### Community 118 - "web"
 Cohesion: 0.15
 Nodes (11): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web, Configuración, Deploy, Estructura (+3 more)
 
+### Community 125 - "layout.tsx"
+Cohesion: 0.28
+Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
+
 ## Knowledge Gaps
-- **708 isolated node(s):** `Props`, `Convención de archivos`, `Estructura`, `Sitio web`, `Para asistentes de IA` (+703 more)
+- **708 isolated node(s):** `geistSans`, `geistMono`, `metadata`, `Props`, `Convención de archivos` (+703 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **Why does `Análisis técnico: fundamentos, premisas y crítica` connect `Análisis técnico: fundamentos, premisas y crítica` to `Activos y Glosario`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **Why does `Cartera de ejemplo: aplicando los conceptos de forma práctica` connect `Cartera de ejemplo: aplicando los conceptos de forma práctica` to `Activos y Glosario`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **What connects `Props`, `Convención de archivos`, `Estructura` to the rest of the system?**
+- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **What connects `geistSans`, `geistMono`, `metadata` to the rest of the system?**
   _708 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
@@ -650,3 +652,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Inversión inmobiliaria directa en Argentina` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

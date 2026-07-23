@@ -590,13 +590,13 @@
     "semantic_hash": ""
   },
   "web/db/schema.sql": {
-    "mtime": 1784817738.011125,
-    "ast_hash": "89a0030e304cd3268653abf492b8e0f0",
+    "mtime": 1784819949.2848623,
+    "ast_hash": "c2f925e62bccb1afe7c4d23dc225db2d",
     "semantic_hash": ""
   },
   "web/db/seed.sql": {
-    "mtime": 1784818579.4585326,
-    "ast_hash": "b475195650a4e2c3946b51edcf658c0a",
+    "mtime": 1784819975.4124267,
+    "ast_hash": "86f5c4f6582721a97b33e19f193a7a5a",
     "semantic_hash": ""
   },
   "web/eslint.config.mjs": {
@@ -620,8 +620,8 @@
     "semantic_hash": ""
   },
   "web/src/app/articulo/[slug]/page.tsx": {
-    "mtime": 1784818588.3078794,
-    "ast_hash": "5ed4bd01f8ab2562edd8b7eef380f5c5",
+    "mtime": 1784820048.1461158,
+    "ast_hash": "e68b14685cd7fe8882b382ba15b3d422",
     "semantic_hash": ""
   },
   "web/src/app/layout.tsx": {
@@ -635,8 +635,8 @@
     "semantic_hash": ""
   },
   "web/src/app/page.tsx": {
-    "mtime": 1784819191.147469,
-    "ast_hash": "8c75185f31932fb8b41a3960fa007024",
+    "mtime": 1784820023.3874807,
+    "ast_hash": "52ddef7ab756f6f64217385180fed313",
     "semantic_hash": ""
   },
   "web/src/app/robots.ts": {
@@ -650,8 +650,8 @@
     "semantic_hash": ""
   },
   "web/src/lib/articulos.ts": {
-    "mtime": 1784817722.4590518,
-    "ast_hash": "57cb74871f25645df8d944509b2e3aed",
+    "mtime": 1784819983.6342053,
+    "ast_hash": "001a2ad8d14b92d1e76464e1fb0335f7",
     "semantic_hash": ""
   },
   "web/src/lib/config.ts": {
@@ -717,6 +717,16 @@
   "web/src/components/Header.tsx": {
     "mtime": 1784819147.4139874,
     "ast_hash": "8a114d6906cb917e255c5a22a587123d",
+    "semantic_hash": ""
+  },
+  "web/src/components/ArticuloCard.tsx": {
+    "mtime": 1784820006.4643636,
+    "ast_hash": "11ca4ee85f273148e7340c2d79d447be",
+    "semantic_hash": ""
+  },
+  "web/src/lib/tipos-articulo.ts": {
+    "mtime": 1784819988.6683447,
+    "ast_hash": "8b3e7aef9e72776704b6b97bd4f64c21",
     "semantic_hash": ""
   }
 }
