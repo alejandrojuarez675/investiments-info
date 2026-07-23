@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 153 files · ~83,754 words
+- 154 files · ~85,271 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1091 nodes · 1275 edges · 135 communities (125 shown, 10 thin omitted)
+- 1104 nodes · 1287 edges · 136 communities (126 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `15ec28a3`
+- Built from commit: `c69ff68c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -146,18 +146,19 @@
 - redactor-policiales.md
 - redactor-politica.md
 - layout.tsx
+- Know-how de layout: la home de Infobae
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
 2. `Estrategias de trading de corto plazo` - 13 edges
-3. `Fuentes de datos de precios y tasas en vivo` - 12 edges
-4. `urlArticulo()` - 10 edges
-5. `Estrategias de inversión de largo plazo` - 10 edges
-6. `Tipos de activos financieros` - 10 edges
-7. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
-8. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
-9. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
-10. `Diversificación` - 9 edges
+3. `Know-how de layout: la home de Infobae` - 12 edges
+4. `Fuentes de datos de precios y tasas en vivo` - 12 edges
+5. `urlArticulo()` - 10 edges
+6. `Estrategias de inversión de largo plazo` - 10 edges
+7. `Tipos de activos financieros` - 10 edges
+8. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
+9. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
+10. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
@@ -177,7 +178,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (135 total, 10 thin omitted)
+## Communities (136 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -663,22 +664,26 @@ Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistent
 Cohesion: 0.23
 Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
 
+### Community 135 - "Know-how de layout: la home de Infobae"
+Cohesion: 0.15
+Nodes (12): 10. Patrón de repetición de slots publicitarios, 11. Resumen operativo: qué replicar en `web/`, 1. Header: 3 franjas apiladas antes de cualquier noticia, 2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia, 3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker, 4. Bloque de apertura: 1 nota principal + 2 secundarias en la misma fila, 5. Segundo banner + bloque mixto contenido patrocinado / nota editorial, 6. Widgets de servicio embebidos en medio del feed editorial (+4 more)
+
 ## Knowledge Gaps
-- **745 isolated node(s):** `Props`, `Props`, `Props`, `CATEGORIA_INFO`, `CATEGORIA_FALLBACK` (+740 more)
+- **756 isolated node(s):** `1. Header: 3 franjas apiladas antes de cualquier noticia`, `2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia`, `3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker`, `4. Bloque de apertura: 1 nota principal + 2 secundarias en la misma fila`, `5. Segundo banner + bloque mixto contenido patrocinado / nota editorial` (+751 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `Tipos de activos financieros` connect `Diversificación de Portafolio` to `Activos y Glosario`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **Why does `Registro de cotizaciones` connect `Registro de tasas` to `Activos y Glosario`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **What connects `Props`, `Props`, `Props` to the rest of the system?**
-  _745 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **What connects `1. Header: 3 franjas apiladas antes de cualquier noticia`, `2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia`, `3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker` to the rest of the system?**
+  _756 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**

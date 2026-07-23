@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1091 nodes · 1282 edges · 133 communities (123 shown, 10 thin omitted)
+- 1091 nodes · 1275 edges · 135 communities (125 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `24c4f6ab`
+- Built from commit: `15ec28a3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,6 +145,7 @@
 - redactor-espectaculos.md
 - redactor-policiales.md
 - redactor-politica.md
+- layout.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -176,7 +177,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (133 total, 10 thin omitted)
+## Communities (135 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -639,8 +640,8 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.08
-Nodes (32): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, CategoriaPage(), generateMetadata(), Props, geistMono (+24 more)
+Cohesion: 0.11
+Nodes (27): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, CategoriaPage(), generateMetadata(), Props, Home() (+19 more)
 
 ### Community 118 - "web"
 Cohesion: 0.29
@@ -658,8 +659,12 @@ Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report
 Cohesion: 0.40
 Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
 
+### Community 133 - "layout.tsx"
+Cohesion: 0.23
+Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
+
 ## Knowledge Gaps
-- **745 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+740 more)
+- **745 isolated node(s):** `Props`, `Props`, `Props`, `CATEGORIA_INFO`, `CATEGORIA_FALLBACK` (+740 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -672,7 +677,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **Why does `Registro de cotizaciones` connect `Registro de tasas` to `Activos y Glosario`?**
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
+- **What connects `Props`, `Props`, `Props` to the rest of the system?**
   _745 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
