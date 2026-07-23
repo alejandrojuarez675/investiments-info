@@ -21,72 +21,6 @@
   },
   "nodes": [
     {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "skill.md"
-    },
-    {
-      "label": "Get news report",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_get_news_report",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "get news report"
-    },
-    {
-      "label": "Antes de buscar",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_antes_de_buscar",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "antes de buscar"
-    },
-    {
-      "label": "B\u00fasqueda de noticias",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "busqueda de noticias"
-    },
-    {
-      "label": "Guardado en la base de datos",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L47",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "guardado en la base de datos"
-    },
-    {
-      "label": "Al finalizar",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L64",
-      "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_al_finalizar",
-      "community": 126,
-      "community_name": "Get news report",
-      "norm_label": "al finalizar"
-    },
-    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
@@ -101,7 +35,7 @@
       "label": "Props",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_props",
       "community": 117,
@@ -112,7 +46,7 @@
       "label": "generateStaticParams()",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_generatestaticparams",
       "community": 117,
@@ -123,7 +57,7 @@
       "label": "generateMetadata()",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_generatemetadata",
       "community": 117,
@@ -134,56 +68,12 @@
       "label": "ArticuloPage()",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L50",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_articulopage",
       "community": 117,
       "community_name": "page.tsx",
       "norm_label": "articulopage()"
-    },
-    {
-      "label": "ArticuloCard.tsx",
-      "file_type": "code",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_src_components_articulocard",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "articulocard.tsx"
-    },
-    {
-      "label": "formatearFecha()",
-      "file_type": "code",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "web_src_components_articulocard_formatearfecha",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "formatearfecha()"
-    },
-    {
-      "label": "Props",
-      "file_type": "code",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "web_src_components_articulocard_props",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "props"
-    },
-    {
-      "label": "ArticuloCard()",
-      "file_type": "code",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "web_src_components_articulocard_articulocard",
-      "community": 117,
-      "community_name": "page.tsx",
-      "norm_label": "articulocard()"
     },
     {
       "label": "articulos.ts",
@@ -241,10 +131,21 @@
       "norm_label": "obtenerarticuloporslug()"
     },
     {
-      "label": "listarSlugs()",
+      "label": "obtenerRelacionados()",
       "file_type": "code",
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L42",
+      "_origin": "ast",
+      "id": "web_src_lib_articulos_obtenerrelacionados",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "obtenerrelacionados()"
+    },
+    {
+      "label": "listarSlugs()",
+      "file_type": "code",
+      "source_file": "web/src/lib/articulos.ts",
+      "source_location": "L78",
       "_origin": "ast",
       "id": "web_src_lib_articulos_listarslugs",
       "community": 117,
@@ -252,15 +153,136 @@
       "norm_label": "listarslugs()"
     },
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "skill.md",
+      "id": "claude_skills_get_news_report_skill"
+    },
+    {
+      "label": "Get news report",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "get news report",
+      "id": "claude_skills_get_news_report_skill_get_news_report"
+    },
+    {
+      "label": "Antes de buscar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "antes de buscar",
+      "id": "claude_skills_get_news_report_skill_antes_de_buscar"
+    },
+    {
+      "label": "B\u00fasqueda de noticias",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "busqueda de noticias",
+      "id": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias"
+    },
+    {
+      "label": "Redacci\u00f3n del contenido",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "redaccion del contenido",
+      "id": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido"
+    },
+    {
+      "label": "Guardado en la base de datos",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L73",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "guardado en la base de datos",
+      "id": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos"
+    },
+    {
+      "label": "Al finalizar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L91",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "Get news report",
+      "norm_label": "al finalizar",
+      "id": "claude_skills_get_news_report_skill_al_finalizar"
+    },
+    {
+      "label": "ArticuloCard.tsx",
+      "file_type": "code",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "articulocard.tsx",
+      "id": "web_src_components_articulocard"
+    },
+    {
+      "label": "formatearFecha()",
+      "file_type": "code",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "formatearfecha()",
+      "id": "web_src_components_articulocard_formatearfecha"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "props",
+      "id": "web_src_components_articulocard_props"
+    },
+    {
+      "label": "ArticuloCard()",
+      "file_type": "code",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "page.tsx",
+      "norm_label": "articulocard()",
+      "id": "web_src_components_articulocard_articulocard"
+    },
+    {
       "label": "tipos-articulo.ts",
       "file_type": "code",
       "source_file": "web/src/lib/tipos-articulo.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_tipos_articulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "tipos-articulo.ts"
+      "norm_label": "tipos-articulo.ts",
+      "id": "web_src_lib_tipos_articulo"
     },
     {
       "label": "TIPO_INFO",
@@ -268,10 +290,10 @@
       "source_file": "web/src/lib/tipos-articulo.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "web_src_lib_tipos_articulo_tipo_info",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "tipo_info"
+      "norm_label": "tipo_info",
+      "id": "web_src_lib_tipos_articulo_tipo_info"
     },
     {
       "label": "page.tsx",
@@ -11388,58 +11410,8 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "claude_skills_get_news_report_skill",
-      "target": "claude_skills_get_news_report_skill_get_news_report",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_al_finalizar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_antes_de_buscar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L50",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page",
       "target": "web_src_app_articulo_slug_page_articulopage",
@@ -11449,7 +11421,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page",
       "target": "web_src_app_articulo_slug_page_generatemetadata",
@@ -11459,7 +11431,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page",
       "target": "web_src_app_articulo_slug_page_generatestaticparams",
@@ -11469,7 +11441,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page",
       "target": "web_src_app_articulo_slug_page_props",
@@ -11509,25 +11481,14 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_tipos_articulo",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_tipos_articulo_tipo_info",
+      "target": "web_src_lib_articulos_obtenerrelacionados",
       "confidence_score": 1.0
     },
     {
@@ -11536,7 +11497,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page_generatestaticparams",
       "target": "web_src_lib_articulos_listarslugs"
@@ -11547,7 +11508,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page_generatemetadata",
       "target": "web_src_lib_articulos_obtenerarticuloporslug"
@@ -11558,117 +11519,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0,
       "source": "web_src_app_articulo_slug_page_articulopage",
       "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_components_articulocard"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_articulocard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_formatearfecha",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_props",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_lib_articulos_articulo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_lib_tipos_articulo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard",
-      "target": "web_src_lib_tipos_articulo_tipo_info",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/components/ArticuloCard.tsx",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "web_src_components_articulocard_articulocard",
-      "target": "web_src_components_articulocard_formatearfecha",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/app/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "web_src_app_page",
-      "target": "web_src_components_articulocard_articulocard"
+      "source_file": "web/src/app/articulo/[slug]/page.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "web_src_app_articulo_slug_page_articulopage",
+      "target": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "relation": "imports_from",
@@ -11690,6 +11555,17 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
+      "target": "web_src_lib_articulos"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
       "target": "web_src_lib_articulos"
     },
     {
@@ -11716,7 +11592,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "web/src/lib/articulos.ts",
-      "source_location": "L42",
+      "source_location": "L78",
       "weight": 1.0,
       "source": "web_src_lib_articulos",
       "target": "web_src_lib_articulos_listarslugs",
@@ -11736,6 +11612,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "web/src/lib/articulos.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "web_src_lib_articulos",
+      "target": "web_src_lib_articulos_obtenerrelacionados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "weight": 1.0,
       "source": "web_src_lib_articulos",
@@ -11749,9 +11635,9 @@
       "source_file": "web/src/lib/tipos-articulo.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_tipos_articulo",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -11760,9 +11646,20 @@
       "source_file": "web/src/lib/tipos-articulo.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_tipos_articulo",
-      "target": "web_src_lib_articulos_tipoarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_tipoarticulo"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_lib_articulos_articulo"
     },
     {
       "relation": "imports",
@@ -11811,12 +11708,157 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill",
+      "target": "claude_skills_get_news_report_skill_get_news_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_al_finalizar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_antes_de_buscar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-news-report/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_skills_get_news_report_skill_get_news_report",
+      "target": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_components_articulocard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_components_articulocard_articulocard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_components_articulocard_formatearfecha"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_components_articulocard_props"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_lib_tipos_articulo"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard",
+      "target": "web_src_lib_tipos_articulo_tipo_info"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/components/ArticuloCard.tsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_components_articulocard_articulocard",
+      "target": "web_src_components_articulocard_formatearfecha"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/app/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_page",
+      "target": "web_src_components_articulocard_articulocard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "web/src/lib/tipos-articulo.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_tipos_articulo",
-      "target": "web_src_lib_tipos_articulo_tipo_info",
-      "confidence_score": 1.0
+      "target": "web_src_lib_tipos_articulo_tipo_info"
     },
     {
       "relation": "contains",
@@ -23014,5 +23056,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "4e0aa04b79c05d3250051615c2fa9e313319b205"
+  "built_at_commit": "8b92098b9ef80774984e0b8c29dd0e963dabd53e"
 }

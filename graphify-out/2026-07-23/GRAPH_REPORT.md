@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 141 files · ~76,312 words
+- 142 files · ~77,101 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1027 nodes · 1151 edges · 126 communities (121 shown, 5 thin omitted)
+- 1034 nodes · 1157 edges · 127 communities (122 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4b0a41d1`
+- Built from commit: `26a4bf7c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -137,6 +137,7 @@
 - eslint.config.mjs
 - next.config.ts
 - layout.tsx
+- Get news report
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
@@ -168,7 +169,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (126 total, 5 thin omitted)
+## Communities (127 total, 5 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -638,8 +639,12 @@ Nodes (11): Convención de archivos, Estructura, investiments-info, Para asisten
 Cohesion: 0.28
 Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
 
+### Community 126 - "Get news report"
+Cohesion: 0.29
+Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report, Guardado en la base de datos, Redacción del contenido
+
 ## Knowledge Gaps
-- **708 isolated node(s):** `Props`, `Props`, `geistSans`, `geistMono`, `metadata` (+703 more)
+- **713 isolated node(s):** `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido`, `Guardado en la base de datos`, `Al finalizar` (+708 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -647,16 +652,16 @@ Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **What connects `Props`, `Props`, `geistSans` to the rest of the system?**
-  _708 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+- **Why does `Registro de cotizaciones` connect `Registro de tasas` to `Activos y Glosario`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **What connects `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido` to the rest of the system?**
+  _713 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Inversión inmobiliaria directa en Argentina` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
-  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
-- **Should `Trading con gráficos: análisis técnico` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
