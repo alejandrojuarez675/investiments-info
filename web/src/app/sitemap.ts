@@ -9,14 +9,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: SITE_URL,
       lastModified: new Date(),
-      changeFrequency: "hourly",
+      changeFrequency: "daily",
       priority: 1,
     },
-    ...articulos.map(({ slug, actualizado_en }) => ({
+    ...articulos.map(({ slug, actualizado_en, imagen_url }) => ({
       url: `${SITE_URL}/articulo/${slug}`,
       lastModified: actualizado_en,
       changeFrequency: "daily" as const,
       priority: 0.7,
+      ...(imagen_url ? { images: [imagen_url] } : {}),
     })),
   ];
 }

@@ -75,9 +75,15 @@ export async function obtenerRelacionados(id: number): Promise<Articulo[]> {
   });
 }
 
-export async function listarSlugs(): Promise<{ slug: string; actualizado_en: Date }[]> {
-  const { rows } = await pool.query<{ slug: string; actualizado_en: Date }>(
-    `SELECT slug, actualizado_en FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`
+export async function listarSlugs(): Promise<
+  { slug: string; actualizado_en: Date; imagen_url: string | null }[]
+> {
+  const { rows } = await pool.query<{
+    slug: string;
+    actualizado_en: Date;
+    imagen_url: string | null;
+  }>(
+    `SELECT slug, actualizado_en, imagen_url FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`
   );
   return rows;
 }

@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: articulo.resumen,
       url: `${SITE_URL}/articulo/${articulo.slug}`,
       siteName: SITE_NAME,
+      locale: "es_AR",
       publishedTime: articulo.publicado_en.toISOString(),
       modifiedTime: articulo.actualizado_en.toISOString(),
       authors: [articulo.autor],
@@ -90,7 +91,11 @@ export default async function ArticuloPage({ params }: Props) {
         </p>
         {articulo.imagen_url ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={articulo.imagen_url} alt="" className={styles.imagen} />
+          <img
+            src={articulo.imagen_url}
+            alt={articulo.titulo}
+            className={styles.imagen}
+          />
         ) : null}
         <div
           className={styles.contenido}
