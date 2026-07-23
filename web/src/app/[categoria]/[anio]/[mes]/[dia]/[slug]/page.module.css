@@ -144,22 +144,14 @@
   border-radius: 4px;
 }
 
-.relacionados {
+.secciones {
   width: 100%;
-  max-width: 720px;
+  max-width: 880px;
   margin-top: 48px;
-}
-
-.relacionados h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.relacionadosGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+  align-items: start;
 }
 
 @media (max-width: 700px) {
@@ -172,7 +164,7 @@
     font-size: 26px;
   }
 
-  .relacionadosGrid {
+  .secciones {
     grid-template-columns: 1fr;
   }
 }

@@ -21,15 +21,92 @@
   },
   "nodes": [
     {
+      "label": "layout-detalle-nota-infobae.md",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "layout-detalle-nota-infobae.md"
+    },
+    {
+      "label": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "know-how de layout: que rodea a una nota en infobae"
+    },
+    {
+      "label": "1. Bloque \"segu\u00ed leyendo\" (relacionadas en lista simple)",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_1_bloque_segu\u00ed_leyendo_relacionadas_en_lista_simple",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "1. bloque \"segui leyendo\" (relacionadas en lista simple)"
+    },
+    {
+      "label": "2. Grilla de 3 columnas por secci\u00f3n (el bloque m\u00e1s denso de la p\u00e1gina)",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_2_grilla_de_3_columnas_por_secci\u00f3n_el_bloque_m\u00e1s_denso_de_la_p\u00e1gina",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "2. grilla de 3 columnas por seccion (el bloque mas denso de la pagina)"
+    },
+    {
+      "label": "3. C\u00f3mo se llena el ancho completo en desktop (sin sidebar fijo)",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_3_c\u00f3mo_se_llena_el_ancho_completo_en_desktop_sin_sidebar_fijo",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "3. como se llena el ancho completo en desktop (sin sidebar fijo)"
+    },
+    {
+      "label": "4. Footer",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_4_footer",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "4. footer"
+    },
+    {
+      "label": "5. Resumen operativo: qu\u00e9 replicar en `web/`",
+      "file_type": "document",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "docs_know_how_layout_detalle_nota_infobae_5_resumen_operativo_qu\u00e9_replicar_en_web",
+      "community": 135,
+      "community_name": "Know-how de layout: qu\u00e9 rodea a una nota en Infobae",
+      "norm_label": "5. resumen operativo: que replicar en `web/`"
+    },
+    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "claude_skills_get_news_report_skill"
     },
     {
       "label": "Get news report",
@@ -37,65 +114,65 @@
       "source_file": ".claude/skills/get-news-report/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_get_news_report",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "get news report"
+      "norm_label": "get news report",
+      "id": "claude_skills_get_news_report_skill_get_news_report"
     },
     {
       "label": "Antes de buscar",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L12",
+      "source_location": "L14",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_antes_de_buscar",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "antes de buscar"
+      "norm_label": "antes de buscar",
+      "id": "claude_skills_get_news_report_skill_antes_de_buscar"
     },
     {
       "label": "B\u00fasqueda de noticias",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L25",
+      "source_location": "L27",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "busqueda de noticias"
+      "norm_label": "busqueda de noticias",
+      "id": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias"
     },
     {
       "label": "Redacci\u00f3n del contenido",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L58",
+      "source_location": "L69",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "redaccion del contenido"
+      "norm_label": "redaccion del contenido",
+      "id": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido"
     },
     {
       "label": "Guardado en la base de datos",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L89",
+      "source_location": "L101",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "guardado en la base de datos"
+      "norm_label": "guardado en la base de datos",
+      "id": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos"
     },
     {
       "label": "Al finalizar",
       "file_type": "document",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L121",
+      "source_location": "L136",
       "_origin": "ast",
-      "id": "claude_skills_get_news_report_skill_al_finalizar",
       "community": 126,
       "community_name": "Get news report",
-      "norm_label": "al finalizar"
+      "norm_label": "al finalizar",
+      "id": "claude_skills_get_news_report_skill_al_finalizar"
     },
     {
       "label": "seo-redaccion-infobae.md",
@@ -103,10 +180,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "seo-redaccion-infobae.md"
+      "norm_label": "seo-redaccion-infobae.md",
+      "id": "docs_know_how_seo_redaccion_infobae"
     },
     {
       "label": "Know-how SEO: patr\u00f3n editorial de Infobae",
@@ -114,10 +191,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "know-how seo: patron editorial de infobae"
+      "norm_label": "know-how seo: patron editorial de infobae",
+      "id": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae"
     },
     {
       "label": "1. Capa t\u00e9cnica: 100% uniforme (CMS corporativo)",
@@ -125,10 +202,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_1_capa_t\u00e9cnica_100_uniforme_cms_corporativo",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "1. capa tecnica: 100% uniforme (cms corporativo)"
+      "norm_label": "1. capa tecnica: 100% uniforme (cms corporativo)",
+      "id": "docs_know_how_seo_redaccion_infobae_1_capa_t\u00e9cnica_100_uniforme_cms_corporativo"
     },
     {
       "label": "2. Patr\u00f3n de URLs (slugs): el titular completo, sin recortar",
@@ -136,10 +213,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_2_patr\u00f3n_de_urls_slugs_el_titular_completo_sin_recortar",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "2. patron de urls (slugs): el titular completo, sin recortar"
+      "norm_label": "2. patron de urls (slugs): el titular completo, sin recortar",
+      "id": "docs_know_how_seo_redaccion_infobae_2_patr\u00f3n_de_urls_slugs_el_titular_completo_sin_recortar"
     },
     {
       "label": "3. Patr\u00f3n editorial: la autor\u00eda var\u00eda seg\u00fan el tipo de nota (no la secci\u00f3n)",
@@ -147,10 +224,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L108",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_3_patr\u00f3n_editorial_la_autor\u00eda_var\u00eda_seg\u00fan_el_tipo_de_nota_no_la_secci\u00f3n",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "3. patron editorial: la autoria varia segun el tipo de nota (no la seccion)"
+      "norm_label": "3. patron editorial: la autoria varia segun el tipo de nota (no la seccion)",
+      "id": "docs_know_how_seo_redaccion_infobae_3_patr\u00f3n_editorial_la_autor\u00eda_var\u00eda_seg\u00fan_el_tipo_de_nota_no_la_secci\u00f3n"
     },
     {
       "label": "4. Perfiles de redactor por tema",
@@ -158,10 +235,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L144",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "4. perfiles de redactor por tema"
+      "norm_label": "4. perfiles de redactor por tema",
+      "id": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema"
     },
     {
       "label": "Econom\u00eda (`redactor-economia`)",
@@ -169,10 +246,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L150",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_econom\u00eda_redactor_economia",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "economia (`redactor-economia`)"
+      "norm_label": "economia (`redactor-economia`)",
+      "id": "docs_know_how_seo_redaccion_infobae_econom\u00eda_redactor_economia"
     },
     {
       "label": "Pol\u00edtica (`redactor-politica`)",
@@ -180,10 +257,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L170",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_pol\u00edtica_redactor_politica",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "politica (`redactor-politica`)"
+      "norm_label": "politica (`redactor-politica`)",
+      "id": "docs_know_how_seo_redaccion_infobae_pol\u00edtica_redactor_politica"
     },
     {
       "label": "Deportes (`redactor-deportes`)",
@@ -191,10 +268,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L187",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_deportes_redactor_deportes",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "deportes (`redactor-deportes`)"
+      "norm_label": "deportes (`redactor-deportes`)",
+      "id": "docs_know_how_seo_redaccion_infobae_deportes_redactor_deportes"
     },
     {
       "label": "Sociedad/Policiales (`redactor-policiales`)",
@@ -202,10 +279,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L203",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_sociedad_policiales_redactor_policiales",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "sociedad/policiales (`redactor-policiales`)"
+      "norm_label": "sociedad/policiales (`redactor-policiales`)",
+      "id": "docs_know_how_seo_redaccion_infobae_sociedad_policiales_redactor_policiales"
     },
     {
       "label": "Espect\u00e1culos/Teleshow (`redactor-espectaculos`)",
@@ -213,10 +290,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L219",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_espect\u00e1culos_teleshow_redactor_espectaculos",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "espectaculos/teleshow (`redactor-espectaculos`)"
+      "norm_label": "espectaculos/teleshow (`redactor-espectaculos`)",
+      "id": "docs_know_how_seo_redaccion_infobae_espect\u00e1culos_teleshow_redactor_espectaculos"
     },
     {
       "label": "5. Resumen operativo",
@@ -224,10 +301,10 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L235",
       "_origin": "ast",
-      "id": "docs_know_how_seo_redaccion_infobae_5_resumen_operativo",
       "community": 109,
       "community_name": "4. Perfiles de redactor por tema",
-      "norm_label": "5. resumen operativo"
+      "norm_label": "5. resumen operativo",
+      "id": "docs_know_how_seo_redaccion_infobae_5_resumen_operativo"
     },
     {
       "label": "page.tsx",
@@ -235,10 +312,10 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_categoria_anio_mes_dia_slug_page",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "web_src_app_categoria_anio_mes_dia_slug_page"
     },
     {
       "label": "Props",
@@ -246,10 +323,10 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "web_src_app_categoria_anio_mes_dia_slug_page_props",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "props"
+      "norm_label": "props",
+      "id": "web_src_app_categoria_anio_mes_dia_slug_page_props"
     },
     {
       "label": "generateStaticParams()",
@@ -257,10 +334,10 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "web_src_app_categoria_anio_mes_dia_slug_page_generatestaticparams",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "generatestaticparams()"
+      "norm_label": "generatestaticparams()",
+      "id": "web_src_app_categoria_anio_mes_dia_slug_page_generatestaticparams"
     },
     {
       "label": "generateMetadata()",
@@ -268,10 +345,10 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "web_src_app_categoria_anio_mes_dia_slug_page_generatemetadata",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "generatemetadata()"
+      "norm_label": "generatemetadata()",
+      "id": "web_src_app_categoria_anio_mes_dia_slug_page_generatemetadata"
     },
     {
       "label": "ArticuloPage()",
@@ -279,10 +356,10 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "web_src_app_categoria_anio_mes_dia_slug_page_articulopage",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulopage()"
+      "norm_label": "articulopage()",
+      "id": "web_src_app_categoria_anio_mes_dia_slug_page_articulopage"
     },
     {
       "label": "sitemap.ts",
@@ -290,10 +367,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "web_src_app_sitemap"
     },
     {
       "label": "sitemap()",
@@ -301,10 +378,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_app_sitemap_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "web_src_app_sitemap_sitemap"
     },
     {
       "label": "ArticuloCard.tsx",
@@ -312,10 +389,10 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_components_articulocard",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulocard.tsx"
+      "norm_label": "articulocard.tsx",
+      "id": "web_src_components_articulocard"
     },
     {
       "label": "formatearFecha()",
@@ -323,10 +400,10 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "web_src_components_articulocard_formatearfecha",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "formatearfecha()"
+      "norm_label": "formatearfecha()",
+      "id": "web_src_components_articulocard_formatearfecha"
     },
     {
       "label": "Props",
@@ -334,10 +411,10 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "web_src_components_articulocard_props",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "props"
+      "norm_label": "props",
+      "id": "web_src_components_articulocard_props"
     },
     {
       "label": "ArticuloCard()",
@@ -345,10 +422,10 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "web_src_components_articulocard_articulocard",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulocard()"
+      "norm_label": "articulocard()",
+      "id": "web_src_components_articulocard_articulocard"
     },
     {
       "label": "articulos.ts",
@@ -356,10 +433,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_articulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulos.ts"
+      "norm_label": "articulos.ts",
+      "id": "web_src_lib_articulos"
     },
     {
       "label": "TipoArticulo",
@@ -367,10 +444,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_tipoarticulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "tipoarticulo"
+      "norm_label": "tipoarticulo",
+      "id": "web_src_lib_articulos_tipoarticulo"
     },
     {
       "label": "Articulo",
@@ -378,10 +455,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_articulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulo"
+      "norm_label": "articulo",
+      "id": "web_src_lib_articulos_articulo"
     },
     {
       "label": "listarArticulos()",
@@ -389,10 +466,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listararticulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listararticulos()"
+      "norm_label": "listararticulos()",
+      "id": "web_src_lib_articulos_listararticulos"
     },
     {
       "label": "obtenerArticuloPorSlug()",
@@ -400,10 +477,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_obtenerarticuloporslug",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "obtenerarticuloporslug()"
+      "norm_label": "obtenerarticuloporslug()",
+      "id": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "label": "obtenerRelacionados()",
@@ -411,10 +488,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_obtenerrelacionados",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "obtenerrelacionados()"
+      "norm_label": "obtenerrelacionados()",
+      "id": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "label": "listarSlugs()",
@@ -422,10 +499,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L78",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listarslugs",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listarslugs()"
+      "norm_label": "listarslugs()",
+      "id": "web_src_lib_articulos_listarslugs"
     },
     {
       "label": "urlArticulo()",
@@ -433,10 +510,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L104",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_urlarticulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "urlarticulo()"
+      "norm_label": "urlarticulo()",
+      "id": "web_src_lib_articulos_urlarticulo"
     },
     {
       "label": "eslint.config.mjs",
@@ -11784,62 +11861,122 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_1_bloque_segu\u00ed_leyendo_relacionadas_en_lista_simple",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_2_grilla_de_3_columnas_por_secci\u00f3n_el_bloque_m\u00e1s_denso_de_la_p\u00e1gina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_3_c\u00f3mo_se_llena_el_ancho_completo_en_desktop_sin_sidebar_fijo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_4_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/know-how/layout-detalle-nota-infobae.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "docs_know_how_layout_detalle_nota_infobae_know_how_de_layout_qu\u00e9_rodea_a_una_nota_en_infobae",
+      "target": "docs_know_how_layout_detalle_nota_infobae_5_resumen_operativo_qu\u00e9_replicar_en_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill",
-      "target": "claude_skills_get_news_report_skill_get_news_report",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_get_news_report"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L121",
+      "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_al_finalizar",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_al_finalizar"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L12",
+      "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_antes_de_buscar",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_antes_de_buscar"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L25",
+      "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_b\u00fasqueda_de_noticias"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L89",
+      "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_guardado_en_la_base_de_datos"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-news-report/SKILL.md",
-      "source_location": "L58",
+      "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_news_report_skill_get_news_report",
-      "target": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_news_report_skill_redacci\u00f3n_del_contenido"
     },
     {
       "relation": "contains",
@@ -11847,9 +11984,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae"
     },
     {
       "relation": "contains",
@@ -11857,9 +11994,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_1_capa_t\u00e9cnica_100_uniforme_cms_corporativo",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_1_capa_t\u00e9cnica_100_uniforme_cms_corporativo"
     },
     {
       "relation": "contains",
@@ -11867,9 +12004,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_2_patr\u00f3n_de_urls_slugs_el_titular_completo_sin_recortar",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_2_patr\u00f3n_de_urls_slugs_el_titular_completo_sin_recortar"
     },
     {
       "relation": "contains",
@@ -11877,9 +12014,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_3_patr\u00f3n_editorial_la_autor\u00eda_var\u00eda_seg\u00fan_el_tipo_de_nota_no_la_secci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_3_patr\u00f3n_editorial_la_autor\u00eda_var\u00eda_seg\u00fan_el_tipo_de_nota_no_la_secci\u00f3n"
     },
     {
       "relation": "contains",
@@ -11887,9 +12024,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema"
     },
     {
       "relation": "contains",
@@ -11897,9 +12034,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_know_how_seo_patr\u00f3n_editorial_de_infobae",
-      "target": "docs_know_how_seo_redaccion_infobae_5_resumen_operativo",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_5_resumen_operativo"
     },
     {
       "relation": "contains",
@@ -11907,9 +12044,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "target": "docs_know_how_seo_redaccion_infobae_deportes_redactor_deportes",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_deportes_redactor_deportes"
     },
     {
       "relation": "contains",
@@ -11917,9 +12054,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "target": "docs_know_how_seo_redaccion_infobae_econom\u00eda_redactor_economia",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_econom\u00eda_redactor_economia"
     },
     {
       "relation": "contains",
@@ -11927,9 +12064,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "target": "docs_know_how_seo_redaccion_infobae_espect\u00e1culos_teleshow_redactor_espectaculos",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_espect\u00e1culos_teleshow_redactor_espectaculos"
     },
     {
       "relation": "contains",
@@ -11937,9 +12074,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "target": "docs_know_how_seo_redaccion_infobae_pol\u00edtica_redactor_politica",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_pol\u00edtica_redactor_politica"
     },
     {
       "relation": "contains",
@@ -11947,9 +12084,9 @@
       "source_file": "docs/know-how/seo-redaccion-infobae.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_know_how_seo_redaccion_infobae_4_perfiles_de_redactor_por_tema",
-      "target": "docs_know_how_seo_redaccion_infobae_sociedad_policiales_redactor_policiales",
-      "confidence_score": 1.0
+      "target": "docs_know_how_seo_redaccion_infobae_sociedad_policiales_redactor_policiales"
     },
     {
       "relation": "contains",
@@ -11957,9 +12094,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_app_categoria_anio_mes_dia_slug_page_articulopage",
-      "confidence_score": 1.0
+      "target": "web_src_app_categoria_anio_mes_dia_slug_page_articulopage"
     },
     {
       "relation": "contains",
@@ -11967,9 +12104,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_app_categoria_anio_mes_dia_slug_page_generatemetadata",
-      "confidence_score": 1.0
+      "target": "web_src_app_categoria_anio_mes_dia_slug_page_generatemetadata"
     },
     {
       "relation": "contains",
@@ -11977,9 +12114,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_app_categoria_anio_mes_dia_slug_page_generatestaticparams",
-      "confidence_score": 1.0
+      "target": "web_src_app_categoria_anio_mes_dia_slug_page_generatestaticparams"
     },
     {
       "relation": "contains",
@@ -11987,9 +12124,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_app_categoria_anio_mes_dia_slug_page_props",
-      "confidence_score": 1.0
+      "target": "web_src_app_categoria_anio_mes_dia_slug_page_props"
     },
     {
       "relation": "imports_from",
@@ -11998,9 +12135,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_components_articulocard",
-      "confidence_score": 1.0
+      "target": "web_src_components_articulocard"
     },
     {
       "relation": "imports_from",
@@ -12009,9 +12146,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -12020,9 +12157,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "imports",
@@ -12031,9 +12168,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "relation": "imports",
@@ -12042,9 +12179,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_lib_articulos_obtenerrelacionados",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "relation": "imports",
@@ -12053,9 +12190,9 @@
       "source_file": "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_categoria_anio_mes_dia_slug_page",
-      "target": "web_src_lib_articulos_urlarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_urlarticulo"
     },
     {
       "relation": "calls",
@@ -12129,9 +12266,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_app_sitemap_sitemap",
-      "confidence_score": 1.0
+      "target": "web_src_app_sitemap_sitemap"
     },
     {
       "relation": "imports_from",
@@ -12140,9 +12277,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -12151,9 +12288,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "imports",
@@ -12162,9 +12299,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos_urlarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_urlarticulo"
     },
     {
       "relation": "calls",
@@ -12205,9 +12342,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_articulocard",
-      "confidence_score": 1.0
+      "target": "web_src_components_articulocard_articulocard"
     },
     {
       "relation": "contains",
@@ -12215,9 +12352,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_formatearfecha",
-      "confidence_score": 1.0
+      "target": "web_src_components_articulocard_formatearfecha"
     },
     {
       "relation": "contains",
@@ -12225,9 +12362,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_components_articulocard_props",
-      "confidence_score": 1.0
+      "target": "web_src_components_articulocard_props"
     },
     {
       "relation": "imports_from",
@@ -12236,9 +12373,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -12247,9 +12384,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_lib_articulos_articulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_articulo"
     },
     {
       "relation": "imports",
@@ -12258,9 +12395,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard",
-      "target": "web_src_lib_articulos_urlarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_urlarticulo"
     },
     {
       "relation": "calls",
@@ -12269,9 +12406,9 @@
       "source_file": "web/src/components/ArticuloCard.tsx",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_components_articulocard_articulocard",
-      "target": "web_src_components_articulocard_formatearfecha",
-      "confidence_score": 1.0
+      "target": "web_src_components_articulocard_formatearfecha"
     },
     {
       "relation": "imports",
@@ -12312,9 +12449,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_articulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_articulo"
     },
     {
       "relation": "contains",
@@ -12322,9 +12459,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listararticulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listararticulos"
     },
     {
       "relation": "contains",
@@ -12332,9 +12469,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "contains",
@@ -12342,9 +12479,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "relation": "contains",
@@ -12352,9 +12489,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_obtenerrelacionados",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerrelacionados"
     },
     {
       "relation": "contains",
@@ -12362,9 +12499,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_tipoarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_tipoarticulo"
     },
     {
       "relation": "contains",
@@ -12372,9 +12509,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_urlarticulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_urlarticulo"
     },
     {
       "relation": "imports_from",
@@ -24238,5 +24375,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "fafdc7a6030fe1e1d90e4f7c24bcab88e5a33da2"
+  "built_at_commit": "24c4f6abbc633d8aafb5ebaab67da1e20784e7bf"
 }

@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   obtenerArticuloPorSlug,
-  obtenerRelacionados,
+  obtenerSeccionesRelacionadas,
   listarSlugs,
   urlArticulo,
+  quitarSeccionFuentes,
 } from "@/lib/articulos";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
-import ArticuloCard from "@/components/ArticuloCard";
+import SeccionColumna from "@/components/SeccionColumna";
 import styles from "./page.module.css";
 
 type Props = {
@@ -89,7 +90,7 @@ export default async function ArticuloPage({ params }: Props) {
     notFound();
   }
 
-  const relacionados = await obtenerRelacionados(articulo.id);
+  const secciones = await obtenerSeccionesRelacionadas(articulo.categoria);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -131,17 +132,16 @@ export default async function ArticuloPage({ params }: Props) {
         ) : null}
         <div
           className={styles.contenido}
-          dangerouslySetInnerHTML={{ __html: articulo.contenido }}
+          dangerouslySetInnerHTML={{
+            __html: quitarSeccionFuentes(articulo.contenido),
+          }}
         />
       </article>
-      {relacionados.length > 0 ? (
-        <section className={styles.relacionados}>
-          <h2>Más noticias</h2>
-          <div className={styles.relacionadosGrid}>
-            {relacionados.map((relacionado) => (
-              <ArticuloCard key={relacionado.id} articulo={relacionado} />
-            ))}
-          </div>
+      {secciones.length > 0 ? (
+        <section className={styles.secciones}>
+          {secciones.map(({ categoria: cat, articulos }) => (
+            <SeccionColumna key={cat} categoria={cat} articulos={articulos} />
+          ))}
         </section>
       ) : null}
       <script

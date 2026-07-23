@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 149 files · ~81,508 words
+- 153 files · ~83,754 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1069 nodes · 1238 edges · 135 communities (125 shown, 10 thin omitted)
+- 1091 nodes · 1282 edges · 133 communities (123 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d46a8e61`
+- Built from commit: `24c4f6ab`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,30 +145,29 @@
 - redactor-espectaculos.md
 - redactor-policiales.md
 - redactor-politica.md
-- layout.tsx
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
 2. `Estrategias de trading de corto plazo` - 13 edges
 3. `Fuentes de datos de precios y tasas en vivo` - 12 edges
-4. `Estrategias de inversión de largo plazo` - 10 edges
-5. `Tipos de activos financieros` - 10 edges
-6. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
-7. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
-8. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
-9. `Diversificación` - 9 edges
-10. `Dollar-Cost Averaging (DCA)` - 9 edges
+4. `urlArticulo()` - 10 edges
+5. `Estrategias de inversión de largo plazo` - 10 edges
+6. `Tipos de activos financieros` - 10 edges
+7. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
+8. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
+9. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
+10. `Diversificación` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
+- `generateMetadata()` --calls--> `infoCategoria()`  [EXTRACTED]
+  web/src/app/[categoria]/page.tsx → web/src/lib/categorias.ts
 - `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `urlArticulo()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `ArticuloPage()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
-  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
-- `ArticuloPage()` --calls--> `obtenerRelacionados()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 
 ## Import Cycles
@@ -177,7 +176,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (135 total, 10 thin omitted)
+## Communities (133 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -608,8 +607,8 @@ Cohesion: 0.33
 Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Walt Disney
 
 ### Community 109 - "4. Perfiles de redactor por tema"
-Cohesion: 0.17
-Nodes (11): 1. Capa técnica: 100% uniforme (CMS corporativo), 2. Patrón de URLs (slugs): el titular completo, sin recortar, 3. Patrón editorial: la autoría varía según el tipo de nota (no la sección), 4. Perfiles de redactor por tema, 5. Resumen operativo, Deportes (`redactor-deportes`), Economía (`redactor-economia`), Espectáculos/Teleshow (`redactor-espectaculos`) (+3 more)
+Cohesion: 0.11
+Nodes (17): 1. Bloque "seguí leyendo" (relacionadas en lista simple), 2. Grilla de 3 columnas por sección (el bloque más denso de la página), 3. Cómo se llena el ancho completo en desktop (sin sidebar fijo), 4. Footer, 5. Resumen operativo: qué replicar en `web/`, Know-how de layout: qué rodea a una nota en Infobae, 1. Capa técnica: 100% uniforme (CMS corporativo), 2. Patrón de URLs (slugs): el titular completo, sin recortar (+9 more)
 
 ### Community 110 - "Inversión inmobiliaria directa en Argentina"
 Cohesion: 0.29
@@ -640,8 +639,8 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.18
-Nodes (17): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, Home(), sitemap(), ArticuloCard(), formatearFecha() (+9 more)
+Cohesion: 0.08
+Nodes (32): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, CategoriaPage(), generateMetadata(), Props, geistMono (+24 more)
 
 ### Community 118 - "web"
 Cohesion: 0.29
@@ -659,12 +658,8 @@ Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report
 Cohesion: 0.40
 Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
 
-### Community 133 - "layout.tsx"
-Cohesion: 0.23
-Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
-
 ## Knowledge Gaps
-- **737 isolated node(s):** `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido`, `Guardado en la base de datos`, `Al finalizar` (+732 more)
+- **745 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+740 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -672,16 +667,16 @@ Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **What connects `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido` to the rest of the system?**
-  _737 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `Registro de cotizaciones` connect `Registro de tasas` to `Activos y Glosario`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
+  _745 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Inversión inmobiliaria directa en Argentina` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
-- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
-  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

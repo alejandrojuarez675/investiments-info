@@ -75,6 +75,72 @@ export async function obtenerRelacionados(id: number): Promise<Articulo[]> {
   });
 }
 
+export async function listarArticulosPorCategoria(
+  categoria: string,
+  limit = 20,
+  offset = 0
+): Promise<Articulo[]> {
+  const { rows } = await pool.query<Articulo>(
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
+     FROM articulos
+     WHERE categoria = $1 AND publicado_en <= now()
+     ORDER BY publicado_en DESC
+     LIMIT $2 OFFSET $3`,
+    [categoria, limit, offset]
+  );
+  return rows;
+}
+
+const MIN_NOTAS_POR_SECCION = 2;
+
+/**
+ * Agrupa las notas de otras categorías (excluyendo la del artículo actual)
+ * en bloques de "sección", replicando el patrón de columnas por categoría
+ * de docs/know-how/layout-detalle-nota-infobae.md. Cada categoría necesita
+ * al menos MIN_NOTAS_POR_SECCION notas para calificar como columna.
+ */
+export async function obtenerSeccionesRelacionadas(
+  categoriaActual: string,
+  maxCategorias = 3,
+  maxNotasPorCategoria = 5
+): Promise<{ categoria: string; articulos: Articulo[] }[]> {
+  const { rows: categorias } = await pool.query<{ categoria: string }>(
+    `SELECT categoria
+     FROM articulos
+     WHERE publicado_en <= now() AND categoria != $1
+     GROUP BY categoria
+     HAVING COUNT(*) >= $2
+     ORDER BY COUNT(*) DESC, MAX(publicado_en) DESC
+     LIMIT $3`,
+    [categoriaActual, MIN_NOTAS_POR_SECCION, maxCategorias]
+  );
+
+  if (categorias.length === 0) {
+    return [];
+  }
+
+  const nombresCategorias = categorias.map((c) => c.categoria);
+
+  const { rows: articulos } = await pool.query<Articulo>(
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
+     FROM (
+       SELECT *, ROW_NUMBER() OVER (
+         PARTITION BY categoria ORDER BY publicado_en DESC
+       ) AS rn
+       FROM articulos
+       WHERE publicado_en <= now() AND categoria = ANY($1::text[])
+     ) sub
+     WHERE rn <= $2
+     ORDER BY categoria, rn`,
+    [nombresCategorias, maxNotasPorCategoria]
+  );
+
+  return nombresCategorias.map((categoria) => ({
+    categoria,
+    articulos: articulos.filter((a) => a.categoria === categoria),
+  }));
+}
+
 export async function listarSlugs(): Promise<
   {
     slug: string;
@@ -94,6 +160,17 @@ export async function listarSlugs(): Promise<
     `SELECT slug, categoria, publicado_en, actualizado_en, imagen_url FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`
   );
   return rows;
+}
+
+const REGEX_SECCION_FUENTES = /<h2>\s*Fuentes\s*<\/h2>[\s\S]*$/i;
+
+/**
+ * Quita la sección final "Fuentes" (h2 + lista de links de origen) que los
+ * redactores incluyen en el HTML por criterio editorial interno, pero que
+ * no está pensada para mostrarse en el detalle de nota.
+ */
+export function quitarSeccionFuentes(contenidoHtml: string): string {
+  return contenidoHtml.replace(REGEX_SECCION_FUENTES, "").trimEnd();
 }
 
 /**
