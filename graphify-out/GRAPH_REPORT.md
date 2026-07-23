@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1112 nodes · 1319 edges · 133 communities (123 shown, 10 thin omitted)
+- 1112 nodes · 1311 edges · 134 communities (124 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `baa65203`
+- Built from commit: `18bfa19a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -159,16 +159,16 @@
 10. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
-  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `infoCategoria()`  [EXTRACTED]
   web/src/app/[categoria]/page.tsx → web/src/lib/categorias.ts
 - `CarruselNoticias()` --calls--> `urlArticulo()`  [EXTRACTED]
   web/src/components/CarruselNoticias.tsx → web/src/lib/articulos.ts
-- `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
+- `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
-- `generateMetadata()` --calls--> `urlArticulo()`  [EXTRACTED]
-  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
+- `CategoriaPage()` --calls--> `listarArticulosPorCategoria()`  [EXTRACTED]
+  web/src/app/[categoria]/page.tsx → web/src/lib/articulos.ts
+- `CategoriaPage()` --calls--> `categoriasReales()`  [EXTRACTED]
+  web/src/app/[categoria]/page.tsx → web/src/lib/categorias.ts
 
 ## Import Cycles
 - None detected.
@@ -176,7 +176,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (133 total, 10 thin omitted)
+## Communities (134 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -659,7 +659,7 @@ Cohesion: 0.40
 Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
 
 ## Knowledge Gaps
-- **756 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+751 more)
+- **756 isolated node(s):** `Props`, `Props`, `Props`, `CATEGORIA_FALLBACK`, `eslintConfig` (+751 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -670,7 +670,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.039) - this node is a cross-community bridge._
 - **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
   _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
+- **What connects `Props`, `Props`, `Props` to the rest of the system?**
   _756 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._

@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 154 files · ~85,271 words
+- 155 files · ~85,825 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1104 nodes · 1287 edges · 136 communities (126 shown, 10 thin omitted)
+- 1112 nodes · 1319 edges · 133 communities (123 shown, 10 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c69ff68c`
+- Built from commit: `baa65203`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,15 +145,13 @@
 - redactor-espectaculos.md
 - redactor-policiales.md
 - redactor-politica.md
-- layout.tsx
-- Know-how de layout: la home de Infobae
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 16 edges
 2. `Estrategias de trading de corto plazo` - 13 edges
-3. `Know-how de layout: la home de Infobae` - 12 edges
+3. `urlArticulo()` - 12 edges
 4. `Fuentes de datos de precios y tasas en vivo` - 12 edges
-5. `urlArticulo()` - 10 edges
+5. `Know-how de layout: la home de Infobae` - 12 edges
 6. `Estrategias de inversión de largo plazo` - 10 edges
 7. `Tipos de activos financieros` - 10 edges
 8. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
@@ -165,11 +163,11 @@
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `infoCategoria()`  [EXTRACTED]
   web/src/app/[categoria]/page.tsx → web/src/lib/categorias.ts
+- `CarruselNoticias()` --calls--> `urlArticulo()`  [EXTRACTED]
+  web/src/components/CarruselNoticias.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 - `generateMetadata()` --calls--> `urlArticulo()`  [EXTRACTED]
-  web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
-- `ArticuloPage()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
   web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx → web/src/lib/articulos.ts
 
 ## Import Cycles
@@ -178,7 +176,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (136 total, 10 thin omitted)
+## Communities (133 total, 10 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -609,8 +607,8 @@ Cohesion: 0.33
 Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Walt Disney
 
 ### Community 109 - "4. Perfiles de redactor por tema"
-Cohesion: 0.11
-Nodes (17): 1. Bloque "seguí leyendo" (relacionadas en lista simple), 2. Grilla de 3 columnas por sección (el bloque más denso de la página), 3. Cómo se llena el ancho completo en desktop (sin sidebar fijo), 4. Footer, 5. Resumen operativo: qué replicar en `web/`, Know-how de layout: qué rodea a una nota en Infobae, 1. Capa técnica: 100% uniforme (CMS corporativo), 2. Patrón de URLs (slugs): el titular completo, sin recortar (+9 more)
+Cohesion: 0.06
+Nodes (29): 1. Bloque "seguí leyendo" (relacionadas en lista simple), 2. Grilla de 3 columnas por sección (el bloque más denso de la página), 3. Cómo se llena el ancho completo en desktop (sin sidebar fijo), 4. Footer, 5. Resumen operativo: qué replicar en `web/`, Know-how de layout: qué rodea a una nota en Infobae, 10. Patrón de repetición de slots publicitarios, 11. Resumen operativo: qué replicar en `web/` (+21 more)
 
 ### Community 110 - "Inversión inmobiliaria directa en Argentina"
 Cohesion: 0.29
@@ -641,8 +639,8 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.11
-Nodes (27): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, CategoriaPage(), generateMetadata(), Props, Home() (+19 more)
+Cohesion: 0.07
+Nodes (38): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, CategoriaPage(), generateMetadata(), Props, geistMono (+30 more)
 
 ### Community 118 - "web"
 Cohesion: 0.29
@@ -660,29 +658,19 @@ Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report
 Cohesion: 0.40
 Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
 
-### Community 133 - "layout.tsx"
-Cohesion: 0.23
-Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
-
-### Community 135 - "Know-how de layout: la home de Infobae"
-Cohesion: 0.15
-Nodes (12): 10. Patrón de repetición de slots publicitarios, 11. Resumen operativo: qué replicar en `web/`, 1. Header: 3 franjas apiladas antes de cualquier noticia, 2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia, 3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker, 4. Bloque de apertura: 1 nota principal + 2 secundarias en la misma fila, 5. Segundo banner + bloque mixto contenido patrocinado / nota editorial, 6. Widgets de servicio embebidos en medio del feed editorial (+4 more)
-
 ## Knowledge Gaps
-- **756 isolated node(s):** `1. Header: 3 franjas apiladas antes de cualquier noticia`, `2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia`, `3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker`, `4. Bloque de apertura: 1 nota principal + 2 secundarias en la misma fila`, `5. Segundo banner + bloque mixto contenido patrocinado / nota editorial` (+751 more)
+- **756 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+751 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Estrategias de inversión de largo plazo` connect `Qué es el S&P 500` to `Activos y Glosario`?**
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
 - **Why does `Bonos argentinos` connect `Bonos argentinos` to `Activos y Glosario`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **Why does `Tipos de activos financieros` connect `Diversificación de Portafolio` to `Activos y Glosario`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `Tipos de inversores: perfiles, pros y contras` connect `Interés compuesto` to `Activos y Glosario`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **What connects `1. Header: 3 franjas apiladas antes de cualquier noticia`, `2. Ticker de cotizaciones: dato financiero como bloque fijo, antes de la primera noticia`, `3. Primer banner publicitario: inmediatamente bajo el header, antes del ticker` to the rest of the system?**
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
   _756 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
@@ -690,3 +678,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Inversión inmobiliaria directa en Argentina` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+- **Should `Plazo fijo y dólar: las inversiones más populares en Argentina` be split into smaller, more focused modules?**
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
