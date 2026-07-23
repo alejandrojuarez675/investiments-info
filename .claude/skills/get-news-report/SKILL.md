@@ -1,13 +1,15 @@
 ---
 name: get-news-report
-description: Busca 10 noticias económicas de las últimas 24hs, cada una con su imagen, y las guarda como artículos tipo "news" en la base de datos (web/db).
+description: Busca 10 noticias variadas (2 de economía, 2 de política, 2 de deportes, 2 de policiales, 2 de espectáculos) de las últimas 24hs, cada una con su imagen, y las guarda como artículos tipo "news" en la base de datos (web/db).
 ---
 
 # Get news report
 
-Busca **10 noticias económicas/financieras relevantes** publicadas en las
-últimas 24hs, y las inserta como artículos individuales (tipo `news`) en la
-base de datos que usa `web/` (tabla `articulos`).
+Busca **10 noticias relevantes** publicadas en las últimas 24hs, repartidas
+en 5 verticales temáticas (**2 noticias por vertical**: Economía, Política,
+Deportes, Policiales/Sociedad, Espectáculos/Teleshow), y las inserta como
+artículos individuales (tipo `news`) en la base de datos que usa `web/`
+(tabla `articulos`).
 
 ## Antes de buscar
 
@@ -24,11 +26,19 @@ base de datos que usa `web/` (tabla `articulos`).
 
 ## Búsqueda de noticias
 
-1. Buscar noticias económicas/financieras (mercados, macro, tasas, dólar,
-   empresas, política económica) publicadas en las **últimas 24hs**.
-   Priorizar fuentes reconocidas (Ámbito, Infobae, Cronista, Bloomberg,
-   Reuters, Página 12, Rio Times, etc.) y variedad de temas — no repetir el
-   mismo hecho en varias noticias.
+1. Buscar noticias publicadas en las **últimas 24hs**, repartidas en 5
+   verticales con **2 noticias cada una** (10 en total):
+   - **Economía**: mercados, macro, tasas, dólar, cripto, empresas.
+   - **Política**: gobierno, Congreso, funcionarios, proyectos de ley.
+   - **Deportes**: resultados, selecciones, clubes, declaraciones.
+   - **Policiales/Sociedad**: hechos de seguridad, investigaciones en curso.
+   - **Espectáculos/Teleshow**: figuras públicas, entrevistas, anécdotas.
+
+   Priorizar fuentes reconocidas por vertical (Ámbito, Infobae, Cronista,
+   Bloomberg, Reuters, Página 12, Rio Times para economía/política; Olé,
+   TyC Sports, ESPN para deportes; Infobae, Clarín, La Nación para
+   policiales/espectáculos) y variedad de temas dentro de cada vertical —
+   no repetir el mismo hecho en varias noticias.
 2. Para cada una de las 10 noticias, reunir primero los **hechos crudos**
    (cifras, declaraciones, fechas, nombres) y la o las URLs de fuente — el
    contenido final en prosa se redacta después, en el paso de "Redacción"
@@ -41,38 +51,40 @@ base de datos que usa `web/` (tabla `articulos`).
      nota — evitar reutilizar el material gráfico propio de la fuente de
      la que "copiamos" el contenido. Preferir una foto genérica y libre de
      derechos (ej. Unsplash: buscar por tema como "dollar bills", "stock
-     market chart", "oil rig", "bitcoin", "central bank building", "wheat
-     field", etc., y tomar la URL directa `images.unsplash.com/photo-...`,
-     no el link a la página HTML de Unsplash). Si se usa una foto de un
-     medio periodístico, que sea uno distinto al de la fuente principal
-     del texto. Verificar que la URL devuelva un archivo de imagen
-     accesible (HTTP 200), no una página HTML.
-   - **Categoría** (ej. `dolar`, `mercados`, `empresas`, `macro`, `cripto`).
+     market chart", "stadium crowd", "red carpet", "police lights",
+     "congress building", etc., y tomar la URL directa
+     `images.unsplash.com/photo-...`, no el link a la página HTML de
+     Unsplash). Si se usa una foto de un medio periodístico, que sea uno
+     distinto al de la fuente principal del texto. Verificar que la URL
+     devuelva un archivo de imagen accesible (HTTP 200), no una página HTML.
+   - **Categoría/vertical** (`economia`, `politica`, `deportes`,
+     `policiales`, `espectaculos`).
    - **Fecha de publicación** real de la noticia (no la fecha de hoy si son
      distintas).
 3. No inventar datos ni URLs de imagen: si no se encuentra una imagen
-   confiable para una noticia, buscar otra noticia candidata en su lugar
-   (el objetivo son 10 noticias con imagen real, no 10 noticias a toda
-   costa).
+   confiable para una noticia, buscar otra noticia candidata dentro de la
+   misma vertical (el objetivo son 10 noticias con imagen real, 2 por
+   vertical, no 10 noticias a toda costa).
 
 ## Redacción del contenido
 
 El HTML de `contenido` no debe ser una lista de bullets sueltos: tiene que
 leerse como una nota periodística real.
 
-1. Para cada noticia, elegir el **redactor por tema** (`.claude/agents/`)
-   según su categoría — ver tabla de mapeo abajo. Cada redactor ya conoce su
-   tono, estructura y criterio de `keywords`/autoría propios (documentados en
+1. Para cada noticia, invocar al **redactor de su vertical**
+   (`.claude/agents/`) — mapeo directo 1:1, sin ambigüedad:
+   - Economía → `redactor-economia`
+   - Política → `redactor-politica`
+   - Deportes → `redactor-deportes`
+   - Policiales/Sociedad → `redactor-policiales`
+   - Espectáculos/Teleshow → `redactor-espectaculos`
+
+   Cada redactor ya conoce su tono, estructura y criterio de
+   `keywords`/autoría propios (documentados en
    `docs/know-how/seo-redaccion-infobae.md`), así que no hace falta
-   repetírselo en el prompt.
-   - `dolar`, `macro`, `mercados` (finanzas prácticas/explicador) →
-     `redactor-economia`
-   - `empresas` con foco en política económica o declaraciones oficiales →
-     `redactor-politica`
-   - `cripto` → `redactor-economia` (mismo tono explicador)
-   - Si una noticia no encaja claramente en ninguno (deportes, espectáculos,
-     policiales no suelen aparecer en este reporte económico), usar
-     `general-purpose` con las mismas reglas del punto 2.
+   repetírselo en el prompt — solo pasarle los hechos crudos de su noticia.
+   Se puede invocar a los 5 redactores en paralelo (Task tool, una llamada
+   por noticia) ya que son independientes entre sí.
 2. Al invocar al redactor (Task tool), pasarle para cada noticia únicamente
    los **hechos crudos** reunidos en el paso anterior (cifras, declaraciones,
    fechas) y las URLs de fuente — nunca pedirle que busque o "complete" datos
@@ -99,17 +111,20 @@ leerse como una nota periodística real.
      como `/{categoria}/{yyyy}/{mm}/{dd}/{slug}/`, combinando la columna
      `categoria` de este INSERT y la fecha `publicado_en` (ver sección 2 del
      know-how). Por eso la `categoria` de cada noticia debe quedar en
-     minúsculas y sin espacios (ej. `dolar`, `macro`, `mercados`, `cripto`),
-     igual que las categorías ya usadas en `web/db/seed.sql`.
+     minúsculas y sin espacios: usar la vertical (`economia`, `politica`,
+     `deportes`, `policiales`, `espectaculos`), igual de formato que las
+     categorías ya usadas en `web/db/seed.sql` (`dolar`, `macro`, etc.).
 2. Insertar cada noticia como una fila en `articulos` con:
    - `tipo = 'news'`
    - `contenido` con el HTML redactado en el paso anterior (ya revisado)
    - `imagen_url` con la URL de la imagen genérica encontrada
-   - `autor`: `'Redacción'` para breaking news o explicadores utilitarios
-     (la mayoría de las noticias económicas de este reporte); usar un nombre
-     de redactor fijo solo si la nota es una crónica de seguimiento con voz
-     propia (ver sección 3 del know-how) — no inventar nombres nuevos por
-     noticia, mantener consistencia.
+   - `autor`: según el criterio de autoría de la sección 3/4 del know-how —
+     `'Redacción'` para breaking news o explicadores utilitarios (economía,
+     deportes de resultado, policiales), y un nombre de redactor fijo para
+     crónicas de seguimiento con voz propia (política, espectáculos). No
+     inventar un nombre nuevo por noticia: usar el mismo nombre para todas
+     las notas de política de esta corrida, y el mismo (distinto) nombre
+     para todas las de espectáculos, manteniendo consistencia.
    - `publicado_en` con la fecha real de la noticia
 3. Ejecutar el/los INSERT contra la base de datos configurada en
    `DATABASE_URL` (ver `web/.env.local` o el entorno). Usar `psql` si está
