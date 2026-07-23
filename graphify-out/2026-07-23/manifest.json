@@ -645,8 +645,8 @@
     "semantic_hash": ""
   },
   "web/src/lib/articulos.ts": {
-    "mtime": 1784833288.3361955,
-    "ast_hash": "3e72b114b83bb94e515a17b5fda5f1d4",
+    "mtime": 1784838185.3940887,
+    "ast_hash": "4709402af3bd3ee863ce9491e7af7662",
     "semantic_hash": ""
   },
   "web/src/lib/config.ts": {
@@ -770,13 +770,28 @@
     "semantic_hash": ""
   },
   "web/src/app/[categoria]/[anio]/[mes]/[dia]/[slug]/page.tsx": {
-    "mtime": 1784833305.0659304,
-    "ast_hash": "160e89b5bec050e6a1cba47101b61ded",
+    "mtime": 1784838195.2770965,
+    "ast_hash": "2133898db46ef33423d943c05a01271b",
     "semantic_hash": ""
   },
   "docs/know-how/layout-detalle-nota-infobae.md": {
     "mtime": 1784836839.5879023,
     "ast_hash": "878172cadb634922efac31d8a3ba9146",
+    "semantic_hash": ""
+  },
+  "web/src/app/[categoria]/page.tsx": {
+    "mtime": 1784838099.681585,
+    "ast_hash": "9b2d0ebd50fb0b58805be4b8d62b5439",
+    "semantic_hash": ""
+  },
+  "web/src/components/SeccionColumna.tsx": {
+    "mtime": 1784838034.2626357,
+    "ast_hash": "0b7456728f9f54be4b43d9db8e89e030",
+    "semantic_hash": ""
+  },
+  "web/src/lib/categorias.ts": {
+    "mtime": 1784838021.8695462,
+    "ast_hash": "f6b7865b6fa9b597838a302d7a0752bc",
     "semantic_hash": ""
   }
 }
