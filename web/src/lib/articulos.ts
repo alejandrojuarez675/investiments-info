@@ -39,6 +39,42 @@ export async function obtenerArticuloPorSlug(slug: string): Promise<Articulo | n
   return rows[0] ?? null;
 }
 
+export async function obtenerRelacionados(id: number): Promise<Articulo[]> {
+  const columnas = `id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en`;
+
+  const [ultima, anterior, siguiente] = await Promise.all([
+    pool.query<Articulo>(
+      `SELECT ${columnas} FROM articulos
+       WHERE publicado_en <= now() AND id != $1
+       ORDER BY id DESC
+       LIMIT 1`,
+      [id]
+    ),
+    pool.query<Articulo>(
+      `SELECT ${columnas} FROM articulos
+       WHERE publicado_en <= now() AND id < $1
+       ORDER BY id DESC
+       LIMIT 1`,
+      [id]
+    ),
+    pool.query<Articulo>(
+      `SELECT ${columnas} FROM articulos
+       WHERE publicado_en <= now() AND id > $1
+       ORDER BY id ASC
+       LIMIT 1`,
+      [id]
+    ),
+  ]);
+
+  const relacionados = [ultima.rows[0], anterior.rows[0], siguiente.rows[0]];
+  const vistos = new Set<number>();
+  return relacionados.filter((articulo): articulo is Articulo => {
+    if (!articulo || vistos.has(articulo.id)) return false;
+    vistos.add(articulo.id);
+    return true;
+  });
+}
+
 export async function listarSlugs(): Promise<{ slug: string; actualizado_en: Date }[]> {
   const { rows } = await pool.query<{ slug: string; actualizado_en: Date }>(
     `SELECT slug, actualizado_en FROM articulos WHERE publicado_en <= now() ORDER BY publicado_en DESC`

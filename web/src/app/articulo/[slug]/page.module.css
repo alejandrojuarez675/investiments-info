@@ -144,6 +144,24 @@
   border-radius: 4px;
 }
 
+.relacionados {
+  width: 100%;
+  max-width: 720px;
+  margin-top: 48px;
+}
+
+.relacionados h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.relacionadosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 @media (max-width: 700px) {
   .articulo {
     padding: 32px 24px;
@@ -152,5 +170,9 @@
 
   .articulo h1 {
     font-size: 26px;
+  }
+
+  .relacionadosGrid {
+    grid-template-columns: 1fr;
   }
 }

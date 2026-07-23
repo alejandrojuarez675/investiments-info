@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { obtenerArticuloPorSlug, listarSlugs } from "@/lib/articulos";
+import { obtenerArticuloPorSlug, obtenerRelacionados, listarSlugs } from "@/lib/articulos";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 import { TIPO_INFO } from "@/lib/tipos-articulo";
+import ArticuloCard from "@/components/ArticuloCard";
 import styles from "./page.module.css";
 
 type Props = {
@@ -55,6 +56,8 @@ export default async function ArticuloPage({ params }: Props) {
     notFound();
   }
 
+  const relacionados = await obtenerRelacionados(articulo.id);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -94,6 +97,16 @@ export default async function ArticuloPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: articulo.contenido }}
         />
       </article>
+      {relacionados.length > 0 ? (
+        <section className={styles.relacionados}>
+          <h2>Más noticias</h2>
+          <div className={styles.relacionadosGrid}>
+            {relacionados.map((relacionado) => (
+              <ArticuloCard key={relacionado.id} articulo={relacionado} />
+            ))}
+          </div>
+        </section>
+      ) : null}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
