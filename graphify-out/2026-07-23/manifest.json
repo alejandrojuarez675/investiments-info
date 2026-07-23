@@ -620,8 +620,8 @@
     "semantic_hash": ""
   },
   "web/src/app/articulo/[slug]/page.tsx": {
-    "mtime": 1784820513.7452178,
-    "ast_hash": "a04dfc748e45b21b7e2317016b1b32ee",
+    "mtime": 1784822952.56996,
+    "ast_hash": "5605e83b40cbf9bc488dabd1d91c6144",
     "semantic_hash": ""
   },
   "web/src/app/layout.tsx": {
@@ -650,8 +650,8 @@
     "semantic_hash": ""
   },
   "web/src/lib/articulos.ts": {
-    "mtime": 1784820484.3423758,
-    "ast_hash": "ddd02b331a46d6404a380cfee911798e",
+    "mtime": 1784822933.8850043,
+    "ast_hash": "eea47da6ccf115aa635dec38dc27286e",
     "semantic_hash": ""
   },
   "web/src/lib/config.ts": {

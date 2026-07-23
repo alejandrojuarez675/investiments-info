@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 142 files · ~77,256 words
+- 142 files · ~77,280 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1035 nodes · 1158 edges · 127 communities (122 shown, 5 thin omitted)
+- 1035 nodes · 1153 edges · 130 communities (125 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8b92098b`
+- Built from commit: `2c6a1cce`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -169,7 +169,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (127 total, 5 thin omitted)
+## Communities (130 total, 5 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -628,7 +628,7 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.14
+Cohesion: 0.17
 Nodes (16): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, Home(), sitemap(), ArticuloCard(), formatearFecha() (+8 more)
 
 ### Community 118 - "web"
@@ -636,15 +636,15 @@ Cohesion: 0.15
 Nodes (11): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web, Configuración, Deploy, Estructura (+3 more)
 
 ### Community 125 - "layout.tsx"
-Cohesion: 0.28
-Nodes (5): geistMono, geistSans, metadata, Footer(), Header()
+Cohesion: 0.40
+Nodes (3): geistMono, geistSans, metadata
 
 ### Community 126 - "Get news report"
 Cohesion: 0.29
 Nodes (6): Al finalizar, Antes de buscar, Búsqueda de noticias, Get news report, Guardado en la base de datos, Redacción del contenido
 
 ## Knowledge Gaps
-- **713 isolated node(s):** `Props`, `Antes de buscar`, `Búsqueda de noticias`, `Redacción del contenido`, `Guardado en la base de datos` (+708 more)
+- **713 isolated node(s):** `Props`, `geistSans`, `geistMono`, `metadata`, `Antes de buscar` (+708 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -657,7 +657,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **Why does `Registro de cotizaciones` connect `Registro de tasas` to `Activos y Glosario`?**
   _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **What connects `Props`, `Antes de buscar`, `Búsqueda de noticias` to the rest of the system?**
+- **What connects `Props`, `geistSans`, `geistMono` to the rest of the system?**
   _713 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
