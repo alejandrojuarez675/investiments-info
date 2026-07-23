@@ -21,7 +21,11 @@ superar el límite de extensión.
    mercados o inversiones (macro, política, geopolítica).
 4. Si hace falta la cotización del dólar, consultar
    https://www.calculadoraya.click/calculadoras/dolar (ver CLAUDE.md).
-5. No hace falta investigación exhaustiva: priorizar 3-5 ítems realmente
+5. Si el reporte va a citar datos de `data/cotizaciones/` o
+   `data/tasas/tasas.csv`, revisar la fecha de la fila más reciente del
+   instrumento correspondiente. Si tiene más de 24hs de antigüedad, correr
+   la skill `actualizar-cotizaciones` antes de usar ese dato en el reporte.
+6. No hace falta investigación exhaustiva: priorizar 3-5 ítems realmente
    relevantes por sobre cobertura completa.
 
 ## Secciones del reporte

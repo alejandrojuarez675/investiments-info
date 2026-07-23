@@ -15,12 +15,12 @@ límite de extensión.
 
 1. Consultar la cotización del dólar vigente en
    https://www.calculadoraya.click/calculadoras/dolar (ver CLAUDE.md).
-2. Revisar `data/tasas/tasas.csv` y quedarte con la fila más reciente por
-   instrumento (filtrar por `instrumento`, tomar la fecha máxima). Si algún
-   dato clave (tasas Lecap/TAMAR, dólar) está desactualizado (>7 días), buscar
-   el valor actual en una fuente confiable y agregar una fila nueva a
-   `tasas.csv` siguiendo `data/tasas/README.md` (append-only, no editar filas
-   existentes).
+2. Revisar `data/tasas/tasas.csv` y `data/cotizaciones/*.csv`, y quedarte
+   con la fila más reciente por instrumento/ticker (filtrar y tomar la
+   fecha máxima). Si algún dato clave (tasas Lecap/TAMAR, dólar,
+   cotizaciones que vayan a citarse en el reporte) tiene más de 24hs de
+   antigüedad, correr la skill `actualizar-cotizaciones` antes de escribir
+   el reporte en vez de buscar el dato puntualmente.
 3. Si hace falta contexto conceptual (carry trade, S&P 500, etc.), usar los
    documentos en `docs/` en vez de investigar desde cero.
 
