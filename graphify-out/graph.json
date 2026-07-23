@@ -21,662 +21,13 @@
   },
   "nodes": [
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "investiments-info",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme_investiments_info",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "investiments-info"
-    },
-    {
-      "label": "Convenci\u00f3n de archivos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "readme_convenci\u00f3n_de_archivos",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "convencion de archivos"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "readme_estructura",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "estructura"
-    },
-    {
-      "label": "Sitio web",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "readme_sitio_web",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "sitio web"
-    },
-    {
-      "label": "Para asistentes de IA",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L101",
-      "_origin": "ast",
-      "id": "readme_para_asistentes_de_ia",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "para asistentes de ia"
-    },
-    {
-      "label": "AGENTS.md",
-      "file_type": "document",
-      "source_file": "web/AGENTS.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_agents",
-      "community": 119,
-      "community_name": "AGENTS.md",
-      "norm_label": "agents.md"
-    },
-    {
-      "label": "This is NOT the Next.js you know",
-      "file_type": "document",
-      "source_file": "web/AGENTS.md",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "web_agents_this_is_not_the_next_js_you_know",
-      "community": 119,
-      "community_name": "AGENTS.md",
-      "norm_label": "this is not the next.js you know"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "web/CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_claude",
-      "community": 124,
-      "community_name": "CLAUDE.md",
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_readme",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "readme.md"
-    },
-    {
-      "label": "web",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_readme_web",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "web"
-    },
-    {
-      "label": "Requisitos",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "web_readme_requisitos",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "requisitos"
-    },
-    {
-      "label": "Configuraci\u00f3n",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "web_readme_configuraci\u00f3n",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "configuracion"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "web_readme_estructura",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "estructura"
-    },
-    {
-      "label": "SEO",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L47",
-      "_origin": "ast",
-      "id": "web_readme_seo",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "seo"
-    },
-    {
-      "label": "Deploy",
-      "file_type": "document",
-      "source_file": "web/README.md",
-      "source_location": "L55",
-      "_origin": "ast",
-      "id": "web_readme_deploy",
-      "community": 118,
-      "community_name": "web",
-      "norm_label": "deploy"
-    },
-    {
-      "label": "eslint.config.mjs",
-      "file_type": "code",
-      "source_file": "web/eslint.config.mjs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_eslint_config",
-      "community": 120,
-      "community_name": "eslint.config.mjs",
-      "norm_label": "eslint.config.mjs"
-    },
-    {
-      "label": "eslintConfig",
-      "file_type": "code",
-      "source_file": "web/eslint.config.mjs",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "web_eslint_config_eslintconfig",
-      "community": 120,
-      "community_name": "eslint.config.mjs",
-      "norm_label": "eslintconfig"
-    },
-    {
-      "label": "next.config.ts",
-      "file_type": "code",
-      "source_file": "web/next.config.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_next_config",
-      "community": 121,
-      "community_name": "next.config.ts",
-      "norm_label": "next.config.ts"
-    },
-    {
-      "label": "nextConfig",
-      "file_type": "code",
-      "source_file": "web/next.config.ts",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "web_next_config_nextconfig",
-      "community": 121,
-      "community_name": "next.config.ts",
-      "norm_label": "nextconfig"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_package",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "package.json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L2",
-      "_origin": "ast",
-      "id": "web_package_name",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "web_package_version",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "version"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "web_package_private",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "web_package_scripts",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "web_package_scripts_dev",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "web_package_scripts_build",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "web_package_scripts_start",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "start"
-    },
-    {
-      "label": "lint",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "web_package_scripts_lint",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "lint"
-    },
-    {
-      "label": "db:migrate",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "web_package_scripts_db_migrate",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "db:migrate"
-    },
-    {
-      "label": "db:seed",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "web_package_scripts_db_seed",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "db:seed"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "web_package_dependencies",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "web_package_dependencies_next",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "next"
-    },
-    {
-      "label": "next",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "next",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "next"
-    },
-    {
-      "label": "pg",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "web_package_dependencies_pg",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "pg"
-    },
-    {
-      "label": "pg",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "pg",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "pg"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "web_package_dependencies_react",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "react"
-    },
-    {
-      "label": "react",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "react",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "web_package_dependencies_react_dom",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "react_dom",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "web_package_devdependencies",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_types_node",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/node"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "types_node",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/node"
-    },
-    {
-      "label": "@types/pg",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_types_pg",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/pg"
-    },
-    {
-      "label": "@types/pg",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "types_pg",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/pg"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_types_react",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "types_react",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_types_react_dom",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "types_react_dom",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_eslint",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "eslint",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_eslint_config_next",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "eslint_config_next",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "tsx",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_tsx",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "tsx"
-    },
-    {
-      "label": "tsx",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "tsx",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "tsx"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "web/package.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "web_package_devdependencies_typescript",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "typescript"
-    },
-    {
-      "label": "typescript",
-      "file_type": "concept",
-      "source_file": "web/package.json",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "typescript",
-      "community": 39,
-      "community_name": "devDependencies",
-      "norm_label": "typescript"
-    },
-    {
-      "label": "migrate.ts",
-      "file_type": "code",
-      "source_file": "web/scripts/migrate.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "web_scripts_migrate",
-      "community": 122,
-      "community_name": "migrate.ts",
-      "norm_label": "migrate.ts"
-    },
-    {
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "web/scripts/migrate.ts",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "web_scripts_migrate_main",
-      "community": 122,
-      "community_name": "migrate.ts",
-      "norm_label": "main()"
-    },
-    {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page",
-      "community": 117,
+      "community": 115,
       "community_name": "page.tsx",
       "norm_label": "page.tsx"
     },
@@ -687,7 +38,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_props",
-      "community": 117,
+      "community": 115,
       "community_name": "page.tsx",
       "norm_label": "props"
     },
@@ -698,7 +49,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_generatestaticparams",
-      "community": 117,
+      "community": 115,
       "community_name": "page.tsx",
       "norm_label": "generatestaticparams()"
     },
@@ -709,7 +60,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_generatemetadata",
-      "community": 117,
+      "community": 115,
       "community_name": "page.tsx",
       "norm_label": "generatemetadata()"
     },
@@ -720,9 +71,658 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "web_src_app_articulo_slug_page_articulopage",
-      "community": 117,
+      "community": 115,
       "community_name": "page.tsx",
       "norm_label": "articulopage()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "readme.md",
+      "id": "readme"
+    },
+    {
+      "label": "investiments-info",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "investiments-info",
+      "id": "readme_investiments_info"
+    },
+    {
+      "label": "Convenci\u00f3n de archivos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "convencion de archivos",
+      "id": "readme_convenci\u00f3n_de_archivos"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "estructura",
+      "id": "readme_estructura"
+    },
+    {
+      "label": "Sitio web",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "sitio web",
+      "id": "readme_sitio_web"
+    },
+    {
+      "label": "Para asistentes de IA",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "para asistentes de ia",
+      "id": "readme_para_asistentes_de_ia"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "web/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 119,
+      "community_name": "AGENTS.md",
+      "norm_label": "agents.md",
+      "id": "web_agents"
+    },
+    {
+      "label": "This is NOT the Next.js you know",
+      "file_type": "document",
+      "source_file": "web/AGENTS.md",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 119,
+      "community_name": "AGENTS.md",
+      "norm_label": "this is not the next.js you know",
+      "id": "web_agents_this_is_not_the_next_js_you_know"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "web/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 124,
+      "community_name": "CLAUDE.md",
+      "norm_label": "claude.md",
+      "id": "web_claude"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "readme.md",
+      "id": "web_readme"
+    },
+    {
+      "label": "web",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "web",
+      "id": "web_readme_web"
+    },
+    {
+      "label": "Requisitos",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "requisitos",
+      "id": "web_readme_requisitos"
+    },
+    {
+      "label": "Configuraci\u00f3n",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "configuracion",
+      "id": "web_readme_configuraci\u00f3n"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "estructura",
+      "id": "web_readme_estructura"
+    },
+    {
+      "label": "SEO",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "seo",
+      "id": "web_readme_seo"
+    },
+    {
+      "label": "Deploy",
+      "file_type": "document",
+      "source_file": "web/README.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "web",
+      "norm_label": "deploy",
+      "id": "web_readme_deploy"
+    },
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "web/eslint.config.mjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 120,
+      "community_name": "eslint.config.mjs",
+      "norm_label": "eslint.config.mjs",
+      "id": "web_eslint_config"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "web/eslint.config.mjs",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 120,
+      "community_name": "eslint.config.mjs",
+      "norm_label": "eslintconfig",
+      "id": "web_eslint_config_eslintconfig"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "web/next.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 121,
+      "community_name": "next.config.ts",
+      "norm_label": "next.config.ts",
+      "id": "web_next_config"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "web/next.config.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 121,
+      "community_name": "next.config.ts",
+      "norm_label": "nextconfig",
+      "id": "web_next_config_nextconfig"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "package.json",
+      "id": "web_package"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "name",
+      "id": "web_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "version",
+      "id": "web_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "private",
+      "id": "web_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "scripts",
+      "id": "web_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "dev",
+      "id": "web_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "build",
+      "id": "web_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "start",
+      "id": "web_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "lint",
+      "id": "web_package_scripts_lint"
+    },
+    {
+      "label": "db:migrate",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "db:migrate",
+      "id": "web_package_scripts_db_migrate"
+    },
+    {
+      "label": "db:seed",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "db:seed",
+      "id": "web_package_scripts_db_seed"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "dependencies",
+      "id": "web_package_dependencies"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "next",
+      "id": "web_package_dependencies_next"
+    },
+    {
+      "label": "next",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "next",
+      "id": "next"
+    },
+    {
+      "label": "pg",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "pg",
+      "id": "web_package_dependencies_pg"
+    },
+    {
+      "label": "pg",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "pg",
+      "id": "pg"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "react",
+      "id": "web_package_dependencies_react"
+    },
+    {
+      "label": "react",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "react",
+      "id": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "react-dom",
+      "id": "web_package_dependencies_react_dom"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "react-dom",
+      "id": "react_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "devdependencies",
+      "id": "web_package_devdependencies"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/node",
+      "id": "web_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/node",
+      "id": "types_node"
+    },
+    {
+      "label": "@types/pg",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/pg",
+      "id": "web_package_devdependencies_types_pg"
+    },
+    {
+      "label": "@types/pg",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/pg",
+      "id": "types_pg"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/react",
+      "id": "web_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/react",
+      "id": "types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/react-dom",
+      "id": "web_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "@types/react-dom",
+      "id": "types_react_dom"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "eslint",
+      "id": "web_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "eslint",
+      "id": "eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "eslint-config-next",
+      "id": "web_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "eslint-config-next",
+      "id": "eslint_config_next"
+    },
+    {
+      "label": "tsx",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "tsx",
+      "id": "web_package_devdependencies_tsx"
+    },
+    {
+      "label": "tsx",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "tsx",
+      "id": "tsx"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "web/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "typescript",
+      "id": "web_package_devdependencies_typescript"
+    },
+    {
+      "label": "typescript",
+      "file_type": "concept",
+      "source_file": "web/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "devDependencies",
+      "norm_label": "typescript",
+      "id": "typescript"
+    },
+    {
+      "label": "migrate.ts",
+      "file_type": "code",
+      "source_file": "web/scripts/migrate.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 122,
+      "community_name": "migrate.ts",
+      "norm_label": "migrate.ts",
+      "id": "web_scripts_migrate"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "web/scripts/migrate.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 122,
+      "community_name": "migrate.ts",
+      "norm_label": "main()",
+      "id": "web_scripts_migrate_main"
     },
     {
       "label": "layout.tsx",
@@ -730,10 +730,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_layout",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "web_src_app_layout"
     },
     {
       "label": "geistSans",
@@ -741,10 +741,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "web_src_app_layout_geistsans",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "geistsans"
+      "norm_label": "geistsans",
+      "id": "web_src_app_layout_geistsans"
     },
     {
       "label": "geistMono",
@@ -752,10 +752,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "web_src_app_layout_geistmono",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "geistmono"
+      "norm_label": "geistmono",
+      "id": "web_src_app_layout_geistmono"
     },
     {
       "label": "metadata",
@@ -763,10 +763,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "web_src_app_layout_metadata",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "web_src_app_layout_metadata"
     },
     {
       "label": "RootLayout()",
@@ -774,10 +774,10 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "web_src_app_layout_rootlayout",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "web_src_app_layout_rootlayout"
     },
     {
       "label": "not-found.tsx",
@@ -785,10 +785,10 @@
       "source_file": "web/src/app/not-found.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_not_found",
       "community": 123,
       "community_name": "not-found.tsx",
-      "norm_label": "not-found.tsx"
+      "norm_label": "not-found.tsx",
+      "id": "web_src_app_not_found"
     },
     {
       "label": "NotFound()",
@@ -796,10 +796,10 @@
       "source_file": "web/src/app/not-found.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_not_found_notfound",
       "community": 123,
       "community_name": "not-found.tsx",
-      "norm_label": "notfound()"
+      "norm_label": "notfound()",
+      "id": "web_src_app_not_found_notfound"
     },
     {
       "label": "page.tsx",
@@ -807,10 +807,10 @@
       "source_file": "web/src/app/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_page",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "web_src_app_page"
     },
     {
       "label": "Home()",
@@ -818,10 +818,10 @@
       "source_file": "web/src/app/page.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_app_page_home",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "home()"
+      "norm_label": "home()",
+      "id": "web_src_app_page_home"
     },
     {
       "label": "robots.ts",
@@ -829,10 +829,10 @@
       "source_file": "web/src/app/robots.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_robots",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "robots.ts"
+      "norm_label": "robots.ts",
+      "id": "web_src_app_robots"
     },
     {
       "label": "robots()",
@@ -840,10 +840,10 @@
       "source_file": "web/src/app/robots.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "web_src_app_robots_robots",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "robots()"
+      "norm_label": "robots()",
+      "id": "web_src_app_robots_robots"
     },
     {
       "label": "sitemap.ts",
@@ -851,10 +851,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_app_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "web_src_app_sitemap"
     },
     {
       "label": "sitemap()",
@@ -862,10 +862,10 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_src_app_sitemap_sitemap",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "web_src_app_sitemap_sitemap"
     },
     {
       "label": "articulos.ts",
@@ -873,10 +873,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_articulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulos.ts"
+      "norm_label": "articulos.ts",
+      "id": "web_src_lib_articulos"
     },
     {
       "label": "Articulo",
@@ -884,10 +884,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_articulo",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "articulo"
+      "norm_label": "articulo",
+      "id": "web_src_lib_articulos_articulo"
     },
     {
       "label": "listarArticulos()",
@@ -895,10 +895,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listararticulos",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listararticulos()"
+      "norm_label": "listararticulos()",
+      "id": "web_src_lib_articulos_listararticulos"
     },
     {
       "label": "obtenerArticuloPorSlug()",
@@ -906,10 +906,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_obtenerarticuloporslug",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "obtenerarticuloporslug()"
+      "norm_label": "obtenerarticuloporslug()",
+      "id": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "label": "listarSlugs()",
@@ -917,10 +917,10 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "web_src_lib_articulos_listarslugs",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "listarslugs()"
+      "norm_label": "listarslugs()",
+      "id": "web_src_lib_articulos_listarslugs"
     },
     {
       "label": "config.ts",
@@ -928,10 +928,10 @@
       "source_file": "web/src/lib/config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_config",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "config.ts"
+      "norm_label": "config.ts",
+      "id": "web_src_lib_config"
     },
     {
       "label": "db.ts",
@@ -939,10 +939,10 @@
       "source_file": "web/src/lib/db.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_src_lib_db",
       "community": 117,
       "community_name": "page.tsx",
-      "norm_label": "db.ts"
+      "norm_label": "db.ts",
+      "id": "web_src_lib_db"
     },
     {
       "label": "tsconfig.json",
@@ -950,10 +950,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "web_tsconfig",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "tsconfig.json"
+      "norm_label": "tsconfig.json",
+      "id": "web_tsconfig"
     },
     {
       "label": "compilerOptions",
@@ -961,10 +961,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "compileroptions"
+      "norm_label": "compileroptions",
+      "id": "web_tsconfig_compileroptions"
     },
     {
       "label": "target",
@@ -972,10 +972,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_target",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "target"
+      "norm_label": "target",
+      "id": "web_tsconfig_compileroptions_target"
     },
     {
       "label": "lib",
@@ -983,10 +983,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_lib",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "lib"
+      "norm_label": "lib",
+      "id": "web_tsconfig_compileroptions_lib"
     },
     {
       "label": "dom",
@@ -994,10 +994,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "ref_dom",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "dom"
+      "norm_label": "dom",
+      "id": "ref_dom"
     },
     {
       "label": "dom.iterable",
@@ -1005,10 +1005,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "ref_dom_iterable",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "dom.iterable"
+      "norm_label": "dom.iterable",
+      "id": "ref_dom_iterable"
     },
     {
       "label": "esnext",
@@ -1016,10 +1016,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "ref_esnext",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "esnext"
+      "norm_label": "esnext",
+      "id": "ref_esnext"
     },
     {
       "label": "allowJs",
@@ -1027,10 +1027,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_allowjs",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "allowjs"
+      "norm_label": "allowjs",
+      "id": "web_tsconfig_compileroptions_allowjs"
     },
     {
       "label": "skipLibCheck",
@@ -1038,10 +1038,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_skiplibcheck",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "skiplibcheck"
+      "norm_label": "skiplibcheck",
+      "id": "web_tsconfig_compileroptions_skiplibcheck"
     },
     {
       "label": "strict",
@@ -1049,10 +1049,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_strict",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "strict"
+      "norm_label": "strict",
+      "id": "web_tsconfig_compileroptions_strict"
     },
     {
       "label": "noEmit",
@@ -1060,10 +1060,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_noemit",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "noemit"
+      "norm_label": "noemit",
+      "id": "web_tsconfig_compileroptions_noemit"
     },
     {
       "label": "esModuleInterop",
@@ -1071,10 +1071,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_esmoduleinterop",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "esmoduleinterop"
+      "norm_label": "esmoduleinterop",
+      "id": "web_tsconfig_compileroptions_esmoduleinterop"
     },
     {
       "label": "module",
@@ -1082,10 +1082,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_module",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "module"
+      "norm_label": "module",
+      "id": "web_tsconfig_compileroptions_module"
     },
     {
       "label": "moduleResolution",
@@ -1093,10 +1093,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_moduleresolution",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "moduleresolution"
+      "norm_label": "moduleresolution",
+      "id": "web_tsconfig_compileroptions_moduleresolution"
     },
     {
       "label": "resolveJsonModule",
@@ -1104,10 +1104,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_resolvejsonmodule",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "resolvejsonmodule"
+      "norm_label": "resolvejsonmodule",
+      "id": "web_tsconfig_compileroptions_resolvejsonmodule"
     },
     {
       "label": "isolatedModules",
@@ -1115,10 +1115,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_isolatedmodules",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "isolatedmodules"
+      "norm_label": "isolatedmodules",
+      "id": "web_tsconfig_compileroptions_isolatedmodules"
     },
     {
       "label": "jsx",
@@ -1126,10 +1126,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_jsx",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "jsx"
+      "norm_label": "jsx",
+      "id": "web_tsconfig_compileroptions_jsx"
     },
     {
       "label": "incremental",
@@ -1137,10 +1137,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_incremental",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "incremental"
+      "norm_label": "incremental",
+      "id": "web_tsconfig_compileroptions_incremental"
     },
     {
       "label": "plugins",
@@ -1148,10 +1148,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_plugins",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "plugins"
+      "norm_label": "plugins",
+      "id": "web_tsconfig_compileroptions_plugins"
     },
     {
       "label": "paths",
@@ -1159,10 +1159,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "web_tsconfig_compileroptions_paths",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "paths"
+      "norm_label": "paths",
+      "id": "web_tsconfig_compileroptions_paths"
     },
     {
       "label": "@/*",
@@ -1170,10 +1170,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "web_tsconfig_paths",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "@/*"
+      "norm_label": "@/*",
+      "id": "web_tsconfig_paths"
     },
     {
       "label": "./src/*",
@@ -1181,10 +1181,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "ref_src",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "./src/*"
+      "norm_label": "./src/*",
+      "id": "ref_src"
     },
     {
       "label": "include",
@@ -1192,10 +1192,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "web_tsconfig_include",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "include"
+      "norm_label": "include",
+      "id": "web_tsconfig_include"
     },
     {
       "label": "next-env.d.ts",
@@ -1203,10 +1203,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_next_env_d_ts",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "next-env.d.ts"
+      "norm_label": "next-env.d.ts",
+      "id": "ref_next_env_d_ts"
     },
     {
       "label": "**/*.ts",
@@ -1214,10 +1214,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_ts",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "**/*.ts"
+      "norm_label": "**/*.ts",
+      "id": "ref_ts"
     },
     {
       "label": "**/*.tsx",
@@ -1225,10 +1225,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_tsx",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "**/*.tsx"
+      "norm_label": "**/*.tsx",
+      "id": "ref_tsx"
     },
     {
       "label": ".next/types/**/*.ts",
@@ -1236,10 +1236,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_next_types_ts",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": ".next/types/**/*.ts"
+      "norm_label": ".next/types/**/*.ts",
+      "id": "ref_next_types_ts"
     },
     {
       "label": ".next/dev/types/**/*.ts",
@@ -1247,10 +1247,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_next_dev_types_ts",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": ".next/dev/types/**/*.ts"
+      "norm_label": ".next/dev/types/**/*.ts",
+      "id": "ref_next_dev_types_ts"
     },
     {
       "label": "**/*.mts",
@@ -1258,10 +1258,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "ref_mts",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "**/*.mts"
+      "norm_label": "**/*.mts",
+      "id": "ref_mts"
     },
     {
       "label": "exclude",
@@ -1269,10 +1269,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "web_tsconfig_exclude",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "exclude"
+      "norm_label": "exclude",
+      "id": "web_tsconfig_exclude"
     },
     {
       "label": "node_modules",
@@ -1280,10 +1280,10 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "ref_node_modules",
       "community": 116,
       "community_name": "compilerOptions",
-      "norm_label": "node_modules"
+      "norm_label": "node_modules",
+      "id": "ref_node_modules"
     },
     {
       "label": "SKILL.md",
@@ -11201,538 +11201,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "readme",
-      "target": "readme_investiments_info",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L99",
-      "weight": 1.0,
-      "source": "readme",
-      "target": "web_readme",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_estructura",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L101",
-      "weight": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L95",
-      "weight": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_sitio_web",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/AGENTS.md",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "web_agents",
-      "target": "web_agents_this_is_not_the_next_js_you_know",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "web_readme",
-      "target": "web_readme_web",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "web_readme_web",
-      "target": "web_readme_configuraci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "web_readme_web",
-      "target": "web_readme_deploy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "web_readme_web",
-      "target": "web_readme_estructura",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "web_readme_web",
-      "target": "web_readme_requisitos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/README.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "web_readme_web",
-      "target": "web_readme_seo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/eslint.config.mjs",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "web_eslint_config",
-      "target": "web_eslint_config_eslintconfig",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/next.config.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "web_next_config",
-      "target": "web_next_config_nextconfig",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_dependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_devdependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_name",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_private",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_scripts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "web_package",
-      "target": "web_package_version",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_build",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_db_migrate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_db_seed",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_dev",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_lint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "web_package_scripts",
-      "target": "web_package_scripts_start",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "web_package_dependencies",
-      "target": "web_package_dependencies_next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "web_package_dependencies",
-      "target": "web_package_dependencies_pg",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "web_package_dependencies",
-      "target": "web_package_dependencies_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "web_package_dependencies",
-      "target": "web_package_dependencies_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_dependencies_next",
-      "target": "next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_dependencies_pg",
-      "target": "pg",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_dependencies_react",
-      "target": "react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_dependencies_react_dom",
-      "target": "react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_eslint_config_next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_types_node",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_types_pg",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_types_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "web_package_devdependencies",
-      "target": "web_package_devdependencies_typescript",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_types_node",
-      "target": "types_node",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_types_pg",
-      "target": "types_pg",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_types_react",
-      "target": "types_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_types_react_dom",
-      "target": "types_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_eslint",
-      "target": "eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_eslint_config_next",
-      "target": "eslint_config_next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_tsx",
-      "target": "tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "web/package.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "context": "import",
-      "source": "web_package_devdependencies_typescript",
-      "target": "typescript",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/scripts/migrate.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "web_scripts_migrate",
-      "target": "web_scripts_migrate_main",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "web/src/app/articulo/[slug]/page.tsx",
       "source_location": "L49",
       "weight": 1.0,
@@ -11771,81 +11239,536 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L3",
+      "source_file": "README.md",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_investiments_info"
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L3",
+      "source_file": "README.md",
+      "source_location": "L99",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "web_readme"
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L3",
+      "source_file": "README.md",
+      "source_location": "L8",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_convenci\u00f3n_de_archivos"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_estructura"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_para_asistentes_de_ia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_sitio_web"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/AGENTS.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_agents",
+      "target": "web_agents_this_is_not_the_next_js_you_know"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme",
+      "target": "web_readme_web"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme_web",
+      "target": "web_readme_configuraci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme_web",
+      "target": "web_readme_deploy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme_web",
+      "target": "web_readme_estructura"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme_web",
+      "target": "web_readme_requisitos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_readme_web",
+      "target": "web_readme_seo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_eslint_config",
+      "target": "web_eslint_config_eslintconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_next_config",
+      "target": "web_next_config_nextconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
       "source_location": "L4",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page",
-      "target": "web_src_lib_config",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_private"
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L12",
+      "source_file": "web/package.json",
+      "source_location": "L5",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page_generatestaticparams",
-      "target": "web_src_lib_articulos_listarslugs"
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_scripts"
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L18",
+      "source_file": "web/package.json",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page_generatemetadata",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug"
+      "confidence_score": 1.0,
+      "source": "web_package",
+      "target": "web_package_version"
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "web/src/app/articulo/[slug]/page.tsx",
-      "source_location": "L51",
+      "source_file": "web/package.json",
+      "source_location": "L7",
       "weight": 1.0,
-      "source": "web_src_app_articulo_slug_page_articulopage",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug"
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_db_migrate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_db_seed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_scripts",
+      "target": "web_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies",
+      "target": "web_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies",
+      "target": "web_package_dependencies_pg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies",
+      "target": "web_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies",
+      "target": "web_package_dependencies_react_dom"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies_next",
+      "target": "next"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies_pg",
+      "target": "pg"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies_react",
+      "target": "react"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_dependencies_react_dom",
+      "target": "react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_eslint_config_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_types_pg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies",
+      "target": "web_package_devdependencies_typescript"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_types_node",
+      "target": "types_node"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_types_pg",
+      "target": "types_pg"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_types_react",
+      "target": "types_react"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_types_react_dom",
+      "target": "types_react_dom"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_eslint",
+      "target": "eslint"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_eslint_config_next",
+      "target": "eslint_config_next"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_tsx",
+      "target": "tsx"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "web/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "confidence_score": 1.0,
+      "source": "web_package_devdependencies_typescript",
+      "target": "typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/scripts/migrate.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_scripts_migrate",
+      "target": "web_scripts_migrate_main"
     },
     {
       "relation": "contains",
@@ -11853,9 +11776,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_geistmono",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_geistmono"
     },
     {
       "relation": "contains",
@@ -11863,9 +11786,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_geistsans",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_geistsans"
     },
     {
       "relation": "contains",
@@ -11873,9 +11796,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -11883,9 +11806,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "web_src_app_layout_rootlayout"
     },
     {
       "relation": "imports_from",
@@ -11894,9 +11817,9 @@
       "source_file": "web/src/app/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_layout",
-      "target": "web_src_lib_config",
-      "confidence_score": 1.0
+      "target": "web_src_lib_config"
     },
     {
       "relation": "contains",
@@ -11904,9 +11827,9 @@
       "source_file": "web/src/app/not-found.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_not_found",
-      "target": "web_src_app_not_found_notfound",
-      "confidence_score": 1.0
+      "target": "web_src_app_not_found_notfound"
     },
     {
       "relation": "contains",
@@ -11914,9 +11837,9 @@
       "source_file": "web/src/app/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_page",
-      "target": "web_src_app_page_home",
-      "confidence_score": 1.0
+      "target": "web_src_app_page_home"
     },
     {
       "relation": "imports_from",
@@ -11925,9 +11848,9 @@
       "source_file": "web/src/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_page",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -11936,9 +11859,9 @@
       "source_file": "web/src/app/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_page",
-      "target": "web_src_lib_articulos_listararticulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listararticulos"
     },
     {
       "relation": "calls",
@@ -11957,9 +11880,9 @@
       "source_file": "web/src/app/robots.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_robots",
-      "target": "web_src_app_robots_robots",
-      "confidence_score": 1.0
+      "target": "web_src_app_robots_robots"
     },
     {
       "relation": "imports_from",
@@ -11968,9 +11891,9 @@
       "source_file": "web/src/app/robots.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_robots",
-      "target": "web_src_lib_config",
-      "confidence_score": 1.0
+      "target": "web_src_lib_config"
     },
     {
       "relation": "contains",
@@ -11978,9 +11901,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_app_sitemap_sitemap",
-      "confidence_score": 1.0
+      "target": "web_src_app_sitemap_sitemap"
     },
     {
       "relation": "imports_from",
@@ -11989,9 +11912,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos"
     },
     {
       "relation": "imports",
@@ -12000,9 +11923,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "imports_from",
@@ -12011,9 +11934,9 @@
       "source_file": "web/src/app/sitemap.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_sitemap",
-      "target": "web_src_lib_config",
-      "confidence_score": 1.0
+      "target": "web_src_lib_config"
     },
     {
       "relation": "calls",
@@ -12032,9 +11955,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_articulo",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_articulo"
     },
     {
       "relation": "contains",
@@ -12042,9 +11965,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listararticulos",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listararticulos"
     },
     {
       "relation": "contains",
@@ -12052,9 +11975,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_listarslugs",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_listarslugs"
     },
     {
       "relation": "contains",
@@ -12062,9 +11985,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_articulos_obtenerarticuloporslug",
-      "confidence_score": 1.0
+      "target": "web_src_lib_articulos_obtenerarticuloporslug"
     },
     {
       "relation": "imports_from",
@@ -12073,9 +11996,9 @@
       "source_file": "web/src/lib/articulos.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_lib_articulos",
-      "target": "web_src_lib_db",
-      "confidence_score": 1.0
+      "target": "web_src_lib_db"
     },
     {
       "relation": "contains",
@@ -12083,9 +12006,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig",
-      "target": "web_tsconfig_compileroptions",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions"
     },
     {
       "relation": "contains",
@@ -12093,9 +12016,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig",
-      "target": "web_tsconfig_exclude",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_exclude"
     },
     {
       "relation": "contains",
@@ -12103,9 +12026,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig",
-      "target": "web_tsconfig_include",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_include"
     },
     {
       "relation": "contains",
@@ -12113,9 +12036,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_allowjs",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_allowjs"
     },
     {
       "relation": "contains",
@@ -12123,9 +12046,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_esmoduleinterop",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_esmoduleinterop"
     },
     {
       "relation": "contains",
@@ -12133,9 +12056,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_incremental",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_incremental"
     },
     {
       "relation": "contains",
@@ -12143,9 +12066,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_isolatedmodules",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_isolatedmodules"
     },
     {
       "relation": "contains",
@@ -12153,9 +12076,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_jsx",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_jsx"
     },
     {
       "relation": "contains",
@@ -12163,9 +12086,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_lib",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_lib"
     },
     {
       "relation": "contains",
@@ -12173,9 +12096,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_module",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_module"
     },
     {
       "relation": "contains",
@@ -12183,9 +12106,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_moduleresolution",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_moduleresolution"
     },
     {
       "relation": "contains",
@@ -12193,9 +12116,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_noemit",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_noemit"
     },
     {
       "relation": "contains",
@@ -12203,9 +12126,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_paths",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_paths"
     },
     {
       "relation": "contains",
@@ -12213,9 +12136,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_plugins",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_plugins"
     },
     {
       "relation": "contains",
@@ -12223,9 +12146,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_resolvejsonmodule",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_resolvejsonmodule"
     },
     {
       "relation": "contains",
@@ -12233,9 +12156,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_skiplibcheck",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_skiplibcheck"
     },
     {
       "relation": "contains",
@@ -12243,9 +12166,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_strict",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_strict"
     },
     {
       "relation": "contains",
@@ -12253,9 +12176,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions",
-      "target": "web_tsconfig_compileroptions_target",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_compileroptions_target"
     },
     {
       "relation": "extends",
@@ -12264,9 +12187,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions_lib",
-      "target": "ref_dom",
-      "confidence_score": 1.0
+      "target": "ref_dom"
     },
     {
       "relation": "extends",
@@ -12275,9 +12198,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions_lib",
-      "target": "ref_dom_iterable",
-      "confidence_score": 1.0
+      "target": "ref_dom_iterable"
     },
     {
       "relation": "extends",
@@ -12286,9 +12209,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions_lib",
-      "target": "ref_esnext",
-      "confidence_score": 1.0
+      "target": "ref_esnext"
     },
     {
       "relation": "contains",
@@ -12296,9 +12219,9 @@
       "source_file": "web/tsconfig.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_tsconfig_compileroptions_paths",
-      "target": "web_tsconfig_paths",
-      "confidence_score": 1.0
+      "target": "web_tsconfig_paths"
     },
     {
       "relation": "extends",
@@ -12307,9 +12230,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_paths",
-      "target": "ref_src",
-      "confidence_score": 1.0
+      "target": "ref_src"
     },
     {
       "relation": "extends",
@@ -12318,9 +12241,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_mts",
-      "confidence_score": 1.0
+      "target": "ref_mts"
     },
     {
       "relation": "extends",
@@ -12329,9 +12252,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_next_dev_types_ts",
-      "confidence_score": 1.0
+      "target": "ref_next_dev_types_ts"
     },
     {
       "relation": "extends",
@@ -12340,9 +12263,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_next_env_d_ts",
-      "confidence_score": 1.0
+      "target": "ref_next_env_d_ts"
     },
     {
       "relation": "extends",
@@ -12351,9 +12274,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_next_types_ts",
-      "confidence_score": 1.0
+      "target": "ref_next_types_ts"
     },
     {
       "relation": "extends",
@@ -12362,9 +12285,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_ts",
-      "confidence_score": 1.0
+      "target": "ref_ts"
     },
     {
       "relation": "extends",
@@ -12373,9 +12296,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_include",
-      "target": "ref_tsx",
-      "confidence_score": 1.0
+      "target": "ref_tsx"
     },
     {
       "relation": "extends",
@@ -12384,9 +12307,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "context": "import",
+      "confidence_score": 1.0,
       "source": "web_tsconfig_exclude",
-      "target": "ref_node_modules",
-      "confidence_score": 1.0
+      "target": "ref_node_modules"
     },
     {
       "relation": "contains",
@@ -22575,5 +22498,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "071dfa4c58a1219c3c04b421c6630adb7117cadc"
+  "built_at_commit": "6b122bdc66d280a4ed780d2042ae660c098699a7"
 }
