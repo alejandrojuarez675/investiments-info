@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 137 files · ~74,693 words
+- 137 files · ~75,880 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1016 nodes · 1132 edges · 124 communities (119 shown, 5 thin omitted)
+- 1016 nodes · 1125 edges · 125 communities (119 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `071dfa4c`
+- Built from commit: `6b122bdc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -130,6 +130,7 @@
 - Daily report
 - Daily report — jueves 23/07/2026
 - Estrategias de carry trade y trading cambiario en Argentina
+- page.tsx
 - compilerOptions
 - page.tsx
 - web
@@ -150,16 +151,10 @@
 10. `Dollar-Cost Averaging (DCA)` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
-- `sitemap()` --calls--> `listarSlugs()`  [EXTRACTED]
-  web/src/app/sitemap.ts → web/src/lib/articulos.ts
-- `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
-- `ArticuloPage()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
-  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
 - `Home()` --calls--> `listarArticulos()`  [EXTRACTED]
   web/src/app/page.tsx → web/src/lib/articulos.ts
+- `sitemap()` --calls--> `listarSlugs()`  [EXTRACTED]
+  web/src/app/sitemap.ts → web/src/lib/articulos.ts
 
 ## Import Cycles
 - None detected.
@@ -167,7 +162,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (124 total, 5 thin omitted)
+## Communities (125 total, 6 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -626,17 +621,17 @@ Cohesion: 0.06
 Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
 
 ### Community 117 - "page.tsx"
-Cohesion: 0.13
-Nodes (13): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, geistMono, geistSans, metadata, Home() (+5 more)
+Cohesion: 0.14
+Nodes (8): geistMono, geistSans, metadata, Home(), sitemap(), Articulo, listarArticulos(), listarSlugs()
 
 ### Community 118 - "web"
 Cohesion: 0.15
 Nodes (11): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web, Configuración, Deploy, Estructura (+3 more)
 
 ## Knowledge Gaps
-- **708 isolated node(s):** `Convención de archivos`, `Estructura`, `Sitio web`, `Para asistentes de IA`, `This is NOT the Next.js you know` (+703 more)
+- **708 isolated node(s):** `Props`, `Convención de archivos`, `Estructura`, `Sitio web`, `Para asistentes de IA` (+703 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -647,7 +642,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Why does `Cartera de ejemplo: aplicando los conceptos de forma práctica` connect `Cartera de ejemplo: aplicando los conceptos de forma práctica` to `Activos y Glosario`?**
   _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **What connects `Convención de archivos`, `Estructura`, `Sitio web` to the rest of the system?**
+- **What connects `Props`, `Convención de archivos`, `Estructura` to the rest of the system?**
   _708 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
