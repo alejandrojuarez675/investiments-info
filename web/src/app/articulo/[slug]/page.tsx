@@ -85,6 +85,10 @@ export default async function ArticuloPage({ params }: Props) {
           Por {articulo.autor} ·{" "}
           {articulo.publicado_en.toLocaleDateString("es-AR")}
         </p>
+        {articulo.imagen_url ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={articulo.imagen_url} alt="" className={styles.imagen} />
+        ) : null}
         <div
           className={styles.contenido}
           dangerouslySetInnerHTML={{ __html: articulo.contenido }}

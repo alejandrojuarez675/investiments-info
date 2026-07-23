@@ -1,6 +1,6 @@
 import { pool } from "./db";
 
-export type TipoArticulo = "daily-report" | "reporte-semanal" | "analisis";
+export type TipoArticulo = "daily-report" | "reporte-semanal" | "analisis" | "news";
 
 export type Articulo = {
   id: number;

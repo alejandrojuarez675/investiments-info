@@ -20,5 +20,5 @@ UPDATE articulos SET tipo = 'analisis' WHERE tipo IS NULL;
 ALTER TABLE articulos ALTER COLUMN tipo SET NOT NULL;
 ALTER TABLE articulos DROP CONSTRAINT IF EXISTS articulos_tipo_check;
 ALTER TABLE articulos ADD CONSTRAINT articulos_tipo_check
-  CHECK (tipo IN ('daily-report', 'reporte-semanal', 'analisis'));
+  CHECK (tipo IN ('daily-report', 'reporte-semanal', 'analisis', 'news'));
 CREATE INDEX IF NOT EXISTS idx_articulos_tipo ON articulos (tipo);

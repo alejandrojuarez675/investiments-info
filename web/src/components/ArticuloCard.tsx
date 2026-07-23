@@ -30,6 +30,15 @@ export default function ArticuloCard({ articulo, destacado = false }: Props) {
         <span aria-hidden="true">{info.icono}</span>
         {info.etiqueta}
       </span>
+      {articulo.imagen_url ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={articulo.imagen_url}
+          alt=""
+          className={styles.imagen}
+          loading="lazy"
+        />
+      ) : null}
       {destacado ? (
         <h2>{articulo.titulo}</h2>
       ) : (

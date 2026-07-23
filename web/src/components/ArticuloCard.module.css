@@ -89,3 +89,17 @@
   --tipo-accent: #15803d;
   --tipo-accent-soft: #e7f5eb;
 }
+
+/* news: acento rojo, tono "última hora" */
+.news {
+  --tipo-accent: #b91c1c;
+  --tipo-accent-soft: #fce8e8;
+}
+
+.imagen {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 12px;
+}
