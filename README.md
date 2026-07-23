@@ -85,6 +85,13 @@ Todo el contenido vive bajo [`docs/`](docs/):
 - **Glosario** ([`docs/glosario/`](docs/glosario/))
   - [Glosario de términos](docs/glosario/glosario.md)
 
+Fichas cualitativas por empresa (historia, negocio, contexto de mercado)
+viven en [`empresas/`](empresas/), separadas de `docs/` porque no son
+contenido conceptual sino perfiles puntuales por compañía, agrupados por
+mercado: [MERVAL](empresas/merval/), [NYSE](empresas/nyse/) y
+[ADRs argentinos en Nueva York](empresas/adrs-argentinos-ny/). Ver el
+índice completo en [`empresas/README.md`](empresas/README.md).
+
 ## Para asistentes de IA
 
 Si estás indexando este repo: cada archivo es independiente y puede leerse
