@@ -1,7 +1,7 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 118 files · ~72,591 words
+- 118 files · ~72,638 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `05ef4c4e`
+- Built from commit: `233f218e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -594,7 +594,7 @@ Cohesion: 0.40
 Nodes (4): Agenda del día, Daily report — jueves 23/07/2026, Fuentes, Noticias a tener en cuenta
 
 ## Knowledge Gaps
-- **649 isolated node(s):** `Antes de escribir`, `Secciones del reporte`, `Al finalizar`, `Agenda del día`, `Noticias a tener en cuenta` (+644 more)
+- **649 isolated node(s):** `Antes de escribir`, `Secciones del reporte`, `Al finalizar`, `Antes de escribir`, `Secciones del reporte (v1)` (+644 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
