@@ -92,6 +92,12 @@ mercado: [MERVAL](empresas/merval/), [NYSE](empresas/nyse/) y
 [ADRs argentinos en Nueva York](empresas/adrs-argentinos-ny/). Ver el
 índice completo en [`empresas/README.md`](empresas/README.md).
 
+## Sitio web
+
+En [`web/`](web/) vive una aplicación Next.js de noticias financieras
+orientada a SEO, que sirve artículos almacenados en PostgreSQL. Ver
+[`web/README.md`](web/README.md) para configuración y desarrollo.
+
 ## Para asistentes de IA
 
 Si estás indexando este repo: cada archivo es independiente y puede leerse

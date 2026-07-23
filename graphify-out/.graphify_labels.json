@@ -38,7 +38,7 @@
   "36": "FCI money market y billeteras virtuales en Argentina",
   "37": "Plazo fijo en Argentina: tradicional y UVA",
   "38": "Dólar en Argentina: oficial, MEP, CCL y blue",
-  "39": "Brokers en Argentina: comparación y cómo abrir cuenta",
+  "39": "devDependencies",
   "40": "Cauciones bursátiles en Argentina",
   "41": "Impuestos a las inversiones en Argentina",
   "42": "Sistema previsional argentino: jubilación y por qué complementar",
@@ -114,5 +114,16 @@
   "112": "Daily report",
   "113": "Daily report — jueves 23/07/2026",
   "114": "Estrategias de carry trade y trading cambiario en Argentina",
-  "115": "investiments-info"
+  "115": "page.tsx",
+  "116": "compilerOptions",
+  "117": "page.tsx",
+  "118": "web",
+  "119": "AGENTS.md",
+  "120": "eslint.config.mjs",
+  "121": "next.config.ts",
+  "122": "migrate.ts",
+  "123": "not-found.tsx",
+  "124": "CLAUDE.md",
+  "125": "layout.tsx",
+  "126": "Get news report"
 }

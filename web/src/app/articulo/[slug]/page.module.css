@@ -1,0 +1,178 @@
+.page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 24px 80px;
+}
+
+.articulo {
+  --tipo-accent: var(--color-accent);
+  --tipo-accent-soft: var(--color-accent-soft);
+
+  width: 100%;
+  max-width: 720px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 5px solid var(--tipo-accent);
+  border-radius: 16px;
+  padding: 56px;
+  margin-top: 40px;
+}
+
+.tipo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--tipo-accent);
+  background: var(--tipo-accent-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.categoria {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* daily-report: acento cálido, tono "boletín del día" */
+.daily-report {
+  --tipo-accent: #b45309;
+  --tipo-accent-soft: #fdf1e3;
+}
+
+/* reporte-semanal: acento azul, tono "panel de datos" */
+.reporte-semanal {
+  --tipo-accent: #1d4ed8;
+  --tipo-accent-soft: #e8effd;
+}
+
+/* analisis: acento verde, tono "nota en profundidad" */
+.analisis {
+  --tipo-accent: #15803d;
+  --tipo-accent-soft: #e7f5eb;
+}
+
+/* news: acento rojo, tono "última hora" */
+.news {
+  --tipo-accent: #b91c1c;
+  --tipo-accent-soft: #fce8e8;
+}
+
+.imagen {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+.articulo h1 {
+  margin-top: 16px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
+}
+
+.meta {
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.contenido {
+  margin-top: 32px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.contenido h2 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contenido p,
+.contenido ul,
+.contenido table {
+  margin-top: 12px;
+}
+
+.contenido ul {
+  padding-left: 24px;
+}
+
+.contenido li {
+  margin-top: 4px;
+}
+
+.contenido a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.contenido table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.contenido th,
+.contenido td {
+  border: 1px solid var(--color-border);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.contenido code {
+  font-family: var(--font-geist-mono);
+  font-size: 0.9em;
+  background: var(--color-accent-soft);
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+.relacionados {
+  width: 100%;
+  max-width: 720px;
+  margin-top: 48px;
+}
+
+.relacionados h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.relacionadosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .articulo {
+    padding: 32px 24px;
+    margin-top: 24px;
+  }
+
+  .articulo h1 {
+    font-size: 26px;
+  }
+
+  .relacionadosGrid {
+    grid-template-columns: 1fr;
+  }
+}

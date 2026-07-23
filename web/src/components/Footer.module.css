@@ -1,0 +1,27 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  margin-top: auto;
+}
+
+.inner {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.disclaimer {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .inner {
+    padding: 24px 20px;
+  }
+}
