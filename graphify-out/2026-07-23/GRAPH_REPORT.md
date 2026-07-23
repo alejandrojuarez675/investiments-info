@@ -1,22 +1,23 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 113 files · ~68,488 words
+- 114 files · ~70,470 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 857 nodes · 924 edges · 110 communities (108 shown, 2 thin omitted)
+- 873 nodes · 937 edges · 109 communities (107 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `522ee734`
+- Built from commit: `bbdd6bac`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Acciones argentinas: panel líder y general
 - CEDEARs y Merval
+- Activos y Glosario
 - Relación riesgo-retorno
 - Diversificación de Portafolio
 - ETFs del S&P 500
@@ -47,7 +48,6 @@
 - Acciones argentinas: panel líder y general
 - Fuentes de datos de precios y tasas en vivo
 - Qué es el Merval
-- Diversificación
 - Cartera de ejemplo: aplicando los conceptos de forma práctica
 - Renta fija internacional: bonos del Tesoro y corporativos
 - FCI money market y billeteras virtuales en Argentina
@@ -143,7 +143,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (110 total, 2 thin omitted)
+## Communities (109 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -152,6 +152,10 @@ Nodes (7): Apalancamiento: la característica central de los derivados, Cobertur
 ### Community 1 - "CEDEARs y Merval"
 Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
+
+### Community 2 - "Activos y Glosario"
+Cohesion: 0.13
+Nodes (7): Costos de transacción, Cómo estimar la rentabilidad: cap rate, Dolarización del mercado inmobiliario argentino, Fuentes, Inversión inmobiliaria directa en Argentina, Modalidades principales, Riesgos específicos
 
 ### Community 3 - "Relación riesgo-retorno"
 Cohesion: 0.22
@@ -178,8 +182,8 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.20
-Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
+Cohesion: 0.10
+Nodes (18): Correlación: cómo se mide, Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Ratio de Sharpe: medir el retorno ajustado por riesgo, Rebalanceo de cartera (+10 more)
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
 Cohesion: 0.25
@@ -202,7 +206,7 @@ Cohesion: 0.20
 Nodes (10): Bitcoin (BTC), Bitcoin y Ethereum: conceptos básicos, Blockchain, en breve, Comparación de throughput (TPS) entre ambas redes, Diferencias clave para un inversor, Ethereum (ETH), Fuentes, Gas fees en Ethereum: cómo funcionan (+2 more)
 
 ### Community 16 - "Qué es el S&P 500"
-Cohesion: 0.15
+Cohesion: 0.14
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
@@ -214,8 +218,8 @@ Cohesion: 0.29
 Nodes (7): Costos y fricciones a considerar, Cómo se ejecuta, Fuentes, Métodos de rebalanceo, Por qué es difícil de ejecutar en la práctica, Por qué una cartera se desalinea sola, Rebalanceo de portfolio
 
 ### Community 20 - "Inversión inmobiliaria directa en Argentina"
-Cohesion: 0.29
-Nodes (7): Costos de transacción, Cómo estimar la rentabilidad: cap rate, Dolarización del mercado inmobiliario argentino, Fuentes, Inversión inmobiliaria directa en Argentina, Modalidades principales, Riesgos específicos
+Cohesion: 0.12
+Nodes (15): Cómo se organiza un FCI por dentro, y cómo manejar plata propia + de un amigo, El ciclo de vida de una cuotaparte, Fuentes, Los dos pilares: sociedad gerente y sociedad depositaria, Marco legal, Opción 1: Cada uno invierte por su cuenta en los mismos activos, Opción 2: Cuenta comitente conjunta ("cuenta y orden" / cotitularidad), Opción 3: Mandato o gestión delegada informal (+7 more)
 
 ### Community 21 - "Fondos comunes de inversión: renta fija, variable y mixtos"
 Cohesion: 0.29
@@ -264,10 +268,6 @@ Nodes (15): ArgentinaDatos API (cotizaciones y tasas locales), Bonos y letras ar
 ### Community 32 - "Qué es el Merval"
 Cohesion: 0.25
 Nodes (8): Características principales, Cómo invertir, Fuentes, Historia de crisis relevantes (referencia, con fechas), Merval en pesos vs. Merval en dólares ("Merval en CCL"), Metodología de ponderación: ejemplo simplificado, Qué es el Merval, Riesgos particulares del mercado argentino
-
-### Community 33 - "Diversificación"
-Cohesion: 0.22
-Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Ratio de Sharpe: medir el retorno ajustado por riesgo, Rebalanceo de cartera (+1 more)
 
 ### Community 34 - "Cartera de ejemplo: aplicando los conceptos de forma práctica"
 Cohesion: 0.22
@@ -370,7 +370,7 @@ Cohesion: 0.29
 Nodes (6): Contexto de mercado reciente, Datos clave, Historia, IRSA (IRS), Qué hace, Relevancia como CEDEAR
 
 ### Community 59 - "IRSA Propiedades Comerciales (IRCP)"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): Contexto de mercado reciente, Datos clave, Historia, IRSA Propiedades Comerciales (IRCP), Qué hace, Relevancia como CEDEAR
 
 ### Community 60 - "Loma Negra (LOMA)"
@@ -406,7 +406,7 @@ Cohesion: 0.33
 Nodes (4): ADRs argentinos en Nueva York (base de CEDEARs), MERVAL — panel líder (Argentina, BYMA), NYSE — grandes empresas de Estados Unidos, Índice de empresas
 
 ### Community 68 - "YPF (YPF)"
-Cohesion: 0.33
+Cohesion: 0.29
 Nodes (6): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Relevancia como CEDEAR, YPF (YPF)
 
 ### Community 69 - "Aluar"
@@ -574,7 +574,7 @@ Cohesion: 0.40
 Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
 
 ## Knowledge Gaps
-- **614 isolated node(s):** `MERVAL — panel líder (Argentina, BYMA)`, `NYSE — grandes empresas de Estados Unidos`, `ADRs argentinos en Nueva York (base de CEDEARs)`, `Qué hace`, `Historia` (+609 more)
+- **626 isolated node(s):** `Cómo funciona un FCI`, `Categorías principales`, `Costos`, `Ventajas frente a comprar los activos directamente`, `Riesgos y consideraciones` (+621 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -587,11 +587,11 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `MERVAL — panel líder (Argentina, BYMA)`, `NYSE — grandes empresas de Estados Unidos`, `ADRs argentinos en Nueva York (base de CEDEARs)` to the rest of the system?**
-  _614 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Cómo funciona un FCI`, `Categorías principales`, `Costos` to the rest of the system?**
+  _626 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Activos y Glosario` be split into smaller, more focused modules?**
+  _Cohesion score 0.12513842746400886 - nodes in this community are weakly interconnected._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
-- **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._

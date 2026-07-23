@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "docs/merval/fondos-comunes-inversion.md": {
-    "mtime": 1784724335.484823,
-    "ast_hash": "edb700a9bbd10bfd931d5e700b9eb4cf",
+    "mtime": 1784811678.58824,
+    "ast_hash": "28c0de5e3ada6a469880bc37ac02413f",
     "semantic_hash": ""
   },
   "docs/merval/impuestos-inversiones-argentina.md": {
@@ -562,6 +562,11 @@
   "empresas/nyse/walt-disney.md": {
     "mtime": 1784810970.0312874,
     "ast_hash": "cb483354a9ccfb94c7977fcf1327c32e",
+    "semantic_hash": ""
+  },
+  "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md": {
+    "mtime": 1784811660.4028792,
+    "ast_hash": "41720a3d668a55267586a34b1ac83b20",
     "semantic_hash": ""
   }
 }

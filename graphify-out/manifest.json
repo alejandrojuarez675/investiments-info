@@ -245,8 +245,8 @@
     "semantic_hash": ""
   },
   "data/tasas/README.md": {
-    "mtime": 1784746782.4599924,
-    "ast_hash": "186849515ab7f6c6670390b4c49f1691",
+    "mtime": 1784813035.100234,
+    "ast_hash": "a0dea3b41c097c3bae26254f65dfa99a",
     "semantic_hash": ""
   },
   ".claude/skills/get-weekly-shorted-report/SKILL.md": {
@@ -567,6 +567,16 @@
   "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md": {
     "mtime": 1784811660.4028792,
     "ast_hash": "41720a3d668a55267586a34b1ac83b20",
+    "semantic_hash": ""
+  },
+  ".claude/skills/actualizar-cotizaciones/SKILL.md": {
+    "mtime": 1784813296.0477674,
+    "ast_hash": "fd7c3b436505ce8bcaeb0f88085482ae",
+    "semantic_hash": ""
+  },
+  "data/cotizaciones/README.md": {
+    "mtime": 1784813202.4516902,
+    "ast_hash": "2849b1d593e542e489d6a756b3c087ff",
     "semantic_hash": ""
   }
 }

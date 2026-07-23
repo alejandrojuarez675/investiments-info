@@ -1,16 +1,16 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 114 files · ~70,470 words
+- 116 files · ~72,026 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 873 nodes · 937 edges · 109 communities (107 shown, 2 thin omitted)
+- 896 nodes · 959 edges · 111 communities (109 shown, 2 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bbdd6bac`
+- Built from commit: `9b90c3bd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,6 +48,7 @@
 - Acciones argentinas: panel líder y general
 - Fuentes de datos de precios y tasas en vivo
 - Qué es el Merval
+- Diversificación
 - Cartera de ejemplo: aplicando los conceptos de forma práctica
 - Renta fija internacional: bonos del Tesoro y corporativos
 - FCI money market y billeteras virtuales en Argentina
@@ -124,6 +125,7 @@
 - Walmart
 - Walt Disney
 - Comparativa transversal de clases de activos
+- Inversión inmobiliaria directa en Argentina
 
 ## God Nodes (most connected - your core abstractions)
 1. `Estrategias de trading de corto plazo` - 13 edges
@@ -143,7 +145,7 @@
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (109 total, 2 thin omitted)
+## Communities (111 total, 2 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -154,12 +156,12 @@ Cohesion: 0.22
 Nodes (9): Ejemplo numérico completo a 10, 20 y 30 años, Fuentes, Fórmula básica, Interés compuesto, Interés compuesto vs. inflación compuesta en Argentina, Por qué importa el tiempo más que el monto, Regla del 72, Relación con otros conceptos (+1 more)
 
 ### Community 2 - "Activos y Glosario"
-Cohesion: 0.13
-Nodes (7): Costos de transacción, Cómo estimar la rentabilidad: cap rate, Dolarización del mercado inmobiliario argentino, Fuentes, Inversión inmobiliaria directa en Argentina, Modalidades principales, Riesgos específicos
+Cohesion: 0.11
+Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
 
 ### Community 3 - "Relación riesgo-retorno"
 Cohesion: 0.22
-Nodes (9): Análisis técnico: fundamentos, premisas y crítica, Análisis técnico vs. análisis fundamental, Curve fitting (sobreoptimización), Fuentes, La hipótesis del mercado eficiente: la crítica central, Las tres premisas clásicas, Pros y contras del análisis técnico, Relación con la gestión de riesgo (+1 more)
+Nodes (8): Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`), Actualizar cotizaciones, APIs a usar por categoría, Bonos AR (`bonos_ar.csv`), Crypto (`crypto.csv`), Dólar ARS (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`), Plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`), Procedimiento
 
 ### Community 4 - "Diversificación de Portafolio"
 Cohesion: 0.20
@@ -182,8 +184,8 @@ Cohesion: 0.22
 Nodes (9): Cómo acceder desde Argentina, Diferencias prácticas entre ellos, ETFs que replican el S&P 500 y el Nasdaq-100, Fuentes, Impacto del expense ratio a largo plazo: ejemplo numérico, Principales ETFs, QQQ: el ETF del Nasdaq-100, Riesgos específicos de los ETFs (+1 more)
 
 ### Community 9 - "Mercado Pago en Argentina: catálogo de productos"
-Cohesion: 0.10
-Nodes (18): Correlación: cómo se mide, Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Ratio de Sharpe: medir el retorno ajustado por riesgo, Rebalanceo de cartera (+10 more)
+Cohesion: 0.20
+Nodes (9): Comparación de costos con competidores directos, Crédito y financiamiento, Fuentes, Mercado Pago en Argentina: catálogo de productos, Notas, Otros, Pagos y cobros, Rendimiento e inversión (+1 more)
 
 ### Community 11 - "CEDEARs (Certificados de Depósito Argentinos)"
 Cohesion: 0.25
@@ -206,7 +208,7 @@ Cohesion: 0.20
 Nodes (10): Bitcoin (BTC), Bitcoin y Ethereum: conceptos básicos, Blockchain, en breve, Comparación de throughput (TPS) entre ambas redes, Diferencias clave para un inversor, Ethereum (ETH), Fuentes, Gas fees en Ethereum: cómo funcionan (+2 more)
 
 ### Community 16 - "Qué es el S&P 500"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (13): Buy and hold (comprar y mantener), Dividend yield: cómo se calcula, Dollar-Cost Averaging (DCA), Elementos comunes a toda estrategia de largo plazo, Estrategias de inversión de largo plazo, Fuentes, Growth investing (inversión en crecimiento), Inversión contraria (contrarian investing) (+5 more)
 
 ### Community 17 - "Exchanges y custodia de criptoactivos"
@@ -269,6 +271,10 @@ Nodes (15): ArgentinaDatos API (cotizaciones y tasas locales), Bonos y letras ar
 Cohesion: 0.25
 Nodes (8): Características principales, Cómo invertir, Fuentes, Historia de crisis relevantes (referencia, con fechas), Merval en pesos vs. Merval en dólares ("Merval en CCL"), Metodología de ponderación: ejemplo simplificado, Qué es el Merval, Riesgos particulares del mercado argentino
 
+### Community 33 - "Diversificación"
+Cohesion: 0.22
+Nodes (9): Correlación: cómo se mide, Diversificación, Formas comunes de diversificar, Fuentes, Idea central, Límites de la diversificación, Ratio de Sharpe: medir el retorno ajustado por riesgo, Rebalanceo de cartera (+1 more)
+
 ### Community 34 - "Cartera de ejemplo: aplicando los conceptos de forma práctica"
 Cohesion: 0.22
 Nodes (9): Cartera de ejemplo: aplicando los conceptos de forma práctica, Fuentes, Paso 1: definir el perfil y el horizonte, Paso 2: separar el dinero por función, no por instrumento, Paso 3: asignación de activos para la porción de largo plazo, Paso 4: aplicar DCA para entrar, Paso 5: rebalancear con una regla definida de antemano, Paso 6: revisar (no reaccionar) periódicamente (+1 more)
@@ -314,8 +320,8 @@ Cohesion: 0.20
 Nodes (9): Advertencia, Conclusión, Cálculo: Escenario 1 — Carry trade puro, Cálculo: Escenario 2 — S&P 500 puro, Cálculo: Escenario 3 — Mezcla 60% carry / 40% S&P 500, Datos de referencia (julio 2026), Fuentes, Recomendación (+1 more)
 
 ### Community 45 - "Registro de tasas"
-Cohesion: 0.33
-Nodes (5): Columnas, Convenciones, Cómo agregar una observación, Instrumentos válidos, Registro de tasas
+Cohesion: 0.10
+Nodes (18): `acciones_ar.csv` (MERVAL — ver [empresas/README.md](../../empresas/README.md#merval--panel-líder-argentina-byma)), `acciones_us.csv` (NYSE — ver [empresas/README.md](../../empresas/README.md#nyse--grandes-empresas-de-estados-unidos)), `adrs.csv` (ADRs argentinos en NY — ver [empresas/README.md](../../empresas/README.md#adrs-argentinos-en-nueva-york-base-de-cedears)), Archivos y qué va en cada uno, `bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026)), `cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-más-operados-por-sector-referencia-orientativa)), `crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md)), Cómo agregar una observación (+10 more)
 
 ### Community 46 - "Relación riesgo-retorno"
 Cohesion: 0.22
@@ -573,8 +579,12 @@ Nodes (5): Contexto de mercado reciente, Datos clave, Historia, Qué hace, Walt 
 Cohesion: 0.40
 Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparativa transversal de clases de activos, Cómo leer la tabla según el objetivo, Fuentes, Tabla comparativa general
 
+### Community 110 - "Inversión inmobiliaria directa en Argentina"
+Cohesion: 0.29
+Nodes (7): Costos de transacción, Cómo estimar la rentabilidad: cap rate, Dolarización del mercado inmobiliario argentino, Fuentes, Inversión inmobiliaria directa en Argentina, Modalidades principales, Riesgos específicos
+
 ## Knowledge Gaps
-- **626 isolated node(s):** `Cómo funciona un FCI`, `Categorías principales`, `Costos`, `Ventajas frente a comprar los activos directamente`, `Riesgos y consideraciones` (+621 more)
+- **643 isolated node(s):** `Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)`, `Bonos AR (`bonos_ar.csv`)`, `Crypto (`crypto.csv`)`, `Dólar ARS (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)`, `Plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)` (+638 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -582,15 +592,15 @@ Nodes (5): Combinando clases de activos: el rol de la diversificación, Comparat
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
-- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `Cómo funciona un FCI`, `Categorías principales`, `Costos` to the rest of the system?**
-  _626 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **What connects `Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)`, `Bonos AR (`bonos_ar.csv`)`, `Crypto (`crypto.csv`)` to the rest of the system?**
+  _643 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Activos y Glosario` be split into smaller, more focused modules?**
-  _Cohesion score 0.12513842746400886 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11400966183574879 - nodes in this community are weakly interconnected._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Argentina y el dólar: qué se dolariza, cuándo conviene pesos u otro dólar, y carry trade` be split into smaller, more focused modules?**
