@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { obtenerArticuloPorSlug, listarSlugs } from "@/lib/articulos";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
+import { TIPO_INFO } from "@/lib/tipos-articulo";
 import styles from "./page.module.css";
 
 type Props = {
@@ -69,9 +70,15 @@ export default async function ArticuloPage({ params }: Props) {
     },
   };
 
+  const info = TIPO_INFO[articulo.tipo];
+
   return (
     <div className={styles.page}>
-      <article className={styles.articulo}>
+      <article className={`${styles.articulo} ${styles[articulo.tipo]}`}>
+        <span className={styles.tipo}>
+          <span aria-hidden="true">{info.icono}</span>
+          {info.etiqueta}
+        </span>
         <span className={styles.categoria}>{articulo.categoria}</span>
         <h1>{articulo.titulo}</h1>
         <p className={styles.meta}>

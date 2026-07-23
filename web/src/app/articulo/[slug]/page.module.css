@@ -8,25 +8,59 @@
 }
 
 .articulo {
+  --tipo-accent: var(--color-accent);
+  --tipo-accent-soft: var(--color-accent-soft);
+
   width: 100%;
   max-width: 720px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
+  border-top: 5px solid var(--tipo-accent);
   border-radius: 16px;
   padding: 56px;
   margin-top: 40px;
 }
 
-.categoria {
-  display: inline-block;
+.tipo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--color-accent);
-  background: var(--color-accent-soft);
+  color: var(--tipo-accent);
+  background: var(--tipo-accent-soft);
   padding: 4px 10px;
   border-radius: 999px;
+}
+
+.categoria {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* daily-report: acento cálido, tono "boletín del día" */
+.daily-report {
+  --tipo-accent: #b45309;
+  --tipo-accent-soft: #fdf1e3;
+}
+
+/* reporte-semanal: acento azul, tono "panel de datos" */
+.reporte-semanal {
+  --tipo-accent: #1d4ed8;
+  --tipo-accent-soft: #e8effd;
+}
+
+/* analisis: acento verde, tono "nota en profundidad" */
+.analisis {
+  --tipo-accent: #15803d;
+  --tipo-accent-soft: #e7f5eb;
 }
 
 .articulo h1 {

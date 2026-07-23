@@ -1,4 +1,4 @@
-INSERT INTO articulos (slug, titulo, resumen, contenido, categoria, autor, publicado_en)
+INSERT INTO articulos (slug, titulo, resumen, contenido, tipo, categoria, autor, publicado_en)
 VALUES
   (
     'daily-report-23-julio-2026',
@@ -25,6 +25,7 @@ VALUES
   <li><a href="https://www.interactivecrypto.com/es/mantendra-la-fed-las-tasas-la-semana-clave-tras-un-ipc-mas-debil-de-lo-esperado-jul-2026" rel="nofollow noopener" target="_blank">Interactive Crypto - Semana clave de la Fed</a></li>
   <li><a href="https://www.calculadoraya.click/calculadoras/dolar" rel="nofollow noopener" target="_blank">Calculadora dólar/peso</a></li>
 </ul>$html$,
+    'daily-report',
     'daily-report',
     'Redacción',
     '2026-07-23'
@@ -73,6 +74,7 @@ VALUES
   <li><a href="https://www.infobae.com/economia/2026/07/20/el-dolar-hilvano-la-cuarta-suba-consecutiva-y-el-blue-alcanzo-su-precio-mas-alto-en-nueve-meses/" rel="nofollow noopener" target="_blank">El dólar subió por cuarto día consecutivo - Infobae, 20-jul-2026</a></li>
   <li><a href="https://www.infobae.com/economia/2026/07/20/retrocedieron-las-coberturas-en-dolares-de-los-inversores-que-apuestan-a-que-las-tasas-le-ganen-al-dolar/" rel="nofollow noopener" target="_blank">Retrocedieron las coberturas en dólares - Infobae, 20-jul-2026</a></li>
 </ul>$html$,
+    'reporte-semanal',
     'reporte-semanal',
     'Redacción',
     '2026-07-22'
@@ -126,6 +128,7 @@ VALUES
   <li><a href="https://www.pagina12.com.ar/2026/07/21/dolar-blue-dolar-hoy-a-cuanto-cotizan-el-martes-21-de-julio-de-junio-de-2026/" rel="nofollow noopener" target="_blank">Dólar blue, dólar hoy - Página 12</a></li>
   <li><a href="https://www.calculadoraya.click/calculadoras/dolar" rel="nofollow noopener" target="_blank">Calculadora de dólar - CalculadoraYa</a></li>
 </ul>$html$,
+    'analisis',
     'reporte',
     'Redacción',
     '2026-07-22'

@@ -1,11 +1,14 @@
 import { pool } from "./db";
 
+export type TipoArticulo = "daily-report" | "reporte-semanal" | "analisis";
+
 export type Articulo = {
   id: number;
   slug: string;
   titulo: string;
   resumen: string;
   contenido: string;
+  tipo: TipoArticulo;
   categoria: string;
   imagen_url: string | null;
   autor: string;
@@ -15,7 +18,7 @@ export type Articulo = {
 
 export async function listarArticulos(limit = 20, offset = 0): Promise<Articulo[]> {
   const { rows } = await pool.query<Articulo>(
-    `SELECT id, slug, titulo, resumen, contenido, categoria, imagen_url, autor, publicado_en, actualizado_en
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
      FROM articulos
      WHERE publicado_en <= now()
      ORDER BY publicado_en DESC
@@ -27,7 +30,7 @@ export async function listarArticulos(limit = 20, offset = 0): Promise<Articulo[
 
 export async function obtenerArticuloPorSlug(slug: string): Promise<Articulo | null> {
   const { rows } = await pool.query<Articulo>(
-    `SELECT id, slug, titulo, resumen, contenido, categoria, imagen_url, autor, publicado_en, actualizado_en
+    `SELECT id, slug, titulo, resumen, contenido, tipo, categoria, imagen_url, autor, publicado_en, actualizado_en
      FROM articulos
      WHERE slug = $1 AND publicado_en <= now()
      LIMIT 1`,
