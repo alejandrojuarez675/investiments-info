@@ -1,11 +1,11 @@
 # Graph Report - investiments-info  (2026-07-23)
 
 ## Corpus Check
-- 118 files · ~72,680 words
+- 137 files · ~74,693 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 906 nodes · 1066 edges · 115 communities (113 shown, 2 thin omitted)
+- 1016 nodes · 1177 edges · 125 communities (120 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -54,6 +54,7 @@
 - FCI money market y billeteras virtuales en Argentina
 - Plazo fijo en Argentina: tradicional y UVA
 - Dólar en Argentina: oficial, MEP, CCL y blue
+- devDependencies
 - Cauciones bursátiles en Argentina
 - Impuestos a las inversiones en Argentina
 - Sistema previsional argentino: jubilación y por qué complementar
@@ -130,26 +131,44 @@
 - Daily report — jueves 23/07/2026
 - Estrategias de carry trade y trading cambiario en Argentina
 - investiments-info
+- compilerOptions
+- page.tsx
+- web
+- AGENTS.md
+- eslint.config.mjs
+- next.config.ts
 
 ## God Nodes (most connected - your core abstractions)
-1. `Estrategias de trading de corto plazo` - 13 edges
-2. `Fuentes de datos de precios y tasas en vivo` - 12 edges
-3. `Estrategias de inversión de largo plazo` - 10 edges
-4. `Tipos de activos financieros` - 10 edges
-5. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
-6. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
-7. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
-8. `Diversificación` - 9 edges
-9. `Dollar-Cost Averaging (DCA)` - 9 edges
-10. `Interés compuesto` - 9 edges
+1. `compilerOptions` - 16 edges
+2. `Estrategias de trading de corto plazo` - 13 edges
+3. `Fuentes de datos de precios y tasas en vivo` - 12 edges
+4. `Estrategias de inversión de largo plazo` - 10 edges
+5. `Tipos de activos financieros` - 10 edges
+6. `Bitcoin y Ethereum: conceptos básicos` - 10 edges
+7. `Análisis técnico: fundamentos, premisas y crítica` - 9 edges
+8. `Cartera de ejemplo: aplicando los conceptos de forma práctica` - 9 edges
+9. `Diversificación` - 9 edges
+10. `Dollar-Cost Averaging (DCA)` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `generateStaticParams()` --calls--> `listarSlugs()`  [EXTRACTED]
+  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+- `sitemap()` --calls--> `listarSlugs()`  [EXTRACTED]
+  web/src/app/sitemap.ts → web/src/lib/articulos.ts
+- `generateMetadata()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
+  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+- `ArticuloPage()` --calls--> `obtenerArticuloPorSlug()`  [EXTRACTED]
+  web/src/app/articulo/[slug]/page.tsx → web/src/lib/articulos.ts
+- `Home()` --calls--> `listarArticulos()`  [EXTRACTED]
+  web/src/app/page.tsx → web/src/lib/articulos.ts
+
+## Import Cycles
+- None detected.
 
 ## Hyperedges (group relationships)
 - **Conceptos de inversión a largo plazo** — docs_conceptos_generales_interes_compuesto, docs_conceptos_generales_dollar_cost_averaging, docs_conceptos_generales_diversificacion, docs_sp500_etfs_sp500 [INFERRED 0.90]
 
-## Communities (115 total, 2 thin omitted)
+## Communities (125 total, 5 thin omitted)
 
 ### Community 0 - "Acciones argentinas: panel líder y general"
 Cohesion: 0.29
@@ -298,6 +317,10 @@ Nodes (7): Cómo calcular el interés de un plazo fijo tradicional, Fuentes, Pla
 ### Community 38 - "Dólar en Argentina: oficial, MEP, CCL y blue"
 Cohesion: 0.33
 Nodes (6): Brecha cambiaria: contexto histórico, Cómo comprar dólar MEP paso a paso, Dólar en Argentina: oficial, MEP, CCL y blue, Fuentes, Los distintos "dólares" en Argentina, MEP vs. CCL: diferencia clave
+
+### Community 39 - "devDependencies"
+Cohesion: 0.05
+Nodes (36): eslint, eslint-config-next, next, pg, react, react-dom, tsx, @types/node (+28 more)
 
 ### Community 40 - "Cauciones bursátiles en Argentina"
 Cohesion: 0.33
@@ -600,25 +623,37 @@ Cohesion: 0.25
 Nodes (8): Carry trade: mecánica, Cuándo conviene hacer carry trade (y cuándo no), Desventajas y riesgos del carry trade, Estrategias de carry trade y trading cambiario en Argentina, Fuentes, Otras estrategias emparentadas de trading cambiario, Por qué el carry trade es una apuesta cambiaria, no un arbitraje, Ventajas del carry trade
 
 ### Community 115 - "investiments-info"
-Cohesion: 0.50
-Nodes (4): Convención de archivos, Estructura, investiments-info, Para asistentes de IA
+Cohesion: 0.40
+Nodes (5): Convención de archivos, Estructura, investiments-info, Para asistentes de IA, Sitio web
+
+### Community 116 - "compilerOptions"
+Cohesion: 0.06
+Nodes (30): dom, dom.iterable, esnext, **/*.mts, .next/dev/types/**/*.ts, next-env.d.ts, .next/types/**/*.ts, node_modules (+22 more)
+
+### Community 117 - "page.tsx"
+Cohesion: 0.13
+Nodes (13): ArticuloPage(), generateMetadata(), generateStaticParams(), Props, geistMono, geistSans, metadata, Home() (+5 more)
+
+### Community 118 - "web"
+Cohesion: 0.29
+Nodes (6): Configuración, Deploy, Estructura, Requisitos, SEO, web
 
 ## Knowledge Gaps
-- **649 isolated node(s):** `Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)`, `Bonos AR (`bonos_ar.csv`)`, `Crypto (`crypto.csv`)`, `Dólar ARS (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)`, `Plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)` (+644 more)
+- **708 isolated node(s):** `eslintConfig`, `nextConfig`, `name`, `version`, `private` (+703 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **Why does `Análisis técnico: gráficos, velas y patrones de precio` connect `Trading con gráficos: análisis técnico` to `Activos y Glosario`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+  _High betweenness centrality (0.037) - this node is a cross-community bridge._
 - **Why does `Estrategias de trading de corto plazo` connect `Estrategias de trading de corto plazo` to `Activos y Glosario`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **What connects `Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)`, `Bonos AR (`bonos_ar.csv`)`, `Crypto (`crypto.csv`)` to the rest of the system?**
-  _649 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **Why does `Análisis técnico: indicadores de tendencia, momentum, volatilidad y volumen` connect `Plazo fijo y dólar: las inversiones más populares en Argentina` to `Activos y Glosario`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **What connects `eslintConfig`, `nextConfig`, `name` to the rest of the system?**
+  _708 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interés compuesto` be split into smaller, more focused modules?**
   _Cohesion score 0.125 - nodes in this community are weakly interconnected._
 - **Should `Estrategias de trading de corto plazo` be split into smaller, more focused modules?**
