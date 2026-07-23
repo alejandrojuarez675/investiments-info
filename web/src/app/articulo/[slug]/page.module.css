@@ -37,7 +37,53 @@
   margin-top: 32px;
   font-size: 17px;
   line-height: 1.7;
-  white-space: pre-wrap;
+}
+
+.contenido h2 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contenido p,
+.contenido ul,
+.contenido table {
+  margin-top: 12px;
+}
+
+.contenido ul {
+  padding-left: 24px;
+}
+
+.contenido li {
+  margin-top: 4px;
+}
+
+.contenido a {
+  text-decoration: underline;
+}
+
+.contenido table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.contenido th,
+.contenido td {
+  border: 1px solid currentColor;
+  border-opacity: 0.2;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.contenido code {
+  font-family: var(--font-geist-mono);
+  font-size: 0.9em;
+  background: rgba(128, 128, 128, 0.15);
+  padding: 2px 5px;
+  border-radius: 4px;
 }
 
 @media (max-width: 600px) {

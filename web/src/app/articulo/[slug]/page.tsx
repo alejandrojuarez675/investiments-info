@@ -78,7 +78,10 @@ export default async function ArticuloPage({ params }: Props) {
           Por {articulo.autor} ·{" "}
           {articulo.publicado_en.toLocaleDateString("es-AR")}
         </p>
-        <div className={styles.contenido}>{articulo.contenido}</div>
+        <div
+          className={styles.contenido}
+          dangerouslySetInnerHTML={{ __html: articulo.contenido }}
+        />
       </article>
       <script
         type="application/ld+json"
