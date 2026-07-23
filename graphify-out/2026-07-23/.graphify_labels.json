@@ -131,5 +131,6 @@
   "129": "Header.tsx",
   "130": "redactor-espectaculos.md",
   "131": "redactor-policiales.md",
-  "132": "redactor-politica.md"
+  "132": "redactor-politica.md",
+  "133": "db.ts"
 }
