@@ -57,7 +57,7 @@
       "label": "Secciones del reporte",
       "file_type": "document",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
-      "source_location": "L27",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "claude_skills_get_daily_report_skill_secciones_del_reporte",
       "community": 112,
@@ -68,11 +68,66 @@
       "label": "Al finalizar",
       "file_type": "document",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
-      "source_location": "L44",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "claude_skills_get_daily_report_skill_al_finalizar",
       "community": 112,
       "community_name": "Daily report",
+      "norm_label": "al finalizar"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Reporte semanal de mercado",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "reporte semanal de mercado"
+    },
+    {
+      "label": "Antes de escribir",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "antes de escribir"
+    },
+    {
+      "label": "Secciones del reporte (v1)",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
+      "norm_label": "secciones del reporte (v1)"
+    },
+    {
+      "label": "Al finalizar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
+      "community": 43,
+      "community_name": "Comparativa transversal de clases de activos",
       "norm_label": "al finalizar"
     },
     {
@@ -81,10 +136,10 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "reports_20260723_daily_report",
       "community": 113,
       "community_name": "Daily report \u2014 jueves 23/07/2026",
-      "norm_label": "20260723-daily-report.md"
+      "norm_label": "20260723-daily-report.md",
+      "id": "reports_20260723_daily_report"
     },
     {
       "label": "Daily report \u2014 jueves 23/07/2026",
@@ -92,10 +147,10 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
       "community": 113,
       "community_name": "Daily report \u2014 jueves 23/07/2026",
-      "norm_label": "daily report \u2014 jueves 23/07/2026"
+      "norm_label": "daily report \u2014 jueves 23/07/2026",
+      "id": "reports_20260723_daily_report_daily_report_jueves_23_07_2026"
     },
     {
       "label": "Agenda del d\u00eda",
@@ -103,10 +158,10 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "reports_20260723_daily_report_agenda_del_d\u00eda",
       "community": 113,
       "community_name": "Daily report \u2014 jueves 23/07/2026",
-      "norm_label": "agenda del dia"
+      "norm_label": "agenda del dia",
+      "id": "reports_20260723_daily_report_agenda_del_d\u00eda"
     },
     {
       "label": "Noticias a tener en cuenta",
@@ -114,10 +169,10 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "reports_20260723_daily_report_noticias_a_tener_en_cuenta",
       "community": 113,
       "community_name": "Daily report \u2014 jueves 23/07/2026",
-      "norm_label": "noticias a tener en cuenta"
+      "norm_label": "noticias a tener en cuenta",
+      "id": "reports_20260723_daily_report_noticias_a_tener_en_cuenta"
     },
     {
       "label": "Fuentes",
@@ -125,10 +180,10 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "reports_20260723_daily_report_fuentes",
       "community": 113,
       "community_name": "Daily report \u2014 jueves 23/07/2026",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "reports_20260723_daily_report_fuentes"
     },
     {
       "label": "SKILL.md",
@@ -4947,61 +5002,6 @@
       "community_name": "Walt Disney",
       "norm_label": "datos clave",
       "id": "empresas_nyse_walt_disney_datos_clave"
-    },
-    {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "skill.md",
-      "id": "claude_skills_get_weekly_shorted_report_skill"
-    },
-    {
-      "label": "Reporte semanal de mercado",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "reporte semanal de mercado",
-      "id": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado"
-    },
-    {
-      "label": "Antes de escribir",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "antes de escribir",
-      "id": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir"
-    },
-    {
-      "label": "Secciones del reporte (v1)",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "secciones del reporte (v1)",
-      "id": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1"
-    },
-    {
-      "label": "Al finalizar",
-      "file_type": "document",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "al finalizar",
-      "id": "claude_skills_get_weekly_shorted_report_skill_al_finalizar"
     },
     {
       "label": "20260722-reporte-semanal-mercado.md",
@@ -10002,7 +10002,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
-      "source_location": "L44",
+      "source_location": "L48",
       "weight": 1.0,
       "source": "claude_skills_get_daily_report_skill_daily_report",
       "target": "claude_skills_get_daily_report_skill_al_finalizar",
@@ -10022,7 +10022,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
-      "source_location": "L27",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "claude_skills_get_daily_report_skill_daily_report",
       "target": "claude_skills_get_daily_report_skill_secciones_del_reporte",
@@ -10031,12 +10031,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill",
+      "target": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
+      "target": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260723_daily_report",
-      "target": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
-      "confidence_score": 1.0
+      "target": "reports_20260723_daily_report_daily_report_jueves_23_07_2026"
     },
     {
       "relation": "contains",
@@ -10044,9 +10084,9 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
-      "target": "reports_20260723_daily_report_agenda_del_d\u00eda",
-      "confidence_score": 1.0
+      "target": "reports_20260723_daily_report_agenda_del_d\u00eda"
     },
     {
       "relation": "contains",
@@ -10054,9 +10094,9 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
-      "target": "reports_20260723_daily_report_fuentes",
-      "confidence_score": 1.0
+      "target": "reports_20260723_daily_report_fuentes"
     },
     {
       "relation": "contains",
@@ -10064,9 +10104,9 @@
       "source_file": "reports/20260723-daily-report.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
-      "target": "reports_20260723_daily_report_noticias_a_tener_en_cuenta",
-      "confidence_score": 1.0
+      "target": "reports_20260723_daily_report_noticias_a_tener_en_cuenta"
     },
     {
       "relation": "contains",
@@ -14427,46 +14467,6 @@
       "confidence_score": 1.0,
       "source": "empresas_nyse_walt_disney_walt_disney",
       "target": "empresas_nyse_walt_disney_qu\u00e9_hace"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_skills_get_weekly_shorted_report_skill",
-      "target": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_al_finalizar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1"
     },
     {
       "relation": "contains",
@@ -19675,5 +19675,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "05ef4c4eb495f5e895ac8a4840a4a6a99c1c9a1a"
+  "built_at_commit": "233f218eaedc325b588dbca3bb73eaca8325d8e1"
 }

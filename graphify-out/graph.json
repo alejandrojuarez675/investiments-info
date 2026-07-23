@@ -21,15 +21,70 @@
   },
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 115,
+      "community_name": "investiments-info",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "investiments-info",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_investiments_info",
+      "community": 115,
+      "community_name": "investiments-info",
+      "norm_label": "investiments-info"
+    },
+    {
+      "label": "Convenci\u00f3n de archivos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "readme_convenci\u00f3n_de_archivos",
+      "community": 115,
+      "community_name": "investiments-info",
+      "norm_label": "convencion de archivos"
+    },
+    {
+      "label": "Estructura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "readme_estructura",
+      "community": 115,
+      "community_name": "investiments-info",
+      "norm_label": "estructura"
+    },
+    {
+      "label": "Para asistentes de IA",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "readme_para_asistentes_de_ia",
+      "community": 115,
+      "community_name": "investiments-info",
+      "norm_label": "para asistentes de ia"
+    },
+    {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_skills_get_daily_report_skill",
       "community": 112,
       "community_name": "Daily report",
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "claude_skills_get_daily_report_skill"
     },
     {
       "label": "Daily report",
@@ -37,10 +92,10 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "claude_skills_get_daily_report_skill_daily_report",
       "community": 112,
       "community_name": "Daily report",
-      "norm_label": "daily report"
+      "norm_label": "daily report",
+      "id": "claude_skills_get_daily_report_skill_daily_report"
     },
     {
       "label": "Antes de escribir",
@@ -48,10 +103,10 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "claude_skills_get_daily_report_skill_antes_de_escribir",
       "community": 112,
       "community_name": "Daily report",
-      "norm_label": "antes de escribir"
+      "norm_label": "antes de escribir",
+      "id": "claude_skills_get_daily_report_skill_antes_de_escribir"
     },
     {
       "label": "Secciones del reporte",
@@ -59,10 +114,10 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "claude_skills_get_daily_report_skill_secciones_del_reporte",
       "community": 112,
       "community_name": "Daily report",
-      "norm_label": "secciones del reporte"
+      "norm_label": "secciones del reporte",
+      "id": "claude_skills_get_daily_report_skill_secciones_del_reporte"
     },
     {
       "label": "Al finalizar",
@@ -70,10 +125,10 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "claude_skills_get_daily_report_skill_al_finalizar",
       "community": 112,
       "community_name": "Daily report",
-      "norm_label": "al finalizar"
+      "norm_label": "al finalizar",
+      "id": "claude_skills_get_daily_report_skill_al_finalizar"
     },
     {
       "label": "SKILL.md",
@@ -81,10 +136,10 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_skills_get_weekly_shorted_report_skill",
       "community": 43,
       "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "claude_skills_get_weekly_shorted_report_skill"
     },
     {
       "label": "Reporte semanal de mercado",
@@ -92,10 +147,10 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
       "community": 43,
       "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "reporte semanal de mercado"
+      "norm_label": "reporte semanal de mercado",
+      "id": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado"
     },
     {
       "label": "Antes de escribir",
@@ -103,10 +158,10 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
       "community": 43,
       "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "antes de escribir"
+      "norm_label": "antes de escribir",
+      "id": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir"
     },
     {
       "label": "Secciones del reporte (v1)",
@@ -114,10 +169,10 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
       "community": 43,
       "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "secciones del reporte (v1)"
+      "norm_label": "secciones del reporte (v1)",
+      "id": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1"
     },
     {
       "label": "Al finalizar",
@@ -125,10 +180,10 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
       "community": 43,
       "community_name": "Comparativa transversal de clases de activos",
-      "norm_label": "al finalizar"
+      "norm_label": "al finalizar",
+      "id": "claude_skills_get_weekly_shorted_report_skill_al_finalizar"
     },
     {
       "label": "20260723-daily-report.md",
@@ -1445,8 +1500,8 @@
       "source_file": "empresas/adrs-argentinos-ny/globant.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 67,
-      "community_name": "README.md",
+      "community": 55,
+      "community_name": "Globant (GLOB)",
       "norm_label": "globant.md",
       "id": "empresas_adrs_argentinos_ny_globant"
     },
@@ -1753,8 +1808,8 @@
       "source_file": "empresas/adrs-argentinos-ny/irsa.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 58,
-      "community_name": "IRSA (IRS)",
+      "community": 67,
+      "community_name": "README.md",
       "norm_label": "irsa.md",
       "id": "empresas_adrs_argentinos_ny_irsa"
     },
@@ -5246,61 +5301,6 @@
       "id": "reports_20260722_invetir_1000_usd_fuentes"
     },
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "readme.md",
-      "id": "readme"
-    },
-    {
-      "label": "investiments-info",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "investiments-info",
-      "id": "readme_investiments_info"
-    },
-    {
-      "label": "Convenci\u00f3n de archivos",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "convencion de archivos",
-      "id": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "label": "Estructura",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "estructura",
-      "id": "readme_estructura"
-    },
-    {
-      "label": "Para asistentes de IA",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
-      "norm_label": "para asistentes de ia",
-      "id": "readme_para_asistentes_de_ia"
-    },
-    {
       "label": "argentina-y-el-dolar.md",
       "file_type": "document",
       "source_file": "docs/conceptos-generales/argentina-y-el-dolar.md",
@@ -5405,8 +5405,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "estrategias-carry-trade-argentina.md",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina"
     },
@@ -5416,8 +5416,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "estrategias de carry trade y trading cambiario en argentina",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_estrategias_de_carry_trade_y_trading_cambiario_en_argentina"
     },
@@ -5427,8 +5427,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "carry trade: mecanica",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_carry_trade_mec\u00e1nica"
     },
@@ -5438,8 +5438,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "por que el carry trade es una apuesta cambiaria, no un arbitraje",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_por_qu\u00e9_el_carry_trade_es_una_apuesta_cambiaria_no_un_arbitraje"
     },
@@ -5449,8 +5449,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L83",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "ventajas del carry trade",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_ventajas_del_carry_trade"
     },
@@ -5460,8 +5460,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "desventajas y riesgos del carry trade",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_desventajas_y_riesgos_del_carry_trade"
     },
@@ -5471,8 +5471,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L132",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "cuando conviene hacer carry trade (y cuando no)",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_cu\u00e1ndo_conviene_hacer_carry_trade_y_cu\u00e1ndo_no"
     },
@@ -5482,8 +5482,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L156",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "otras estrategias emparentadas de trading cambiario",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_otras_estrategias_emparentadas_de_trading_cambiario"
     },
@@ -5493,8 +5493,8 @@
       "source_file": "docs/conceptos-generales/estrategias-carry-trade-argentina.md",
       "source_location": "L196",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "Argentina y el d\u00f3lar: qu\u00e9 se dolariza, cu\u00e1ndo conviene pesos u otro d\u00f3lar, y carry trade",
+      "community": 114,
+      "community_name": "Estrategias de carry trade y trading cambiario en Argentina",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_estrategias_carry_trade_argentina_fuentes"
     },
@@ -9991,12 +9991,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_investiments_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_convenci\u00f3n_de_archivos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_estructura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "readme_investiments_info",
+      "target": "readme_para_asistentes_de_ia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_daily_report_skill",
-      "target": "claude_skills_get_daily_report_skill_daily_report",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_daily_report_skill_daily_report"
     },
     {
       "relation": "contains",
@@ -10004,9 +10044,9 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_daily_report_skill_daily_report",
-      "target": "claude_skills_get_daily_report_skill_al_finalizar",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_daily_report_skill_al_finalizar"
     },
     {
       "relation": "contains",
@@ -10014,9 +10054,9 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_daily_report_skill_daily_report",
-      "target": "claude_skills_get_daily_report_skill_antes_de_escribir",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_daily_report_skill_antes_de_escribir"
     },
     {
       "relation": "contains",
@@ -10024,9 +10064,9 @@
       "source_file": ".claude/skills/get-daily-report/SKILL.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_daily_report_skill_daily_report",
-      "target": "claude_skills_get_daily_report_skill_secciones_del_reporte",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_daily_report_skill_secciones_del_reporte"
     },
     {
       "relation": "contains",
@@ -10034,9 +10074,9 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_weekly_shorted_report_skill",
-      "target": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado"
     },
     {
       "relation": "contains",
@@ -10044,9 +10084,9 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_al_finalizar",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_weekly_shorted_report_skill_al_finalizar"
     },
     {
       "relation": "contains",
@@ -10054,9 +10094,9 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_weekly_shorted_report_skill_antes_de_escribir"
     },
     {
       "relation": "contains",
@@ -10064,9 +10104,9 @@
       "source_file": ".claude/skills/get-weekly-shorted-report/SKILL.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_get_weekly_shorted_report_skill_reporte_semanal_de_mercado",
-      "target": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1",
-      "confidence_score": 1.0
+      "target": "claude_skills_get_weekly_shorted_report_skill_secciones_del_reporte_v1"
     },
     {
       "relation": "contains",
@@ -14657,66 +14697,6 @@
       "confidence_score": 1.0,
       "source": "reports_20260722_invetir_1000_usd_usd_1_000_a_un_a\u00f1o_carry_trade_vs_s_p_500",
       "target": "reports_20260722_invetir_1000_usd_recomendaci\u00f3n"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_argentina_y_el_dolar"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "docs_conceptos_generales_estrategias_carry_trade_argentina"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme",
-      "target": "readme_investiments_info"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_convenci\u00f3n_de_archivos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_estructura"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L88",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "readme_investiments_info",
-      "target": "readme_para_asistentes_de_ia"
     },
     {
       "relation": "contains",
@@ -19675,5 +19655,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "233f218eaedc325b588dbca3bb73eaca8325d8e1"
+  "built_at_commit": "eb2ac79008ddc2ec0e2454eec4986c2f8895c857"
 }
