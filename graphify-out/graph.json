@@ -23,13 +23,123 @@
     {
       "label": "SKILL.md",
       "file_type": "document",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_get_daily_report_skill",
+      "community": 112,
+      "community_name": "Daily report",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Daily report",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_get_daily_report_skill_daily_report",
+      "community": 112,
+      "community_name": "Daily report",
+      "norm_label": "daily report"
+    },
+    {
+      "label": "Antes de escribir",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_skills_get_daily_report_skill_antes_de_escribir",
+      "community": 112,
+      "community_name": "Daily report",
+      "norm_label": "antes de escribir"
+    },
+    {
+      "label": "Secciones del reporte",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "claude_skills_get_daily_report_skill_secciones_del_reporte",
+      "community": 112,
+      "community_name": "Daily report",
+      "norm_label": "secciones del reporte"
+    },
+    {
+      "label": "Al finalizar",
+      "file_type": "document",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "claude_skills_get_daily_report_skill_al_finalizar",
+      "community": 112,
+      "community_name": "Daily report",
+      "norm_label": "al finalizar"
+    },
+    {
+      "label": "20260723-daily-report.md",
+      "file_type": "document",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "reports_20260723_daily_report",
+      "community": 113,
+      "community_name": "Daily report \u2014 jueves 23/07/2026",
+      "norm_label": "20260723-daily-report.md"
+    },
+    {
+      "label": "Daily report \u2014 jueves 23/07/2026",
+      "file_type": "document",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
+      "community": 113,
+      "community_name": "Daily report \u2014 jueves 23/07/2026",
+      "norm_label": "daily report \u2014 jueves 23/07/2026"
+    },
+    {
+      "label": "Agenda del d\u00eda",
+      "file_type": "document",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "reports_20260723_daily_report_agenda_del_d\u00eda",
+      "community": 113,
+      "community_name": "Daily report \u2014 jueves 23/07/2026",
+      "norm_label": "agenda del dia"
+    },
+    {
+      "label": "Noticias a tener en cuenta",
+      "file_type": "document",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "reports_20260723_daily_report_noticias_a_tener_en_cuenta",
+      "community": 113,
+      "community_name": "Daily report \u2014 jueves 23/07/2026",
+      "norm_label": "noticias a tener en cuenta"
+    },
+    {
+      "label": "Fuentes",
+      "file_type": "document",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "reports_20260723_daily_report_fuentes",
+      "community": 113,
+      "community_name": "Daily report \u2014 jueves 23/07/2026",
+      "norm_label": "fuentes"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "claude_skills_actualizar_cotizaciones_skill"
     },
     {
       "label": "Actualizar cotizaciones",
@@ -37,10 +147,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "actualizar cotizaciones"
+      "norm_label": "actualizar cotizaciones",
+      "id": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones"
     },
     {
       "label": "APIs a usar por categor\u00eda",
@@ -48,10 +158,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "apis a usar por categoria"
+      "norm_label": "apis a usar por categoria",
+      "id": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda"
     },
     {
       "label": "Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)",
@@ -59,10 +169,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "acciones ar (`acciones_ar.csv`), adrs (`adrs.csv`), acciones us (`acciones_us.csv`), cedears (`cedears.csv`), etfs (`etfs.csv`)"
+      "norm_label": "acciones ar (`acciones_ar.csv`), adrs (`adrs.csv`), acciones us (`acciones_us.csv`), cedears (`cedears.csv`), etfs (`etfs.csv`)",
+      "id": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv"
     },
     {
       "label": "Bonos AR (`bonos_ar.csv`)",
@@ -70,10 +180,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "bonos ar (`bonos_ar.csv`)"
+      "norm_label": "bonos ar (`bonos_ar.csv`)",
+      "id": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv"
     },
     {
       "label": "Crypto (`crypto.csv`)",
@@ -81,10 +191,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "crypto (`crypto.csv`)"
+      "norm_label": "crypto (`crypto.csv`)",
+      "id": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv"
     },
     {
       "label": "D\u00f3lar ARS (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)",
@@ -92,10 +202,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L66",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "dolar ars (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)"
+      "norm_label": "dolar ars (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)",
+      "id": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue"
     },
     {
       "label": "Plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)",
@@ -103,10 +213,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)"
+      "norm_label": "plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)",
+      "id": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva"
     },
     {
       "label": "Procedimiento",
@@ -114,10 +224,10 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L89",
       "_origin": "ast",
-      "id": "claude_skills_actualizar_cotizaciones_skill_procedimiento",
       "community": 3,
       "community_name": "Relaci\u00f3n riesgo-retorno",
-      "norm_label": "procedimiento"
+      "norm_label": "procedimiento",
+      "id": "claude_skills_actualizar_cotizaciones_skill_procedimiento"
     },
     {
       "label": "README.md",
@@ -125,10 +235,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "data_cotizaciones_readme"
     },
     {
       "label": "Registro de cotizaciones",
@@ -136,10 +246,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_registro_de_cotizaciones",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "registro de cotizaciones"
+      "norm_label": "registro de cotizaciones",
+      "id": "data_cotizaciones_readme_registro_de_cotizaciones"
     },
     {
       "label": "Archivos y qu\u00e9 va en cada uno",
@@ -147,10 +257,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "archivos y que va en cada uno"
+      "norm_label": "archivos y que va en cada uno",
+      "id": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno"
     },
     {
       "label": "Tickers v\u00e1lidos por archivo",
@@ -158,10 +268,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "tickers validos por archivo"
+      "norm_label": "tickers validos por archivo",
+      "id": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo"
     },
     {
       "label": "`acciones_ar.csv` (MERVAL \u2014 ver [empresas/README.md](../../empresas/README.md#merval--panel-l\u00edder-argentina-byma))",
@@ -169,10 +279,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`acciones_ar.csv` (merval \u2014 ver [empresas/readme.md](../../empresas/readme.md#merval--panel-lider-argentina-byma))"
+      "norm_label": "`acciones_ar.csv` (merval \u2014 ver [empresas/readme.md](../../empresas/readme.md#merval--panel-lider-argentina-byma))",
+      "id": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma"
     },
     {
       "label": "`acciones_us.csv` (NYSE \u2014 ver [empresas/README.md](../../empresas/README.md#nyse--grandes-empresas-de-estados-unidos))",
@@ -180,10 +290,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`acciones_us.csv` (nyse \u2014 ver [empresas/readme.md](../../empresas/readme.md#nyse--grandes-empresas-de-estados-unidos))"
+      "norm_label": "`acciones_us.csv` (nyse \u2014 ver [empresas/readme.md](../../empresas/readme.md#nyse--grandes-empresas-de-estados-unidos))",
+      "id": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos"
     },
     {
       "label": "`adrs.csv` (ADRs argentinos en NY \u2014 ver [empresas/README.md](../../empresas/README.md#adrs-argentinos-en-nueva-york-base-de-cedears))",
@@ -191,10 +301,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`adrs.csv` (adrs argentinos en ny \u2014 ver [empresas/readme.md](../../empresas/readme.md#adrs-argentinos-en-nueva-york-base-de-cedears))"
+      "norm_label": "`adrs.csv` (adrs argentinos en ny \u2014 ver [empresas/readme.md](../../empresas/readme.md#adrs-argentinos-en-nueva-york-base-de-cedears))",
+      "id": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears"
     },
     {
       "label": "`cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-m\u00e1s-operados-por-sector-referencia-orientativa))",
@@ -202,10 +312,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-mas-operados-por-sector-referencia-orientativa))"
+      "norm_label": "`cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-mas-operados-por-sector-referencia-orientativa))",
+      "id": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa"
     },
     {
       "label": "`bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026))",
@@ -213,10 +323,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026))"
+      "norm_label": "`bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026))",
+      "id": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026"
     },
     {
       "label": "`crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md))",
@@ -224,10 +334,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L77",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md))"
+      "norm_label": "`crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md))",
+      "id": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md"
     },
     {
       "label": "`etfs.csv` (ver [docs/sp500/etfs-sp500.md](../../docs/sp500/etfs-sp500.md) y [docs/sp500/etfs-ucits-europa.md](../../docs/sp500/etfs-ucits-europa.md))",
@@ -235,10 +345,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "`etfs.csv` (ver [docs/sp500/etfs-sp500.md](../../docs/sp500/etfs-sp500.md) y [docs/sp500/etfs-ucits-europa.md](../../docs/sp500/etfs-ucits-europa.md))"
+      "norm_label": "`etfs.csv` (ver [docs/sp500/etfs-sp500.md](../../docs/sp500/etfs-sp500.md) y [docs/sp500/etfs-ucits-europa.md](../../docs/sp500/etfs-ucits-europa.md))",
+      "id": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md"
     },
     {
       "label": "D\u00f3nde buscar cada cotizaci\u00f3n",
@@ -246,10 +356,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "donde buscar cada cotizacion"
+      "norm_label": "donde buscar cada cotizacion",
+      "id": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n"
     },
     {
       "label": "C\u00f3mo agregar una observaci\u00f3n",
@@ -257,10 +367,10 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L98",
       "_origin": "ast",
-      "id": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "como agregar una observacion"
+      "norm_label": "como agregar una observacion",
+      "id": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
     },
     {
       "label": "README.md",
@@ -268,10 +378,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "data_tasas_readme",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "data_tasas_readme"
     },
     {
       "label": "Registro de tasas",
@@ -279,10 +389,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "data_tasas_readme_registro_de_tasas",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "registro de tasas"
+      "norm_label": "registro de tasas",
+      "id": "data_tasas_readme_registro_de_tasas"
     },
     {
       "label": "Columnas",
@@ -290,10 +400,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "data_tasas_readme_columnas",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "columnas"
+      "norm_label": "columnas",
+      "id": "data_tasas_readme_columnas"
     },
     {
       "label": "Instrumentos v\u00e1lidos",
@@ -301,10 +411,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "data_tasas_readme_instrumentos_v\u00e1lidos",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "instrumentos validos"
+      "norm_label": "instrumentos validos",
+      "id": "data_tasas_readme_instrumentos_v\u00e1lidos"
     },
     {
       "label": "Convenciones",
@@ -312,10 +422,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "data_tasas_readme_convenciones",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "convenciones"
+      "norm_label": "convenciones",
+      "id": "data_tasas_readme_convenciones"
     },
     {
       "label": "Plazo fijo: qu\u00e9 banco usar como referencia",
@@ -323,10 +433,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "plazo fijo: que banco usar como referencia"
+      "norm_label": "plazo fijo: que banco usar como referencia",
+      "id": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia"
     },
     {
       "label": "C\u00f3mo agregar una observaci\u00f3n",
@@ -334,10 +444,10 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
       "community": 45,
       "community_name": "Registro de tasas",
-      "norm_label": "como agregar una observacion"
+      "norm_label": "como agregar una observacion",
+      "id": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
     },
     {
       "label": "fondos-comunes-inversion.md",
@@ -1280,8 +1390,8 @@
       "source_file": "empresas/adrs-argentinos-ny/globant.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 55,
-      "community_name": "Globant (GLOB)",
+      "community": 67,
+      "community_name": "README.md",
       "norm_label": "globant.md",
       "id": "empresas_adrs_argentinos_ny_globant"
     },
@@ -1511,8 +1621,8 @@
       "source_file": "empresas/adrs-argentinos-ny/irsa-propiedades-comerciales.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 67,
-      "community_name": "README.md",
+      "community": 59,
+      "community_name": "IRSA Propiedades Comerciales (IRCP)",
       "norm_label": "irsa-propiedades-comerciales.md",
       "id": "empresas_adrs_argentinos_ny_irsa_propiedades_comerciales"
     },
@@ -5438,8 +5548,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "analisis tecnico: fundamentos, premisas y critica",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_fundamentos_premisas_y_cr\u00edtica"
     },
@@ -5449,8 +5559,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "las tres premisas clasicas",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_las_tres_premisas_cl\u00e1sicas"
     },
@@ -5460,8 +5570,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "analisis tecnico vs. analisis fundamental",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_vs_an\u00e1lisis_fundamental"
     },
@@ -5471,8 +5581,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "la hipotesis del mercado eficiente: la critica central",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_la_hip\u00f3tesis_del_mercado_eficiente_la_cr\u00edtica_central"
     },
@@ -5482,8 +5592,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L100",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "sesgo de confirmacion y pareidolia de patrones",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_sesgo_de_confirmaci\u00f3n_y_pareidolia_de_patrones"
     },
@@ -5493,8 +5603,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L121",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "curve fitting (sobreoptimizacion)",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_curve_fitting_sobreoptimizaci\u00f3n"
     },
@@ -5504,8 +5614,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L144",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "pros y contras del analisis tecnico",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_pros_y_contras_del_an\u00e1lisis_t\u00e9cnico"
     },
@@ -5515,8 +5625,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L165",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "relacion con la gestion de riesgo",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_relaci\u00f3n_con_la_gesti\u00f3n_de_riesgo"
     },
@@ -5526,8 +5636,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L179",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 111,
+      "community_name": "An\u00e1lisis t\u00e9cnico: fundamentos, premisas y cr\u00edtica",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_fuentes"
     },
@@ -6472,8 +6582,8 @@
       "source_file": "docs/conceptos-generales/estrategias-inversion-largo-plazo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 16,
+      "community_name": "Qu\u00e9 es el S&P 500",
       "norm_label": "estrategias-inversion-largo-plazo.md",
       "id": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
     },
@@ -7176,8 +7286,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "inversion-inmobiliaria-directa.md",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa"
     },
@@ -9881,12 +9991,92 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_get_daily_report_skill",
+      "target": "claude_skills_get_daily_report_skill_daily_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "claude_skills_get_daily_report_skill_daily_report",
+      "target": "claude_skills_get_daily_report_skill_al_finalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_get_daily_report_skill_daily_report",
+      "target": "claude_skills_get_daily_report_skill_antes_de_escribir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/get-daily-report/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_skills_get_daily_report_skill_daily_report",
+      "target": "claude_skills_get_daily_report_skill_secciones_del_reporte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "reports_20260723_daily_report",
+      "target": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
+      "target": "reports_20260723_daily_report_agenda_del_d\u00eda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
+      "target": "reports_20260723_daily_report_fuentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reports/20260723-daily-report.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "reports_20260723_daily_report_daily_report_jueves_23_07_2026",
+      "target": "reports_20260723_daily_report_noticias_a_tener_en_cuenta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill",
-      "target": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones"
     },
     {
       "relation": "contains",
@@ -9894,9 +10084,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
-      "target": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda"
     },
     {
       "relation": "contains",
@@ -9904,9 +10094,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
-      "target": "claude_skills_actualizar_cotizaciones_skill_procedimiento",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_procedimiento"
     },
     {
       "relation": "contains",
@@ -9914,9 +10104,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "target": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv"
     },
     {
       "relation": "contains",
@@ -9924,9 +10114,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "target": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv"
     },
     {
       "relation": "contains",
@@ -9934,9 +10124,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "target": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv"
     },
     {
       "relation": "contains",
@@ -9944,9 +10134,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "target": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue"
     },
     {
       "relation": "contains",
@@ -9954,9 +10144,9 @@
       "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
-      "target": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva",
-      "confidence_score": 1.0
+      "target": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva"
     },
     {
       "relation": "contains",
@@ -9964,9 +10154,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme",
-      "target": "data_cotizaciones_readme_registro_de_cotizaciones",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_registro_de_cotizaciones"
     },
     {
       "relation": "references",
@@ -9974,9 +10164,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme",
-      "target": "data_tasas_readme",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme"
     },
     {
       "relation": "contains",
@@ -9984,9 +10174,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_registro_de_cotizaciones",
-      "target": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno"
     },
     {
       "relation": "contains",
@@ -9994,9 +10184,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_registro_de_cotizaciones",
-      "target": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -10004,9 +10194,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_registro_de_cotizaciones",
-      "target": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -10014,9 +10204,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_registro_de_cotizaciones",
-      "target": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo"
     },
     {
       "relation": "contains",
@@ -10024,9 +10214,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma"
     },
     {
       "relation": "contains",
@@ -10034,9 +10224,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos"
     },
     {
       "relation": "contains",
@@ -10044,9 +10234,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears"
     },
     {
       "relation": "contains",
@@ -10054,9 +10244,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026"
     },
     {
       "relation": "contains",
@@ -10064,9 +10254,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa"
     },
     {
       "relation": "contains",
@@ -10074,9 +10264,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md"
     },
     {
       "relation": "contains",
@@ -10084,9 +10274,9 @@
       "source_file": "data/cotizaciones/README.md",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
-      "target": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md",
-      "confidence_score": 1.0
+      "target": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md"
     },
     {
       "relation": "contains",
@@ -10094,9 +10284,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme",
-      "target": "data_tasas_readme_registro_de_tasas",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_registro_de_tasas"
     },
     {
       "relation": "contains",
@@ -10104,9 +10294,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_columnas",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_columnas"
     },
     {
       "relation": "contains",
@@ -10114,9 +10304,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_convenciones",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_convenciones"
     },
     {
       "relation": "contains",
@@ -10124,9 +10314,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -10134,9 +10324,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_instrumentos_v\u00e1lidos",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_instrumentos_v\u00e1lidos"
     },
     {
       "relation": "contains",
@@ -10144,9 +10334,9 @@
       "source_file": "data/tasas/README.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia",
-      "confidence_score": 1.0
+      "target": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia"
     },
     {
       "relation": "references",
@@ -19485,5 +19675,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "9b90c3bdb7e28fe5a96fafac66d1318710a8fa5b"
+  "built_at_commit": "05ef4c4eb495f5e895ac8a4840a4a6a99c1c9a1a"
 }

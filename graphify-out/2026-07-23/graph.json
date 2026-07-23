@@ -21,15 +21,334 @@
   },
   "nodes": [
     {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Actualizar cotizaciones",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "actualizar cotizaciones"
+    },
+    {
+      "label": "APIs a usar por categor\u00eda",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "apis a usar por categoria"
+    },
+    {
+      "label": "Acciones AR (`acciones_ar.csv`), ADRs (`adrs.csv`), acciones US (`acciones_us.csv`), CEDEARs (`cedears.csv`), ETFs (`etfs.csv`)",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "acciones ar (`acciones_ar.csv`), adrs (`adrs.csv`), acciones us (`acciones_us.csv`), cedears (`cedears.csv`), etfs (`etfs.csv`)"
+    },
+    {
+      "label": "Bonos AR (`bonos_ar.csv`)",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "bonos ar (`bonos_ar.csv`)"
+    },
+    {
+      "label": "Crypto (`crypto.csv`)",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "crypto (`crypto.csv`)"
+    },
+    {
+      "label": "D\u00f3lar ARS (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "dolar ars (`data/tasas/tasas.csv`, instrumentos `dolar_oficial`/`dolar_mep`/`dolar_ccl`/`dolar_blue`)"
+    },
+    {
+      "label": "Plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "plazo fijo (`data/tasas/tasas.csv`, instrumentos `plazo_fijo`/`plazo_fijo_uva`)"
+    },
+    {
+      "label": "Procedimiento",
+      "file_type": "document",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "claude_skills_actualizar_cotizaciones_skill_procedimiento",
+      "community": 3,
+      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "norm_label": "procedimiento"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Registro de cotizaciones",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "registro de cotizaciones"
+    },
+    {
+      "label": "Archivos y qu\u00e9 va en cada uno",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "archivos y que va en cada uno"
+    },
+    {
+      "label": "Tickers v\u00e1lidos por archivo",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "tickers validos por archivo"
+    },
+    {
+      "label": "`acciones_ar.csv` (MERVAL \u2014 ver [empresas/README.md](../../empresas/README.md#merval--panel-l\u00edder-argentina-byma))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`acciones_ar.csv` (merval \u2014 ver [empresas/readme.md](../../empresas/readme.md#merval--panel-lider-argentina-byma))"
+    },
+    {
+      "label": "`acciones_us.csv` (NYSE \u2014 ver [empresas/README.md](../../empresas/README.md#nyse--grandes-empresas-de-estados-unidos))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`acciones_us.csv` (nyse \u2014 ver [empresas/readme.md](../../empresas/readme.md#nyse--grandes-empresas-de-estados-unidos))"
+    },
+    {
+      "label": "`adrs.csv` (ADRs argentinos en NY \u2014 ver [empresas/README.md](../../empresas/README.md#adrs-argentinos-en-nueva-york-base-de-cedears))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`adrs.csv` (adrs argentinos en ny \u2014 ver [empresas/readme.md](../../empresas/readme.md#adrs-argentinos-en-nueva-york-base-de-cedears))"
+    },
+    {
+      "label": "`cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-m\u00e1s-operados-por-sector-referencia-orientativa))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`cedears.csv` (ver [docs/merval/cedears.md](../../docs/merval/cedears.md#cedears-mas-operados-por-sector-referencia-orientativa))"
+    },
+    {
+      "label": "`bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`bonos_ar.csv` (ver [docs/merval/bonos-argentinos.md](../../docs/merval/bonos-argentinos.md#especies-vigentes-referencia-julio-2026))"
+    },
+    {
+      "label": "`crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`crypto.csv` (ver [docs/crypto/bitcoin-ethereum.md](../../docs/crypto/bitcoin-ethereum.md) y [docs/crypto/stablecoins-defi.md](../../docs/crypto/stablecoins-defi.md))"
+    },
+    {
+      "label": "`etfs.csv` (ver [docs/sp500/etfs-sp500.md](../../docs/sp500/etfs-sp500.md) y [docs/sp500/etfs-ucits-europa.md](../../docs/sp500/etfs-ucits-europa.md))",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "`etfs.csv` (ver [docs/sp500/etfs-sp500.md](../../docs/sp500/etfs-sp500.md) y [docs/sp500/etfs-ucits-europa.md](../../docs/sp500/etfs-ucits-europa.md))"
+    },
+    {
+      "label": "D\u00f3nde buscar cada cotizaci\u00f3n",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "donde buscar cada cotizacion"
+    },
+    {
+      "label": "C\u00f3mo agregar una observaci\u00f3n",
+      "file_type": "document",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "como agregar una observacion"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_tasas_readme",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Registro de tasas",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "data_tasas_readme_registro_de_tasas",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "registro de tasas"
+    },
+    {
+      "label": "Columnas",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "data_tasas_readme_columnas",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "columnas"
+    },
+    {
+      "label": "Instrumentos v\u00e1lidos",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "data_tasas_readme_instrumentos_v\u00e1lidos",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "instrumentos validos"
+    },
+    {
+      "label": "Convenciones",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "data_tasas_readme_convenciones",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "convenciones"
+    },
+    {
+      "label": "Plazo fijo: qu\u00e9 banco usar como referencia",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "plazo fijo: que banco usar como referencia"
+    },
+    {
+      "label": "C\u00f3mo agregar una observaci\u00f3n",
+      "file_type": "document",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "community": 45,
+      "community_name": "Registro de tasas",
+      "norm_label": "como agregar una observacion"
+    },
+    {
       "label": "fondos-comunes-inversion.md",
       "file_type": "document",
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion",
       "community": 2,
       "community_name": "Activos y Glosario",
-      "norm_label": "fondos-comunes-inversion.md"
+      "norm_label": "fondos-comunes-inversion.md",
+      "id": "docs_merval_fondos_comunes_inversion"
     },
     {
       "label": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
@@ -37,10 +356,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "fondos comunes de inversion: renta fija, variable y mixtos"
+      "norm_label": "fondos comunes de inversion: renta fija, variable y mixtos",
+      "id": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos"
     },
     {
       "label": "C\u00f3mo funciona un FCI",
@@ -48,10 +367,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "como funciona un fci"
+      "norm_label": "como funciona un fci",
+      "id": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci"
     },
     {
       "label": "Categor\u00edas principales",
@@ -59,10 +378,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "categorias principales"
+      "norm_label": "categorias principales",
+      "id": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales"
     },
     {
       "label": "Costos",
@@ -70,10 +389,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L50",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_costos",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "costos"
+      "norm_label": "costos",
+      "id": "docs_merval_fondos_comunes_inversion_costos"
     },
     {
       "label": "Ventajas frente a comprar los activos directamente",
@@ -81,10 +400,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "ventajas frente a comprar los activos directamente"
+      "norm_label": "ventajas frente a comprar los activos directamente",
+      "id": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente"
     },
     {
       "label": "Riesgos y consideraciones",
@@ -92,10 +411,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "riesgos y consideraciones"
+      "norm_label": "riesgos y consideraciones",
+      "id": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones"
     },
     {
       "label": "Fuentes",
@@ -103,10 +422,10 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L91",
       "_origin": "ast",
-      "id": "docs_merval_fondos_comunes_inversion_fuentes",
       "community": 21,
       "community_name": "Fondos comunes de inversi\u00f3n: renta fija, variable y mixtos",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "docs_merval_fondos_comunes_inversion_fuentes"
     },
     {
       "label": "organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
@@ -114,10 +433,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "organizacion-interna-fci-y-alternativas-para-grupos-chicos.md"
+      "norm_label": "organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos"
     },
     {
       "label": "C\u00f3mo se organiza un FCI por dentro, y c\u00f3mo manejar plata propia + de un amigo",
@@ -125,10 +444,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "como se organiza un fci por dentro, y como manejar plata propia + de un amigo"
+      "norm_label": "como se organiza un fci por dentro, y como manejar plata propia + de un amigo",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo"
     },
     {
       "label": "Parte 1 \u2014 C\u00f3mo se organiza un FCI por dentro",
@@ -136,10 +455,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "parte 1 \u2014 como se organiza un fci por dentro"
+      "norm_label": "parte 1 \u2014 como se organiza un fci por dentro",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro"
     },
     {
       "label": "Marco legal",
@@ -147,10 +466,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_marco_legal",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "marco legal"
+      "norm_label": "marco legal",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_marco_legal"
     },
     {
       "label": "Los dos pilares: sociedad gerente y sociedad depositaria",
@@ -158,10 +477,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_los_dos_pilares_sociedad_gerente_y_sociedad_depositaria",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "los dos pilares: sociedad gerente y sociedad depositaria"
+      "norm_label": "los dos pilares: sociedad gerente y sociedad depositaria",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_los_dos_pilares_sociedad_gerente_y_sociedad_depositaria"
     },
     {
       "label": "Otros actores involucrados",
@@ -169,10 +488,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_otros_actores_involucrados",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "otros actores involucrados"
+      "norm_label": "otros actores involucrados",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_otros_actores_involucrados"
     },
     {
       "label": "El ciclo de vida de una cuotaparte",
@@ -180,10 +499,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L78",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_el_ciclo_de_vida_de_una_cuotaparte",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "el ciclo de vida de una cuotaparte"
+      "norm_label": "el ciclo de vida de una cuotaparte",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_el_ciclo_de_vida_de_una_cuotaparte"
     },
     {
       "label": "Requisitos y barreras de entrada para crear un FCI real",
@@ -191,10 +510,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L89",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_requisitos_y_barreras_de_entrada_para_crear_un_fci_real",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "requisitos y barreras de entrada para crear un fci real"
+      "norm_label": "requisitos y barreras de entrada para crear un fci real",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_requisitos_y_barreras_de_entrada_para_crear_un_fci_real"
     },
     {
       "label": "Parte 2 \u2014 Qu\u00e9 hacer en la pr\u00e1ctica: vos + un amigo, sin ser una gestora",
@@ -202,10 +521,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L103",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "parte 2 \u2014 que hacer en la practica: vos + un amigo, sin ser una gestora"
+      "norm_label": "parte 2 \u2014 que hacer en la practica: vos + un amigo, sin ser una gestora",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora"
     },
     {
       "label": "Opci\u00f3n 1: Cada uno invierte por su cuenta en los mismos activos",
@@ -213,10 +532,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L109",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_1_cada_uno_invierte_por_su_cuenta_en_los_mismos_activos",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "opcion 1: cada uno invierte por su cuenta en los mismos activos"
+      "norm_label": "opcion 1: cada uno invierte por su cuenta en los mismos activos",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_1_cada_uno_invierte_por_su_cuenta_en_los_mismos_activos"
     },
     {
       "label": "Opci\u00f3n 2: Cuenta comitente conjunta (\"cuenta y orden\" / cotitularidad)",
@@ -224,10 +543,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L125",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_2_cuenta_comitente_conjunta_cuenta_y_orden_cotitularidad",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "opcion 2: cuenta comitente conjunta (\"cuenta y orden\" / cotitularidad)"
+      "norm_label": "opcion 2: cuenta comitente conjunta (\"cuenta y orden\" / cotitularidad)",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_2_cuenta_comitente_conjunta_cuenta_y_orden_cotitularidad"
     },
     {
       "label": "Opci\u00f3n 3: Mandato o gesti\u00f3n delegada informal",
@@ -235,10 +554,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L142",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_3_mandato_o_gesti\u00f3n_delegada_informal",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "opcion 3: mandato o gestion delegada informal"
+      "norm_label": "opcion 3: mandato o gestion delegada informal",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_3_mandato_o_gesti\u00f3n_delegada_informal"
     },
     {
       "label": "Opci\u00f3n 4: Constituir una sociedad (SAS u otra) que invierte",
@@ -246,10 +565,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L167",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_4_constituir_una_sociedad_sas_u_otra_que_invierte",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "opcion 4: constituir una sociedad (sas u otra) que invierte"
+      "norm_label": "opcion 4: constituir una sociedad (sas u otra) que invierte",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_4_constituir_una_sociedad_sas_u_otra_que_invierte"
     },
     {
       "label": "Tabla comparativa",
@@ -257,10 +576,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L190",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_tabla_comparativa",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "tabla comparativa"
+      "norm_label": "tabla comparativa",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_tabla_comparativa"
     },
     {
       "label": "Riesgos transversales a tener en cuenta, sea cual sea la opci\u00f3n",
@@ -268,10 +587,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L200",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_riesgos_transversales_a_tener_en_cuenta_sea_cual_sea_la_opci\u00f3n",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "riesgos transversales a tener en cuenta, sea cual sea la opcion"
+      "norm_label": "riesgos transversales a tener en cuenta, sea cual sea la opcion",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_riesgos_transversales_a_tener_en_cuenta_sea_cual_sea_la_opci\u00f3n"
     },
     {
       "label": "Fuentes",
@@ -279,10 +598,10 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L217",
       "_origin": "ast",
-      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_fuentes",
       "community": 20,
       "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
-      "norm_label": "fuentes"
+      "norm_label": "fuentes",
+      "id": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_fuentes"
     },
     {
       "label": "README.md",
@@ -4707,72 +5026,6 @@
       "id": "docs_glosario_glosario_fuentes"
     },
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "readme.md",
-      "id": "data_tasas_readme"
-    },
-    {
-      "label": "Registro de tasas",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "registro de tasas",
-      "id": "data_tasas_readme_registro_de_tasas"
-    },
-    {
-      "label": "Columnas",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "columnas",
-      "id": "data_tasas_readme_columnas"
-    },
-    {
-      "label": "Instrumentos v\u00e1lidos",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "instrumentos validos",
-      "id": "data_tasas_readme_instrumentos_v\u00e1lidos"
-    },
-    {
-      "label": "Convenciones",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L42",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "convenciones",
-      "id": "data_tasas_readme_convenciones"
-    },
-    {
-      "label": "C\u00f3mo agregar una observaci\u00f3n",
-      "file_type": "document",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "Registro de tasas",
-      "norm_label": "como agregar una observacion",
-      "id": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
-    },
-    {
       "label": "20260722-invetir-1000-usd.md",
       "file_type": "document",
       "source_file": "reports/20260722-invetir-1000-usd.md",
@@ -5185,8 +5438,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "analisis tecnico: fundamentos, premisas y critica",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_fundamentos_premisas_y_cr\u00edtica"
     },
@@ -5196,8 +5449,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "las tres premisas clasicas",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_las_tres_premisas_cl\u00e1sicas"
     },
@@ -5207,8 +5460,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "analisis tecnico vs. analisis fundamental",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_an\u00e1lisis_t\u00e9cnico_vs_an\u00e1lisis_fundamental"
     },
@@ -5218,8 +5471,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "la hipotesis del mercado eficiente: la critica central",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_la_hip\u00f3tesis_del_mercado_eficiente_la_cr\u00edtica_central"
     },
@@ -5229,8 +5482,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L100",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "sesgo de confirmacion y pareidolia de patrones",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_sesgo_de_confirmaci\u00f3n_y_pareidolia_de_patrones"
     },
@@ -5240,8 +5493,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L121",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "curve fitting (sobreoptimizacion)",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_curve_fitting_sobreoptimizaci\u00f3n"
     },
@@ -5251,8 +5504,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L144",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "pros y contras del analisis tecnico",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_pros_y_contras_del_an\u00e1lisis_t\u00e9cnico"
     },
@@ -5262,8 +5515,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L165",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "relacion con la gestion de riesgo",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_relaci\u00f3n_con_la_gesti\u00f3n_de_riesgo"
     },
@@ -5273,8 +5526,8 @@
       "source_file": "docs/conceptos-generales/analisis-tecnico-fundamentos.md",
       "source_location": "L179",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "Relaci\u00f3n riesgo-retorno",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_analisis_tecnico_fundamentos_fuentes"
     },
@@ -6010,8 +6263,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "diversificacion",
       "id": "docs_conceptos_generales_diversificacion_diversificaci\u00f3n"
     },
@@ -6021,8 +6274,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "idea central",
       "id": "docs_conceptos_generales_diversificacion_idea_central"
     },
@@ -6032,8 +6285,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "correlacion: como se mide",
       "id": "docs_conceptos_generales_diversificacion_correlaci\u00f3n_c\u00f3mo_se_mide"
     },
@@ -6043,8 +6296,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "varianza de un portafolio de dos activos",
       "id": "docs_conceptos_generales_diversificacion_varianza_de_un_portafolio_de_dos_activos"
     },
@@ -6054,8 +6307,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L71",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "ratio de sharpe: medir el retorno ajustado por riesgo",
       "id": "docs_conceptos_generales_diversificacion_ratio_de_sharpe_medir_el_retorno_ajustado_por_riesgo"
     },
@@ -6065,8 +6318,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L80",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "rebalanceo de cartera",
       "id": "docs_conceptos_generales_diversificacion_rebalanceo_de_cartera"
     },
@@ -6076,8 +6329,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "formas comunes de diversificar",
       "id": "docs_conceptos_generales_diversificacion_formas_comunes_de_diversificar"
     },
@@ -6087,8 +6340,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L112",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "limites de la diversificacion",
       "id": "docs_conceptos_generales_diversificacion_l\u00edmites_de_la_diversificaci\u00f3n"
     },
@@ -6098,8 +6351,8 @@
       "source_file": "docs/conceptos-generales/diversificacion.md",
       "source_location": "L122",
       "_origin": "ast",
-      "community": 9,
-      "community_name": "Mercado Pago en Argentina: cat\u00e1logo de productos",
+      "community": 33,
+      "community_name": "Diversificaci\u00f3n",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_diversificacion_fuentes"
     },
@@ -6219,8 +6472,8 @@
       "source_file": "docs/conceptos-generales/estrategias-inversion-largo-plazo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
-      "community_name": "Qu\u00e9 es el S&P 500",
+      "community": 2,
+      "community_name": "Activos y Glosario",
       "norm_label": "estrategias-inversion-largo-plazo.md",
       "id": "docs_conceptos_generales_estrategias_inversion_largo_plazo"
     },
@@ -6934,8 +7187,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "inversion inmobiliaria directa en argentina",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_inversi\u00f3n_inmobiliaria_directa_en_argentina"
     },
@@ -6945,8 +7198,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "modalidades principales",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_modalidades_principales"
     },
@@ -6956,8 +7209,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "como estimar la rentabilidad: cap rate",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_c\u00f3mo_estimar_la_rentabilidad_cap_rate"
     },
@@ -6967,8 +7220,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L59",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "dolarizacion del mercado inmobiliario argentino",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_dolarizaci\u00f3n_del_mercado_inmobiliario_argentino"
     },
@@ -6978,8 +7231,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "costos de transaccion",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_costos_de_transacci\u00f3n"
     },
@@ -6989,8 +7242,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L94",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "riesgos especificos",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_riesgos_espec\u00edficos"
     },
@@ -7000,8 +7253,8 @@
       "source_file": "docs/conceptos-generales/inversion-inmobiliaria-directa.md",
       "source_location": "L113",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "Activos y Glosario",
+      "community": 110,
+      "community_name": "Inversi\u00f3n inmobiliaria directa en Argentina",
       "norm_label": "fuentes",
       "id": "docs_conceptos_generales_inversion_inmobiliaria_directa_fuentes"
     },
@@ -9626,6 +9879,276 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill",
+      "target": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
+      "target": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_actualizar_cotizaciones",
+      "target": "claude_skills_actualizar_cotizaciones_skill_procedimiento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "target": "claude_skills_actualizar_cotizaciones_skill_acciones_ar_acciones_ar_csv_adrs_adrs_csv_acciones_us_acciones_us_csv_cedears_cedears_csv_etfs_etfs_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "target": "claude_skills_actualizar_cotizaciones_skill_bonos_ar_bonos_ar_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "target": "claude_skills_actualizar_cotizaciones_skill_crypto_crypto_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "target": "claude_skills_actualizar_cotizaciones_skill_d\u00f3lar_ars_data_tasas_tasas_csv_instrumentos_dolar_oficial_dolar_mep_dolar_ccl_dolar_blue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/actualizar-cotizaciones/SKILL.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "claude_skills_actualizar_cotizaciones_skill_apis_a_usar_por_categor\u00eda",
+      "target": "claude_skills_actualizar_cotizaciones_skill_plazo_fijo_data_tasas_tasas_csv_instrumentos_plazo_fijo_plazo_fijo_uva",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme",
+      "target": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme",
+      "target": "data_tasas_readme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "target": "data_cotizaciones_readme_archivos_y_qu\u00e9_va_en_cada_uno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "target": "data_cotizaciones_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "target": "data_cotizaciones_readme_d\u00f3nde_buscar_cada_cotizaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_registro_de_cotizaciones",
+      "target": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_acciones_ar_csv_merval_ver_empresas_readme_md_empresas_readme_md_merval_panel_l\u00edder_argentina_byma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_acciones_us_csv_nyse_ver_empresas_readme_md_empresas_readme_md_nyse_grandes_empresas_de_estados_unidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_adrs_csv_adrs_argentinos_en_ny_ver_empresas_readme_md_empresas_readme_md_adrs_argentinos_en_nueva_york_base_de_cedears",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_bonos_ar_csv_ver_docs_merval_bonos_argentinos_md_docs_merval_bonos_argentinos_md_especies_vigentes_referencia_julio_2026",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_cedears_csv_ver_docs_merval_cedears_md_docs_merval_cedears_md_cedears_m\u00e1s_operados_por_sector_referencia_orientativa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_crypto_csv_ver_docs_crypto_bitcoin_ethereum_md_docs_crypto_bitcoin_ethereum_md_y_docs_crypto_stablecoins_defi_md_docs_crypto_stablecoins_defi_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/cotizaciones/README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "data_cotizaciones_readme_tickers_v\u00e1lidos_por_archivo",
+      "target": "data_cotizaciones_readme_etfs_csv_ver_docs_sp500_etfs_sp500_md_docs_sp500_etfs_sp500_md_y_docs_sp500_etfs_ucits_europa_md_docs_sp500_etfs_ucits_europa_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "data_tasas_readme",
+      "target": "data_tasas_readme_registro_de_tasas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_columnas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_convenciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_instrumentos_v\u00e1lidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "data/tasas/README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "data_tasas_readme_registro_de_tasas",
+      "target": "data_tasas_readme_plazo_fijo_qu\u00e9_banco_usar_como_referencia",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/conceptos-generales/comparativa-clases-de-activos.md",
@@ -9651,9 +10174,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion",
-      "target": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos"
     },
     {
       "relation": "references",
@@ -9661,9 +10184,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos",
-      "target": "docs_merval_fondos_comunes_inversion",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion"
     },
     {
       "relation": "contains",
@@ -9671,9 +10194,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_categor\u00edas_principales"
     },
     {
       "relation": "contains",
@@ -9681,9 +10204,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_costos",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_costos"
     },
     {
       "relation": "contains",
@@ -9691,9 +10214,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_c\u00f3mo_funciona_un_fci"
     },
     {
       "relation": "contains",
@@ -9701,9 +10224,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_fuentes",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_fuentes"
     },
     {
       "relation": "contains",
@@ -9711,9 +10234,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_riesgos_y_consideraciones"
     },
     {
       "relation": "contains",
@@ -9721,9 +10244,9 @@
       "source_file": "docs/merval/fondos-comunes-inversion.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_fondos_comunes_inversion_fondos_comunes_de_inversi\u00f3n_renta_fija_variable_y_mixtos",
-      "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente",
-      "confidence_score": 1.0
+      "target": "docs_merval_fondos_comunes_inversion_ventajas_frente_a_comprar_los_activos_directamente"
     },
     {
       "relation": "contains",
@@ -9731,9 +10254,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo"
     },
     {
       "relation": "contains",
@@ -9741,9 +10264,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_fuentes",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_fuentes"
     },
     {
       "relation": "contains",
@@ -9751,9 +10274,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro"
     },
     {
       "relation": "contains",
@@ -9761,9 +10284,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_c\u00f3mo_se_organiza_un_fci_por_dentro_y_c\u00f3mo_manejar_plata_propia_de_un_amigo",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora"
     },
     {
       "relation": "contains",
@@ -9771,9 +10294,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_el_ciclo_de_vida_de_una_cuotaparte",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_el_ciclo_de_vida_de_una_cuotaparte"
     },
     {
       "relation": "contains",
@@ -9781,9 +10304,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_los_dos_pilares_sociedad_gerente_y_sociedad_depositaria",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_los_dos_pilares_sociedad_gerente_y_sociedad_depositaria"
     },
     {
       "relation": "contains",
@@ -9791,9 +10314,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_marco_legal",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_marco_legal"
     },
     {
       "relation": "contains",
@@ -9801,9 +10324,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_otros_actores_involucrados",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_otros_actores_involucrados"
     },
     {
       "relation": "contains",
@@ -9811,9 +10334,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_1_c\u00f3mo_se_organiza_un_fci_por_dentro",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_requisitos_y_barreras_de_entrada_para_crear_un_fci_real",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_requisitos_y_barreras_de_entrada_para_crear_un_fci_real"
     },
     {
       "relation": "contains",
@@ -9821,9 +10344,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_1_cada_uno_invierte_por_su_cuenta_en_los_mismos_activos",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_1_cada_uno_invierte_por_su_cuenta_en_los_mismos_activos"
     },
     {
       "relation": "contains",
@@ -9831,9 +10354,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_2_cuenta_comitente_conjunta_cuenta_y_orden_cotitularidad",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_2_cuenta_comitente_conjunta_cuenta_y_orden_cotitularidad"
     },
     {
       "relation": "contains",
@@ -9841,9 +10364,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_3_mandato_o_gesti\u00f3n_delegada_informal",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_3_mandato_o_gesti\u00f3n_delegada_informal"
     },
     {
       "relation": "contains",
@@ -9851,9 +10374,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_4_constituir_una_sociedad_sas_u_otra_que_invierte",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_opci\u00f3n_4_constituir_una_sociedad_sas_u_otra_que_invierte"
     },
     {
       "relation": "contains",
@@ -9861,9 +10384,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_riesgos_transversales_a_tener_en_cuenta_sea_cual_sea_la_opci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_riesgos_transversales_a_tener_en_cuenta_sea_cual_sea_la_opci\u00f3n"
     },
     {
       "relation": "contains",
@@ -9871,9 +10394,9 @@
       "source_file": "docs/merval/organizacion-interna-fci-y-alternativas-para-grupos-chicos.md",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_parte_2_qu\u00e9_hacer_en_la_pr\u00e1ctica_vos_un_amigo_sin_ser_una_gestora",
-      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_tabla_comparativa",
-      "confidence_score": 1.0
+      "target": "docs_merval_organizacion_interna_fci_y_alternativas_para_grupos_chicos_tabla_comparativa"
     },
     {
       "relation": "references",
@@ -13854,56 +14377,6 @@
       "confidence_score": 1.0,
       "source": "docs_glosario_glosario_glosario_de_t\u00e9rminos",
       "target": "docs_glosario_glosario_fuentes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_tasas_readme",
-      "target": "data_tasas_readme_registro_de_tasas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_columnas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_convenciones"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_c\u00f3mo_agregar_una_observaci\u00f3n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "data/tasas/README.md",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "data_tasas_readme_registro_de_tasas",
-      "target": "data_tasas_readme_instrumentos_v\u00e1lidos"
     },
     {
       "relation": "contains",
@@ -19012,5 +19485,5 @@
       "source_file": "docs/conceptos-generales/dollar-cost-averaging.md"
     }
   ],
-  "built_at_commit": "bbdd6bacb608e9b625c076029a43e204da99ad50"
+  "built_at_commit": "9b90c3bdb7e28fe5a96fafac66d1318710a8fa5b"
 }
